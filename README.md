@@ -175,7 +175,13 @@ then START!
 ```Shell
 sudo -u astonia sh start
 ```
-
+## Running Server Examples
+* Ugaris - The legend recovered (https://www.ugaris.com) - V3
+* Astonia 3 Resurrection (https://www.a3res.com) - V3
+* Astonia 3 Invicta (https://www.a3inv.com) - V3
+* Astonia 3 - Old World (http://www.a3oldworld.com) - V3
+* Astonia Reborn 3.5 (http://www.astoniareborn.com/) - V3.5
+* Aranock Online (http://www.aranockonline.com/) - V2
 ## Authors
 
 * **Daniel Brockhaus** - *Full source* - [brockhaus.org](https://brockhous.org)
