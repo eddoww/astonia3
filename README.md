@@ -183,14 +183,14 @@ sudo -u astonia sh start
 
 ## License
 
-###Hobby License
+### Hobby License
 You may use the software as you see fit, within the bounds of the law etc., provided you:
 
 a) give proper credit (eg. "is based on the Astonia 3 engine by Intent Software" somewhere in your game / on your website).
 
 b) generate no more than US$12,000 revenue per year
 
-###Commercial License
+### Commercial License
 This license only applies once you are earning more than US$12,000 per year. Once this is the case, please contact me me at daniel (at) brockhaus (dot) org.
 
 You may use the software as you see fit, within the bounds of the law etc., provided you:
