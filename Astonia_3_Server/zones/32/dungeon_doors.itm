@@ -1,0 +1,244 @@
+#---- Area 1 doors----
+
+quest_door1:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16053
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+quest_door2:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+quest_entrance:
+name="entrance"
+sprite=5
+ID=010000A1
+;
+
+#---- Area 2 doors----
+
+area_2_quest_door1a:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_2_quest_door1b:
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_2_quest_door2a:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+area_2_quest_door2b:
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+
+#---- Area 3 doors----
+
+area_3_quest_door1a:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16055
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_3_quest_door1b:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16057
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_3_quest_door2a:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16055
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+area_3_quest_door2b:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16057
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+
+#---- Area 4 doors----
+
+area_4_quest_door1a:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_4_quest_door1b:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16053
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_4_quest_door2a:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+area_4_quest_door2b:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16053
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+#---- Area 5 doors----
+
+area_5_quest_door1a:
+name="a door"
+description="a door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_5_quest_door1b:
+name="a door"
+description="a door."
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=0100009F
+;
+
+area_5_quest_door2a:
+name="a door"
+description="a door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+
+area_5_quest_door2b:
+name="a door"
+description="a door."
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+ID=010000A0
+;
+

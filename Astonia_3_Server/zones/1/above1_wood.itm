@@ -1,0 +1,132 @@
+wood_big_tooth:
+name="Tooth"
+description="A huge tooth from a huge bear."
+value=10
+sprite=50003
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000001   # DEV ID 1, ITEM ID 1
+;
+
+wood_small_tooth:
+name="Tooth"
+description="A small tooth from a small bear."
+value=10
+sprite=50002
+flag=IF_TAKE
+;
+
+wood_door:
+sprite=16057
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0006000001"        # developer 1, ID 6
+;
+
+wood_key:
+name="Wood-Key-1"
+description="Key 1 from the wood place."
+value=25
+sprite=50004
+ID=01000006             # developer 1, ID 6
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+wood_teleport:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+mod_index=V_LIGHT
+mod_value=120
+flag=IF_USE
+driver=10
+arg="2600E800000001"   # x=38, y=232, a=0, quiet=1
+;
+
+wood_teleport2:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+mod_index=V_LIGHT
+mod_value=120
+flag=IF_USE
+driver=10
+arg="55005300000001"   # x=85, y=83, a=0, quiet=1
+;
+
+balltrap:
+name="Ball Trap"
+description="A strange magical artifact"
+sprite=15542
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=3
+arg="708040"
+;
+
+wood_skull:
+name="Wood-Skull"
+description="A magical skull from the wood place."
+value=25
+sprite=50008
+ID=01000007             # developer 1, ID 7
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+# thieves place starts here
+wood_key2:
+name="Wood-Key-2"
+description="Key from the thieves place."
+value=25
+sprite=50004
+ID=0100000C             # developer 1, ID 12
+flag=IF_TAKE
+flag=IF_QUEST
+;
+wood_chest11:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20086
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0B0C00000100"        # chest 11, devel 1, ID 12, instant respawn time
+;
+treasure_11:
+name="Cure Minor Disease"
+description="A potion of cure minor disease."
+value=1
+sprite=10301
+flag=IF_TAKE
+#flag=IF_USE
+flag=IF_QUEST
+#driver=1
+#arg="01000000"          # empty_potion1, 0 hp, 0 mana, 0 endurance
+ID=0100000D             # developer 1, ID 13
+;
+wood_note:
+name="Note"
+description="Meet me at midnight behind Darkin's house."
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+fool_cap:
+name="Fool's Cap"
+description="A red-green fool's cap."
+value=10
+sprite=50481
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNHEAD
+ID=0100004C   # DEV ID 1, ITEM ID 0x4c
+;

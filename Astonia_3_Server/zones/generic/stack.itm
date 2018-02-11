@@ -1,0 +1,157 @@
+salt:
+name="Salt"
+description="1 ounce of Salt."
+sprite=13208
+value=10
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=96
+arg="01000000"
+ID=0100008B             # developer 1, ID 0x8B
+;
+
+skin1:
+name="Wolf's Skin"
+description="1 wolf's skin."
+sprite=59655
+value=25
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=96
+arg="01000000"
+ID=0100008A             # developer 1, ID 0x8A
+;
+
+skin2:
+name="White Wolf's Skin"
+description="1 white wolf's skin."
+sprite=59660
+value=25
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=96
+arg="01000000"
+ID=0100008C             # developer 1, ID 0x8C
+;
+
+bronzechip:
+name="Bronze Chip"
+description="1 Bronze Chip."
+sprite=53007
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="01000000"
+ID=010000AC             # developer 1, ID 0xAC
+;
+
+silverchip:
+name="Silver Chip"
+description="1 Silver Chip."
+sprite=53019
+value=1000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="01000000"
+ID=010000AD             # developer 1, ID 0xAC
+;
+
+goldchip:
+name="Gold Chip"
+description="1 Gold Chip."
+sprite=53013
+value=10000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="01000000"
+ID=010000AE             # developer 1, ID 0xAC
+;
+
+
+bronzechip10:
+name="Bronze Chip"
+description="10 Bronze Chips."
+sprite=53012
+value=1000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="0A000000"
+ID=010000AC             # developer 1, ID 0xAC
+;
+
+silverchip10:
+name="Silver Chip"
+description="10 Silver Chips."
+sprite=53024
+value=10000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="0A000000"
+ID=010000AD             # developer 1, ID 0xAC
+;
+
+goldchip10:
+name="Gold Chip"
+description="10 Gold Chips."
+sprite=53018
+value=100000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="0A000000"
+ID=010000AE             # developer 1, ID 0xAC
+;
+
+bronzechip100:
+name="Bronze Chip"
+description="100 Bronze Chips."
+sprite=53012
+value=10000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="64000000"
+ID=010000AC             # developer 1, ID 0xAC
+;
+
+silverchip100:
+name="Silver Chip"
+description="100 Silver Chips."
+sprite=53024
+value=100000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="64000000"
+ID=010000AD             # developer 1, ID 0xAC
+;
+
+goldchip100:
+name="Gold Chip"
+description="100 Gold Chips."
+sprite=53018
+value=1000000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=136
+arg="64000000"
+ID=010000AE             # developer 1, ID 0xAC
+;
+

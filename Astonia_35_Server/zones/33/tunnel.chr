@@ -1,0 +1,56 @@
+tunnel_creeper:
+name="Tunnel Creeper"
+description="A bug like creature, half scale, half stone."
+sprite=16
+sound=1
+flag=CF_INFRARED
+flag=CF_ALIVE
+
+V_HP=10
+V_ENDURANCE=10
+V_MANA=10
+
+V_WIS=10
+V_INT=10
+V_AGI=10
+V_STR=10
+
+V_HAND=10
+V_DAGGER=0
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=10
+V_PARRY=10
+V_WARCRY=0
+V_TACTICS=10
+V_SURROUND=0
+V_SPEEDSKILL=10
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=10
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=10
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIRE=0
+
+V_REGENERATE=0
+V_MEDITATE=0
+V_IMMUNITY=10
+
+spell=speed_spell_100
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=40;chardist=0;stopdist=80;"
+respawn=120
+class=1
+;
+

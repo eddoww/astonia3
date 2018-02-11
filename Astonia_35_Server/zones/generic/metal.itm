@@ -1,0 +1,109 @@
+silver:
+name="Silver"
+description="1 unit of Silver"
+sprite=51054
+value=10
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0101000000"
+;
+
+silver100:
+name="Silver"
+description="100 units of Silver"
+sprite=51054
+value=1000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0164000000"
+;
+
+silver1000:
+name="Silver"
+description="1000 units of Silver"
+sprite=51054
+value=10000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="01E8030000"
+;
+
+silver10000:
+name="Silver"
+description="10000 units of Silver"
+sprite=51054
+value=100000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0110270000"
+;
+
+silver100000:
+name="Silver"
+description="100000 units of Silver"
+sprite=51054
+value=1000000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="01A0860100"
+;
+
+gold:
+name="Gold"
+description="1 unit of Gold"
+sprite=51053
+value=25
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0201000000"
+;
+
+gold100:
+name="Gold"
+description="100 unit of Gold"
+sprite=51053
+value=2500
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0264000000"
+;
+
+gold1000:
+name="Gold"
+description="1000 unit of Gold"
+sprite=51053
+value=25000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02E8030000"
+;
+
+gold10000:
+name="Gold"
+description="10000 unit of Gold"
+sprite=51053
+value=250000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0210270000"
+;
+
+gold100000:
+name="Gold"
+description="100000 unit of Gold"
+sprite=51053
+value=2500000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02A0860100"
+;

@@ -1,0 +1,1136 @@
+arch_door_to_bran_forest:
+name="Wood Door"
+description="A Door made of wood."
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=10
+arg="8100FA001C000100000001"
+;
+
+#to_branforest:
+#name="steptrap"
+#sprite=0
+#flag=IF_STEPACTION
+#driver=10
+#arg="8100FA001C0001"   #
+#;
+
+link_to_forest:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="7E000B00100001"   # x=126, y=11, a=16, quiet=1
+;
+
+link_to_nomad:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="ED00ED00130001"   # x=237, y=237, a=19, quiet=1
+;
+
+link_to_ice_army:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="0A001400170001"   # x=10, y=20, a=23, quiet=1
+;
+
+lockpick:
+name="Lockpick"
+sprite=51071
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000062             # developer 1, ID 0x62
+;
+
+pick_door:
+name="Door"
+description="A steel door."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_DOOR
+driver=79
+;
+
+pick_door2:
+name="Door"
+description="A steel door."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_DOOR
+driver=79
+;
+
+
+palace_door1:
+sprite=51072
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=2
+arg="0063000001"        # developer 1, ID 0x63
+;
+
+palace_door2:
+sprite=51072
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=2
+arg="0064000001"        # developer 1, ID 0x64
+;
+
+palace_door3:
+sprite=51072
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=2
+arg="0065000001"        # developer 1, ID 0x65
+;
+
+palace_key1:
+name="Palace-Key-1"
+description="A key belonging to the palace in Exkordon"
+value=25
+sprite=51074
+ID=01000063             # developer 1, ID 0x63
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+palace_key2:
+name="Palace-Key-2"
+description="A key belonging to the palace in Exkordon"
+value=25
+sprite=51075
+ID=01000064             # developer 1, ID 0x64
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+palace_key3:
+name="Palace-Key-3"
+description="A key belonging to the palace in Exkordon"
+value=25
+sprite=51076
+ID=01000065             # developer 1, ID 0x65
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+
+palace_note1:
+name="Note"
+            #01234567890123456789012345678901234567890123456789012345678901234567890123456789
+description="The note contains details about the love life of Exkordon's Governor."
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000066             # developer 1, ID 0x66
+;
+
+palace_note2:
+name="Contract"
+            #01234567890123456789012345678901234567890123456789012345678901234567890123456789
+description="A contract between Exkordon's Governor and the Chief of the Thieves Guild."
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000067             # developer 1, ID 0x67
+;
+
+palace_note3:
+     #0123456789012345678901234567890123456789
+name="Diary of Exkordon's Governor"
+            #01234567890123456789012345678901234567890123456789012345678901234567890123456789
+description="A page from the diary describing the murder of a wealthy merchant."
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000068             # developer 1, ID 0x68
+;
+
+merchant_note1:
+     #0123456789012345678901234567890123456789
+name="Secret Trade Agreement"
+            #01234567890123456789012345678901234567890123456789012345678901234567890123456789
+description="An agreement between several merchants regulating the prices."
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000069             # developer 1, ID 0x68
+;
+
+drawer_note1:
+name="Drawer"
+description="An elegant wooden drawer."
+sprite=21050
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=80
+arg="00"
+;
+
+drawer_note2:
+name="Drawer"
+description="An elegant wooden drawer."
+sprite=21048
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=80
+arg="01"
+;
+
+drawer_note3:
+name="Drawer"
+description="An elegant wooden drawer."
+sprite=21068
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=80
+arg="02"
+;
+
+drawer_note4:
+name="Box"
+description="A wooden box."
+sprite=16167
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=80
+arg="03"
+;
+
+barrel:
+name="Barrel"
+description="A wooden barrel."
+sprite=21115
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=82
+arg="0000"
+;
+
+palace_hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="FB000400000001"   # x=251, y=4, a=0, quiet=1
+;
+
+palace_ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="38000400000001"   # x=56, y=4, a=0, quiet=1
+;
+
+
+bar_hole1:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="FC001400000001"   # x=252, y=20, a=0, quiet=1
+;
+
+bar_hole2:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="FC000900000001"   # x=252, y=9, a=0, quiet=1
+;
+
+bar_ladder1:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="30006A00000001"   # x=48, y=106, a=0, quiet=1
+;
+
+bar_ladder2:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="30005E00000001"   # x=48, y=94, a=0, quiet=1
+;
+
+sewer_key1:
+name="Sewer-Key-1"
+description="A key opening most sewer doors in Exkordon"
+value=25
+sprite=50004
+ID=0100006C             # developer 1, ID 0x6C
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+sewer_key2:
+name="Sewer-Key-2"
+description="A key opening most sewer doors in Exkordon"
+value=25
+sprite=50005
+ID=0100006D             # developer 1, ID 0x6D
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+sewer_door1a:
+sprite=22487
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="006C000001"        # developer 1, ID 0x6C
+;
+
+sewer_door1b:
+sprite=22489
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="006C000001"        # developer 1, ID 0x6C
+;
+
+sewer_door2a:
+sprite=22487
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="006D000001"        # developer 1, ID 0x6D
+;
+
+sewer_door2b:
+sprite=22489
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="006D000001"        # developer 1, ID 0x6D
+;
+
+guardhouse_hole1:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="F8005D00000001"   # x=248, y=93, a=0, quiet=1
+;
+
+guardhouse_ladder1:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="51005B00000001"   # x=81, y=91, a=0, quiet=1
+;
+
+
+robber_hole1:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="DE005900000001"   # x=222, y=89, a=0, quiet=1
+;
+
+robber_ladder1:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="9D004A00000001"   # x=157, y=74, a=0, quiet=1
+;
+
+nabul_hole1:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="E6003900000001"   # x=222, y=89, a=0, quiet=1
+;
+
+nabul_ladder1:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="4C004A00000001"   # x=76, y=74, a=0, quiet=1
+;
+
+
+golden_lockpick:
+name="Golden Lockpick"
+sprite=51087
+value=500
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100006E             # developer 1, ID 0x6E
+;
+
+random_bookcase1:
+name="Bookcase"
+description="Book, more books and even more books."
+sprite=15447
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=85
+arg="00"
+;
+
+random_bookcase2:
+name="Bookcase"
+description="Book, more books and even more books."
+sprite=15457
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=85
+arg="00"
+;
+
+random_bookcase3:
+name="Bookcase"
+description="Book, more books and even more books."
+sprite=15467
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=85
+arg="00"
+;
+
+random_bookcase4:
+name="Bookcase"
+description="Book, more books and even more books."
+sprite=15477
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=85
+arg="00"
+;
+
+bookcase_door1:
+name="Bookcase"
+description="Book, more books and even more books."
+sprite=59484
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_DOOR
+flag=IF_USE
+driver=2
+;
+
+bookcase_door2:
+name="Bookcase"
+description="Book, more books and even more books."
+sprite=59486
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_DOOR
+flag=IF_USE
+driver=2
+;
+
+library_key:
+name="Library-Key"
+description="A key belonging to the library in Exkordon"
+value=25
+sprite=15506
+ID=0100006F             # developer 1, ID 0x6F
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+bookcase_statues:
+name="Bookcase"
+description="Book, more books and even more books."
+sprite=15498
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=85
+arg="01"
+;
+
+color_book1:
+name="Book"
+description="A book is lying on the table here."
+sprite=15527
+flag=IF_USE
+driver=85
+arg="02"
+;
+
+color_book2:
+name="Book"
+description="A book is lying on the table here."
+sprite=15528
+flag=IF_USE
+driver=85
+arg="03"
+;
+
+color_book3:
+name="Book"
+description="A book is lying on the table here."
+sprite=15529
+flag=IF_USE
+driver=85
+arg="04"
+;
+
+color_book4:
+name="Book"
+description="A book is lying on the table here."
+sprite=15530
+flag=IF_USE
+driver=85
+arg="05"
+;
+
+color_book5:
+name="Book"
+description="A book is lying on the table here."
+sprite=15531
+flag=IF_USE
+driver=85
+arg="06"
+;
+
+random_book1:
+name="Book"
+description="A book is lying on the table here."
+sprite=15532
+flag=IF_USE
+driver=85
+arg="00"
+;
+
+random_book2:
+name="Book"
+description="A book is lying on the table here."
+sprite=15533
+flag=IF_USE
+driver=85
+arg="00"
+;
+
+
+colortile_0_1:
+name="steptrap"
+sprite=59488
+flag=IF_STEPACTION
+driver=86
+arg="0001"
+;
+
+colortile_0_2:
+name="steptrap"
+sprite=59489
+flag=IF_STEPACTION
+driver=86
+arg="0002"
+;
+
+colortile_0_3:
+name="steptrap"
+sprite=59490
+flag=IF_STEPACTION
+driver=86
+arg="0003"
+;
+
+colortile_0_4:
+name="steptrap"
+sprite=59491
+flag=IF_STEPACTION
+driver=86
+arg="0004"
+;
+
+colortile_0_5:
+name="steptrap"
+sprite=59492
+flag=IF_STEPACTION
+driver=86
+arg="0005"
+;
+
+colortile_0_6:
+name="steptrap"
+sprite=59493
+flag=IF_STEPACTION
+driver=86
+arg="0006"
+;
+
+colortile_1_1:
+name="steptrap"
+sprite=59488
+flag=IF_STEPACTION
+driver=86
+arg="0101"
+;
+
+colortile_1_2:
+name="steptrap"
+sprite=59489
+flag=IF_STEPACTION
+driver=86
+arg="0102"
+;
+
+colortile_1_3:
+name="steptrap"
+sprite=59490
+flag=IF_STEPACTION
+driver=86
+arg="0103"
+;
+
+colortile_1_4:
+name="steptrap"
+sprite=59491
+flag=IF_STEPACTION
+driver=86
+arg="0104"
+;
+
+colortile_1_5:
+name="steptrap"
+sprite=59492
+flag=IF_STEPACTION
+driver=86
+arg="0105"
+;
+
+colortile_1_6:
+name="steptrap"
+sprite=59493
+flag=IF_STEPACTION
+driver=86
+arg="0106"
+;
+
+colortile_2_1:
+name="steptrap"
+sprite=59488
+flag=IF_STEPACTION
+driver=86
+arg="0201"
+;
+
+colortile_2_2:
+name="steptrap"
+sprite=59489
+flag=IF_STEPACTION
+driver=86
+arg="0202"
+;
+
+colortile_2_3:
+name="steptrap"
+sprite=59490
+flag=IF_STEPACTION
+driver=86
+arg="0203"
+;
+
+colortile_2_4:
+name="steptrap"
+sprite=59491
+flag=IF_STEPACTION
+driver=86
+arg="0204"
+;
+
+colortile_2_5:
+name="steptrap"
+sprite=59492
+flag=IF_STEPACTION
+driver=86
+arg="0205"
+;
+
+colortile_2_6:
+name="steptrap"
+sprite=59493
+flag=IF_STEPACTION
+driver=86
+arg="0206"
+;
+
+colortile_3_1:
+name="steptrap"
+sprite=59488
+flag=IF_STEPACTION
+driver=86
+arg="0301"
+;
+
+colortile_3_2:
+name="steptrap"
+sprite=59489
+flag=IF_STEPACTION
+driver=86
+arg="0302"
+;
+
+colortile_3_3:
+name="steptrap"
+sprite=59490
+flag=IF_STEPACTION
+driver=86
+arg="0303"
+;
+
+colortile_3_4:
+name="steptrap"
+sprite=59491
+flag=IF_STEPACTION
+driver=86
+arg="0304"
+;
+
+colortile_3_5:
+name="steptrap"
+sprite=59492
+flag=IF_STEPACTION
+driver=86
+arg="0305"
+;
+
+colortile_3_6:
+name="steptrap"
+sprite=59493
+flag=IF_STEPACTION
+driver=86
+arg="0306"
+;
+
+colortile_4_1:
+name="steptrap"
+sprite=59488
+flag=IF_STEPACTION
+driver=86
+arg="0401"
+;
+
+colortile_4_2:
+name="steptrap"
+sprite=59489
+flag=IF_STEPACTION
+driver=86
+arg="0402"
+;
+
+colortile_4_3:
+name="steptrap"
+sprite=59490
+flag=IF_STEPACTION
+driver=86
+arg="0403"
+;
+
+colortile_4_4:
+name="steptrap"
+sprite=59491
+flag=IF_STEPACTION
+driver=86
+arg="0404"
+;
+
+colortile_4_5:
+name="steptrap"
+sprite=59492
+flag=IF_STEPACTION
+driver=86
+arg="0405"
+;
+
+colortile_4_6:
+name="steptrap"
+sprite=59493
+flag=IF_STEPACTION
+driver=86
+arg="0406"
+;
+
+library_hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="0A00FA00000001"   # x=10, y=250, a=0, quiet=1
+;
+
+library_ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="08003900000001"   # x=8, y=57, a=0, quiet=1
+;
+
+
+library_sign1:
+name="Sign"
+description="Library of Exkordon. Closed at order of Governor."
+sprite=50084
+flag=IF_USE
+flag=IF_FRONTWALL
+;
+
+skel_raiser_green:
+name="Chair"
+description="A wooden chair with handcuffs and old blood."
+sprite=59513
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=87
+arg="00"        # type 0
+;
+
+skel_raiser_red:
+name="Chair"
+description="A wooden chair with handcuffs and old blood."
+sprite=59534
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=87
+arg="01"        # type 1
+;
+
+skel_raiser_green_key:
+name="Chair"
+description="A wooden chair with handcuffs and old blood."
+sprite=59513
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=87
+arg="02"        # type 2
+;
+
+skel_raiser_red_key:
+name="Chair"
+description="A wooden chair with handcuffs and old blood."
+sprite=59534
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=87
+arg="03"        # type 3
+;
+
+skel_raiser_nolight:
+name="Chair"
+description="A wooden chair with handcuffs and old blood."
+sprite=59551
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=87
+arg="04"        # type 4
+;
+
+skel_raiser_governor:
+name="Chair"
+description="A wooden chair with handcuffs and old blood."
+sprite=59551
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=87
+arg="05"        # type 5
+;
+
+
+bloodbowl:
+name="Bowl"
+description="A bowl containing old blood"
+sprite=51088
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000071             # developer 1, ID 0x71
+;
+
+
+green_door:
+sprite=59545
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0072000001"        # developer 1, ID 0x72
+;
+
+red_door:
+sprite=59547
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0073000001"        # developer 1, ID 0x72
+;
+
+greenkey:
+name="Green Key"
+description="A key from the green area in Exkordon"
+sprite=59549
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000072             # developer 1, ID 0x72
+;
+
+redkey:
+name="Red Key"
+description="A key from the red area in Exkordon"
+sprite=59550
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000073             # developer 1, ID 0x73
+;
+
+skelly_hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="3400DD00000001"   # x=52, y=221, a=0, quiet=1
+;
+
+skelly_ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="57002900000001"   # x=87, y=41, a=0, quiet=1
+;
+
+governor_cross:
+name="Cross"
+description="A cross made of steel."
+sprite=59553
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000074             # developer 1, ID 0x74
+;
+
+poison_leaf:
+name="Poison Leaf"
+description="A brown leaf with three drops of poison on it."
+sprite=51089
+value=200
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000075             # developer 1, ID 0x75
+;
+
+spider_hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="5600C200000001"   # x=86, y=194, a=0, quiet=1
+;
+
+spider_ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="3B006700000001"   # x=59, y=103, a=0, quiet=1
+;
+
+zombie_hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="A800E000000001"   # x=168, y=224, a=0, quiet=1
+;
+
+zombie_ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="55002400000001"   # x=85, y=36, a=0, quiet=1
+;
+
+runes_book1:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="1F"                # page 31
+;
+
+locked_stone_door:
+name="Stone Door"
+description="A door made of stone."
+sprite=16035
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0076000001"        # developer 1, ID 0x76
+;
+
+zombie_key1:
+name="Zombie-Key-1"
+description="A key from Zombie's Lair in Exkordon"
+value=25
+sprite=50004
+ID=01000076             # developer 1, ID 0x76
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+
+#----------- towers ---------------
+teleport_into_tower1:
+name="Door"
+description="A huge door adorned with two skulls"
+sprite=13149
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="D900FD00000001"   # x=217, y=253, a=0, quiet=1
+;
+
+teleport_outof_tower1:
+name="Door"
+description="A huge door adorned with two skulls"
+sprite=13149
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="14007B00000001"   # x=20, y=123, a=0, quiet=1
+;
+
+tower_door1:
+sprite=13150
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+#arg="006C000001"        # developer 1, ID 0x6C
+;
+
+tower_door2:
+sprite=13152
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+#arg="006C000001"        # developer 1, ID 0x6C
+;
+
+tower_stairs_up1:
+sprite=15540
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=10
+arg="DF00E000000001"
+;
+
+tower_stairs_down1:
+sprite=15541
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=10
+arg="DF00F200000001"
+;
+
+to_bones1:
+sprite=15541
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=10
+arg="0B000F00120001"
+;
+

@@ -1,0 +1,65 @@
+#---- Area Above 3, Aston, Military Master ----
+military_master:
+name="Governor"
+description="The military governor of Brannington."
+sprite=147
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+#flag=CF_HASNAME
+flag=CF_NOGIVE
+flag=CF_ALIVE
+
+V_HP=15
+V_ENDURANCE=15
+V_MANA=0
+
+V_WIS=30
+V_INT=30
+V_AGI=15
+V_STR=15
+
+V_HAND=10
+V_DAGGER=15
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=10
+V_PARRY=20
+V_WARCRY=0
+V_TACTICS=10
+V_SURROUND=0
+V_SPEEDSKILL=15
+
+# misc skills
+V_BARTER=35
+V_PERCEPT=20
+V_STEALTH=5
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIRE=0
+
+V_REGENERATE=10
+V_MEDITATE=0
+V_IMMUNITY=15
+
+WN_RHAND=dagger2q2
+WN_HEAD=helmet2q2
+WN_BODY=armor2q2
+WN_LEGS=leggings2q2
+WN_ARMS=sleeves2q2
+
+arg="storage=30;"
+
+driver=42
+group=1
+;
+

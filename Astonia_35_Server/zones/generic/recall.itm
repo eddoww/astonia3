@@ -1,0 +1,307 @@
+recall_scroll1:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 5 and below."
+value=100
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="05"        # max. rank 5
+;
+
+recall_scroll2:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 10 and below."
+value=125
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="0A"        # max. rank 10
+;
+
+recall_scroll3:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 15 and below."
+value=150
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="0F"        # max. rank 15
+;
+
+recall_scroll4:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 20 and below."
+value=175
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="14"        # max. rank 20
+;
+
+recall_scroll5:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 25 and below."
+value=200
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="19"        # max. rank 25
+;
+
+recall_scroll6:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 30 and below."
+value=250
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="1E"        # max. rank 30
+;
+
+recall_scroll7:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 35 and below."
+value=300
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="23"        # max. rank 35
+;
+
+recall_scroll8:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 40 and below."
+value=400
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="28"        # max. rank 40
+;
+
+recall_scroll9:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 45 and below."
+value=600
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="2D"        # max. rank 45
+;
+
+recall_scroll10:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 50 and below."
+value=800
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="32"        # max. rank 50
+;
+
+recall_scroll11:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 55 and below."
+value=1000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="37"        # max. rank 55
+;
+
+recall_scroll12:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 60 and below."
+value=1250
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="3C"        # max. rank 60
+;
+
+recall_scroll13:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 65 and below."
+value=1500
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="41"        # max. rank 65
+;
+
+recall_scroll14:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 70 and below."
+value=2000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="46"        # max. rank 70
+;
+
+recall_scroll15:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 75 and below."
+value=2500
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="4B"        # max. rank 75
+;
+
+recall_scroll16:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 80 and below."
+value=3000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="50"        # max. rank 80
+;
+
+recall_scroll17:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 85 and below."
+value=4000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="55"        # max. rank 85
+;
+
+recall_scroll18:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 90 and below."
+value=6000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="5A"        # max. rank 90
+;
+
+recall_scroll19:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 95 and below."
+value=8000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="5F"        # max. rank 95
+;
+
+recall_scroll20:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 100 and below."
+value=10000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="64"        # max. rank 100
+;
+
+recall_scroll21:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 105 and below."
+value=12500
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="69"        # max. rank 105
+;
+
+recall_scroll22:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 110 and below."
+value=15000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="6E"        # max. rank 110
+;
+
+recall_scroll23:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 115 and below."
+value=17500
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="73"        # max. rank 115
+;
+
+recall_scroll24:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 120 and below."
+value=20000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="78"        # max. rank 120
+;
+
+recall_scroll25:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 140 and below."
+value=25000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="8C"        # max. rank 140
+;
+
+recall_scroll26:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 160 and below."
+value=30000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="A0"        # max. rank 160
+;
+
+recall_scroll27:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 180 and below."
+value=40000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="B4"        # max. rank 180
+;
+
+recall_scroll28:
+name="Recall Scroll"
+description="A scroll of recall. It can only be used by level 200 and below."
+value=60000
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=13
+arg="C8"        # max. rank 200
+;

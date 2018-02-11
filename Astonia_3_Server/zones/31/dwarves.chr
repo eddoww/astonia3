@@ -1,0 +1,432 @@
+#---- Dwarven Chief ----
+dwarven_chief:
+name="Dwarven Chief"
+description="The dwarven chief looks like someone you don't want to pick a fight with."
+sprite=28
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_NOGIVE
+flag=CF_ALIVE
+
+V_HP=97
+V_ENDURANCE=97
+V_MANA=0
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+# weapon skills
+V_DAGGER=0
+V_HAND=97
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=97
+V_PARRY=97
+V_WARCRY=0
+V_TACTICS=97
+V_SURROUND=97
+V_ARMORSKILL=97
+V_BODYCONTROL=97
+V_SPEEDSKILL=97
+
+# misc skills
+V_BARTER=97
+V_PERCEPT=97
+V_STEALTH=97
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=97
+V_MEDITATE=0
+V_IMMUNITY=97
+
+arg="dir=3;"
+
+driver=103
+group=1
+;
+
+#---- Dwarven Shaman ----
+dwarven_shaman:
+name="Dwarven Shaman"
+description="There are enough ingredients in his beard to make tons of potions."
+sprite=28
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_QUESTITEM
+flag=CF_ALIVE
+
+V_HP=97
+V_ENDURANCE=0
+V_MANA=97
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+# weapon skills
+V_DAGGER=0
+V_HAND=0
+V_STAFF=97
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=0
+V_PARRY=0
+V_WARCRY=0
+V_TACTICS=0
+V_SURROUND=0
+V_ARMORSKILL=0
+V_BODYCONTROL=0
+V_SPEEDSKILL=0
+
+# misc skills
+V_BARTER=97
+V_PERCEPT=97
+V_STEALTH=97
+
+# spells
+V_BLESS=97
+V_HEAL=97
+V_FREEZE=97
+V_MAGICSHIELD=97
+V_FLASH=97
+V_FIREBALL=97
+
+V_REGENERATE=0
+V_MEDITATE=97
+V_IMMUNITY=97
+
+arg="dir=3;"
+
+driver=109
+group=1
+;
+
+#---- Dwarven Blacksmith ----
+dwarven_blacksmith:
+name="Dwarven Blacksmith"
+description="A dwarf skilled in the art of blacksmithing."
+sprite=28
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_QUESTITEM
+flag=CF_ALIVE
+
+V_HP=97
+V_ENDURANCE=97
+V_MANA=0
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+# weapon skills
+V_DAGGER=0
+V_HAND=97
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=97
+V_PARRY=97
+V_WARCRY=0
+V_TACTICS=97
+V_SURROUND=97
+V_ARMORSKILL=97
+V_BODYCONTROL=97
+V_SPEEDSKILL=97
+
+# misc skills
+V_BARTER=97
+V_PERCEPT=97
+V_STEALTH=97
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=97
+V_MEDITATE=0
+V_IMMUNITY=97
+
+arg="dir=3;"
+
+driver=110
+group=1
+;
+
+#---- Dwarven Miner lvl90 ----
+dwarven_miner90:
+name="Dwarven Miner"
+description="Don't step on his toes, or his pick-axe might swing in the wrong direction."
+sprite=28
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_QUESTITEM
+flag=CF_ALIVE
+
+V_HP=97
+V_ENDURANCE=97
+V_MANA=0
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+# weapon skills
+V_DAGGER=0
+V_HAND=97
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=97
+V_PARRY=97
+V_WARCRY=0
+V_TACTICS=97
+V_SURROUND=97
+V_ARMORSKILL=97
+V_BODYCONTROL=97
+V_SPEEDSKILL=97
+
+# misc skills
+V_BARTER=97
+V_PERCEPT=97
+V_STEALTH=97
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=97
+V_MEDITATE=0
+V_IMMUNITY=97
+
+arg="1"
+driver=108
+group=1
+;
+
+#---- Dwarven Miner lvl100 ----
+dwarven_miner100:
+name="Dwarven Miner"
+description="Don't step on his toes, or his pick-axe might swing in the wrong direction."
+sprite=28
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_QUESTITEM
+flag=CF_ALIVE
+
+V_HP=97
+V_ENDURANCE=97
+V_MANA=0
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+# weapon skills
+V_DAGGER=0
+V_HAND=97
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=97
+V_PARRY=97
+V_WARCRY=0
+V_TACTICS=97
+V_SURROUND=97
+V_ARMORSKILL=97
+V_BODYCONTROL=97
+V_SPEEDSKILL=97
+
+# misc skills
+V_BARTER=97
+V_PERCEPT=97
+V_STEALTH=97
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=97
+V_MEDITATE=0
+V_IMMUNITY=97
+
+arg="2"
+driver=108
+group=1
+;
+
+#---- Dwarven Miner lvl110 ----
+dwarven_miner110:
+name="Dwarven Miner"
+description="Don't step on his toes, or his pick-axe might swing in the wrong direction."
+sprite=28
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_QUESTITEM
+flag=CF_ALIVE
+
+V_HP=97
+V_ENDURANCE=97
+V_MANA=0
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+# weapon skills
+V_DAGGER=0
+V_HAND=97
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=97
+V_PARRY=97
+V_WARCRY=0
+V_TACTICS=97
+V_SURROUND=97
+V_ARMORSKILL=97
+V_BODYCONTROL=97
+V_SPEEDSKILL=97
+
+# misc skills
+V_BARTER=97
+V_PERCEPT=97
+V_STEALTH=97
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=97
+V_MEDITATE=0
+V_IMMUNITY=97
+
+arg="3"
+driver=108
+group=1
+;
+
+#---- Dwarven Miner lvl120 ----
+dwarven_miner120:
+name="Dwarven Miner"
+description="Don't step on his toes, or his pick-axe might swing in the wrong direction."
+sprite=28
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_QUESTITEM
+flag=CF_ALIVE
+
+V_HP=97
+V_ENDURANCE=97
+V_MANA=0
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+# weapon skills
+V_DAGGER=0
+V_HAND=97
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=97
+V_PARRY=97
+V_WARCRY=0
+V_TACTICS=97
+V_SURROUND=97
+V_ARMORSKILL=97
+V_BODYCONTROL=97
+V_SPEEDSKILL=97
+
+# misc skills
+V_BARTER=97
+V_PERCEPT=97
+V_STEALTH=97
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=97
+V_MEDITATE=0
+V_IMMUNITY=97
+
+arg="4"
+driver=108
+group=1
+;
+
+
+

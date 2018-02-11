@@ -1,0 +1,7 @@
+#!/bin/sh
+umask 000
+while true;
+do 
+	mv /home/builder/log0.txt /home/builder/log1.txt
+	./server -a 27 >/home/builder/log0.txt
+done

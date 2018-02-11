@@ -1,0 +1,6 @@
+1...499 are assumed to be used already
+500 to 600 are used by random dungeons
+601 yendor
+602 spider from lab5
+603 golem from saltmines
+

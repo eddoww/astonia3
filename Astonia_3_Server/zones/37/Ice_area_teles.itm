@@ -1,0 +1,21 @@
+Ice_tele_to_ice:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHtBLOCK
+driver=10
+arg="FB00C700000001"   # x=251, y=199, a=0, quiet=1
+;
+
+Ice_tele_from_ice:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=10
+arg="FB00C400000001"   # x=251, y=196, a=0, quiet=1
+;

@@ -1,0 +1,137 @@
+link_to_aston:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="C6005700030001"   # x=198, y=87, a=3, quiet=1
+;
+
+link_to_forest:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="F700F000100001"   # x=247, y=240, a=16, quiet=1
+;
+
+arm1:
+#name="Ladder"
+#description="A ladder leading up... somewhere far, far away."
+sprite=20950
+driver=73
+;
+
+arm2:
+#name="Ladder"
+#description="A ladder leading up... somewhere far, far away."
+sprite=20966
+driver=73
+;
+
+whisp:
+flag=IF_MOVEBLOCK
+sprite=20934
+mod_index=V_LIGHT
+mod_value=100
+driver=74
+;
+
+spawn1:
+sprite=59440
+driver=75
+arg="00"
+;
+
+spawn2:
+sprite=59449
+driver=75
+arg="01"
+;
+
+spawn3:
+sprite=59458
+driver=75
+arg="02"
+;
+
+spawn4:
+sprite=59467
+driver=75
+arg="03"
+;
+
+head25:
+name="Beast Head"
+description="The head of a swamp beast"
+sprite=59468
+flag=IF_TAKE
+value=5
+arg="01"
+ID=0100005C
+;
+
+head27:
+name="Beast Head"
+description="The head of a swamp beast"
+sprite=59469
+flag=IF_TAKE
+value=5
+arg="02"
+ID=0100005C
+;
+
+head29:
+name="Beast Head"
+description="The head of a swamp beast"
+sprite=59470
+flag=IF_TAKE
+value=5
+arg="03"
+ID=0100005C
+;
+
+head31:
+name="Beast Head"
+description="The head of a swamp beast"
+sprite=59471
+flag=IF_TAKE
+value=5
+arg="04"
+ID=0100005C
+;
+
+headking:
+name="Beast Head"
+description="The head of a swamp beast"
+sprite=59472
+flag=IF_TAKE
+value=5
+arg="10"
+ID=0100005C
+;
+
+hardsword:
+name="Sword"
+description="An excellent Sword."
+value=32000
+sprite=10227
+mod_index=V_WEAPON
+mod_value=84
+req_index=V_SWORD
+req_value=70
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_SWORD
+ID=0100005D
+arg="24"
+;
+
+swamp_book1:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="1B"                # page 27
+;
+

@@ -1,0 +1,8 @@
+caligar_letter:
+name="Letter of Recommendation"
+description="Gwendylon, please teleport the carrier of this letter to Caligar."
+sprite=50011
+flag=IF_TAKE 
+flag=IF_QUEST
+ID=010000AF
+;

@@ -1,0 +1,11 @@
+
+mine_wall:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=122
+arg="020010"            # miner 16
+;
+

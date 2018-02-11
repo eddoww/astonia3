@@ -1,0 +1,1168 @@
+#---------------------------
+#--- Skeleton 1 Spawner ----
+#---------------------------
+#---Erase afterwards - marker used for building---
+SKELLIE1:
+name="SKELLIE1"
+description="SKELLIE1"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+skellie1_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="03001100000001"   # x=3, y=11, a=0, quiet=1
+;
+
+skellie1_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="05001100000001"   # x=5, y=11, a=0, quiet=1
+;
+
+skellie1_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="07001100000001"   # x=7, y=11, a=0, quiet=1
+;
+
+skellie1_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="11000300000001"   # x=11, y=3, a=0, quiet=1
+;
+
+skellie1_door_5:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="11000500000001"   # x=11, y=5, a=0, quiet=1
+;
+
+skellie1_door_6:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="11000700000001"   # x=11, y=7, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Earth Pents Door 1 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+EARTHPENTS1:
+name="EARTHPENTS1"
+description="EARTHPENTS1"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+earth_pents1_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="22001100000001"   # x=34, y=11, a=0, quiet=1
+;
+
+earth_pents1_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="26001100000001"   # x=38, y=11, a=0, quiet=1
+;
+
+earth_pents1_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="2A000300000001"   # x=42, y=3, a=0, quiet=1
+;
+
+earth_pents1_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="2A000700000001"   # x=42, y=7, a=0, quiet=1
+;
+
+
+
+#-----------------------------------
+#--- Earth Pents Door 2 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+EARTHPENTS2:
+name="EARTHPENTS2"
+description="EARTHPENTS2"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+earth_pents2_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="53001A00000001"   # x=83, y=26, a=0, quiet=1
+;
+
+earth_pents2_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="53001D00000001"   # x=83, y=29, a=0, quiet=1
+;
+
+earth_pents2_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="58001500000001"   # x=88, y=21, a=0, quiet=1
+;
+
+earth_pents2_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="5B001500000001"   # x=91, y=21, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Exkordon Spiders Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+EXKSPIDERS:
+name="EXKSPIDERS"
+description="EXKSPIDERS"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+exkordon_spiders_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="68001000000001"   # x=104, y=16, a=0, quiet=1
+;
+
+exkordon_spiders_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="6E000A00000001"   # x=110, y=10, a=0, quiet=1
+;
+
+exkordon_spiders_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="74001000000001"   # x=116, y=16, a=0, quiet=1
+;
+
+exkordon_spiders_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="6E001600000001"   # x=110, y=22, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Zombie 1 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+ZOMBIE1:
+name="ZOMBIE1"
+description="ZOMBIE1"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+zombie1_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="86001000000001"   # x=134, y=16, a=0, quiet=1
+;
+
+zombie1_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="8C000A00000001"   # x=140, y=10, a=0, quiet=1
+;
+
+zombie1_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="92001000000001"   # x=146, y=16, a=0, quiet=1
+;
+
+zombie1_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="8C001600000001"   # x=140, y=22, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Zombie 3 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+ZOMBIE3:
+name="ZOMBIE3"
+description="ZOMBIE3"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+zombie3_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="A0000A00000001"   # x=160, y=10, a=0, quiet=1
+;
+
+zombie3_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="A6000E00000001"   # x=166, y=14, a=0, quiet=1
+;
+
+zombie3_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="A6001200000001"   # x=166, y=18, a=0, quiet=1
+;
+
+zombie3_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="A0001600000001"   # x=160, y=22, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Earth Pents 3 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+EARTHPENTS3:
+name="EARTHPENTS3"
+description="EARTHPENTS3"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+earth_pents3_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="BF001500000001"   # x=191, y=21, a=0, quiet=1
+;
+
+earth_pents3_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="C5001B00000001"   # x=197, y=27, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Earth Pents 4 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+EARTHPENTS4:
+name="EARTHPENTS4"
+description="EARTHPENTS4"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+earth_pents4_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="E3001000000001"   # x=227, y=16, a=0, quiet=1
+;
+
+earth_pents4_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="E9000A00000001"   # x=233, y=10, a=0, quiet=1
+;
+
+earth_pents4_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="E9001600000001"   # x=233, y=22, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Pents 1 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREPENTS1:
+name="FIREPENTS1"
+description="FIREPENTS1"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_pents1_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="0C003A00000001"   # x=12, y=58, a=0, quiet=1
+;
+
+fire_pents1_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="12003400000001"   # x=18, y=52, a=0, quiet=1
+;
+
+fire_pents1_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="18003A00000001"   # x=24, y=58, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Pents 2 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREPENTS2:
+name="FIREPENTS2"
+description="FIREPENTS2"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_pents2_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="34002400000001"   # x=52, y=36, a=0, quiet=1
+;
+
+fire_pents2_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="3A002A00000001"   # x=58, y=42, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Pents 3 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREPENTS3:
+name="FIREPENTS3"
+description="FIREPENTS3"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_pents3_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="48003100000001"   # x=72, y=49, a=0, quiet=1
+;
+
+fire_pents3_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="48002E00000001"   # x=72, y=46, a=0, quiet=1
+;
+
+fire_pents3_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="4B002900000001"   # x=75, y=41, a=0, quiet=1
+;
+
+fire_pents3_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="4F002900000001"   # x=79, y=41, a=0, quiet=1
+;
+
+fire_pents3_door_5:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="54002C00000001"   # x=84, y=44, a=0, quiet=1
+;
+
+fire_pents3_door_6:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="54003100000001"   # x=84, y=49, a=0, quiet=1
+;
+
+fire_pents3_door_7:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="4D003400000001"   # x=77, y=52, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Pents 4 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREPENTS4:
+name="FIREPENTS4"
+description="FIREPENTS4"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_pents4_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="62002A00000001"   # x=98, y=42, a=0, quiet=1
+;
+
+fire_pents4_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="68002400000001"   # x=104, y=36, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Underground 4 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREUGROUND4:
+name="FIREUGROUND4"
+description="FIREUGROUND4"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_underground4_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="81002A00000001"   # x=129, y=42, a=0, quiet=1
+;
+
+fire_underground4_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="87002400000001"   # x=135, y=36, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Underground 15 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREUGROUND15:
+name="FIREUGROUND15"
+description="FIREUGROUND15"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_underground15_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="A5002F00000001"   # x=165, y=47, a=0, quiet=1
+;
+
+fire_underground15_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="AB002900000001"   # x=171, y=41, a=0, quiet=1
+;
+
+fire_underground15_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="B1002F00000001"   # x=177, y=47, a=0, quiet=1
+;
+
+fire_underground15_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="AB003500000001"   # x=171, y=53, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Underground 18 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREUGROUND18:
+name="FIREUGROUND18"
+description="FIREUGROUND18"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_underground18_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="BF002A00000001"   # x=191, y=42, a=0, quiet=1
+;
+
+fire_underground18_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="C5002400000001"   # x=197, y=36, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Fire Underground 30 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FIREUGROUND30:
+name="FIREUGROUND30"
+description="FIREUGROUND30"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+fire_underground30_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="E3002400000001"   # x=227, y=36, a=0, quiet=1
+;
+
+fire_underground30_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="EF002400000001"   # x=239, y=36, a=0, quiet=1
+;
+
+fire_underground30_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="E9002A00000001"   # x=233, y=42, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Ice Pents 1 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+ICEPENTS1:
+name="ICEPENTS1"
+description="ICEPENTS1"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+ice_pents1_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="05004900000001"   # x=5, y=73, a=0, quiet=1
+;
+
+ice_pents1_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="0B004300000001"   # x=11, y=67, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Ice Pents 2 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+ICEPENTS2:
+name="ICEPENTS2"
+description="ICEPENTS2"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+ice_pents2_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="29004E00000001"   # x=41, y=78, a=0, quiet=1
+;
+
+ice_pents2_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="2F004800000001"   # x=47, y=72, a=0, quiet=1
+;
+
+ice_pents2_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="35004E00000001"   # x=53, y=78, a=0, quiet=1
+;
+
+ice_pents2_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="2F005400000001"   # x=47, y=84, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Ice Pents 3 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+ICEPENTS3:
+name="ICEPENTS3"
+description="ICEPENTS3"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+ice_pents3_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="48005900000001"   # x=72, y=89, a=0, quiet=1
+;
+
+ice_pents3_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="4E005300000001"   # x=78, y=83, a=0, quiet=1
+;
+
+ice_pents3_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="54005900000001"   # x=84, y=89, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Ice Pents 4 Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+ICEPENTS4:
+name="ICEPENTS4"
+description="ICEPENTS4"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+ice_pents4_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="68004E00000001"   # x=104, y=78, a=0, quiet=1
+;
+
+ice_pents4_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="6D004900000001"   # x=109, y=73, a=0, quiet=1
+;
+
+ice_pents4_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="72004E00000001"   # x=114, y=78, a=0, quiet=1
+;
+
+ice_pents4_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="6D005300000001"   # x=109, y=83, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Swamps NW Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+SWAMPSNW:
+name="SWAMPSNW"
+description="SWAMPSNW"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+swamps_nw_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="7F005300000001"   # x=127, y=83, a=0, quiet=1
+;
+
+swamps_nw_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="84005300000001"   # x=132, y=83, a=0, quiet=1
+;
+
+swamps_nw_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="87005600000001"   # x=135, y=86, a=0, quiet=1
+;
+
+swamps_nw_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="87005B00000001"   # x=135, y=91, a=0, quiet=1
+;
+
+#-----------------------------------
+#--- Swamps SW Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+SWAMPSSW:
+name="SWAMPSSW"
+description="SWAMPSSW"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+swamps_sw_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="A5004300000001"   # x=165, y=67, a=0, quiet=1
+;
+
+swamps_sw_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="AB004900000001"   # x=171, y=73, a=0, quiet=1
+;
+
+swamps_sw_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="B1004300000001"   # x=177, y=67, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Forest NE Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FORESTNE:
+name="FORESTNE"
+description="FORESTNE"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+forest_ne_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="BF005300000001"   # x=191, y=83, a=0, quiet=1
+;
+
+forest_ne_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="C5005900000001"   # x=197, y=89, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Forest SW Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+FORESTSW:
+name="FORESTSW"
+description="FORESTSW"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+forest_sw_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="EE005900000001"   # x=238, y=89, a=0, quiet=1
+;
+
+forest_sw_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="F4005300000001"   # x=244, y=83, a=0, quiet=1
+;
+
+#-----------------------------------
+#--- EU Isara Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+EUISARA:
+name="EUISARA"
+description="EUISARA"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+eu_isara_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="0D006D00000001"   # x=13, y=109, a=0, quiet=1
+;
+
+eu_isara_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="0D006900000001"   # x=13, y=105, a=0, quiet=1
+;
+
+eu_isara_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="14006500000001"   # x=20, y=101, a=0, quiet=1
+;
+
+eu_isara_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="19006800000001"   # x=25, y=104, a=0, quiet=1
+;
+
+eu_isara_door_5:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="19006C00000001"   # x=25, y=108, a=0, quiet=1
+;
+
+eu_isara_door_6:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="15007100000001"   # x=21, y=113, a=0, quiet=1
+;
+
+eu_isara_door_6:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="10007100000001"   # x=16, y=113, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- EU Cerasa Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+EUCERASA:
+name="EUCERASA"
+description="EUCERASA"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+eu_cerasa_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="23006800000001"   # x=35, y=104, a=0, quiet=1
+;
+
+eu_cerasa_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="27006800000001"   # x=39, y=104, a=0, quiet=1
+;
+
+eu_cerasa_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="2A006500000001"   # x=42, y=101, a=0, quiet=1
+;
+
+eu_cerasa_door_4:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="2A006100000001"   # x=42, y=97, a=0, quiet=1
+;
+
+
+#-----------------------------------
+#--- Palace Spawner ----
+#-----------------------------------
+#---Erase afterwards - marker used for building---
+PALACE:
+name="PALACE"
+description="PALACE"
+sprite=0
+;
+#---Erase afterwards - marker used for building---
+
+palace_door_1:
+name="Door"
+description="Today is a good day to die!"
+sprite=20122
+flag=IF_USE
+driver=10
+arg="53006D00000001"   # x=83, y=109, a=0, quiet=1
+;
+
+palace_door_2:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="59006A00000001"   # x=89, y=106, a=0, quiet=1
+;
+
+palace_door_3:
+name="Door"
+description="Today is a good day to die!"
+sprite=20124
+flag=IF_USE
+driver=10
+arg="59007300000001"   # x=89, y=115, a=0, quiet=1
+;
+

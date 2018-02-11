@@ -1,0 +1,234 @@
+lqx_ticker:
+name=ticker
+driver=103
+;
+
+lqx_entrance:
+name=entrance
+sprite=21143
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=104
+;
+
+link_aston:
+name="Door"
+description="A strangely placed door leading... somewhere far far away."
+sprite=20461
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="D800C600030001"
+;
+
+
+lqx_door1:
+name="East Gate"
+#description="East Gate."
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0000000000000000000001"
+;
+
+lqx_door2:
+name="West Gate"
+#description="West Gate."
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0000000000000000000001"
+;
+
+lqx_door3:
+name="Palace, Backroom"
+#description="West Gate."
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0000000000000000000001"
+;
+
+lqx_door4:
+name="Palace, Throneroom"
+#description="West Gate."
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0000000000000000000001"
+;
+
+lqx_door5:
+name="Palace, Entrance"
+#description="West Gate."
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0000000000000000000001"
+;
+
+lqx_door6:
+name="Dungeon, Entrance"
+#description="West Gate."
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0000000000000000000001"
+;
+
+lqx_door7:
+name="GK Hall, Entrance"
+#description="West Gate."
+sprite=17050
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0000000000000000000001"
+;
+
+lqx_spell:
+name="LQX Spell"
+;
+
+lqx_ladder1:
+sprite=50332
+flag=IF_USE
+driver=10
+arg="E900BA00000001"   # x=233, y=186, a=0, quiet=1
+;
+
+lqx_ladder2:
+sprite=50334
+flag=IF_USE
+driver=10
+arg="E300B700000001"   # x=227, y=183, a=0, quiet=1
+;
+
+
+#--------------
+
+lq_key:
+name="Key"
+description="A key from the Life Quest Area."
+value=5
+sprite=50006
+flag=IF_TAKE
+;
+
+lq_torch:
+name="Torch"
+description="A torch from the Life Quest Area."
+value=10
+sprite=50023
+mod_index=V_LIGHT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNLHAND
+flag=IF_USE
+driver=12
+arg="00007878"
+;
+
+lq_bracelet:
+name="Bracelet"
+description="A golden bracelet from the Life Quest Area."
+value=2500
+sprite=10332
+flag=IF_TAKE
+flag=IF_WNARMS
+;
+
+lq_ring:
+name="Ring"
+description="A silver ring from the Life Quest Area."
+value=1500
+sprite=10337
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+;
+
+lq_necklace:
+name="Necklace"
+description="A small pearl necklace from the Life Quest Area."
+value=2500
+sprite=10361
+flag=IF_TAKE
+flag=IF_WNNECK
+;
+
+lq_potion:
+name="A potion"
+description="A potion from the Life Quest Area."
+value=250
+sprite=10301
+flag=IF_TAKE
+;
+
+lq_note:
+name="A Note"
+description="Nothing is written on it."
+value=5
+sprite=50011
+flag=IF_TAKE
+;
+
+lq_apple:
+name="Apple"
+description="A beautiful, juicy, appetizing apple."
+value=5
+sprite=50024
+flag=IF_TAKE
+;
+
+lq_flower:
+name="Flower"
+description="A flower."
+value=45
+sprite=50193
+flag=IF_TAKE
+;
+
+lq_mushroom:
+name="Mushroom"
+description="A mushroom."
+value=150
+flag=IF_TAKE
+;
+
+lq_berry:
+name="Berry"
+description="A berry."
+value=45
+sprite=50218
+flag=IF_TAKE
+;

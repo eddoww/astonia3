@@ -1,0 +1,23 @@
+Ice_Light:
+name="Light"
+description="Ice light"
+sprite=21660
+mod_index=V_LIGHT
+mod_value=200
+;
+
+Skeleton_Light1:
+name="Light"
+description="Ice light"
+sprite=13087
+mod_index=V_LIGHT
+mod_value=200
+;
+
+Skeleton_Light2:
+name="Light"
+description="Ice light"
+sprite=13095
+mod_index=V_LIGHT
+mod_value=200
+;

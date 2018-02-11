@@ -1,0 +1,182 @@
+link_to_exkordon:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="0D007D00110001"   # x=13, y=125, a=17, quiet=1
+;
+
+dice0:
+name="Dice"
+description="Three simple dice made of bone."
+sprite=13207
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=95
+arg="00"
+;
+
+dice1:
+name="Dice"
+description="Three dice made of bone."
+sprite=13207
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=95
+arg="01"
+;
+
+dice2:
+name="Dice"
+description="Three intricate dice made of bone."
+sprite=13207
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=95
+arg="02"
+;
+
+dice3:
+name="Dice"
+description="Three simple dice made of ivory."
+sprite=13207
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=95
+arg="03"
+;
+
+dice4:
+name="Dice"
+description="Three dice made of ivory."
+sprite=13207
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=95
+arg="04"
+;
+
+dice5:
+name="Dice"
+description="Three intricate dice made of ivory."
+sprite=13207
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=95
+arg="05"
+;
+
+dice6:
+name="Dice"
+description="Three beautiful dice made of ivory."
+sprite=13207
+value=100
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=95
+arg="06"
+;
+
+salt100:
+name="Salt"
+description="100 ounces of Salt."
+sprite=13210
+value=1000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=96
+arg="64000000"
+ID=0100008B             # developer 1, ID 0x8B
+;
+
+salt1000:
+name="Salt"
+description="1000 ounces of Salt."
+sprite=13211
+value=10000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=96
+arg="E8030000"
+ID=0100008B             # developer 1, ID 0x8B
+;
+
+gate_to_underground:
+#name="Ladder"
+#description="A ladder leading up... somewhere far, far away."
+sprite=23138
+flag=IF_USE
+driver=10
+arg="60008700000001"   # x=96, y=135, a=0, quiet=1
+;
+
+gate_to_mountain:
+#name="Ladder"
+#description="A ladder leading up... somewhere far, far away."
+sprite=23138
+flag=IF_USE
+driver=10
+arg="53004B00000001"   # x=83, y=75, a=0, quiet=1
+;
+kir_statue:
+name="Golden Statue"
+description="A golden statue of Kir, the founder of the Monastery of Kir."
+sprite=23267
+value=1000
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0100008D             # developer 1, ID 0x8D
+;
+kir_key:
+name="Kir-Key"
+description="A key from the underground Kir temple."
+value=25
+sprite=23273
+ID=0100008E             # developer 1, ID 0x8E
+flag=IF_TAKE
+flag=IF_QUEST
+;
+kir_chest66:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="428E0000011800"        # chest 66, devel 1, ID 0x8E, 1 day respawn time
+;
+treasure_66:
+name="Letter"
+description="USE to read."
+flag=IF_USE
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100008F             # developer 1, ID 0x8F
+driver=16
+arg="29"
+;
+
+next_sign:
+name="Sign"
+description="The area will continue here in a week or so."
+sprite=50121
+flag=IF_USE
+;

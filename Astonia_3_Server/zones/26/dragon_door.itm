@@ -1,0 +1,130 @@
+dragon_door_a_ds:
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+dragon_door_b_ls:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+
+dragon_door_c_ls:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0001000007"        # developer 7, ID 1
+
+;
+
+dragon_door_key_1:
+name="Dragon-key-1"
+description="Key 1 from the Dragon of Death."
+value=25
+sprite=50004
+ID=07000001             # developer 7, ID 1
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+dragon_door_d_ds:
+sprite=20468
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+dragon_door_e_ds:
+sprite=20476
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+dragon_door_key2_ls:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0002000007"        # developer 7, ID 2
+
+;
+
+dragon_door_key_2:
+name="Dragon-key-2"
+description="Key 2 from the Dragon of Death."
+value=25
+sprite=50004
+ID=07000002             # developer 7, ID 2
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+dragon_door_key3_ls:
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0003000007"        # developer 7, ID 3
+
+;
+
+dragon_door_key_3:
+name="Dragon-key-3"
+description="Key 3 from the Dragon of Death."
+value=25
+sprite=50004
+ID=07000003             # developer 7, ID 3
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+dragon_door_key4_ls:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0004000007"        # developer 7, ID 4
+
+;
+
+dragon_door_key_4:
+name="Dragon-key-4"
+description="Key 4 from the Dragon of Death."
+value=25
+sprite=50004
+ID=07000004             # developer 7, ID 4
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+

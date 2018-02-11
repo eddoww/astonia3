@@ -1,0 +1,581 @@
+to_forest:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="060006001C0001"   #
+;
+
+to_ws_robber:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="E800E6001C0001"   # x= y= a= quiet=
+;
+
+tavern_stair_up_1:
+name="Stair"
+description="A flight of stairs leading to the upper part of the tavern."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="0B000500000001"   # x=11, y=5, a=0, quiet=1
+;
+
+tavern_stair_up_2:
+name="Stair"
+description="A flight of stairs leading to the upper part of the tavern."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="0B001900000001"   # x=11, y=25, a=0, quiet=1
+;
+
+tavern_stair_down_1:
+name="Stair"
+description="A flight of stairs leading to the lower part of the tavern."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="DF00C100000001"   # x=223, y=193, a=0, quiet=1
+;
+
+tavern_stair_down_2:
+name="Stair"
+description="A flight of stairs leading to the lower part of the tavern."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="DF00D500000001"   # x=223, y=213, a=0, quiet=1
+;
+
+
+mansion_stair_up:
+name="Stair"
+description="A flight of stairs leading to the upper part of the mansion."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="0D002400000001"   # x=13, y=36, a=0, quiet=1
+;
+
+mansion_stair_down:
+name="Stair"
+description="A flight of stairs leading to the lower part of the mansion."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="C200B000000001"   # x=194, y=176, a=0, quiet=1
+;
+
+abandoned_halls_stair_up:
+name="Stair"
+description="A flight of stairs leading out of the abandoned halls."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="C400A000000001"   # x=196, y=160, a=0, quiet=1
+;
+
+abandoned_halls_stair_down:
+name="Stair"
+description="A flight of stairs leading down to the abandoned halls."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="33001400000001"   # x=51, y=20, a=0, quiet=1
+;
+
+
+mausoleum_stair_up:
+name="Stair"
+description="A flight of stairs leading out of the mausoleum."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="27001300000001"   # x=39, y=19, a=0, quiet=1
+;
+
+mausoleum_stair_down:
+name="Stair"
+description="A flight of stairs leading down to the mausoleum."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="5E005E00000001"   # x=94, y=94, a=0, quiet=1
+;
+
+
+necromancer_stair_up:
+name="Stair"
+description="A flight of stairs leading out of the necromancer's hideout."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="9A004800000001"   # x=154, y=72, a=0, quiet=1
+;
+
+necromancer_stair_down:
+name="Stair"
+description="A flight of stairs leading down to the necromancer's hideout."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="41000700000001"   # x=65, y=7, a=0, quiet=1
+;
+
+
+
+#---- Puzzle Trap Tiles ----
+
+#---- Column 1 ----
+
+puzzletrap_83_23:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="48000C00000001"   # x=72, y=12, a=0, quiet=1
+;
+
+puzzletrap_84_23:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="49000C00000001"   # x=73, y=12, a=0, quiet=1
+;
+
+puzzletrap_85_23:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4A000C00000001"   # x=74, y=12, a=0, quiet=1
+;
+
+puzzletrap_86_23:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4B000C00000001"   # x=75, y=12, a=0, quiet=1
+;
+
+puzzletrap_87_23:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4C000C00000001"   # x=76, y=12, a=0, quiet=1
+;
+
+#---- Column 2 ----
+
+puzzletrap_83_22:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="48000B00000001"   # x=72, y=11, a=0, quiet=1
+;
+
+puzzletrap_84_22:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="49000B00000001"   # x=73, y=11, a=0, quiet=1
+;
+
+puzzletrap_85_22:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4A000B00000001"   # x=74, y=11, a=0, quiet=1
+;
+
+puzzletrap_87_22:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4C000B00000001"   # x=76, y=11, a=0, quiet=1
+;
+
+#---- Column 3 ----
+
+puzzletrap_83_21:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="48000A00000001"   # x=72, y=10, a=0, quiet=1
+;
+
+puzzletrap_86_21:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4B000A00000001"   # x=75, y=10, a=0, quiet=1
+;
+
+#---- Column 4 ----
+
+puzzletrap_84_20:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="49000900000001"   # x=73, y=9, a=0, quiet=1
+;
+
+puzzletrap_85_20:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4A000900000001"   # x=74, y=9, a=0, quiet=1
+;
+
+puzzletrap_86_20:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4B000900000001"   # x=75, y=9, a=0, quiet=1
+;
+
+puzzletrap_87_20:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4C000900000001"   # x=76, y=9, a=0, quiet=1
+;
+
+#---- Column 5 ----
+
+puzzletrap_83_19:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="48000800000001"   # x=72, y=8, a=0, quiet=1
+;
+
+puzzletrap_84_19:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="49000800000001"   # x=73, y=8, a=0, quiet=1
+;
+
+puzzletrap_85_19:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4A000800000001"   # x=74, y=8, a=0, quiet=1
+;
+
+puzzletrap_86_19:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4B000800000001"   # x=75, y=8, a=0, quiet=1
+;
+
+puzzletrap_87_19:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="4C000800000001"   # x=76, y=8, a=0, quiet=1
+;
+
+#---- Named Boulders for solving puzzle ----
+
+boulder_a:
+name="Boulder"
+description="The boulder has the word 'Aghnafei' written on it."
+sprite=15327
+flag=IF_USE
+;
+
+boulder_b:
+name="Boulder"
+description="The boulder has the word 'Beranog' written on it."
+sprite=15328
+flag=IF_USE
+;
+
+boulder_c:
+name="Boulder"
+description="The boulder has the word 'Croudenach' written on it."
+sprite=15329
+flag=IF_USE
+;
+
+boulder_d:
+name="Boulder"
+description="The boulder has the word 'Deanoth' written on it."
+sprite=15327
+flag=IF_USE
+;
+
+boulder_e:
+name="Boulder"
+description="The boulder has the word 'Efferan' written on it."
+sprite=15328
+flag=IF_USE
+;
+
+
+#---- Sign Hint for puzzle ----
+
+puzzletrap_hint:
+name="Hint"
+description="You used your brawns now use your brain. Cross left & right with up & down."
+sprite=50477
+flag=IF_USE
+flag=IF_FRONTWALL
+;
+
+#---- Ladder up from trap----
+
+puzzletrap_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="5D001500000001"   # x=93, y=21, a=0, quiet=1
+;
+
+
+#---- Hidden door in Necromancer room, open with torch ----
+
+walldoor:
+sprite=22027
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+necromancer_opentrap:
+name="opentrap"
+sprite=0
+driver=6
+flag=IF_STEPACTION
+arg="420F"      # x=66, y=15
+;
+
+# necromancer_opentorch:
+# name="Torch"
+# description="A torch that looks almost like all the other torches."
+# sprite=20054
+# mod_index=V_LIGHT
+# mod_value=200
+# flag=IF_MOVEBLOCK
+# flag=IF_USE
+# driver=6
+# arg="420F"    # x=66 y=15
+# ;
+
+
+#---- 9 steptraps to grolms and ladders up ----
+
+grolmtrap1:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="28001E00000001"   # x=40, y=30, a=0, quiet=1
+;
+
+grolmtrap1_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="DC001E00000001"   # x=220, y=30, a=0, quiet=1
+;
+
+
+grolmtrap2:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="1E001500000001"   # x=30, y=21, a=0, quiet=1
+;
+
+grolmtrap2_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="9E002800000001"   # x=158, y=40, a=0, quiet=1
+;
+
+
+grolmtrap3:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="1F000F00000001"   # x=31, y=15, a=0, quiet=1
+;
+
+grolmtrap3_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="DB004F00000001"   # x=219, y=79, a=0, quiet=1
+;
+
+
+grolmtrap4:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="2A000800000001"   # x=42, y=8, a=0, quiet=1
+;
+
+grolmtrap4_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="B9007200000001"   # x=185, y=114, a=0, quiet=1
+;
+
+
+grolmtrap5:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="2D000300000001"   # x=45, y=3, a=0, quiet=1
+;
+
+grolmtrap5_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="7A006500000001"   # x=122, y=101, a=0, quiet=1
+;
+
+
+grolmtrap6:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="3A000300000001"   # x=58, y=3, a=0, quiet=1
+;
+
+grolmtrap6_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="93008C00000001"   # x=147, y=140, a=0, quiet=1
+;
+
+
+grolmtrap7:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="44001F00000001"   # x=68, y=31, a=0, quiet=1
+;
+
+grolmtrap7_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="71008B00000001"   # x=113, y=139, a=0, quiet=1
+;
+
+
+grolmtrap8:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="53001E00000001"   # x=83, y=30, a=0, quiet=1
+;
+
+grolmtrap8_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="5E00C000000001"   # x=94, y=192, a=0, quiet=1
+;
+
+
+grolmtrap9:
+name="grolmtrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="5F001B00000001"   # x=95, y=27, a=0, quiet=1
+;
+
+grolmtrap9_ladder_up:
+name="Ladder"
+description="The way out of this trap..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="6B00ED00000001"   # x=107, y=237, a=0, quiet=1
+;
+
+#---- Hidden doors for Thief Mage houses ----
+
+thief_mage_hidden_door:
+name="Hidden door"
+description="A door that blends in with the walls around it."
+sprite=20195
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+# ----------------------- forest area key
+WS_Robber_Key_Area2:
+name="Robber Key Area 2"
+description="Key for Robbers Area 2 in Brannington"
+sprite=50004
+ID=08000002             #Dev 8 ID 1
+flag=IF_TAKE
+flag=IF_QUEST
+;

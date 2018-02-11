@@ -1,0 +1,28 @@
+clan_defense:
+name="Clan Defense"
+description="An ancient artefact beyond your comprehension. It looks dangerous."
+sprite=14160
+flag=IF_MOVEBLOCK
+driver=144
+;
+
+clantorch1:
+sprite=20044
+mod_index=V_LIGHT
+mod_value=200
+;
+clantorch2:
+sprite=20054
+mod_index=V_LIGHT
+mod_value=200
+;
+clantorch3:
+sprite=20064
+mod_index=V_LIGHT
+mod_value=200
+;
+clantorch4:
+sprite=20074
+mod_index=V_LIGHT
+mod_value=200
+;

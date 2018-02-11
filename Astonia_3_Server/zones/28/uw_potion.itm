@@ -1,0 +1,13 @@
+underwater_potion:
+name="Potion"
+description="A flask containing air bubbles."
+sprite=11188
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_TAKE
+flag=IF_QUEST
+driver=123
+arg="01"
+;
+
+

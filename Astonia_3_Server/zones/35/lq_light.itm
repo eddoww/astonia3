@@ -1,0 +1,13 @@
+skull_light:
+sprite=20074
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;
+
+skull_light2:
+sprite=20064
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;

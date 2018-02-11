@@ -1,0 +1,1003 @@
+#---- Lizard, Youth----
+lizard_youth:
+name="Lizard Youth"
+description="A young lizard, but still quite strong."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=110
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=110
+V_AGI=110
+V_STR=110
+
+# weapon skills
+V_DAGGER=0
+V_HAND=110
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=110
+V_PARRY=110
+V_WARCRY=0
+V_TACTICS=110
+V_SURROUND=0
+V_ARMORSKILL=110
+V_BODYCONTROL=110
+V_SPEEDSKILL=110
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=110
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=110
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_123
+spell=armor_spell_123
+spell=bless_spell_56
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=413
+;
+
+
+#---- Lizard, Gatherer ----
+lizard_gatherer:
+name="Lizard Gatherer"
+description="Too weak to be a warrior, this lizard gathers berries to feed the others."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=115
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=115
+V_AGI=115
+V_STR=115
+
+# weapon skills
+V_DAGGER=0
+V_HAND=115
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=115
+V_PARRY=115
+V_WARCRY=0
+V_TACTICS=115
+V_SURROUND=0
+V_ARMORSKILL=115
+V_BODYCONTROL=115
+V_SPEEDSKILL=115
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=115
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=115
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_133
+spell=armor_spell_133
+spell=bless_spell_56
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=414
+;
+
+
+#---- Lizard, Warrior----
+lizard_warrior:
+name="Lizard Warrior"
+description="A lizard trained to be a strong warrior. Its teeth look sharp."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=120
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=120
+V_AGI=120
+V_STR=120
+
+# weapon skills
+V_DAGGER=0
+V_HAND=120
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=120
+V_PARRY=120
+V_WARCRY=0
+V_TACTICS=120
+V_SURROUND=0
+V_ARMORSKILL=120
+V_BODYCONTROL=120
+V_SPEEDSKILL=120
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=120
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=120
+
+item=lizard_big_tooth
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_143
+spell=armor_spell_143
+spell=bless_spell_62
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=415
+;
+
+
+#---- Lizard, Guard----
+lizard_guard:
+name="Lizard Guard"
+description="A very strong lizard. You wonder what it could guard."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=125
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=125
+V_AGI=125
+V_STR=125
+
+# weapon skills
+V_DAGGER=0
+V_HAND=125
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=125
+V_PARRY=125
+V_WARCRY=0
+V_TACTICS=125
+V_SURROUND=0
+V_ARMORSKILL=125
+V_BODYCONTROL=125
+V_SPEEDSKILL=125
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=125
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=125
+
+item=lizard_big_tooth
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_153
+spell=armor_spell_153
+spell=bless_spell_62
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=416
+;
+
+
+#---- Lizard, Strong ----
+lizard_strong:
+name="Strong Lizard"
+description="This lizard seems to be the strongest of all lizards."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=130
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=130
+V_AGI=130
+V_STR=130
+
+# weapon skills
+V_DAGGER=0
+V_HAND=130
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=130
+V_PARRY=130
+V_WARCRY=0
+V_TACTICS=130
+V_SURROUND=0
+V_ARMORSKILL=130
+V_BODYCONTROL=130
+V_SPEEDSKILL=130
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=130
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=130
+
+item=lizard_big_tooth
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_133
+spell=armor_spell_133
+spell=bless_spell_68
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=417
+;
+
+
+#---- Lizard, Elite ----
+lizard_elite:
+name="Elite Lizard"
+description="You can sense an unnatural aura of magic surrounding this lizard."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=135
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=135
+V_AGI=135
+V_STR=135
+
+# weapon skills
+V_DAGGER=0
+V_HAND=135
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=135
+V_PARRY=135
+V_WARCRY=0
+V_TACTICS=135
+V_SURROUND=0
+V_ARMORSKILL=135
+V_BODYCONTROL=135
+V_SPEEDSKILL=135
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=135
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=135
+
+item=lizard_big_tooth
+item=lizard_elite_head
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_163
+spell=armor_spell_163
+spell=bless_spell_74
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=418
+;
+
+
+
+#===================
+#=== Unique NPCs ===
+#===================
+
+#---- Lizard, Strong, Mold 1 ----
+lizard_strong_mold1:
+name="Strong Lizard"
+description="This lizard seems to be holding something!"
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=130
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=130
+V_AGI=130
+V_STR=130
+
+# weapon skills
+V_DAGGER=0
+V_HAND=130
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=130
+V_PARRY=130
+V_WARCRY=0
+V_TACTICS=130
+V_SURROUND=0
+V_ARMORSKILL=130
+V_BODYCONTROL=130
+V_SPEEDSKILL=130
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=130
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=130
+
+item=lizard_big_tooth
+item=lizard_mold1
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_133
+spell=armor_spell_133
+spell=bless_spell_68
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=417
+;
+
+#---- Lizard, Strong, Mold 2 ----
+lizard_strong_mold2:
+name="Strong Lizard"
+description="This lizard seems to be holding something!"
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=130
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=130
+V_AGI=130
+V_STR=130
+
+# weapon skills
+V_DAGGER=0
+V_HAND=130
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=130
+V_PARRY=130
+V_WARCRY=0
+V_TACTICS=130
+V_SURROUND=0
+V_ARMORSKILL=130
+V_BODYCONTROL=130
+V_SPEEDSKILL=130
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=130
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=130
+
+item=lizard_big_tooth
+item=lizard_mold2
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_133
+spell=armor_spell_133
+spell=bless_spell_68
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=417
+;
+
+#---- Lizard, Strong, Mold 3 ----
+lizard_strong_mold3:
+name="Strong Lizard"
+description="This lizard seems to be holding something!"
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=130
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=130
+V_AGI=130
+V_STR=130
+
+# weapon skills
+V_DAGGER=0
+V_HAND=130
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=130
+V_PARRY=130
+V_WARCRY=0
+V_TACTICS=130
+V_SURROUND=0
+V_ARMORSKILL=130
+V_BODYCONTROL=130
+V_SPEEDSKILL=130
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=130
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=130
+
+item=lizard_big_tooth
+item=lizard_mold3
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_133
+spell=armor_spell_133
+spell=bless_spell_68
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=417
+;
+
+
+#---- Lizard, Guard, chest key 1----
+lizard_guard_chest_key1:
+name="Lizard Guard"
+description="A very strong lizard. You wonder what it could guard."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=125
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=125
+V_AGI=125
+V_STR=125
+
+# weapon skills
+V_DAGGER=0
+V_HAND=125
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=125
+V_PARRY=125
+V_WARCRY=0
+V_TACTICS=125
+V_SURROUND=0
+V_ARMORSKILL=125
+V_BODYCONTROL=125
+V_SPEEDSKILL=125
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=125
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=125
+
+item=lizard_big_tooth
+item=lizard_chest_key1
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_153
+spell=armor_spell_153
+spell=bless_spell_62
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=416
+;
+
+#---- Lizard, Guard, chest key 2----
+lizard_guard_chest_key2:
+name="Lizard Guard"
+description="A very strong lizard. You wonder what it could guard."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=125
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=125
+V_AGI=125
+V_STR=125
+
+# weapon skills
+V_DAGGER=0
+V_HAND=125
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=125
+V_PARRY=125
+V_WARCRY=0
+V_TACTICS=125
+V_SURROUND=0
+V_ARMORSKILL=125
+V_BODYCONTROL=125
+V_SPEEDSKILL=125
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=125
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=125
+
+item=lizard_big_tooth
+item=lizard_chest_key2
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_153
+spell=armor_spell_153
+spell=bless_spell_62
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=416
+;
+
+
+#---- Lizard, Guard, chest key 3----
+lizard_guard_chest_key3:
+name="Lizard Guard"
+description="A very strong lizard. You wonder what it could guard."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=125
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=125
+V_AGI=125
+V_STR=125
+
+# weapon skills
+V_DAGGER=0
+V_HAND=125
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=125
+V_PARRY=125
+V_WARCRY=0
+V_TACTICS=125
+V_SURROUND=0
+V_ARMORSKILL=125
+V_BODYCONTROL=125
+V_SPEEDSKILL=125
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=125
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=125
+
+item=lizard_big_tooth
+item=lizard_chest_key3
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_153
+spell=armor_spell_153
+spell=bless_spell_62
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=416
+;
+
+
+
+#---- Lizard, Guard, chest key 4----
+lizard_guard_chest_key4:
+name="Lizard Guard"
+description="A very strong lizard. You wonder what it could guard."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=125
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=125
+V_AGI=125
+V_STR=125
+
+# weapon skills
+V_DAGGER=0
+V_HAND=125
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=125
+V_PARRY=125
+V_WARCRY=0
+V_TACTICS=125
+V_SURROUND=0
+V_ARMORSKILL=125
+V_BODYCONTROL=125
+V_SPEEDSKILL=125
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=125
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=125
+
+item=lizard_big_tooth
+item=lizard_chest_key4
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_153
+spell=armor_spell_153
+spell=bless_spell_62
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=416
+;
+
+
+#---- Lizard, Guard, chest key 5----
+lizard_guard_chest_key5:
+name="Lizard Guard"
+description="A very strong lizard. You wonder what it could guard."
+sprite=300
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_INFRARED
+
+V_HP=125
+V_ENDURANCE=10
+V_MANA=0
+
+V_WIS=10
+V_INT=125
+V_AGI=125
+V_STR=125
+
+# weapon skills
+V_DAGGER=0
+V_HAND=125
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=125
+V_PARRY=125
+V_WARCRY=0
+V_TACTICS=125
+V_SURROUND=0
+V_ARMORSKILL=125
+V_BODYCONTROL=125
+V_SPEEDSKILL=125
+
+# misc skills
+V_BARTER=0
+V_PERCEPT=125
+V_STEALTH=0
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=1
+V_MEDITATE=0
+V_IMMUNITY=125
+
+item=lizard_big_tooth
+item=lizard_chest_key5
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+spell=weapon_spell_153
+spell=armor_spell_153
+spell=bless_spell_62
+
+driver=7
+arg="aggressive=1;helper=1;scavenger=0;startdist=30;chardist=0;stopdist=30;"
+respawn=30
+group=2
+class=416
+;
+
+
+

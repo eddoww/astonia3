@@ -1,0 +1,116 @@
+skel_door:
+sprite=20038
+#sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0002000001"        # developer 1, ID 2
+;
+
+skel_key:
+name="Skel-Key-1"
+description="Key 1 from the skeleton place."
+value=25
+sprite=50004
+ID=01000002             # developer 1, ID 2
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+skel_door2:
+sprite=20038
+#sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0003000001"        # developer 1, ID 3
+;
+
+skel_key2:
+name="Skel-Key-2"
+description="Key 2 from the skeleton place."
+value=25
+sprite=50005
+ID=01000003             # developer 1, ID 3
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+skel_door3:
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0004000001"        # developer 1, ID 4
+;
+
+skel_key3:
+name="Skel-Key-3"
+description="Key 3 from the skeleton place."
+value=25
+sprite=50006
+ID=01000004             # developer 1, ID 4
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+skel_skull:
+name="Skull"
+description="A magical skull from the skeleton place."
+value=25
+sprite=50007
+ID=01000005             # developer 1, ID 5
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+skel_chest0:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="00000000001800"    # nr 0, no key, 1 day respawn time
+;
+treasure_0:
+name="Healing Potion"
+description="A small healing potion."
+value=100
+sprite=10292
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="01080000"          # empty_potion1, 8 hp, 0 mana, 0 endurance
+;
+
+skel_chest3:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="03000000001800"    # nr 3, no key, 1 day respawn time
+;
+treasure_3:
+name="Healing Potion"
+description="A small healing potion."
+value=100
+sprite=10292
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="01080000"          # empty_potion1, 8 hp, 0 mana, 0 endurance
+;
+
+

@@ -1,0 +1,136 @@
+spade:
+name="Spade"
+description="A stick of wood with a handle on one end and a metal blade on the other."
+sprite=51069
+value=25
+flag=IF_TAKE
+flag=IF_USE
+driver=77
+;
+
+forest_note1:
+name="Dirty Note"
+description="Dig in the center of the golden table."
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+forest_note2:
+name="Old Note"
+description="Not all that is wall is wall."
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+forest_note3:
+name="Strange Note"
+description="Four might seem more than one, but is it?"
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+link_to_swamp:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="B90006000F0001"   # x=185, y=6, a=15, quiet=1
+;
+
+link_to_exkordon:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="54007200110001"   # x=84, y=114, a=17, quiet=1
+;
+
+forest_sign:
+name="Sign"
+description="The next area will be added here."
+sprite=50121
+flag=IF_USE
+;
+
+mantiss_body:
+name="Mantis' Body"
+description="The dead body of a praying mantis."
+value=5
+sprite=51070
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100005F
+;
+
+forest_treasure:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=78
+;
+
+forest_treasure2:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=78
+arg="01"
+;
+
+robber_key:
+name="Robber-Key"
+description="A key from a robber in the forest."
+value=25
+sprite=50004
+ID=01000060             # developer 1, ID 0x60
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+skelly_key:
+name="Skelly-Key"
+description="A key from a skeleton in the dungeon below the forest."
+value=25
+sprite=50004
+ID=01000061             # developer 1, ID 0x60
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+bonus_teleport:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="8200DB00000001"   # x=130, y=219, a=0, quiet=1
+;
+
+holy_dagger:
+name="Dagger"
+description="An excellent Dagger."
+value=4000
+sprite=10195
+mod_index=V_WEAPON
+mod_value=61
+req_index=V_DAGGER
+req_value=50
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=0100005D
+#    00010203040506070809000102030405060708090001020304050607080900010203040506070809
+arg="00000000000000000000000000000000000000000000000000000000000000000000000000260000"
+;
+

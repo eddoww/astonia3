@@ -1,0 +1,1656 @@
+clan_spawner_exit:
+name="Spawner Exit"
+description="A stationary recall scroll."
+sprite=17
+flag=IF_USE
+driver=124
+;
+
+# skelly 1
+clan_teleport_in_5:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="050005001E0001"
+max_level=5
+;
+
+# zombie 1
+clan_teleport_in_15:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="8C0010001E0001"
+max_level=15
+;
+
+clan_teleport_in_15b:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="8C0010001E0001"
+max_level=15
+;
+
+# zombie 2
+clan_teleport_in_18:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="A00010001E0001"
+max_level=18
+;
+
+# epents 1
+clan_teleport_in_20:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="240005001E0001"
+max_level=20
+;
+
+# aston palace
+clan_teleport_in_24:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="59006D001E0001"
+max_level=24
+;
+
+# epents 2
+clan_teleport_in_28:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="59001B001E0001"
+max_level=28
+;
+
+clan_teleport_in_28b:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="59001B001E0001"
+max_level=28
+;
+
+# Earth UG 1
+clan_teleport_in_30:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="13006B001E0001"
+max_level=30
+;
+
+# Swamp 1
+clan_teleport_in_34:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="810059001E0001"
+max_level=34
+;
+
+# epents 3
+clan_teleport_in_36:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="BF001B001E0001"
+max_level=36
+;
+
+# Earth UG 2
+clan_teleport_in_38:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="240062001E0001"
+max_level=38
+;
+
+# swamp 2
+clan_teleport_in_40:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="AB0043001E0001"
+max_level=40
+;
+
+# fire ug 1 (station 4/8)
+clan_teleport_in_42:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="810024001E0001"
+max_level=42
+;
+
+# forest 1
+clan_teleport_in_43:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="BF0059001E0001"
+max_level=43
+;
+
+# epents 4
+clan_teleport_in_44:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="E90010001E0001"
+max_level=44
+;
+
+# forest 2
+clan_teleport_in_45:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="F40059001E0001"
+max_level=45
+;
+
+# fire ug 2 (station 15/23)
+clan_teleport_in_46:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="AB002F001E0001"
+max_level=46
+;
+
+# spider
+clan_teleport_in_48:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="6E0010001E0001"
+max_level=48
+;
+
+# fire ug 3 (station 18/19)
+clan_teleport_in_50:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="Bf0024001E0001"
+max_level=50
+;
+
+
+# fpents 1
+clan_teleport_in_52:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="12003A001E0001"
+max_level=52
+;
+
+# fpents 2
+clan_teleport_in_60:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="3A0024001E0001"
+max_level=60
+;
+
+# fire UG 4 (station 30)
+clan_teleport_in_64:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="E90024001E0001"
+max_level=64
+;
+
+# fpents 3
+clan_teleport_in_68:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="4E002F001E0001"
+max_level=68
+;
+
+# fpents 4
+clan_teleport_in_76:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="620024001E0001"
+max_level=76
+;
+
+# ipents 1
+clan_teleport_in_84:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="050043001E0001"
+max_level=84
+;
+
+# ipents 2
+clan_teleport_in_92:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="2F004E001E0001"
+max_level=92
+;
+
+# ipents 3
+clan_teleport_in_100:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="4E0059001E0001"
+max_level=100
+;
+
+# ipents 4
+clan_teleport_in_108:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="6D004E001E0001"
+max_level=108
+;
+
+# hpents 1
+clan_teleport_in_160:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="040080001E0001"
+max_level=160
+;
+
+# hpents 2
+clan_teleport_in_200:
+name="Clan Spawner Door"
+description="A door leading to a clan spawner room."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="220098001E0001"
+max_level=200
+;
+
+clan_jewel:
+name="Clan Jewel"
+description="A clan Jewel. Can only be used to found a new clan!"
+value=2500000
+sprite=51013    #50127
+ID=01000034             # developer 1, ID 50
+flag=IF_TAKE
+flag=IF_NOJUNK
+;
+
+clan_spawner:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+;
+
+clan_spawner_5:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="050C"
+;
+
+clan_door_5a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00050000000001"
+;
+
+clan_door_5b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00050000000001"
+;
+
+clan_spawner_12:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="0C"
+;
+
+clan_door_12a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="000C0000000001"
+;
+
+clan_door_12b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="000C0000000001"
+;
+
+clan_spawner_15:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="0F"
+;
+
+clan_door_15a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="000F0000000001"
+;
+
+clan_door_15b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="000F0000000001"
+;
+
+clan_spawner_18:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="12"
+;
+
+clan_door_18a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00120000000001"
+;
+
+clan_door_18b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00120000000001"
+;
+
+clan_spawner_20:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="1410"
+;
+
+clan_door_20a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00140000000001"
+;
+
+clan_door_20b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00140000000001"
+;
+
+clan_spawner_24:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="18"
+;
+
+clan_door_24a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00180000000001"
+;
+
+clan_door_24b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00180000000001"
+;
+
+clan_spawner_28:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="1C10"
+;
+
+clan_door_28a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="001C0000000001"
+;
+
+clan_door_28b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="001C0000000001"
+;
+
+clan_spawner_30:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="1E"
+;
+
+clan_door_30a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="001E0000000001"
+;
+
+clan_door_30b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="001E0000000001"
+;
+
+clan_spawner_34:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="22"
+;
+
+clan_door_34a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00220000000001"
+;
+
+clan_door_34b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00220000000001"
+;
+
+clan_spawner_36:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="2410"
+;
+
+clan_door_36a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00240000000001"
+;
+
+clan_door_36b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00240000000001"
+;
+
+clan_spawner_38:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="26"
+;
+
+clan_door_38a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00260000000001"
+;
+
+clan_door_38b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00260000000001"
+;
+
+clan_spawner_40:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="28"
+;
+
+clan_door_40a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00280000000001"
+;
+
+clan_door_40b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00280000000001"
+;
+
+clan_spawner_42:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="2A"
+;
+
+clan_door_42a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002A0000000001"
+;
+
+clan_door_42b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002A0000000001"
+;
+
+clan_spawner_43:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="2B"
+;
+
+clan_door_43a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002B0000000001"
+;
+
+clan_door_43b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002B0000000001"
+;
+
+clan_spawner_44:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="2C10"
+;
+
+clan_door_44a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002C0000000001"
+;
+
+clan_door_44b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002C0000000001"
+;
+
+clan_spawner_45:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="2D"
+;
+
+clan_door_45a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002D0000000001"
+;
+
+clan_door_45b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002D0000000001"
+;
+
+
+clan_spawner_46:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="2E"
+;
+
+clan_door_46a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002E0000000001"
+;
+
+clan_door_46b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="002E0000000001"
+;
+
+
+clan_spawner_48:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="30"
+;
+
+clan_door_48a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00300000000001"
+;
+
+clan_door_48b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00300000000001"
+;
+
+clan_spawner_50:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="32"
+;
+
+clan_door_50a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00320000000001"
+;
+
+clan_door_50b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00320000000001"
+;
+
+clan_spawner_52:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="3418"
+;
+
+clan_door_52a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00340000000001"
+;
+
+clan_door_52b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00340000000001"
+;
+
+clan_spawner_60:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="3C18"
+;
+
+clan_door_60a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="003C0000000001"
+;
+
+clan_door_60b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="003C0000000001"
+;
+
+clan_spawner_64:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="40"
+;
+
+clan_door_64a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00400000000001"
+;
+
+clan_door_64b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00400000000001"
+;
+
+clan_spawner_68:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="4418"
+;
+
+clan_door_68a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00440000000001"
+;
+
+clan_door_68b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00440000000001"
+;
+
+clan_spawner_76:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="4C18"
+;
+
+clan_door_76a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="004C0000000001"
+;
+
+clan_door_76b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="004C0000000001"
+;
+
+clan_spawner_84:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="54"
+;
+
+clan_door_84a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00540000000001"
+;
+
+clan_door_84b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00540000000001"
+;
+
+clan_spawner_92:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="5C"
+;
+
+clan_door_92a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="005C0000000001"
+;
+
+clan_door_92b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="005C0000000001"
+;
+
+clan_spawner_100:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="64"
+;
+
+clan_door_100a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00640000000001"
+;
+
+clan_door_100b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00640000000001"
+;
+
+clan_spawner_108:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="6C"
+;
+
+clan_door_108a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="006C0000000001"
+;
+
+clan_door_108b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="006C0000000001"
+;
+
+clan_spawner_160:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="A0"
+;
+
+clan_door_160a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00A00000000001"
+;
+
+clan_door_160b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00A00000000001"
+;
+
+
+clan_spawner_200:
+name="Clan Spawner"
+sprite=51011    #50128
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=20
+arg="C8"
+;
+
+clan_door_200a:
+name="Steel Door"
+description="A door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00C80000000001"
+;
+
+clan_door_200b:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00C80000000001"
+;
+
+clan_vault1:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="01"
+;
+
+clan_vault2:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="02"
+;
+
+clan_vault3:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="03"
+;
+
+clan_vault4:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="04"
+;
+
+clan_vault5:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="05"
+;
+
+clan_vault6:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="06"
+;
+
+clan_vault7:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="07"
+;
+
+clan_vault8:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="08"
+;
+
+clan_vault9:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="09"
+;
+
+clan_vault10:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="0A"
+;
+
+clan_vault11:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="0B"
+;
+
+clan_vault12:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="0C"
+;
+
+clan_vault13:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="0D"
+;
+
+clan_vault14:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="0E"
+;
+
+clan_vault15:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="0F"
+;
+
+clan_vault16:
+name="Clan Vault"
+sprite=50130
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=22
+arg="10"
+;
+

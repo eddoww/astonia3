@@ -1,0 +1,61 @@
+monk_gatama:
+name="Kir Gatama" description="A bald man in flowing robes."
+sprite=409 sound=1 group=6 arg="" driver=188 # CDR_MONK_GATAMA
+flag=CF_ALIVE flag=CF_IMMORTAL flag=CF_NOATTACK flag=CF_NOPLRATT flag=CF_HASNAME flag=CF_MALE
+V_HP=45 V_ENDURANCE=45 V_MANA=50
+V_WIS=80 V_INT=95 V_AGI=50 V_STR=65
+V_HAND=95 V_DAGGER=0 V_STAFF=0 V_SWORD=0 V_TWOHAND=0
+V_ATTACK=0 V_PARRY=0 V_WARCRY=0 V_TACTICS=0 V_SURROUND=0 V_SPEEDSKILL=0
+V_BLESS=0 V_HEAL=40 V_FREEZE=100 V_MAGICSHIELD=100 V_FLASH=0 V_FIRE=100
+V_REGENERATE=0 V_MEDITATE=40 V_IMMUNITY=102 V_BARTER=0 V_PERCEPT=70 V_STEALTH=70 V_DURATION=50
+balanced=1
+spell=weapon_spell_med
+spell=armor_spell_med
+;
+
+monk_govida:
+name="Kir Govida" description="A bald man in flowing robes."
+sprite=410 sound=1 group=6 arg="" driver=187 # CDR_MONK_GOVIDA
+flag=CF_ALIVE flag=CF_IMMORTAL flag=CF_NOATTACK flag=CF_HASNAME flag=CF_MALE
+V_HP=45 V_ENDURANCE=45 V_MANA=50
+V_WIS=80 V_INT=95 V_AGI=50 V_STR=65
+V_HAND=95 V_DAGGER=0 V_STAFF=0 V_SWORD=0 V_TWOHAND=0
+V_ATTACK=0 V_PARRY=0 V_WARCRY=0 V_TACTICS=0 V_SURROUND=0 V_SPEEDSKILL=0
+V_BLESS=100 V_HEAL=40 V_FREEZE=100 V_MAGICSHIELD=100 V_FLASH=0 V_FIRE=100
+V_REGENERATE=0 V_MEDITATE=40 V_IMMUNITY=102 V_BARTER=0 V_PERCEPT=70 V_STEALTH=70 V_DURATION=50
+balanced=1                    
+spell=weapon_spell_med
+spell=armor_spell_med
+;
+
+monk_worker:
+name="Monk" description="A young man in flowing robes."
+sprite=411 sound=1 group=6 arg="" driver=186 # CDR_MONK_WORKER
+flag=CF_ALIVE flag=CF_NOPLRATT flag=CF_MALE flag=CF_ALLOWSWAP
+V_HP=55 V_ENDURANCE=45 V_MANA=0
+V_WIS=50 V_INT=73 V_AGI=69 V_STR=73
+V_HAND=83 V_DAGGER=0 V_STAFF=0 V_SWORD=0 V_TWOHAND=0
+V_ATTACK=43 V_PARRY=93 V_WARCRY=0 V_TACTICS=43 V_SURROUND=0 V_SPEEDSKILL=25 V_RAGE=80
+V_BLESS=0 V_HEAL=0 V_FREEZE=0 V_MAGICSHIELD=0 V_FLASH=0 V_FIRE=0
+V_REGENERATE=40 V_MEDITATE=0 V_IMMUNITY=85 V_BARTER=0 V_PERCEPT=74 V_STEALTH=0
+balanced=1                    
+spell=weapon_spell_med
+spell=armor_spell_med
+;
+
+golem1:
+name="Golem" description="A huge and massive creature made of stone."
+sprite=412 sound=1 group=10 driver=7 arg="aggressive=1;helper=0;scavenger=2;startdist=0;chardist=20;stopdist=0;"
+flag=CF_ALIVE flag=CF_RESPAWN flag=CF_INFRARED respawn=60
+V_HP=55 V_ENDURANCE=45 V_MANA=0
+V_WIS=50 V_INT=73 V_AGI=69 V_STR=73
+V_HAND=83 V_DAGGER=0 V_STAFF=0 V_SWORD=0 V_TWOHAND=0
+V_ATTACK=83 V_PARRY=83 V_WARCRY=0 V_TACTICS=74 V_SURROUND=0 V_SPEEDSKILL=25 V_RAGE=80
+V_BLESS=0 V_HEAL=0 V_FREEZE=0 V_MAGICSHIELD=0 V_FLASH=0 V_FIRE=0
+V_REGENERATE=40 V_MEDITATE=0 V_IMMUNITY=100 V_BARTER=0 V_PERCEPT=74 V_STEALTH=0
+balanced=1                    
+spell=weapon_spell_med
+spell=armor_spell_med
+class=603
+;
+

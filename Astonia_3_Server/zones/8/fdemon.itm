@@ -1,0 +1,1806 @@
+link_to_edemon:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="E8000B00060001"   # x=7, y=23, a=1, quiet=1
+;
+
+link_to_idemon:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+#    0001020304050607080910
+arg="030008000A000100000001"   # x=7, y=23, a=1, quiet=1
+;
+
+hidden_fire_door:
+sprite=50330
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+demonshrine2a:
+name="Book"
+description="Some sort of book is floating here."
+sprite=59000	#50118
+flag=IF_USE
+driver=35
+min_level=28
+;
+
+demonshrine2b:
+name="Book"
+description="Some sort of book is floating here."
+sprite=59001	#50118
+flag=IF_USE
+driver=35
+min_level=28
+;
+
+fdemonlight:
+name="Light"
+description="A strangely glowing device."
+sprite=14192
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=200
+driver=44
+;
+
+fdemon_cannon1:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+#mod_index=V_LIGHT
+#mod_value=20
+sprite=14378
+driver=46
+arg="00000000000000000000000003"        #ok
+;
+
+fdemon_cannon2:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+#mod_index=V_LIGHT
+#mod_value=20
+sprite=14380
+driver=46
+arg="00000000000000000000000005"        #ok
+;
+
+fdemon_cannon3:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+#mod_index=V_LIGHT
+#mod_value=20
+sprite=14382
+driver=46
+arg="00000000000000000000000007"        #ok
+;
+
+fdemon_cannon4:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+#mod_index=V_LIGHT
+#mod_value=20
+sprite=14384
+driver=46
+arg="00000000000000000000000001"        #ok
+;
+
+fdemon_loader1:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01"
+;
+fdemon_loader2:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02"
+;
+fdemon_loader3:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03"
+;
+
+fdemon_loader1_1:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000001"
+;
+fdemon_loader2_1:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000001"
+;
+fdemon_loader3_1:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000001"
+;
+
+fdemongate:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0110"              # level 1, rate 16 sec
+;
+
+fdemongate2:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0210"              # level 2, rate 16 sec
+;
+
+fdemongate3:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0310"              # level 3, rate 16 sec
+;
+
+fdemongate4:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0410"              # level 4, rate 16 sec
+;
+
+fdemongate5:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0510"              # level 5, rate 16 sec
+;
+
+fdemongate6:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0610"              # level 6, rate 16 sec
+;
+
+fdemongate7:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0710"              # level 7, rate 16 sec
+;
+
+fdemongate8:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0810"              # level 8, rate 16 sec
+;
+
+fdemongate9:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0910"              # level 9, rate 16 sec
+;
+
+fdemongate10:
+name="Gate"
+description="A strangely glowing device."
+sprite=14277
+flag=IF_MOVEBLOCK
+driver=47
+arg="0A10"              # level 10, rate 16 sec
+;
+
+fdemon_crystal1:
+name="Red Crystal"
+description="A small red crystal made by the ancients."
+value=25
+sprite=59020
+ID=0100004A
+flag=IF_TAKE
+arg="10"
+;
+
+fdemon_crystal2:
+name="Red Crystal"
+description="A red crystal made by the ancients."
+value=25
+sprite=59040
+ID=0100004A
+flag=IF_TAKE
+arg="18"
+;
+
+fdemon_crystal3:
+name="Red Crystal"
+description="A big red crystal made by the ancients."
+value=25
+sprite=59041
+ID=0100004A
+flag=IF_TAKE
+arg="20"
+;
+
+fdemon_crystal4:
+name="Red Crystal"
+description="A red crystal made by the ancients."
+value=25
+sprite=59042
+ID=0100004A
+flag=IF_TAKE
+arg="28"
+;
+
+fdemon_crystal5:
+name="Red Crystal"
+description="A red crystal made by the ancients."
+value=25
+sprite=59043
+ID=0100004A
+flag=IF_TAKE
+arg="30"
+;
+
+fdemonwaypoint:
+sprite=14202
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=10
+driver=48
+;
+
+fdemon_farm1:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=20
+sprite=14411
+driver=49
+arg="0110"      # speed=1, max size=16
+;
+
+fdemon_farm2:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=20
+sprite=14411
+driver=49
+arg="0118"      # speed=1, max size=24
+;
+
+fdemon_farm3:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=20
+sprite=14411
+driver=49
+arg="0120"      # speed=1, max size=32
+;
+
+fdemon_farm4:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=20
+sprite=14411
+driver=49
+arg="0128"      # speed=1, max size=40
+;
+
+fdemon_farm5:
+flag=IF_MOVEBLOCK
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=20
+sprite=14411
+driver=49
+arg="0130"      # speed=1, max size=48
+;
+
+fdemon_loader1_1:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000001"
+;
+fdemon_loader2_1:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000001"
+;
+fdemon_loader3_1:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000001"
+;
+fdemon_sign1a:
+name="Sign"
+description="Defense Station 1"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign1b:
+name="Sign"
+description="Defense Station 1"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_2:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000002"
+;
+fdemon_loader2_2:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000002"
+;
+fdemon_loader3_2:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000002"
+;
+fdemon_sign2a:
+name="Sign"
+description="Defense Station 2"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign2b:
+name="Sign"
+description="Defense Station 2"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_3:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000003"
+;
+fdemon_loader2_3:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000003"
+;
+fdemon_loader3_3:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000003"
+;
+fdemon_sign3a:
+name="Sign"
+description="Defense Station 3"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign3b:
+name="Sign"
+description="Defense Station 3"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_4:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000004"
+;
+fdemon_loader2_4:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000004"
+;
+fdemon_loader3_4:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000004"
+;
+fdemon_sign4a:
+name="Sign"
+description="Defense Station 4"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign4b:
+name="Sign"
+description="Defense Station 4"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_5:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000005"
+;
+fdemon_loader2_5:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000005"
+;
+fdemon_loader3_5:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000005"
+;
+fdemon_sign5a:
+name="Sign"
+description="Defense Station 5"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign5b:
+name="Sign"
+description="Defense Station 5"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_6:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000006"
+;
+fdemon_loader2_6:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000006"
+;
+fdemon_loader3_6:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000006"
+;
+fdemon_sign6a:
+name="Sign"
+description="Defense Station 6"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign6b:
+name="Sign"
+description="Defense Station 6"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_7:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000007"
+;
+fdemon_loader2_7:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000007"
+;
+fdemon_loader3_7:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000007"
+;
+fdemon_sign7a:
+name="Sign"
+description="Defense Station 7"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign7b:
+name="Sign"
+description="Defense Station 7"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_8:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000008"
+;
+fdemon_loader2_8:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000008"
+;
+fdemon_loader3_8:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000008"
+;
+fdemon_sign8a:
+name="Sign"
+description="Defense Station 8"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign8b:
+name="Sign"
+description="Defense Station 8"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_9:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000009"
+;
+fdemon_loader2_9:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000009"
+;
+fdemon_loader3_9:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000009"
+;
+fdemon_sign9a:
+name="Sign"
+description="Defense Station 9"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign9b:
+name="Sign"
+description="Defense Station 9"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_10:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000000A"
+;
+fdemon_loader2_10:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000000A"
+;
+fdemon_loader3_10:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000000A"
+;
+fdemon_sign10a:
+name="Sign"
+description="Defense Station 10"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign10b:
+name="Sign"
+description="Defense Station 10"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_11:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000000B"
+;
+fdemon_loader2_11:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000000B"
+;
+fdemon_loader3_11:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000000B"
+;
+fdemon_sign11a:
+name="Sign"
+description="Defense Station 11"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign11b:
+name="Sign"
+description="Defense Station 11"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_12:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000000C"
+;
+fdemon_loader2_12:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000000C"
+;
+fdemon_loader3_12:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000000C"
+;
+fdemon_sign12a:
+name="Sign"
+description="Defense Station 12"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign12b:
+name="Sign"
+description="Defense Station 12"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_13:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000000D"
+;
+fdemon_loader2_13:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000000D"
+;
+fdemon_loader3_13:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000000D"
+;
+fdemon_sign13a:
+name="Sign"
+description="Defense Station 13"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign13b:
+name="Sign"
+description="Defense Station 13"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_14:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000000E"
+;
+fdemon_loader2_14:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000000E"
+;
+fdemon_loader3_14:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000000E"
+;
+fdemon_sign14a:
+name="Sign"
+description="Defense Station 14"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign14b:
+name="Sign"
+description="Defense Station 14"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_15:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000000F"
+;
+fdemon_loader2_15:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000000F"
+;
+fdemon_loader3_15:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000000F"
+;
+fdemon_sign15a:
+name="Sign"
+description="Defense Station 15"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign15b:
+name="Sign"
+description="Defense Station 15"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_16:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000010"
+;
+fdemon_loader2_16:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000010"
+;
+fdemon_loader3_16:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000010"
+;
+fdemon_sign16a:
+name="Sign"
+description="Defense Station 16"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign16b:
+name="Sign"
+description="Defense Station 16"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_17:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000011"
+;
+fdemon_loader2_17:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000011"
+;
+fdemon_loader3_17:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000011"
+;
+fdemon_sign17a:
+name="Sign"
+description="Defense Station 17"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign17b:
+name="Sign"
+description="Defense Station 17"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_18:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000012"
+;
+fdemon_loader2_18:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000012"
+;
+fdemon_loader3_18:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000012"
+;
+fdemon_sign18a:
+name="Sign"
+description="Defense Station 18"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign18b:
+name="Sign"
+description="Defense Station 18"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_19:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000013"
+;
+fdemon_loader2_19:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000013"
+;
+fdemon_loader3_19:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000013"
+;
+fdemon_sign19a:
+name="Sign"
+description="Defense Station 19"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign19b:
+name="Sign"
+description="Defense Station 19"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_20:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000014"
+;
+fdemon_loader2_20:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000014"
+;
+fdemon_loader3_20:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000014"
+;
+fdemon_sign20a:
+name="Sign"
+description="Defense Station 20"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign20b:
+name="Sign"
+description="Defense Station 20"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_21:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000015"
+;
+fdemon_loader2_21:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000015"
+;
+fdemon_loader3_21:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000015"
+;
+fdemon_sign21a:
+name="Sign"
+description="Defense Station 21"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign21b:
+name="Sign"
+description="Defense Station 21"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_22:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000016"
+;
+fdemon_loader2_22:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000016"
+;
+fdemon_loader3_22:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000016"
+;
+fdemon_sign22a:
+name="Sign"
+description="Defense Station 22"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign22b:
+name="Sign"
+description="Defense Station 22"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_23:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000017"
+;
+fdemon_loader2_23:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000017"
+;
+fdemon_loader3_23:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000017"
+;
+fdemon_sign23a:
+name="Sign"
+description="Defense Station 23"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign23b:
+name="Sign"
+description="Defense Station 23"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_24:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000018"
+;
+fdemon_loader2_24:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000018"
+;
+fdemon_loader3_24:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000018"
+;
+fdemon_sign24a:
+name="Sign"
+description="Defense Station 24"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign24b:
+name="Sign"
+description="Defense Station 24"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_25:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000019"
+;
+fdemon_loader2_25:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000019"
+;
+fdemon_loader3_25:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000019"
+;
+fdemon_sign25a:
+name="Sign"
+description="Defense Station 25"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign25b:
+name="Sign"
+description="Defense Station 25"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_26:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000001A"
+;
+fdemon_loader2_26:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000001A"
+;
+fdemon_loader3_26:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000001A"
+;
+fdemon_sign26a:
+name="Sign"
+description="Defense Station 26"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign26b:
+name="Sign"
+description="Defense Station 26"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_27:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000001B"
+;
+fdemon_loader2_27:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000001B"
+;
+fdemon_loader3_27:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000001B"
+;
+fdemon_sign27a:
+name="Sign"
+description="Defense Station 27"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign27b:
+name="Sign"
+description="Defense Station 27"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_28:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000001C"
+;
+fdemon_loader2_28:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000001C"
+;
+fdemon_loader3_28:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000001C"
+;
+fdemon_sign28a:
+name="Sign"
+description="Defense Station 28"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign28b:
+name="Sign"
+description="Defense Station 28"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_29:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000001D"
+;
+fdemon_loader2_29:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000001D"
+;
+fdemon_loader3_29:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000001D"
+;
+fdemon_sign29a:
+name="Sign"
+description="Defense Station 29"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign29b:
+name="Sign"
+description="Defense Station 29"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_30:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000001E"
+;
+fdemon_loader2_30:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000001E"
+;
+fdemon_loader3_30:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000001E"
+;
+fdemon_sign30a:
+name="Sign"
+description="Defense Station 30"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign30b:
+name="Sign"
+description="Defense Station 30"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_31:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0100000000001F"
+;
+fdemon_loader2_31:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0200000000001F"
+;
+fdemon_loader3_31:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="0300000000001F"
+;
+fdemon_sign31a:
+name="Sign"
+description="Defense Station 31"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign31b:
+name="Sign"
+description="Defense Station 31"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_32:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000020"
+;
+fdemon_loader2_32:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000020"
+;
+fdemon_loader3_32:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000020"
+;
+fdemon_sign32a:
+name="Sign"
+description="Defense Station 32"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign32b:
+name="Sign"
+description="Defense Station 32"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_33:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000021"
+;
+fdemon_loader2_33:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000021"
+;
+fdemon_loader3_33:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000021"
+;
+fdemon_sign33a:
+name="Sign"
+description="Defense Station 33"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign33b:
+name="Sign"
+description="Defense Station 33"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_34:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000022"
+;
+fdemon_loader2_34:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000022"
+;
+fdemon_loader3_34:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000022"
+;
+fdemon_sign34a:
+name="Sign"
+description="Defense Station 34"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign34b:
+name="Sign"
+description="Defense Station 34"
+sprite=50283
+flag=IF_USE
+;
+
+fdemon_loader1_35:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="01000000000023"
+;
+fdemon_loader2_35:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="02000000000023"
+;
+fdemon_loader3_35:
+name="Loader"
+description="A strange device which seems to be able to hold a crystal."
+sprite=14234
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=45
+arg="03000000000023"
+;
+fdemon_sign35a:
+name="Sign"
+description="Defense Station 35"
+sprite=50263
+flag=IF_USE
+;
+fdemon_sign35b:
+name="Sign"
+description="Defense Station 35"
+sprite=50283
+flag=IF_USE
+;
+
+
+fdemon_blood:
+name="Golem Blood"
+description="A stinking, extremely cold liquid."
+sprite=14347
+flag=IF_USE
+driver=50
+arg="00"
+;
+
+fdemon_bloodbank:
+name="Container"
+description="A container made by the ancients to hold a liquid."
+sprite=14349
+flag=IF_TAKE
+ID=0100004B
+;
+fdemon_bloodbank2:
+name="Container"
+description="A container made by the ancients to hold a liquid."
+sprite=14352
+flag=IF_TAKE
+ID=0100004B
+arg="03"
+;
+
+fdemon_bloodbank_chest54:
+name="Contaier"
+sprite=14349
+flag=IF_USE
+driver=5
+arg="36000000000000"    # nr 54, no key, instant respawn
+;
+treasure_54:
+name="Container"
+description="A container made by the ancients to hold a liquid."
+sprite=14349
+flag=IF_TAKE
+ID=0100004B
+;
+
+fdemon_lava:
+sprite=14363
+flag=IF_USE
+driver=51
+;
+
+fire_exit_aston:
+name="Door"
+#description="A ladder leading up... somewhere far, far away."
+sprite=14299    #50019
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=10
+arg="E900BA00030001"   # x=233, y=186, a=3, quiet=1
+;

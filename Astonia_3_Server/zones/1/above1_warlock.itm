@@ -1,0 +1,73 @@
+warlock_skull:
+name="Warlock-Skull"
+description="The warlock's skull."
+value=25
+sprite=50020
+ID=01000009             # developer 1, ID 9
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+warlock_key:
+name="Warlock-Key-1"
+description="A key from the evil magician's hideout."
+value=25
+sprite=50004
+ID=0100000A             # developer 1, ID 10
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+warlock_chest1:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="010A000001A800"        # nr 1, devel 1, ID 10, 1 week respawn time
+;
+
+treasure_1:
+name="Two-Handed Sword of Minor Fighting"
+description="A two-handed sword of minor fighting."
+value=525
+sprite=10280
+mod_index=V_WEAPON
+mod_value=17
+req_index=V_TWOHAND
+req_value=1
+mod_index=V_TWOHAND
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_WNTWOHANDED
+flag=IF_TWOHAND
+;
+
+warlock_chest2:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="020A000001A800"        # nr 2, devel 1, ID 10, 1 week respawn time
+;
+
+treasure_2:
+name="Staff of Minor Flash"
+description="A staff of minor flash."
+value=375
+sprite=10250
+mod_index=V_WEAPON
+mod_value=12
+req_index=V_STAFF
+req_value=1
+mod_index=V_FLASH
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_WNTWOHANDED
+flag=IF_STAFF
+;

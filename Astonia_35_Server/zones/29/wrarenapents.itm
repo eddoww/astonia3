@@ -1,0 +1,90 @@
+tavern_stair2_up_1:
+name="Stair"
+description="A flight of stairs leading to the upper part of the tavern."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="DF00C100000001"   # x=223, y=193, a=0, quiet=1
+;
+
+tavern_stair2_up_2:
+name="Stair"
+description="A flight of stairs leading to the upper part of the tavern."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="DF00D500000001"   # x=223, y=213, a=0, quiet=1
+;
+
+tavern_stair2_down_1:
+name="Stair"
+description="A flight of stairs leading to the lower part of the tavern."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="7A000300000001"   # x=122, y=3, a=0, quiet=1
+;
+
+tavern_stair2_down_2:
+name="Stair"
+description="A flight of stairs leading to the lower part of the tavern."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="7A001C00000001"   # x=122, y=28, a=0, quiet=1
+;
+
+pents_steps_down1:
+name="Steps"
+description="A set of steps leading down."
+sprite=50332
+flag=IF_USE
+driver=10
+arg="E000A800000001"   # x=224, y=168, a=0, quiet=1
+;
+
+pents_steps_down2:
+name="Steps"
+description="A set of steps leading down."
+sprite=50332
+flag=IF_USE
+driver=10
+arg="E000A900000001"   # x=224, y=169, a=0, quiet=1
+;
+
+pents_steps_down3:
+name="Steps"
+description="A set of steps leading down."
+sprite=50332
+flag=IF_USE
+driver=10
+arg="E000AA00000001"   # x=224, y=170, a=0, quiet=1
+;
+
+pents_steps_up1:
+name="Steps"
+description="A set of steps leading down."
+sprite=50334
+flag=IF_USE
+driver=10
+arg="DA00A500000001"   # x=218, y=165, a=0, quiet=1
+;
+
+pents_steps_up2:
+name="Steps"
+description="A set of steps leading down."
+sprite=50334
+flag=IF_USE
+driver=10
+arg="DA00A600000001"   # x=218, y=166, a=0, quiet=1
+;
+
+pents_steps_up3:
+name="Steps"
+description="A set of steps leading down."
+sprite=50334
+flag=IF_USE
+driver=10
+arg="DA00A700000001"   # x=218, y=167, a=0, quiet=1
+;
+

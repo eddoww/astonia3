@@ -1,0 +1,113 @@
+brown_hat:
+name="Hat"
+description="A brown hat."
+value=5
+sprite=50122
+mod_index=V_ARMOR
+mod_value=60
+flag=IF_TAKE
+flag=IF_WNHEAD
+;
+green_hat:
+name="Hat"
+description="A green hat."
+value=5
+sprite=50123
+mod_index=V_ARMOR
+mod_value=60
+flag=IF_TAKE
+flag=IF_WNHEAD
+;
+brown_cape:
+name="Cape"
+description="A brown cape."
+value=5
+sprite=50124
+mod_index=V_ARMOR
+mod_value=30
+flag=IF_TAKE
+flag=IF_WNCLOAK
+;
+blue_cape:
+name="Cape"
+description="A blue cape."
+value=5
+sprite=50125
+mod_index=V_ARMOR
+mod_value=30
+flag=IF_TAKE
+flag=IF_WNCLOAK
+;
+belt:
+name="Belt"
+description="A belt."
+value=5
+sprite=50126
+mod_index=V_ARMOR
+mod_value=20
+flag=IF_TAKE
+flag=IF_WNBELT
+;
+amulet:
+name="Amulet"
+description="A golden amulet."
+value=50
+sprite=50141
+flag=IF_TAKE
+flag=IF_WNNECK
+;
+boots:
+name="Boots"
+description="A pair of boots made of leather"
+value=10
+sprite=50510
+mod_index=V_ARMOR
+mod_value=30
+flag=IF_TAKE
+flag=IF_WNFEET
+;
+
+vest:
+name="Vest"
+description="A vest made of leather"
+value=10
+sprite=50512
+mod_index=V_ARMOR
+mod_value=150
+flag=IF_TAKE
+flag=IF_WNBODY
+;
+
+trousers:
+name="Pair of Trousers"
+description="A pair of trousers made of leather"
+value=10
+sprite=50513
+mod_index=V_ARMOR
+mod_value=48
+flag=IF_TAKE
+flag=IF_WNLEGS
+;
+
+bracelet:
+name="Bracelet"
+description="A metal spiral."
+value=15
+sprite=51084
+mod_index=V_ARMOR
+mod_value=48
+flag=IF_TAKE
+flag=IF_WNARMS
+;
+
+gloves:
+name="Pair of Gloves"
+description="A pair of gloves."
+value=5
+sprite=51617
+mod_index=V_WEAPON
+mod_value=375
+flag=IF_TAKE
+flag=IF_WNRHAND
+;
+

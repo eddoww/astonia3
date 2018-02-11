@@ -1,0 +1,6 @@
+to_teufelheim1:
+sprite=50017
+flag=IF_USE 
+driver=10
+arg="F800F800220001"
+;

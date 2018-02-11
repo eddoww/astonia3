@@ -1,0 +1,124 @@
+light_krystalA:
+sprite=22063
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;
+
+light_krystalB:
+sprite=22066
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;
+
+teleport_steel_door:
+name="steel door"
+description="a door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+;
+
+entrance_door:
+name="steel door"
+description="a door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=137
+arg="01"
+;
+
+entrance_door2:
+name="steel door"
+description="a door made of steel."
+sprite=14177
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=137
+arg="02"
+;
+
+entrance_door3:
+name="steel door"
+description="a door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=137
+arg="03"
+;
+
+rat_spawner:
+name="Rat Nest"
+description="An Ice Rat nest. You could destroy it..."
+sprite=15281
+flag=IF_USE
+driver=140
+arg="0000000001"
+;
+
+hell_rat_spawner:
+name="Rat Nest"
+description="An Ice Rat nest. You could destroy it..."
+sprite=15281
+flag=IF_USE
+driver=140
+arg="0000000002"
+;
+
+fire_rat_spawner:
+name="Rat Nest"
+description="An Ice Rat nest. You could destroy it..."
+sprite=15281
+flag=IF_USE
+driver=140
+arg="0000000000"
+;
+
+ice_rat_door:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=31
+arg="0066"
+;
+
+fire_rat_door:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=31
+arg="0046"
+;
+
+hell_rat_door:
+name="Steel Door"
+description="A door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=31
+arg="00C8"
+;

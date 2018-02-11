@@ -1,0 +1,32 @@
+gold_2000:
+name="Pile of Gold"
+description="2000 units of Gold"
+sprite=51053
+value=50000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02D0070000"        # 2000
+;
+
+gold_1000:
+name="Pile of Gold"
+description="1000 units of Gold"
+sprite=51053
+value=25000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02E803000"        # 1000
+;
+
+silver_4000:
+name="Pile of Silver"
+description="4000 units of Silver"
+sprite=51054
+value=40000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="01A00F0000"        # 4000
+;

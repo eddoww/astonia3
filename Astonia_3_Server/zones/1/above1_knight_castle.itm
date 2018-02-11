@@ -1,0 +1,197 @@
+opentrap:
+name="opentrap"
+sprite=0
+driver=6
+flag=IF_STEPACTION
+arg="706E"      # x=112, y=110
+;
+
+walldoor:
+sprite=59193
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+knight_opentorch:
+name="Torch"
+description="A torch that looks almost like all the other torches."
+sprite=20074
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=6
+arg="59D7"
+;
+
+knight_teleport:
+name="Magic Teleport"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="2400DD00000001"   # x=36, y=221, a=0, quiet=1
+;
+
+knight_teleport2:
+name="Magic Teleport"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="70006B00000001"   # x=112, y=107, a=0, quiet=1
+;
+#-------------
+knight_chest4:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+#    0001020304050607
+arg="0400000000010001"    # nr 4, no key, 1 hour respawn time, 1 death min.
+;
+treasure_4:
+name="Dagger I"
+description="A heavily used Dagger I."
+value=5
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+;
+#-------------
+knight_chest5:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0500000000010001"    # nr 5, no key, 1 hour respawn time
+;
+treasure_5:
+name="Sword I"
+description="A heavily used Sword I."
+value=10
+sprite=10200
+mod_index=V_WEAPON
+mod_value=8
+req_index=V_SWORD
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_SWORD
+;
+#-------------
+knight_chest6:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0600000000010001"    # nr 6, no key, 1 hour respawn time
+;
+treasure_6:
+name="Armor I"
+description="Light chain mail armor made of iron."
+value=10
+sprite=10040
+mod_index=V_ARMOR
+mod_value=80
+req_index=V_ARMORSKILL
+req_value=1
+flag=IF_TAKE
+flag=IF_WNBODY
+;
+#-------------
+knight_chest7:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0700000000010001"    # nr 7, no key, 1 hour respawn time
+;
+treasure_7:
+name="Helmet I"
+description="Light chain mail helmet made of iron."
+value=7
+sprite=10030
+mod_index=V_ARMOR
+mod_value=32
+req_index=V_ARMORSKILL
+req_value=1
+flag=IF_TAKE
+flag=IF_WNHEAD
+;
+#-------------
+knight_chest8:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0800000000010001"    # nr 8, no key, 1 hour respawn time
+;
+treasure_8:
+name="Torch"
+description="A torch."
+value=10
+sprite=50023
+mod_index=V_LIGHT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNLHAND
+flag=IF_USE
+driver=12
+arg="00007878"
+;
+#-------------
+knight_chest9:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0900000000A800"    # nr 9, no key, 1 week respawn time
+;
+treasure_9:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=104
+flag=IF_TAKE
+flag=IF_MONEY
+value=750
+;
+#-------------
+knight_chest10:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0A00000000A800"    # nr 10, no key, 1 week respawn time
+;
+treasure_10:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=104
+flag=IF_TAKE
+flag=IF_MONEY
+value=1500
+;

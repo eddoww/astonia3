@@ -1,0 +1,38 @@
+gwendy_sign:
+name="Sign"
+description="Gwendylon the Mage"
+sprite=50477
+flag=IF_USE
+flag=IF_FRONTWALL
+;
+
+papa_bear_sign:
+name="Sign"
+description="Papa Bear's Tavern"
+sprite=50478
+flag=IF_USE
+flag=IF_FRONTWALL
+;
+
+papa_bear_head:
+name="Bear Head"
+description="'The toughest bear I ever met!'"
+sprite=50479
+flag=IF_USE
+flag=IF_FRONTWALL
+;
+
+brotherhood_sign:
+name="Sign"
+description="The Brotherhood of the Knights"
+sprite=50480
+flag=IF_USE
+flag=IF_FRONTWALL
+;
+
+order_sign:
+name="Sign"
+description="The Order of the Mages"
+sprite=50121
+flag=IF_USE
+;

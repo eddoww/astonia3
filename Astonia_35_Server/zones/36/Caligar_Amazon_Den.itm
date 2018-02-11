@@ -1,0 +1,107 @@
+amazon_cell_door:
+name="Door"
+description="A locked door."
+sprite=11099
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000100000A"        # developer 1, ID 1
+;
+
+amazon_cell_key:
+name="Amazon Key 1"
+description="Key 1 from the Amazon den in Caligar."
+value=25
+sprite=50004
+ID=0A000001             # developer 1, ID 1
+flag=IF_TAKE
+flag=IF_QUEST
+;
+#########################################
+
+#########################################
+amazon_queen_den_door:
+name="Door"
+description="A locked door."
+sprite=11099
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000200000A"        # developer 1, ID 2
+;
+amazon_queen_den_key:
+name="Amazon Key 2"
+description="Key 2 from the Amazon den in Caligar."
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+sprite=50004
+ID=0A000002             # developer 1, ID 2
+;
+########################################
+amazon_chest_1: # Chest1
+name="Chest"
+description="A chest."
+sprite=20086
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="6F0200000A0100" # chest 1, no key, 1 hour spawn time
+;
+treasure_111:
+name="Homden's Ring of Magic"
+description="A beautiful ring. It contains the inscription of Homden."
+sprite=10347
+mod_index=V_FLASH
+mod_value=10
+mod_index=V_STEALTH
+mod_value=10
+mod_index=V_FREEZE
+mod_value=10
+value=1000
+flag=IF_QUEST
+flag=IF_WNRRING
+flag=IF_WNLRING
+flag=IF_NOENHANCE
+complexity=165000
+quality=165000
+min_level=50
+ID=010000B3
+;
+#################################################
+
+amazon_den_hole:
+name="Hole"
+description="A hole in the ground. It must lead somewhere..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="C200F900000001"   # x=194, y=249, a=0, quiet=1
+;
+
+amazon_cave_ladder:
+name="Ladder"
+description="A ladder leading up..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="8C000700000001"   # x=140, y=7, a=0, quiet=1
+;
+
+cal_armor_spell_8:
+name=Armor
+mod_index=V_ARMOR
+mod_value=40
+;
+
+cal_parry_spell:
+name=Armor
+mod_index=V_PARRY
+mod_value=20
+;

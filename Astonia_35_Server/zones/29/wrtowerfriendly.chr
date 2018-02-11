@@ -1,0 +1,111 @@
+#---- Grinnich the Hermit ----
+grinnich_the_hermit:
+name="Grinnich the Hermit"
+description="You notice cobwebs and spiders in the hermit's beard."
+sprite=314
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_ALIVE
+
+V_HP=50
+V_ENDURANCE=50
+V_MANA=50
+
+V_WIS=50
+V_INT=50
+V_AGI=50
+V_STR=50
+
+V_HAND=50
+V_DAGGER=50
+V_STAFF=50
+V_SWORD=50
+V_TWOHAND=50
+
+# fighting skills
+V_ATTACK=50
+V_PARRY=50
+V_WARCRY=50
+V_TACTICS=50
+V_SURROUND=50
+V_SPEEDSKILL=50
+
+# misc skills
+V_BARTER=50
+V_PERCEPT=50
+V_STEALTH=50
+
+# spells
+V_HEAL=50
+V_FREEZE=50
+V_FLASH=50
+V_FIRE=50
+
+V_REGENERATE=50
+V_MEDITATE=50
+V_IMMUNITY=50
+
+arg="dir=3;"
+driver=104
+group=1
+;
+
+#---- Shanra the Mage ----
+shanra_the_mage:
+name="Shanra the Mage"
+description="A mage powerful in the art of the magics of animation."
+sprite=77
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_ALIVE
+
+V_HP=50
+V_ENDURANCE=50
+V_MANA=50
+
+V_WIS=50
+V_INT=50
+V_AGI=50
+V_STR=50
+
+V_HAND=50
+V_DAGGER=50
+V_STAFF=50
+V_SWORD=50
+V_TWOHAND=50
+
+# fighting skills
+V_ATTACK=0
+V_PARRY=0
+V_WARCRY=0
+V_TACTICS=0
+V_SURROUND=0
+V_SPEEDSKILL=0
+
+# misc skills
+V_BARTER=50
+V_PERCEPT=50
+V_STEALTH=50
+
+# spells
+V_BLESS=50
+V_HEAL=50
+V_FREEZE=50
+V_MAGICSHIELD=50
+V_FLASH=50
+V_FIRE=50
+
+V_REGENERATE=50
+V_MEDITATE=50
+V_IMMUNITY=50
+
+arg="dir=3;"
+driver=105
+group=1
+;

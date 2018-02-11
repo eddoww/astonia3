@@ -1,0 +1,205 @@
+warr_mausoleumkey1:
+name="Mausoleum Key 1"
+description="The first of three keys to the Brannington Mausoleum."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000022
+;
+
+warr_mausoleumdoor1:
+name="a door"
+description="a door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0022000006"
+;
+
+warr_mausoleumkey2:
+name="Mausoleum Key 2"
+description="The second of three keys to the Brannington Mausoleum."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000023
+;
+
+warr_mausoleumdoor2:
+name="a door"
+description="a door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0023000006"
+;
+
+warr_mausoleumkey3:
+name="Mausoleum Key 3"
+description="The third of three keys to the Brannington Mausoleum."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000024
+;
+
+warr_mausoleumdoor3:
+name="a door"
+description="a door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0024000006"
+;
+
+warr_countjewel:
+name="The Jewel of Count Brannington"
+description="One of three heirlooms of the Brannington family."
+value=18
+sprite=10344
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600001F
+;
+
+warr_countessajewel:
+name="The Jewel of Countess Brannington"
+description="One of three heirlooms of the Brannington family."
+value=18
+sprite=10345
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000020
+;
+
+warr_daughterjewel:
+name="The Jewel of Rina Brannington"
+description="One of three heirlooms of the Brannington family."
+value=18
+sprite=10346
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000021
+;
+
+warr_holyrelic:
+name="Holy Relic"
+description="The Brannington Holy Relic, used to guide spirits to the world beyond."
+value=18
+sprite=10436
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000025
+;
+
+warr_brennethdagger:
+name="Brenneth's Dagger"
+description="A Dagger with the name Brenneth and a strange symbol inscribed upon it."
+value=18
+sprite=10391
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000026
+;
+
+warr_brennethpotion:
+name="Brenneth's Potion"
+description="Brenneth's symbol is engraved on this potion flask."
+value=18
+sprite=10429
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000027
+;
+
+warr_brennethjournal:
+name="Necromancer's Journal"
+description="The Journal of the Necromancer, filled with information on his actions."
+value=18
+sprite=15531
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000028
+driver=122
+arg="01"
+;
+
+warr_forestmap:
+name="Forest Map"
+description="A map written in a strange language; perhaps one day someone could translate it."
+value=18
+sprite=21098
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000029
+;
+
+thiefmage_key1:
+name="Thief mage key 1"
+description="A key from one of the thief mages."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600002A
+;
+
+thiefmage_key2:
+name="Thief mage key 2"
+description="A key from one of the thief mages."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600002B
+;
+
+thiefmage_key3:
+name="Thief mage key 3"
+description="A key from one of the thief mages."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600002C
+;
+
+necromancer_key:
+name="Necromancer Key"
+description="A key from the Necromancer"
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600002D
+;

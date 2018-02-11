@@ -1,0 +1,55 @@
+torch:
+name="Torch"
+description="A torch."
+value=10
+sprite=50023
+mod_index=V_LIGHT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNLHAND
+flag=IF_USE
+driver=12
+arg="00007878"
+;
+
+minitorch:
+name="Torch"
+description="A torch."
+value=10
+sprite=50023
+mod_index=V_LIGHT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNLHAND
+flag=IF_USE
+driver=12
+arg="000008E0"
+;
+
+green_torch:
+name="Torch"
+description="A torch."
+value=25
+sprite=59799
+mod_index=V_LIGHT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNLHAND
+flag=IF_USE
+driver=12
+arg="00007878"
+;
+
+blue_torch:
+name="Torch"
+description="A torch."
+value=25
+sprite=59801
+mod_index=V_LIGHT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNLHAND
+flag=IF_USE
+driver=12
+arg="00007878"
+;

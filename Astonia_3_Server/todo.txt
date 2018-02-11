@@ -1,0 +1,9 @@
+
+
+- rww type death for level 2-4 of palace
+
+
+DONE:
+- ale needs a cost/value
+- "bit" door needs a player_driver_stop
+

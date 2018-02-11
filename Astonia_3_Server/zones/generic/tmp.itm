@@ -1,0 +1,66 @@
+bug1:
+name="A Pair of Trousers"
+description="A pair of trousers made of leather"
+value=1000
+sprite=59290
+flag=IF_TAKE
+flag=IF_WNLEGS
+mod_index=V_PARRY
+mod_value=19
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_BLESS
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+min_level=60
+needs_class=8
+;
+
+bug2:
+name="Cape"
+description="A blue cape."
+value=500
+sprite=59384
+flag=IF_TAKE
+flag=IF_WNCLOAK
+mod_index=V_ATTACK
+mod_value=12
+mod_index=V_BLESS
+mod_value=12
+mod_index=V_TACTICS
+mod_value=9
+min_level=36
+needs_class=8
+;
+
+bug3:
+name="Leggings"
+description="Full plate mail leggings made of mithril."
+value=64000
+sprite=10159
+mod_index=V_ARMOR
+mod_value=312
+req_index=V_ARMORSKILL
+req_value=90
+mod_index=V_SWORD
+mod_value=16
+min_level=50
+flag=IF_TAKE
+flag=IF_WNLEGS
+;
+
+test1:
+name="Leggings"
+description="Full plate mail leggings made of mithril."
+value=64000
+sprite=10159
+mod_index=V_ARMOR
+mod_value=312
+req_index=V_ARMORSKILL
+req_value=90
+mod_index=V_SWORD
+mod_value=16
+flag=IF_TAKE
+flag=IF_WNLEGS
+;

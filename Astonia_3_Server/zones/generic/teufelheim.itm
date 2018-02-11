@@ -1,0 +1,1883 @@
+demon_sleeves1:
+name="Sleeves"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53004
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_leggings1:
+name="Leggings"
+description="Leggings made of demon skin."
+value=5000
+sprite=53005
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_helmet1:
+name="Helmet"
+description="Helmet made of demon skin."
+value=5000
+sprite=53001
+mod_index=V_ARMOR
+mod_value=216
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_armor1:
+name="Armor"
+description="Armor made of demon skin."
+value=4000
+sprite=53003
+mod_index=V_ARMOR
+mod_value=540
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_bracelet1:
+name="Bracelet"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53004
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_trousers1:
+name="Trousers"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53005
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_hat1:
+name="Hat"
+description="A hat made of demon skin."
+value=5000
+sprite=53001
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_vest1:
+name="Vest"
+description="A vest made of demon skin."
+value=4000
+sprite=53003
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_cape1:
+name="Cape"
+description="A cape made of demon wings."
+value=4000
+sprite=53002
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_boots1:
+name="Boots"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53006
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A8
+;
+
+demon_sleeves2:
+name="Sleeves"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53034
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_leggings2:
+name="Leggings"
+description="Leggings made of demon skin."
+value=5000
+sprite=53035
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_helmet2:
+name="Helmet"
+description="Helmet made of demon skin."
+value=5000
+sprite=53032
+mod_index=V_ARMOR
+mod_value=376
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_armor2:
+name="Armor"
+description="Armor made of demon skin."
+value=4000
+sprite=53033
+mod_index=V_ARMOR
+mod_value=840
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_bracelet2:
+name="Bracelet"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53034
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_trousers2:
+name="Trousers"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53035
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_hat2:
+name="Hat"
+description="A hat made of demon skin."
+value=5000
+sprite=53032
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_vest2:
+name="Vest"
+description="A vest made of demon skin."
+value=4000
+sprite=53033
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_cape2:
+name="Cape"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53031
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_boots2:
+name="Boots"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53036
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A9
+;
+
+demon_sleeves3:
+name="Sleeves"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53027
+mod_index=V_ARMOR
+mod_value=294
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_leggings3:
+name="Leggings"
+description="Leggings made of demon skin."
+value=5000
+sprite=53028
+mod_index=V_ARMOR
+mod_value=312
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_helmet3:
+name="Helmet"
+description="Helmet made of demon skin."
+value=5000
+sprite=53025
+mod_index=V_ARMOR
+mod_value=416
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_armor3:
+name="Armor"
+description="Armor made of demon skin."
+value=4000
+sprite=53026
+mod_index=V_ARMOR
+mod_value=1040
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_bracelet3:
+name="Bracelet"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53027
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_trousers3:
+name="Trousers"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53028
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_hat3:
+name="Hat"
+description="A hat made of demon skin."
+value=5000
+sprite=53025
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_vest3:
+name="Vest"
+description="A vest made of demon skin."
+value=4000
+sprite=53026
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_cape3:
+name="Cape"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53030
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+demon_boots3:
+name="Boots"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53029
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000AA
+;
+
+# ----------------------------------------- gambler1 ----------------------
+
+#-------------------
+
+demon_warrior1:
+name="Demon Cape of the Warrior"
+description="A cape made of demon wings."
+value=4000
+sprite=53002
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_ATTACK
+mod_value=7
+mod_index=V_PARRY
+mod_value=7
+mod_index=V_IMMUNITY
+mod_value=7
+;
+
+demon_warrior2:
+name="Demon Cape of the Warrior"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53031
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_ATTACK
+mod_value=14
+mod_index=V_PARRY
+mod_value=14
+mod_index=V_IMMUNITY
+mod_value=14
+;
+
+demon_warrior3:
+name="Demon Cape of the Warrior"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53030
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_ATTACK
+mod_value=21
+mod_index=V_PARRY
+mod_value=21
+mod_index=V_IMMUNITY
+mod_value=21
+;
+
+demon_mage1:
+name="Demon Cape of the Mage"
+description="A cape made of demon wings."
+value=4000
+sprite=53002
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=7
+mod_index=V_MAGICSHIELD
+mod_value=7
+mod_index=V_IMMUNITY
+mod_value=7
+;
+
+demon_mage2:
+name="Demon Cape of the Mage"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53031
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=14
+mod_index=V_MAGICSHIELD
+mod_value=14
+mod_index=V_IMMUNITY
+mod_value=14
+;
+
+demon_mage3:
+name="Demon Cape of the Mage"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53030
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=21
+mod_index=V_MAGICSHIELD
+mod_value=21
+mod_index=V_IMMUNITY
+mod_value=21
+;
+#-----------------------
+
+demon_tacoff1:
+name="Demon Boots of Tactical Offense"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53006
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_ATTACK
+mod_value=7
+mod_index=V_TACTICS
+mod_value=7
+;
+
+demon_tacoff2:
+name="Demon Boots of Tactical Offense"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53036
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_ATTACK
+mod_value=14
+mod_index=V_TACTICS
+mod_value=14
+;
+
+demon_tacoff3:
+name="Demon Boots of Tactical Offense"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53029
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_ATTACK
+mod_value=21
+mod_index=V_TACTICS
+mod_value=21
+;
+
+demon_magoff1:
+name="Demon Boots of Magical Offense"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53006
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=7
+mod_index=V_FIREBALL
+mod_value=7
+mod_index=V_PULSE
+mod_value=7
+;
+
+demon_magoff2:
+name="Demon Boots of Magical Offense"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53036
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=14
+mod_index=V_FIREBALL
+mod_value=14
+mod_index=V_PULSE
+mod_value=14
+;
+
+demon_magoff3:
+name="Demon Boots of Magical Offense"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53029
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=21
+mod_index=V_FIREBALL
+mod_value=21
+mod_index=V_PULSE
+mod_value=21
+;
+#-----------------------
+
+demon_tacdef1:
+name="Demon Armor of Tactical Defense"
+description="Armor made of demon skin."
+value=4000
+sprite=53003
+mod_index=V_ARMOR
+mod_value=540
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_PARRY
+mod_value=7
+mod_index=V_TACTICS
+mod_value=7
+;
+
+demon_tacdef2:
+name="Demon Armor of Tactical Defense"
+description="Armor made of demon skin."
+value=4000
+sprite=53033
+mod_index=V_ARMOR
+mod_value=840
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_PARRY
+mod_value=14
+mod_index=V_TACTICS
+mod_value=14
+;
+
+demon_tacdef3:
+name="Demon Armor of Tactical Defense"
+description="Armor made of demon skin."
+value=4000
+sprite=53026
+mod_index=V_ARMOR
+mod_value=1040
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_PARRY
+mod_value=21
+mod_index=V_TACTICS
+mod_value=21
+;
+
+
+demon_magdef1:
+name="Demon Vest of Magical Defense"
+description="A vest made of demon skin."
+value=4000
+sprite=53003
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_MAGICSHIELD
+mod_value=7
+mod_index=V_FREEZE
+mod_value=7
+mod_index=V_HEAL
+mod_value=7
+;
+
+demon_magdef2:
+name="Demon Vest of Magical Defense"
+description="A vest made of demon skin."
+value=4000
+sprite=53033
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_MAGICSHIELD
+mod_value=14
+mod_index=V_FREEZE
+mod_value=14
+mod_index=V_HEAL
+mod_value=14
+;
+
+demon_magdef3:
+name="Demon Vest of Magical Defense"
+description="A vest made of demon skin."
+value=4000
+sprite=53026
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_MAGICSHIELD
+mod_value=21
+mod_index=V_FREEZE
+mod_value=21
+mod_index=V_HEAL
+mod_value=21
+;
+
+#-----------------------
+demon_sword1:
+name="Demon Leggings of Sword"
+description="Leggings made of demon skin."
+value=5000
+sprite=53005
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_SWORD
+mod_value=7
+;
+
+demon_sword2:
+name="Demon Leggings of Sword"
+description="Leggings made of demon skin."
+value=5000
+sprite=53035
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_SWORD
+mod_value=14
+;
+
+demon_sword3:
+name="Demon Leggings of Sword"
+description="Leggings made of demon skin."
+value=5000
+sprite=53028
+mod_index=V_ARMOR
+mod_value=312
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_SWORD
+mod_value=21
+;
+
+demon_flash1:
+name="Demon Trousers of Flash"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53005
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=7
+;
+
+demon_flash2:
+name="Demon Trousers of Flash"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53035
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=14
+;
+
+demon_flash3:
+name="Demon Trousers of Flash"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53028
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=21
+;
+
+#-----------------------
+demon_twohanded1:
+name="Demon Leggings of Two-Handed"
+description="Leggings made of demon skin."
+value=5000
+sprite=53005
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_TWOHAND
+mod_value=7
+;
+
+demon_twohanded2:
+name="Demon Leggings of Two-Handed"
+description="Leggings made of demon skin."
+value=5000
+sprite=53035
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_TWOHAND
+mod_value=14
+;
+
+demon_twohanded3:
+name="Demon Leggings of Two-Handed"
+description="Leggings made of demon skin."
+value=5000
+sprite=53028
+mod_index=V_ARMOR
+mod_value=312
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_TWOHAND
+mod_value=21
+;
+
+demon_fire1:
+name="Demon Trousers of Fire"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53005
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FIREBALL
+mod_value=7
+;
+
+demon_fire2:
+name="Demon Trousers of Fire"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53035
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FIREBALL
+mod_value=14
+;
+
+demon_fire3:
+name="Demon Trousers of Fire"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53028
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FIREBALL
+mod_value=21
+;
+
+
+# ----------------------------------------- gambler2 ----------------------
+
+demon_warrior1b:
+name="Demon Boots of the Warrior"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53006
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_ATTACK
+mod_value=8
+mod_index=V_PARRY
+mod_value=8
+mod_index=V_IMMUNITY
+mod_value=8
+;
+
+demon_warrior2b:
+name="Demon Boots of the Warrior"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53036
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_ATTACK
+mod_value=15
+mod_index=V_PARRY
+mod_value=15
+mod_index=V_IMMUNITY
+mod_value=15
+;
+
+demon_warrior3b:
+name="Demon Boots of the Warrior"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53029
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_ATTACK
+mod_value=22
+mod_index=V_PARRY
+mod_value=22
+mod_index=V_IMMUNITY
+mod_value=22
+;
+
+demon_mage1b:
+name="Demon Boots of the Mage"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53006
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=8
+mod_index=V_MAGICSHIELD
+mod_value=8
+mod_index=V_IMMUNITY
+mod_value=8
+;
+
+demon_mage2b:
+name="Demon Boots of the Mage"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53036
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=15
+mod_index=V_MAGICSHIELD
+mod_value=15
+mod_index=V_IMMUNITY
+mod_value=15
+;
+
+demon_mage3b:
+name="Demon Boots of the Mage"
+description="A pair of boots made of demon skin."
+value=4000
+sprite=53029
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=22
+mod_index=V_MAGICSHIELD
+mod_value=22
+mod_index=V_IMMUNITY
+mod_value=22
+;
+
+# ----------
+
+demon_tacoff1b:
+name="Demon Cape of Tactical Offense"
+description="A cape made of demon wings."
+value=4000
+sprite=53002
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_ATTACK
+mod_value=8
+mod_index=V_TACTICS
+mod_value=8
+;
+
+demon_tacoff2b:
+name="Demon Cape of Tactical Offense"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53031
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_ATTACK
+mod_value=15
+mod_index=V_TACTICS
+mod_value=15
+;
+
+demon_tacoff3b:
+name="Demon Cape of Tactical Offense"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53030
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_ATTACK
+mod_value=22
+mod_index=V_TACTICS
+mod_value=22
+;
+
+demon_magoff1b:
+name="Demon Cape of Magical Offense"
+description="A cape made of demon wings."
+value=4000
+sprite=53002
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=8
+mod_index=V_FIREBALL
+mod_value=8
+mod_index=V_PULSE
+mod_value=8
+;
+
+demon_magoff2b:
+name="Demon Cape of Magical Offense"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53031
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=15
+mod_index=V_FIREBALL
+mod_value=15
+mod_index=V_PULSE
+mod_value=15
+;
+
+demon_magoff3b:
+name="Demon Cape of Magical Offense"
+description="A cape made of a demon's tail."
+value=4000
+sprite=53030
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=22
+mod_index=V_FIREBALL
+mod_value=22
+mod_index=V_PULSE
+mod_value=22
+;
+
+demon_tacdef1b:
+name="Demon Helmet of Tactical Defense"
+description="Helmet made of demon skin."
+value=5000
+sprite=53001
+mod_index=V_ARMOR
+mod_value=216
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_PARRY
+mod_value=8
+mod_index=V_TACTICS
+mod_value=8
+;
+
+demon_tacdef2b:
+name="Demon Helmet of Tactical Defense"
+description="Helmet made of demon skin."
+value=5000
+sprite=53032
+mod_index=V_ARMOR
+mod_value=376
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_PARRY
+mod_value=15
+mod_index=V_TACTICS
+mod_value=15
+;
+
+demon_tacdef3b:
+name="Demon Helmet of Tactical Defense"
+description="Helmet made of demon skin."
+value=5000
+sprite=53025
+mod_index=V_ARMOR
+mod_value=416
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_PARRY
+mod_value=22
+mod_index=V_TACTICS
+mod_value=22
+;
+
+demon_magdef1b:
+name="Demon Hat of Magical Defense"
+description="A hat made of demon skin."
+value=5000
+sprite=53001
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_MAGICSHIELD
+mod_value=8
+mod_index=V_FREEZE
+mod_value=8
+mod_index=V_HEAL
+mod_value=8
+;
+
+demon_magdef2b:
+name="Demon Hat of Magical Defense"
+description="A hat made of demon skin."
+value=5000
+sprite=53032
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_MAGICSHIELD
+mod_value=15
+mod_index=V_FREEZE
+mod_value=15
+mod_index=V_HEAL
+mod_value=15
+;
+
+demon_magdef3b:
+name="Demon Hat of Magical Defense"
+description="A hat made of demon skin."
+value=5000
+sprite=53025
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_MAGICSHIELD
+mod_value=22
+mod_index=V_FREEZE
+mod_value=22
+mod_index=V_HEAL
+mod_value=22
+;
+
+demon_sword1b:
+name="Demon Sleeves of Sword"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53004
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_SWORD
+mod_value=8
+;
+
+demon_sword2b:
+name="Demon Sleeves of Sword"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53034
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_SWORD
+mod_value=15
+;
+
+demon_sword3b:
+name="Demon Sleeves of Sword"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53027
+mod_index=V_ARMOR
+mod_value=294
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_SWORD
+mod_value=22
+;
+
+demon_twohanded1b:
+name="Demon Sleeves of Twohanded"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53004
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_TWOHAND
+mod_value=8
+;
+
+demon_twohanded2b:
+name="Demon Sleeves of Twohanded"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53034
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_TWOHAND
+mod_value=15
+;
+
+demon_twohanded3b:
+name="Demon Sleeves of Twohanded"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53027
+mod_index=V_ARMOR
+mod_value=294
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_TWOHAND
+mod_value=22
+;
+
+demon_flash1b:
+name="Demon Bracelet of Flash"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53004
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=8
+;
+
+demon_flash2b:
+name="Demon Bracelet of Flash"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53034
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=15
+;
+
+demon_flash3b:
+name="Demon Bracelet of Flash"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53027
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=22
+;
+
+demon_fire1b:
+name="Demon Bracelet of Fire"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53004
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FIREBALL
+mod_value=8
+;
+
+demon_fire2b:
+name="Demon Bracelet of Fire"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53034
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FIREBALL
+mod_value=15
+;
+
+demon_fire3b:
+name="Demon Bracelet of Fire"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53027
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FIREBALL
+mod_value=22
+;
+
+# ----------------------------------------- gambler3 ----------------------
+
+
+demon_warrior1c:
+name="Demon Helmet of the Warrior"
+description="Helmet made of demon skin."
+value=5000
+sprite=53001
+mod_index=V_ARMOR
+mod_value=216
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_ATTACK
+mod_value=9
+mod_index=V_PARRY
+mod_value=9
+mod_index=V_IMMUNITY
+mod_value=9
+;
+
+demon_warrior2c:
+name="Demon Helmet of the Warrior"
+description="Helmet made of demon skin."
+value=5000
+sprite=53032
+mod_index=V_ARMOR
+mod_value=376
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_ATTACK
+mod_value=16
+mod_index=V_PARRY
+mod_value=16
+mod_index=V_IMMUNITY
+mod_value=16
+;
+
+demon_warrior3c:
+name="Demon Helmet of the Warrior"
+description="Helmet made of demon skin."
+value=5000
+sprite=53025
+mod_index=V_ARMOR
+mod_value=416
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_ATTACK
+mod_value=23
+mod_index=V_PARRY
+mod_value=23
+mod_index=V_IMMUNITY
+mod_value=23
+;
+
+demon_mage1c:
+name="Demon Hat of the Mage"
+description="A hat made of demon skin."
+value=5000
+sprite=53001
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=9
+mod_index=V_MAGICSHIELD
+mod_value=9
+mod_index=V_IMMUNITY
+mod_value=9
+;
+
+demon_mage2c:
+name="Demon Hat of the Mage"
+description="A hat made of demon skin."
+value=5000
+sprite=53032
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=16
+mod_index=V_MAGICSHIELD
+mod_value=16
+mod_index=V_IMMUNITY
+mod_value=16
+;
+
+demon_mage3c:
+name="Demon Hat of the Mage"
+description="A hat made of demon skin."
+value=5000
+sprite=53025
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=23
+mod_index=V_MAGICSHIELD
+mod_value=23
+mod_index=V_IMMUNITY
+mod_value=23
+;
+
+
+demon_tacoff1c:
+name="Demon Sleeves of Tactical Offense"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53004
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_ATTACK
+mod_value=9
+mod_index=V_TACTICS
+mod_value=9
+;
+
+
+demon_tacoff2c:
+name="Demon Sleeves of Tactical Offense"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53034
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_ATTACK
+mod_value=16
+mod_index=V_TACTICS
+mod_value=16
+;
+
+demon_tacoff3c:
+name="Demon Sleeves of Tactical Offense"
+description="Sleeves made of demon skin."
+value=5000
+sprite=53027
+mod_index=V_ARMOR
+mod_value=294
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_ATTACK
+mod_value=23
+mod_index=V_TACTICS
+mod_value=23
+;
+
+demon_magoff1c:
+name="Demon Bracelet of Magical Offense"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53004
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=9
+mod_index=V_FIREBALL
+mod_value=9
+mod_index=V_PULSE
+mod_value=9
+;
+
+demon_magoff2c:
+name="Demon Bracelet of Magical Offense"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53034
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=16
+mod_index=V_FIREBALL
+mod_value=16
+mod_index=V_PULSE
+mod_value=16
+;
+
+demon_magoff3c:
+name="Demon Bracelet of Magical Offense"
+description="A bracelet made of demon skin."
+value=5000
+sprite=53027
+flag=IF_TAKE
+flag=IF_WNARMS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=23
+mod_index=V_FIREBALL
+mod_value=23
+mod_index=V_PULSE
+mod_value=23
+;
+
+demon_tacdef1c:
+name="Demon Leggings of Tactical Defense"
+description="Leggings made of demon skin."
+value=5000
+sprite=53005
+mod_index=V_ARMOR
+mod_value=162
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_PARRY
+mod_value=9
+mod_index=V_TACTICS
+mod_value=9
+;
+
+demon_tacdef2c:
+name="Demon Leggings of Tactical Defense"
+description="Leggings made of demon skin."
+value=5000
+sprite=53035
+mod_index=V_ARMOR
+mod_value=282
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_PARRY
+mod_value=16
+mod_index=V_TACTICS
+mod_value=16
+;
+
+demon_tacdef3c:
+name="Demon Leggings of Tactical Defense"
+description="Leggings made of demon skin."
+value=5000
+sprite=53028
+mod_index=V_ARMOR
+mod_value=312
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_PARRY
+mod_value=23
+mod_index=V_TACTICS
+mod_value=23
+;
+
+demon_magdef1c:
+name="Demon Trousers of Magical Defense"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53005
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_MAGICSHIELD
+mod_value=9
+mod_index=V_FREEZE
+mod_value=9
+mod_index=V_HEAL
+mod_value=9
+;
+
+demon_magdef2c:
+name="Demon Trousers of Magical Defense"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53035
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_MAGICSHIELD
+mod_value=16
+mod_index=V_FREEZE
+mod_value=16
+mod_index=V_HEAL
+mod_value=16
+;
+
+
+demon_magdef3c:
+name="Demon Trousers of Magical Defense"
+description="A pair of trousers made of demon skin."
+value=5000
+sprite=53028
+flag=IF_TAKE
+flag=IF_WNLEGS
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_MAGICSHIELD
+mod_value=23
+mod_index=V_FREEZE
+mod_value=23
+mod_index=V_HEAL
+mod_value=23
+;
+
+demon_sword1c:
+name="Demon Armor of Sword"
+description="Armor made of demon skin."
+value=4000
+sprite=53003
+mod_index=V_ARMOR
+mod_value=540
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_SWORD
+mod_value=9
+;
+
+demon_sword2c:
+name="Demon Armor of Sword"
+description="Armor made of demon skin."
+value=4000
+sprite=53033
+mod_index=V_ARMOR
+mod_value=840
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_SWORD
+mod_value=16
+;
+
+demon_sword3c:
+name="Demon Armor of Sword"
+description="Armor made of demon skin."
+value=4000
+sprite=53026
+mod_index=V_ARMOR
+mod_value=1040
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_SWORD
+mod_value=23
+;
+
+demon_twohanded1c:
+name="Demon Armor of Twohanded"
+description="Armor made of demon skin."
+value=4000
+sprite=53003
+mod_index=V_ARMOR
+mod_value=540
+req_index=V_ARMORSKILL
+req_value=40
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_TWOHAND
+mod_value=9
+;
+
+demon_twohanded2c:
+name="Demon Armor of Twohanded"
+description="Armor made of demon skin."
+value=4000
+sprite=53033
+mod_index=V_ARMOR
+mod_value=840
+req_index=V_ARMORSKILL
+req_value=80
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_TWOHAND
+mod_value=16
+;
+
+demon_twohanded3c:
+name="Demon Armor of Twohanded"
+description="Armor made of demon skin."
+value=4000
+sprite=53026
+mod_index=V_ARMOR
+mod_value=1040
+req_index=V_ARMORSKILL
+req_value=90
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_TWOHAND
+mod_value=23
+;
+
+
+demon_flash1c:
+name="Demon Vest of Flash"
+description="A vest made of demon skin."
+value=4000
+sprite=53003
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FLASH
+mod_value=9
+;
+
+demon_flash2c:
+name="Demon Vest of Flash"
+description="A vest made of demon skin."
+value=4000
+sprite=53033
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FLASH
+mod_value=16
+;
+
+demon_flash3c:
+name="Demon Vest of Flash"
+description="A vest made of demon skin."
+value=4000
+sprite=53026
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FLASH
+mod_value=23
+;
+
+
+demon_fire1c:
+name="Demon Vest of Fire"
+description="A vest made of demon skin."
+value=4000
+sprite=53003
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A8
+mod_index=V_FIREBALL
+mod_value=9
+;
+
+demon_fire2c:
+name="Demon Vest of Fire"
+description="A vest made of demon skin."
+value=4000
+sprite=53033
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000A9
+mod_index=V_FIREBALL
+mod_value=16
+;
+
+demon_fire3c:
+name="Demon Vest of Fire"
+description="A vest made of demon skin."
+value=4000
+sprite=53026
+flag=IF_TAKE
+flag=IF_WNBODY
+flag=IF_NOENHANCE
+ID=010000AA
+mod_index=V_FIREBALL
+mod_value=23
+;
+
+

@@ -1,0 +1,545 @@
+# --- fountain --------------------------------------------------------------------------
+
+lab5_obelisk:
+name="Obelisk"
+description="It is emitting a healthy and warm feeling. Try and touch it."
+sprite=11127
+mod_index=V_LIGHT
+mod_value=500
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="01"                # type=1
+;
+
+# --- light -----------------------------------------------------------------------------
+
+lab5_light:
+sprite=11139
+mod_index=V_LIGHT
+mod_value=250
+flag=IF_MOVEBLOCK
+;
+
+# --- chestboxes ------------------------------------------------------------------------
+
+lab5_chestbox1:
+name="Chest"
+sprite=11147
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0301"              # type=3; contains=1
+;
+
+lab5_chestbox2:
+name="Chest"
+sprite=11149
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0301"              # type=3; contains=1
+;
+
+lab5_chestbox_mana1:
+name="Chest"
+sprite=11190
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0306"              # type=3; contains=6
+;
+
+lab5_chestbox_mana2:
+name="Chest"
+sprite=11192
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0306"              # type=3; contains=6
+;
+
+# --- potions ---------------------------------------------------------------------------
+
+lab5_combopotion:
+name="Magical Combo Potion"
+description="A bottle containing a yellow liquid."
+sprite=11151
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+flag=IF_LABITEM
+driver=190              # IDR_LAB5_ITEM
+arg="04"                # type=4
+;
+
+lab5_manapotion:
+name="Magical Mana Potion"
+description="A bottle containing a blue liquid."
+sprite=11188
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+flag=IF_LABITEM
+driver=190              # IDR_LAB5_ITEM
+arg="0C"                # type=12
+;
+
+# --- firefaves -------------------------------------------------------------------------
+
+lab5_fireface1:
+sprite=11135
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="02"                # type=2
+;
+
+lab5_fireface2:
+sprite=11136
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="02"                # type=2
+;
+
+lab5_fireface3:
+sprite=11137
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="02"                # type=2
+;
+
+lab5_fireface4:
+sprite=11138
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="02"                # type=2
+;
+
+lab5_lightface1:
+sprite=11135
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0D"                # type=13
+;
+
+lab5_lightface2:
+sprite=11136
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0D"                # type=13
+;
+
+lab5_lightface3:
+sprite=11137
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0D"                # type=13
+;
+
+lab5_lightface4:
+sprite=11138
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0D"                # type=13
+;
+
+# --- plates ----------------------------------------------------------------------------
+
+lab5_name_1:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11155
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0501"              # type=5; daemon=1
+;
+
+lab5_name_2:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11156
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0502"              # type=5; daemon=2
+;
+
+lab5_name_3:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11153
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0503"              # type=5; daemon=3
+;
+
+
+lab5_realname_1:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11155
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0601"              # type=6; daemon=1
+;
+
+lab5_realname_2:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11156
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0602"              # type=6; daemon=2
+;
+
+lab5_realname_3:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11153
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0603"              # type=6; daemon=3
+;
+
+lab5_realname_fake1:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11153
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0601"              # type=6; daemon=0
+;
+
+lab5_realname_fake2:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11154
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0601"              # type=6; daemon=0
+;
+
+lab5_realname_fake3:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11155
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0601"              # type=6; daemon=0
+;
+
+lab5_realname_fake4:
+name="Plate"
+description="A Plate with some hard to read symbols written on."
+sprite=11156
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0601"              # type=6; daemon=0
+;
+
+lab5_entrance_1:
+sprite=5
+flag=IF_STEPACTION
+driver=190              # IDR_LAB5_ITEM
+arg="0701"              # type=7; daemon=1
+;
+
+lab5_entrance_2:
+sprite=5
+flag=IF_STEPACTION
+driver=190              # IDR_LAB5_ITEM
+arg="0702"              # type=7; daemon=2
+;
+
+lab5_entrance_3:
+sprite=5
+flag=IF_STEPACTION
+driver=190              # IDR_LAB5_ITEM
+arg="0703"              # type=7; daemon=3
+;
+
+lab5_entrance_4:
+sprite=5
+flag=IF_STEPACTION
+driver=190              # IDR_LAB5_ITEM
+arg="0700"              # type=7; daemon=none
+;
+
+# --- heads -----------------------------------------------------------------------------
+
+lab5_head1:
+name="Demon Head"
+description="The head of the Demon thou hast slain."
+sprite=11169
+ID=0200000D             # developer 2, IID_LAB5_HEAD1 (0x0D)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+lab5_head2:
+name="Daemonhead"
+description="The head of the Breth ona, whom thou hast slain."
+sprite=11170
+ID=0200000E             # developer 2, IID_LAB5_HEAD2 (0x0E)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+lab5_head3:
+name="Daemonhead"
+description="The Head of the Demon thou hast slain."
+sprite=11171
+ID=0200000F             # developer 2, IID_LAB5_HEAD3 (0x0F)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+
+# --- weapon ----------------------------------------------------------------------------
+
+lab5_manslayer:
+name="Blackjack"
+description="A sacred blackjack made of stone."
+value=1000
+sprite=11194
+mod_index=V_WEAPON
+mod_value=24
+req_index=V_HAND
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_HAND
+flag=IF_QUEST
+flag=IF_LABITEM
+ID=02000010             # developer 2, IID_LAB5_WEAPON (0x10)
+;
+
+lab5_dagger:
+name="Dagger"
+description="A sacred Dagger made of stone."
+value=500
+sprite=11173
+mod_index=V_WEAPON
+mod_value=31
+mod_index=V_DAGGER
+mod_value=10
+mod_index=V_ARMOR
+mod_value=60
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+flag=IF_LABITEM
+ID=02000010             # developer 2, IID_LAB5_WEAPON (0x10)
+;
+
+lab5_staff:
+name="Staff"
+description="A sacred Staff made of stone."
+value=700
+sprite=11172
+mod_index=V_WEAPON
+mod_value=32
+mod_index=V_STAFF
+mod_value=10
+mod_index=V_ARMOR
+mod_value=60
+req_index=V_STAFF
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_WNTWOHANDED
+flag=IF_STAFF
+flag=IF_QUEST
+flag=IF_LABITEM
+ID=02000010             # developer 2, IID_LAB5_WEAPON (0x10)
+;
+
+lab5_sword:
+name="Sword"
+description="A sacred Sword made of stone."
+value=1000
+sprite=11174
+mod_index=V_WEAPON
+mod_value=34
+req_index=V_SWORD
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_SWORD
+flag=IF_QUEST
+flag=IF_LABITEM
+ID=02000010             # developer 2, IID_LAB5_WEAPON (0x10)
+;
+
+lab5_twohanded:
+name="Two-Handed Sword"
+description="A sacred Two-Handed Sword made of stone."
+value=1500
+sprite=11175
+mod_index=V_WEAPON
+mod_value=37
+req_index=V_TWOHAND
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_WNTWOHANDED
+flag=IF_TWOHAND
+flag=IF_QUEST
+flag=IF_LABITEM
+ID=02000010             # developer 2, IID_LAB5_WEAPON (0x10)
+;
+
+lab5_chestbox_manslayer:
+name="Chest"
+sprite=11149
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0307"              # type=3; contains=7
+;
+
+lab5_chestbox_staff:
+name="Chest"
+sprite=11147
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0302"              # type=3; contains=2
+;
+
+lab5_chestbox_dagger:
+name="Chest"
+sprite=11147
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0303"              # type=3; contains=3
+;
+
+lab5_chestbox2_sword:
+name="Chest"
+sprite=11147
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0304"              # type=3; contains=4
+;
+
+lab5_chestbox2_twohanded:
+name="Chest"
+sprite=11147
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=190              # IDR_LAB5_ITEM
+arg="0305"              # type=3; contains=5
+;
+
+
+# --- doors -----------------------------------------------------------------------------
+
+lab5_no_potions:
+name="Door"
+description="A steel door."
+sprite=17050
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="0B"                # type=11;
+;
+
+lab5_back:
+name="Door"
+description="A steel door."
+sprite=17050
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="08"                # type=8;
+;
+
+lab5_key1_door:
+name="Door"
+description="A wooden door."
+sprite=16057
+flag=IF_USE
+flag=IF_DOOR
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=2
+arg="0011000002"        # developer 2, IID_LAB5_KEY1
+;
+
+lab5_key1_door2:
+name="Door"
+description="A wooden door."
+sprite=16055
+flag=IF_USE
+flag=IF_DOOR
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=2
+arg="0011000002"        # developer 2, IID_LAB5_KEY1
+;
+
+lab5_key1:
+name="Key"
+description="A door key."
+value=5
+sprite=11019
+ID=02000011             # developer 2, IID_LAB5_KEY1
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+lab5_secret_door1:
+sprite=11176
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=2
+;
+
+# --- gun -------------------------------------------------------------------------------
+
+lab5_gun:
+name="Gun"
+description="A gun with a lever to use."
+sprite=11178
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=190              # IDR_LAB5_ITEM
+arg="09"                # type=9;
+;
+
+# --- pike ------------------------------------------------------------------------------
+
+lab5_pike1:
+name="Pike"
+sprite=11186
+flag=IF_STEPACTION
+driver=190              # IDR_LAB5_ITEM
+arg="0A"                # type=10;
+;

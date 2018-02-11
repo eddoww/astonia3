@@ -1,0 +1,235 @@
+to_exkordon:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="46000400110001"   #
+;
+
+to_brannington:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="C300FA001D0001"   #
+;
+
+to_ws_robber:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="E800E6001C0001"   # x= y= a= quiet=
+;
+
+robber_teleport1a:	# obsolete
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="E800E600000001"   # x= y= a= quiet=
+;
+
+robber_teleport1b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="AA00BE001D0001"   # 170 190 29
+
+;
+
+robber_teleport2a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="CC009900000001"   # 204,153 a= quiet=
+;
+
+robber_teleport2b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="BC00CC00000001"   # 188,204 a= quiet=
+;
+
+robber_teleport3a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="D5009900000001"   # 213,153 a= quiet=
+;
+
+robber_teleport3b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="BD00CA00000001"   # 189,202 a= quiet=
+;
+
+robber_teleport4a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="EA009800000001"   # 234,152 a= quiet=
+;
+
+robber_teleport4b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="C000C400000001"   # 192,196 a= quiet=
+;
+
+robber_teleport5a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="F8008900000001"   # 248,137 a= quiet=
+;
+
+robber_teleport5b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="BE00BA00000001"   # 190,186 a= quiet=
+;
+
+robber_teleport6a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="EB007E00000001"   # 235,126 a= quiet=
+;
+
+robber_teleport6b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="C900CC00000001"   # 201,204 a= quiet=
+;
+
+robber_teleport7a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="FC006800000001"   # 252,104 a= quiet=
+;
+
+robber_teleport7b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="CD00CA00000001"   # 205,202 a= quiet=
+;
+
+robber_teleport8a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="CC007100000001"   # 204,115 a= quiet=
+;
+
+robber_teleport8b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="C900C400000001"   # 201,196 a= quiet=
+;
+
+robber_teleport9a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="C2007300000001"   # 194,113 a= quiet=
+;
+
+robber_teleport9b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="CD00BA00000001"   # 205,186 a= quiet=
+;
+
+
+robber_teleport10a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="FC00B600000001"   # 252,182 a= quiet=
+;
+
+robber_teleport10b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="F9009800000001"   # 249,152 a= quiet=
+;
+
+robber_teleport11a:
+name="Hole"
+description="A hole in the ground leading... down..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="FC00DC00000001"   # 252,220 a= quiet=
+;
+
+robber_teleport11b:
+name="Ladder"
+description="A Ladder, you look up and see light"
+#sprite=50018 #NE/SW facing
+sprite=50019 #NW/SE facing
+flag=IF_USE
+driver=10
+arg="FD00E600000001"   # 253,230 a= quiet=
+;

@@ -1,0 +1,21 @@
+scroll_of_hp:
+name="Scroll"
+description="Scroll of Hitpoints"
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=19
+arg="0001"
+;
+
+scroll_of_mana:
+name="Scroll"
+description="Scroll of Mana"
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+driver=19
+arg="0201"
+;

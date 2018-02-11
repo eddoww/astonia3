@@ -1,0 +1,65 @@
+Pot_Maker:
+name="Pot Maker"
+description="A potmaker, clay all over his clothes."
+sprite=59
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_HASNAME
+flag=CF_ALIVE
+flag=CF_QUESTITEM
+
+V_HP=60
+V_ENDURANCE=90
+V_MANA=0
+
+V_WIS=40
+V_INT=90
+V_AGI=90
+V_STR=90
+
+# weapon skills
+V_DAGGER=1
+V_HAND=1
+V_STAFF=0
+V_SWORD=90
+V_TWOHAND=1
+
+# fighting skills
+V_ATTACK=74
+V_PARRY=74
+V_WARCRY=100
+V_TACTICS=64
+V_SURROUND=1
+V_ARMORSKILL=80
+V_BODYCONTROL=59
+V_SPEEDSKILL=90
+
+# misc skills
+V_BARTER=1
+V_PERCEPT=4
+V_STEALTH=4
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIREBALL=0
+
+V_REGENERATE=15
+V_MEDITATE=0
+V_IMMUNITY=80
+
+WN_RHAND=sword10q1
+WN_BODY=armor9q1
+WN_HEAD=helmet9q1
+WN_ARMS=sleeves9q1
+WN_LEGS=leggings9q1
+
+driver=145
+group=1
+class=1
+;

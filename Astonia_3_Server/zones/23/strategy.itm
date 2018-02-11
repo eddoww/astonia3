@@ -1,0 +1,326 @@
+ticker:
+sprite=0
+driver=109
+;
+
+nosnow:
+sprite=0
+driver=110
+;
+
+link_to_exkordon:
+name="Ladder"
+description="A ladder leading up."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="07006A00110001"   # x=7, y=106, a=17, quiet=1
+;
+
+link_to_ice:
+name="Door"
+description="A door leading to more Ice Caves."
+sprite=16035
+flag=IF_USE
+driver=10
+arg="13000200180001"   # x=19, y=2, a=23, quiet=1
+;
+
+
+#---------- set 01 -------------
+goldmine:
+name="Platinum Mine"
+description="A platinum mine."
+sprite=15137
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=105
+arg="000000000004000001"
+;
+
+depot:
+name="Depot"
+description="A depot to store gold temporarily."
+sprite=15272
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=108
+arg="000000000000000001"
+;
+
+storage:
+name="Storage"
+description="The storage contains all gold collected so far."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=106
+arg="000000000002000001"
+;
+
+spawner:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="000000000000000001"
+;
+
+evil_spawner:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="00f0ffff0000000001"
+;
+
+
+#---------- set 02 -------------
+goldmine02:
+name="Platinum Mine"
+description="A platinum mine."
+sprite=15137
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=105
+arg="000000000004000002"
+;
+
+depot02:
+name="Depot"
+description="A depot to store gold temporarily."
+sprite=15272
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=108
+arg="000000000000000002"
+;
+
+storage02:
+name="Storage"
+description="The storage contains all gold collected so far."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=106
+arg="000000000002000002"
+;
+
+spawner02:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="000000000000000002"
+;
+
+evil_spawner02:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="00f0ffff0000000002"
+;
+
+
+#---------- set 03 -------------
+goldmine03:
+name="Platinum Mine"
+description="A platinum mine."
+sprite=15137
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=105
+arg="000000000004000003"
+;
+
+depot03:
+name="Depot"
+description="A depot to store gold temporarily."
+sprite=15272
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=108
+arg="000000000000000003"
+;
+
+storage03:
+name="Storage"
+description="The storage contains all gold collected so far."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=106
+arg="000000000002000003"
+;
+
+spawner03:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="000000000000000003"
+;
+
+evil_spawner03:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="00f0ffff0000000003"
+;
+
+#---------- set 04 -------------
+goldmine04:
+name="Platinum Mine"
+description="A platinum mine."
+sprite=15137
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=105
+arg="000000000004000004"
+;
+
+depot04:
+name="Depot"
+description="A depot to store gold temporarily."
+sprite=15272
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=108
+arg="000000000000000004"
+;
+
+storage04:
+name="Storage"
+description="The storage contains all gold collected so far."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=106
+arg="000000000002000004"
+;
+
+spawner04:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="000000000000000004"
+;
+
+evil_spawner04:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="00f0ffff0000000004"
+;
+
+
+#---------- set 05 -------------
+goldmine05:
+name="Platinum Mine"
+description="A platinum mine."
+sprite=15137
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=105
+arg="000000000004000005"
+;
+
+depot05:
+name="Depot"
+description="A depot to store gold temporarily."
+sprite=15272
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=108
+arg="000000000000000005"
+;
+
+storage05:
+name="Storage"
+description="The storage contains all gold collected so far."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=106
+arg="000000000002000005"
+;
+
+spawner05:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="000000000000000005"
+;
+
+evil_spawner05:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="00f0ffff0000000005"
+;
+
+#---------- set 06 -------------
+goldmine06:
+name="Platinum Mine"
+description="A platinum mine."
+sprite=15137
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=105
+arg="000000000004000006"
+;
+
+depot06:
+name="Depot"
+description="A depot to store gold temporarily."
+sprite=15272
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=108
+arg="000000000000000006"
+;
+
+storage06:
+name="Storage"
+description="The storage contains all gold collected so far."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=106
+arg="000000000002000006"
+;
+
+spawner06:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="000000000000000006"
+;
+
+evil_spawner06:
+name="Spawner"
+description="The spawner is used to create new workers."
+sprite=50015
+flag=IF_USE
+driver=107
+arg="00f0ffff0000000006"
+;
+

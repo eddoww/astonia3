@@ -1,0 +1,207 @@
+Creeper_stairs_down:
+name="Stairs"
+description="Stairs, leading somewhere."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="F700B800000001"   # x=247, y=184, a=0, quiet=1
+;
+
+Creeper_stairs_up:
+name="Stairs"
+description="Stairs, leading somewhere."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="EC00B200000001"   # x=236, y=178, a=0, quiet=1
+;
+
+Teleporter_door_17:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E900AD00000001"   # x=233, y=173, a=0, quiet=1
+;
+
+Teleporter_door_15:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="FB00B600000001"   # x=251, y=186, a=0, quiet=1
+;
+
+Teleporter_door_14:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="EE00AB00000001"   # x=238, y=171, a=0, quiet=1
+;
+
+Teleporter_door_11:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="F900BB00000001"   # x=249, y=187, a=0, quiet=1
+;
+
+Teleporter_door_2:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="EE00AD00000001"   # x=238, y=173, a=0, quiet=1
+;
+
+Teleporter_door_9:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="DB00A800000001"   # x=219, y=168, a=0, quiet=1
+;
+
+Teleporter_door_16:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="DB00A800000001"   # x=219, y=168, a=0, quiet=1
+;
+
+Teleporter_door_6:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="E900AD00000001"   # x=233, y=173, a=0, quiet=1
+;
+
+Teleporter_door_10:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="F300AB00000001"   # x=243, y=171, a=0, quiet=1
+;
+
+Teleporter_door_1:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="F500B600000001"   # x=245, y=182, a=0, quiet=1
+;
+
+Teleporter_door_20:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="ED00A800000001"   # x=224, y=168, a=0, quiet=1
+;
+
+Teleporter_door_13:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="ED00A800000001"   # x=224, y=168, a=0, quiet=1
+;
+
+Teleporter_door_5:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="FB00BA00000001"   # x=251, y=186, a=0, quiet=1
+;
+
+Teleporter_door_21:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="F500B600000001"   # x=245, y=182, a=0, quiet=1
+;
+
+Teleporter_nr7:
+name="Teleporter"
+description="A teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="FA00B000000001"   # x=250, y=176, a=0, quiet=1
+;
+
+Teleporter_door_22:
+name="Teleporter"
+description="A Teleporter door."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=50
+driver=10
+arg="E100A800000001"   # x=225, y=168, a=0, quiet=1
+;

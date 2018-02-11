@@ -1,0 +1,107 @@
+caligar_vamp_training_door: #17
+name="Gate"
+description="A gate... how exciting!"
+sprite=20593
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001300000A"
+;
+
+caligar_zomb_training_door: #18
+name="Gate"
+description="A gate... how exciting!"
+sprite=20593
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001200000A"
+;
+
+caligar_skel_training_door: #19
+name="Gate"
+description="A gate... how exciting!"
+sprite=20593
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001100000A"
+;
+
+caligar_skel_training_obelisk: #17
+name="Obelisk of Bone"
+description="It looks like it may open something."
+sprite=13417
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A000011
+;
+
+caligar_zomb_training_obelisk: #18
+name="Obelisk of Flesh"
+description="It looks like it may open something."
+sprite=13418
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A000012
+;
+
+caligar_vamp_training_obelisk: #19
+name="Obelisk of Blood"
+description="It looks like it may open something."
+sprite=13419
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A000013
+;
+
+caligar_skel_training_keyp:
+name="Key Part II"
+description="It's part of a key"
+sprite=51130
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000B0
+;
+
+caligar_zomb_training_keyp:
+name="Key Part I"
+description="It's part of a key"
+sprite=51131
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000B1
+;
+
+caligar_vamp_training_keyp:
+name="Key Part III"
+description="It's part of a key"
+sprite=51132
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000B2
+;
+
+caligar_skel_training_light:
+name="Firey Skull"
+description="Looks warm."
+sprite=1024
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;

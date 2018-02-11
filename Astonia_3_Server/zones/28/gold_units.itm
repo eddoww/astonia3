@@ -1,0 +1,11 @@
+gold_2000:
+name="Pile of Gold"
+description="2000 units of Gold"
+sprite=51053
+value=50000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02D0070000"        # 200
+;
+

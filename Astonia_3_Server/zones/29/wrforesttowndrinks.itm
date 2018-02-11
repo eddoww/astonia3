@@ -1,0 +1,115 @@
+drink_dragons_breath:
+name="Dragon's Breath"
+description="A black strong smelling brew... Dare you taste it?"
+min_level=42
+value=500
+sprite=10002
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="08"
+;
+
+drink_seyans_honor:
+name="Seyan's Honor"
+description="Brewed to please a seyan... A strong drink."
+min_level=42
+value=500
+sprite=10301
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="09"
+;
+
+drink_mages_flash:
+name="Mage's Flash"
+description="A dazzling sensation... certainly a must for mages!"
+min_level=42
+value=500
+sprite=10299
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0A"
+;
+
+drink_warriors_rage:
+name="Warrior's Rage"
+description="Red, hot, and furious! This ale will make warriors froth at the mouth!"
+min_level=42
+value=500
+sprite=10300
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0F"
+;
+
+drink_brannington_ale:
+name="Brannington Ale"
+description="A locally brewed ale. Beginner beer drinkers start here."
+min_level=42
+value=500
+sprite=10002
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0B"
+;
+
+drink_apple_juice:
+name="Apple Juice"
+description="Fresh from the tree!"
+value=500
+sprite=10429
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0C"
+;
+
+drink_orange_juice:
+name="Orange Juice"
+description="Sweet and refreshing!"
+value=500
+sprite=10429
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0D"
+;
+
+drink_milk:
+name="Milk"
+description="Drink milk!"
+value=500
+sprite=10429
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0E"
+;
+
+hamburger:
+name="Hamburger"
+description="A meaty, juicy hamburger."
+value=18
+sprite=15220
+flag=IF_TAKE
+flag=IF_USE
+driver=64
+arg="00" # type 0 food
+;
+
+chili:
+name="Chili"
+description="A steaming bowl of chili."
+value=38
+sprite=15222
+flag=IF_TAKE
+flag=IF_USE
+driver=64
+arg="01" # type 1 food
+;
+

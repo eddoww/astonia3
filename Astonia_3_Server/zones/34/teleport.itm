@@ -1,0 +1,31 @@
+to_exit:
+sprite=19
+flag=IF_USE
+driver=10
+arg="5800F300190001"
+;
+
+to_epents:
+sprite=50018
+flag=IF_USE
+driver=10
+arg="E700D300040001"
+;
+
+to_arena1:
+name="Arena Entry"
+description="You can lose equipped items if you climb the stairs."
+sprite=15541
+flag=IF_USE
+driver=139
+arg="01"
+;
+
+from_arena1:
+name="Arena Exit"
+description="A stair, leading up."
+sprite=15540
+flag=IF_USE
+driver=141
+arg="01"
+;

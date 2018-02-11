@@ -1,0 +1,94 @@
+Vamp_key1:
+name="Vampire-key-1"
+description="Key 1 from a vampire."
+value=25
+sprite=50004
+ID=13000060             # developer 13, ID 60
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Vamp_door1:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0060000013"        # developer 13, ID 60
+;
+
+Vamp_key2:
+name="Vampire-key-2"
+description="Key 2 from a vampire."
+value=25
+sprite=50006
+ID=13000061             # developer 13, ID 61
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Vamp_door2:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0061000013"        # developer 13, ID 61
+;
+
+Vamp_door2_2nd:
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0061000013"        # developer 13, ID 61
+;
+
+Vamp_key3:
+name="Vampire-key-3"
+description="Key 3 from a vampire."
+value=25
+sprite=50005
+ID=13000062             # developer 13, ID 62
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Vamp_door3:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0062000013"        # developer 13, ID 62
+;
+
+Vamp_key4:
+name="Vampire-key-4"
+description="Key 4 from a vampire."
+value=25
+sprite=50005
+ID=13000063             # developer 13, ID 63
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Vamp_door4:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0063000013"        # developer 13, ID 63
+;

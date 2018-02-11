@@ -1,0 +1,61 @@
+easy_fighter:
+name="Easy Fighter"
+description="Easy Fighter"
+sprite=23183
+ID=0100009D
+arg="01"
+;
+
+normal_fighter:
+name="Easy Fighter"
+description="Easy Fighter"
+sprite=23183
+ID=0100009D
+arg="02"
+;
+
+hard_fighter:
+name="Easy Fighter"
+description="Easy Fighter"
+sprite=23183
+ID=0100009D
+arg="03"
+;
+
+quest_boss:
+name="Easy Fighter"
+description="Easy Fighter"
+sprite=23183
+ID=0100009D
+arg="04"
+;
+
+fighter_key1:
+name="Easy Fighter"
+description="Easy Fighter"
+#sprite=23183
+sprite=14136
+ID=0100009D
+arg="05"
+;
+
+fighter_key2:
+name="Easy Fighter"
+description="Easy Fighter"
+#sprite=23183
+sprite=14138
+ID=0100009D
+arg="06"
+;
+
+fighter_chestkey:
+name="Easy Fighter"
+description="Easy Fighter"
+#sprite=23183
+sprite=14139
+ID=0100009D
+arg="07"
+;
+
+
+

@@ -1,0 +1,110 @@
+
+explore_lvl5:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="05"
+;
+
+explore_lvl10:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="0A"
+;
+
+explore_lvl20:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="14"
+;
+
+explore_lvl30:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="1E"
+;
+
+explore_lvl40:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="28"
+;
+
+explore_lvl50:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="32"
+;
+
+explore_lvl60:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="3C"
+;
+
+explore_lvl70:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="46"
+;
+
+explore_lvl80:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="50"
+;
+
+explore_lvl90:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="5A"
+;
+
+explore_lvl100:
+name="Exploration Point"
+description="Hidden here by Ishtar it gives some experience to every explorer who finds it."
+sprite=20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=84
+arg="64"
+;

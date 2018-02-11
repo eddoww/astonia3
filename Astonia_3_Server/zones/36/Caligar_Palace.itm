@@ -1,0 +1,339 @@
+caligar_palace_stairs1:
+name="Stairs"
+description="Some stairs leading up..."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="A600E100000001"   # x=166, y=225, a=0, quiet=1
+;
+
+caligar_palace_stairs2:
+name="Stairs"
+description="Some stairs leading up..."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="F9009D00000001"   # x=249, y=157, a=0, quiet=1
+;
+
+caligar_palace_stairs3:
+name="Stairs"
+description="Some stairs leading up..."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="B100B200000001"   # x=177, y=178, a=0, quiet=1
+;
+
+caligar_palace_stairsd_1:
+name="Stairs"
+description="Some stairs going down..."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="7900FB00000001"   # x=121, y=251, a=0, quiet=1
+;
+
+caligar_palace_stairsd_2:
+name="Stairs"
+description="Some stairs going down..."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="6700BA00000001"   # x=103, y=186, a=0, quiet=1
+;
+
+caligar_palace_stairsd_3:
+name="Stairs"
+description="Some stairs going down..."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="9100C800000001"   # x=145, y=200, a=0, quiet=1
+;
+
+caligar_palace_stairsd_4:
+name="Stairs"
+description="Some stairs going down..."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="E3007800000001"   # x=227, y=120, a=0, quiet=1
+;
+
+caligar_palace_door1: #5
+name="Palace Door"
+description="What a fancy looking door!"
+sprite=21151
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000500000A" 
+;
+caligar_palace_key1: #5
+name="Palace Key 1"
+description="What a fancy looking key!"
+sprite=50006
+ID=0A000005
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+caligar_palace_door2: #6
+name="Palace Door"
+description="What a fancy looking door!"
+sprite=21151
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000600000A" 
+;
+caligar_palace_key2: #6
+name="Palace Key 2"
+description="What a fancy looking key!"
+sprite=50006
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A000006
+;
+
+caligar_palace_door4:
+name="Palace Door"
+description="What a fancy looking door!"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+sprite=21151
+;
+
+caligar_palace_door5:
+name="Palace Door"
+description="What a fancy looking door!"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+sprite=21151
+;
+
+caligar_palace_door6:
+name="Palace Door"
+description="What a fancy looking door!"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+sprite=21151
+;
+
+caligar_palace_fire_tile:
+name="steptrap"
+flag=IF_STEPACTION
+driver=25
+arg="0000"
+;
+
+caligar_palace_chest_keyp1:
+name="Chest Key Part 1"
+sprite=13414
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=010000B3
+driver=144
+arg="0A"
+;
+
+caligar_palace_chest_keyp2:
+name="Chest Key Part 2"
+sprite=13415
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=010000B3
+driver=144
+arg="0A"
+;
+
+caligar_palace_chest_keyp3:
+name="Chest Key Part 3"
+sprite=13416
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=010000B3
+driver=144
+arg="0A"
+;
+
+#####################################################
+caligar_palace_chest_key: #24
+name="Palace Chest Key"
+description="Chest Key 1 from Caligar Palace."
+sprite=13413
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A000018 #dev 10, id 24
+;
+caligar_palace_chest: # Chest2
+name="Chest"
+description="An interesting looking chest made of cement."
+sprite=13145
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="701800000A0100" #chest #112, key 24, respawn 1 hour
+;
+treasure_112:
+name="Plaque"
+description="It is inscribed by the late Emporer's of Aston."
+sprite=11203
+flag=IF_QUEST
+ID=010000B4
+;
+#######################################################
+
+carmin_palace_vamp_door1: #12
+name="Door"
+description="A door."
+sprite=21151
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000C00000A" 
+;
+carmin_palace_vamp_key1: #12
+name="Caligar Palace Key"
+description="Key 1 from level 3 of Caligar Palace."
+sprite=50006
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A00000C
+;
+
+carmin_palace_vamp_door2: #13
+name="Door"
+description="A door."
+sprite=21151
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000D00000A" 
+;
+carmin_palace_vamp_key2: #13
+name="Caligar Palace Key"
+description="Key 2 from level 3 of Caligar Palace."
+sprite=50006
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A00000D
+;
+
+carmin_palace_vamp_door3: #14
+name="Door"
+description="A door."
+sprite=21151
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000E00000A" 
+;
+carmin_palace_vamp_key3: #14
+name="Caligar Palace Key"
+description="Key 3 from level 3 of Caligar Palace."
+sprite=50006
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A00000E
+;
+
+carmin_palace_fb_ne:
+sprite=11137
+;
+
+carmin_palace_fb_se:
+sprite=11135
+;
+
+caligar_palace_L4Tele:
+name="Teleport"
+description="Congratulations: You found the easy way out."
+sprite=11139
+flag=IF_USE
+driver=10
+arg="7D00DF00000001"   # x=125, y=223, a=0, quiet=1
+;
+
+caligar_palace_sign:
+name="Hint"
+description="Just because you can't see it, doesn't mean it doesn't exist."
+sprite=50121
+flag=IF_USE
+;
+
+caligar_palace_pool_sw:
+name="Pool of Water"
+description="It's a pool of water."
+sprite=20793
+flag=IF_USE
+driver=144
+arg="0B"
+;
+
+caligar_palace_pool_se:
+name="Pool of Water"
+description="It's a pool of water."
+sprite=20794
+flag=IF_USE
+driver=144
+arg="0B"
+;
+
+caligar_palace_pool_nw:
+name="Pool of Water"
+description="It's a pool of water."
+sprite=20795
+flag=IF_USE
+driver=144
+arg="0B"
+;
+
+caligar_palace_pool_ne:
+name="Pool of Water"
+description="It's a pool of water."
+sprite=20796
+flag=IF_USE
+driver=144
+arg="0B"
+;

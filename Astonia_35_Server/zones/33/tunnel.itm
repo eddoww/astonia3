@@ -1,0 +1,126 @@
+block_marker1:
+name="Block Marker 1"
+sprite=19
+ID=010000A2
+;
+
+block_marker2:
+name="Block Marker 2"
+sprite=19
+ID=010000A3
+;
+
+creeper_marker1:
+name="Creeper Marker 1"
+sprite=10304
+ID=010000A4
+;
+
+creeper_marker2:
+name="Creeper Marker 2"
+sprite=10296
+ID=010000A5
+;
+
+creeper_marker3:
+name="Creeper Marker 3"
+sprite=10292
+ID=010000A6
+;
+
+creeper_markerall:
+name="Creeper Marker All"
+sprite=36
+ID=010000A7
+;
+
+creeper_entrance:
+name="Tunnel Entrance"
+sprite=20124
+driver=134
+arg="00"
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+;
+
+creeper_door:
+name="Door to next level"
+sprite=20124
+driver=134
+arg="01"
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+;
+
+creeper_out:
+name="Teleport out"
+description="This magic column will teleport you out of the tunnel and give you experience."
+sprite=20284
+driver=134
+arg="02"
+flag=IF_USE
+;
+
+creeper_out2:
+name="Teleport out"
+description="This magic column will teleport you out of the tunnel and give you rank."
+sprite=20283
+driver=134
+arg="03"
+flag=IF_USE
+;
+
+equip1:
+name=Equip1
+description="A Spell of Equipment."
+mod_index=V_HAND
+mod_value=1
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+;
+
+equip2:
+name=Equip2
+description="A Spell of Equipment."
+mod_index=V_WIS
+mod_value=1
+mod_index=V_INT
+mod_value=1
+mod_index=V_AGI
+mod_value=1
+mod_index=V_STR
+mod_value=1
+mod_index=V_FREEZE
+mod_value=1
+;
+
+link_aston:
+sprite=15540
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E1003C000F0001"   
+;
+
+creeper_mean:
+name="Door to next level"
+sprite=20124
+driver=135
+;
+
+tunnel_sign:
+flag=IF_USE
+name="Sign"
+description="Use (left click) to read"
+sprite=50121
+driver=150
+arg="00"
+;

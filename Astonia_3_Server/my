@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mysql -hlocalhost -uroot -pflni1sbu $1 $2 $3
+
+

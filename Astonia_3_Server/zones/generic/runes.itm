@@ -1,0 +1,261 @@
+rune1:
+name="Ansuz"
+description="The rune Ansuz."
+sprite=13105
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000078
+;
+
+rune2:
+name="Berkano"
+description="The rune Berkano."
+sprite=13106
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000079
+;
+
+rune3:
+name="Dagaz"
+description="The rune Dagaz."
+sprite=13107
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100007A
+;
+
+rune4:
+name="Ehwaz"
+description="The rune Ehwaz."
+sprite=13108
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100007B
+;
+
+rune5:
+name="Fehu"
+description="The rune Fehu."
+sprite=13109
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100007C
+;
+
+rune6:
+name="Hagalaz"
+description="The rune Hagalaz."
+sprite=13110
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100007D
+;
+
+rune7:
+name="Isa"
+description="The rune Isa."
+sprite=13111
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100007E
+;
+
+rune8:
+name="Ingwaz"
+description="The rune Ingwaz."
+sprite=13112
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100007F
+;
+
+rune9:
+name="Raidho"
+description="The rune Raidho."
+sprite=13113
+value=100
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000080
+;
+
+rune1_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0181000001"
+;
+
+rune2_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0282000001"
+;
+
+rune3_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0383000001"
+;
+
+rune4_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="04"
+arg="0484000001"
+;
+
+rune5_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0585000001"
+;
+
+rune6_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0686000001"
+;
+
+rune7_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0787000001"
+;
+
+rune8_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0888000001"
+;
+
+rune9_create:
+name="Rune"
+description="A rune is lying here."
+sprite=20088
+flag=IF_USE
+driver=93
+arg="0989000001"
+;
+
+rune_key1:
+name="Tower-Key-1"
+description="A key from the first tower."
+value=25
+sprite=50004
+ID=01000081
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key2:
+name="Tower-Key-2"
+description="A key from the second tower."
+value=25
+sprite=50004
+ID=01000082
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key3:
+name="Tower-Key-3"
+description="A key from the third tower."
+value=25
+sprite=50004
+ID=01000083
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key4:
+name="Tower-Key-4"
+description="A key from the fourth tower."
+value=25
+sprite=50004
+ID=01000084
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key5:
+name="Tower-Key-5"
+description="A key from the fifth tower."
+value=25
+sprite=50004
+ID=01000085
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key6:
+name="Tower-Key-6"
+description="A key from the sixth tower."
+value=25
+sprite=50004
+ID=01000086
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key7:
+name="Tower-Key-7"
+description="A key from the seventh tower."
+value=25
+sprite=50004
+ID=01000087
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key8:
+name="Tower-Key-8"
+description="A key from the eigth tower."
+value=25
+sprite=50004
+ID=01000088
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+rune_key9:
+name="Tower-Key-9"
+description="A key from the ninth tower."
+value=25
+sprite=50004
+ID=01000089
+flag=IF_TAKE
+flag=IF_QUEST
+;

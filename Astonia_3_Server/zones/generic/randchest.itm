@@ -1,0 +1,100 @@
+randchest1to10:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="1401"              # base random value 20 (RAND*RAND), avg=1G, max=4G
+driver=34
+;
+
+randchest10to20:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2802"              # base random value 20 (RAND*RAND), avg=4G, max=16G
+driver=34
+;
+
+randchest20to30:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="3C03"              # base random value 20 (RAND*RAND), avg=9G, max=36G
+driver=34
+;
+
+randchest30to40:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="4604"              # base random value 20 (RAND*RAND), avg=12G, max=49G
+driver=34
+;
+
+randchest40to50:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="5005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+randchest50to60:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="5A06"              # base random value 20 (RAND*RAND), avg=20G, max=81G
+driver=34
+;
+
+randchest60to70:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="6407"              # base random value 20 (RAND*RAND), avg=25G, max=100G
+driver=34
+;
+
+randchest70to80:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="6E08"              # base random value 20 (RAND*RAND), avg=30G, max=121G
+driver=34
+;
+
+randchest80to90:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="7809"              # base random value 20 (RAND*RAND), avg=36G, max=144G
+driver=34
+;
+
+randchest90to100:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="820A"              # base random value 20 (RAND*RAND), avg=42G, max=169G
+driver=34
+;
+

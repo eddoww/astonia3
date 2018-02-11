@@ -1,0 +1,83 @@
+
+
+
+sewer_door2:
+sprite=22489
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+PressurePlate_1a:
+name="Pressure Plate"
+sprite=0
+driver=6
+flag=IF_STEPACTION
+arg="F8EC"
+;
+
+walldoor_1a:
+sprite=59193
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+#############################################################################
+WS_wood_door_ds:
+sprite=20154
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0001000008"
+;
+
+WS_wood_door_ls:
+sprite=20156
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0001000008"
+;
+
+WS_sewer_door1:
+sprite=22487
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0002000008"
+;
+
+WS_Robber_Key_Area1:
+name="Robber Key Area 1"
+description="Key for Robbers Area 1 in Brannington"
+sprite=50004
+ID=08000001             #Dev 8 ID 1
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+WS_Robber_Key_Area2:
+name="Robber Key Area 2"
+description="Key for Robbers Area 2 in Brannington"
+sprite=50004
+ID=08000002             #Dev 8 ID 1
+flag=IF_TAKE
+flag=IF_QUEST
+;
+#################################################################################

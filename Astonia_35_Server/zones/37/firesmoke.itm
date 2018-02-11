@@ -1,0 +1,25 @@
+light_flame:
+name="Light Flame"
+Description="..."
+sprite=1024
+mod_index=V_LIGHT
+mod_value=100
+flag=IF_MOVEBLOCK
+;
+
+smoke_light:
+name="smoke Light"
+Description="..."
+sprite=1034
+mod_index=V_LIGHT
+mod_value=80
+;
+
+china_light:
+name="China Light"
+description="..."
+sprite=23207
+mod_index=V_LIGHT
+mod_value=80
+flag=IF_MOVEBLOCK
+;

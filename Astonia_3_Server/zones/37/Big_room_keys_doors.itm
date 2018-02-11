@@ -1,0 +1,197 @@
+key15_13_big:
+name="Big key 1"
+description="Seems to unlock something... A door maybe."
+value=5
+sprite=51075
+ID=013000015
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Bandit_Door1_big:
+sprite=16035
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0015000013"        # developer 1, ID 24
+;
+
+key16_13_big:
+name="Big key 2"
+description="Seems to unlock something... A door maybe."
+value=5
+sprite=50004
+ID=013000016
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Vampire_Door1_first:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0016000013"
+;
+
+key17_13_big:
+name="Big key 3"
+description="Seems to unlock something... A door maybe."
+value=5
+sprite=50006
+ID=013000017
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Skeleton_Door1_big:
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0017000013"
+;
+
+Holy_potion:
+name="Holy Potion"
+description="A potion containing holy water."
+sprite=23198
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+#Key_Part1:
+#name="A Key part"
+#description="A part of a key. It should belong to one of the monks."
+#sprite=51132
+#value=25
+#flag=IF_TAKE
+#flag=IF_QUEST
+#;
+
+#Key_part2:
+#name="A Key part"
+#description="A part of a key. It should belong to one of the monks."
+#sprite=51131
+#value=25
+#flag=IF_TAKE
+#flag=IF_QUEST
+#;
+
+#Key_Part3:
+#name="A Key part"
+#description="A part of a key. It should belong to one of the monks."
+#sprite=51130
+#value=25
+#flag=IF_TAKE
+#flag=IF_QUEST
+#;
+
+Lord_Tele1:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20123
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7000C500000001"   # x=112, y=197, a=0, quiet=1
+;
+
+Lord_Tele2:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7000C200000001"   # x=112, y=194, a=0, quiet=1
+;
+
+Big_room_tele1:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="6C00AA00000001"   # x=108, y=170, a=0, quiet=1
+;
+
+Big_room_tele2:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="6C00A700000001"   # x=108, y=167, a=0, quiet=1
+;
+
+Big_room_tele3:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7500B200000001"   # x=117, y=178, a=0, quiet=1
+;
+
+Big_room_tele4:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7500AF00000001"   # x=117, y=175, a=0, quiet=1
+;
+
+Big_room_tele5:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7100C000000001"   # x=113, y=192, a=0, quiet=1
+;
+
+Big_room_tele6:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7100BD00000001"   # x=113, y=189, a=0, quiet=1
+;
+
+Big_room_tele_vamp:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7500B900000001"   # x=117, y=185, a=0, quiet=1
+;
+
+Big_room_tele_vampback:
+name="Steel Door"
+description="A teleporting door made of steel."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="7500B600000001"   # x=117, y=182, a=0, quiet=1
+;

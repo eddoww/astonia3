@@ -1,0 +1,17 @@
+depot1:
+name="Depot"
+description="Your Depot"
+sprite=21065
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_DEPOT
+;
+
+depot2:
+name="Depot"
+description="Your Depot"
+sprite=21063
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_DEPOT
+;

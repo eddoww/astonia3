@@ -1,0 +1,13 @@
+
+GladiatorSpell:
+mod_index=V_HAND
+mod_value=13
+mod_index=V_ATTACK
+mod_value=13
+mod_index=V_PARRY
+mod_value=13
+mod_index=V_FLASH
+mod_value=13
+mod_index=V_IMMUNITY
+mod_value=13
+;

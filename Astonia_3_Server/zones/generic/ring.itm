@@ -1,0 +1,9 @@
+plain_gold_ring:
+name="Ring"
+description="A golden ring."
+value=25
+sprite=50025
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+;

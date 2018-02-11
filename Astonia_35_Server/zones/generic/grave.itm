@@ -1,0 +1,119 @@
+grave_fence_door_ds:
+name="a door"
+description="a door."
+sprite=20591
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+grave_fence_door_ls:
+name="a door"
+description="a door."
+sprite=20593
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+grave_large_door_ds:
+name="a door"
+description="a door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+grave_large_door_ls:
+name="a door"
+description="a door."
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+grave_lessecret_door_ds:
+name="a door"
+description="a door."
+sprite=20695
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+grave_lessecret_door_ls:
+name="a door"
+description="a door."
+sprite=20699
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+grave_firefigure_sw_off:
+sprite=20703
+flag=IF_MOVEBLOCK
+;
+
+grave_firefigure_sw_on:
+sprite=20704
+flag=IF_MOVEBLOCK
+;
+
+grave_firefigure_se_off:
+sprite=20712
+flag=IF_MOVEBLOCK
+;
+
+grave_firefigure_se_on:
+sprite=20713
+flag=IF_MOVEBLOCK
+;
+
+grave_firefigure_ne_off:
+sprite=20721
+flag=IF_MOVEBLOCK
+;
+
+grave_firefigure_ne_on:
+sprite=20722
+flag=IF_MOVEBLOCK
+;
+
+grave_firefigure_nw_off:
+sprite=20730
+flag=IF_MOVEBLOCK
+;
+
+grave_firefigure_nw_on:
+sprite=20731
+flag=IF_MOVEBLOCK
+;
+
+grave_firecan_off:
+sprite=20753
+mod_index=V_LIGHT
+;
+
+grave_firecan_on:
+sprite=20754
+mod_index=V_LIGHT
+mod_value=200
+;
+

@@ -1,0 +1,60 @@
+mis_key:
+name="Key"
+description="Key from Jobbington"
+sprite=50004
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_LABITEM
+;
+
+mis_documents:
+name="write me"
+description="write me"
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_LABITEM
+;
+
+mis_book:
+name="write me"
+description="write me"
+sprite=20789
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_LABITEM
+;
+
+mis_ring:
+name="write me"
+description="write me"
+sprite=10354
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_LABITEM
+;
+
+mis_spoon:
+name="write me"
+description="write me"
+sprite=10320
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_LABITEM
+;
+
+link_aston:
+sprite=15540
+flag=IF_USE
+driver=10
+arg="7800F800030001"   # x=120, y=248, a=3, quiet=1
+;
+
+mission_exit:
+name="Mission Exit"
+description="Teleports you back to Mister Jones."
+sprite=17
+flag=IF_USE
+driver=10
+arg="EA00EA00000001"	# x=243, y=243, a=0, quiet=1
+;

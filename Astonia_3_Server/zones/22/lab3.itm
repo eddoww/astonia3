@@ -1,0 +1,328 @@
+# --- plants and berries ----------------------------------------------------------------
+
+lab3_yellowberry_plant1:
+name="Yellowberryplant"
+sprite=11041
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=193              # IDR_LAB3_PLANT
+arg="010606"            # yellowplant with three berries (and max of three berries)
+;
+
+lab3_yellowberry_plant2:
+name="Yellowberryplant"
+sprite=11048
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=193              # IDR_LAB3_PLANT
+arg="010606"            # yellowplant with three berries (and max of three berries)
+;
+
+lab3_yellowberry_plant3:
+name="Yellowberryplant"
+sprite=11055
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=193              # IDR_LAB3_PLANT
+arg="010606"            # yellowplant with three berries (and max of three berries)
+;
+
+lab3_yellowberry_one:
+name="Yellowberry"
+sprite=11020
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_TAKE
+driver=193              # IDR_LAB3_PLANT
+arg="050104"            # yellow berries, one berry inside, fresh
+;
+
+lab3_yellowberry_two:
+name="Yellowberry"
+sprite=11025
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_TAKE
+driver=193              # IDR_LAB3_PLANT
+arg="050204"            # yellow berries, two berries inside, fresh
+;
+
+lab3_yellowberry_three:
+name="Yellowberry"
+sprite=11030
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_TAKE
+driver=193              # IDR_LAB3_PLANT
+arg="050304"            # yellow berries, three berries inside, fresh
+;
+
+lab3_whiteberry_plant1:
+name="Whiteberryplant"
+sprite=11083
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=193              # IDR_LAB3_PLANT
+arg="020606"            # whiteplant with three berries (and max of three berries)
+;
+
+lab3_whiteberry_plant2:
+name="Whiteberryplant"
+sprite=11090
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=193              # IDR_LAB3_PLANT
+arg="020606"            # whiteplant with three berries (and max of three berries)
+;
+
+lab3_whiteberry_one:
+name="Whiteberry"
+sprite=60000
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_TAKE
+driver=193              # IDR_LAB3_PLANT
+arg="060104"            # white berries, one berry inside, fresh
+;
+
+lab3_whiteberry_two:
+name="Whiteberry"
+sprite=60005
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_TAKE
+driver=193              # IDR_LAB3_PLANT
+arg="060204"            # white berries, two berries inside, fresh
+;
+
+lab3_whiteberry_three:
+name="Whiteberry"
+sprite=60010
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_TAKE
+driver=193              # IDR_LAB3_PLANT
+arg="060304"            # white berries, three berries inside, fresh
+;
+
+lab3_whiteberry_light:
+name="Whiteberrylight"
+sprite=5
+flag=IF_LABITEM
+mod_index=V_LIGHT
+mod_value=0             # will be set automatically
+driver=193              # IDR_LAB3_PLANT
+arg="0A0000"            # type=10 value=auto step=auto
+;
+
+lab3_brownberry_plant1:
+name="Brownberryplant"
+sprite=11093
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=193              # IDR_LAB3_PLANT
+arg="030202"            # brownplant with one berry (and max of one berry)
+;
+
+lab3_brownberry:
+name="Brownberry"
+description="It looks a little bit like a pear, but seems to have a hard and resistant skin."
+sprite=11094
+flag=IF_USE
+flag=IF_LABITEM
+flag=IF_QUEST
+flag=IF_TAKE
+driver=193              # IDR_LAB3_PLANT
+arg="0B"                # brown berry
+;
+
+
+# --- lightplants -----------------------------------------------------------------------
+
+lab3_lightplant1:
+sprite=11063
+mod_index=V_LIGHT
+mod_value=150
+flag=IF_MOVEBLOCK
+;
+
+lab3_lightplant2:
+sprite=11064
+mod_index=V_LIGHT
+mod_value=150
+flag=IF_MOVEBLOCK
+;
+
+lab3_lightplant3:
+sprite=11065
+mod_index=V_LIGHT
+mod_value=150
+flag=IF_MOVEBLOCK
+;
+
+lab3_small_lightplant1:
+sprite=11066
+mod_index=V_LIGHT
+mod_value=100
+flag=IF_MOVEBLOCK
+;
+
+lab3_small_lightplant2:
+sprite=11067
+mod_index=V_LIGHT
+mod_value=100
+flag=IF_MOVEBLOCK
+;
+
+lab3_small_lightplant3:
+sprite=11068
+mod_index=V_LIGHT
+mod_value=100
+flag=IF_MOVEBLOCK
+;
+
+# --- teleport doors --------------------------------------------------------------------
+
+lab3_teleport_out:
+name="Door"
+description="It seems to be a magical barrier to the water."
+sprite=11061
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_SIGHTBLOCK
+driver=192              # IDR_LAB3_SPECIAL
+arg="01030000"          # type=1, x=+3, y=0, pass=0
+;
+
+lab3_teleport_in:
+name="Door"
+description="It seems to be a magical barrier to the water."
+sprite=11062
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_SIGHTBLOCK
+driver=192              # IDR_LAB3_SPECIAL
+arg="01FD0000"          # type=1, x=-3, y=0, pass=0
+;
+
+lab3_teleport_in_pass:
+name="Door"
+description="It seems to be a magical barrier to the water."
+sprite=11062
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_SIGHTBLOCK
+driver=192              # IDR_LAB3_SPECIAL
+arg="01FD0001"          # type=1, x=-3, y=0, pass=1
+;
+
+# --- other doors -----------------------------------------------------------------------
+
+lab3_prison_door:
+sprite=22489
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+lab3_prison_door_locked:
+sprite=22489
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0007000002"        # developer 2, IID_LAB3_PRISONKEY (0x07)
+;
+
+lab3_prison_door_key:
+name="Key"
+description="The prison key."
+value=5
+sprite=11075
+ID=02000007             # developer 2, IID_LAB3_PRISONKEY (0x07)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+
+# --- skeletons and notes ---------------------------------------------------------------
+
+lab3_note_generic:
+name="Note"
+description="A piece of oiled paper with some handwritings."
+sprite=11074
+flag=IF_USE
+flag=IF_QUEST
+flag=IF_LABITEM
+flag=IF_TAKE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0300"              # type=3, text will be set when created
+;
+
+lab3_skeleton_oxygen1:
+name="Skeleton"
+description="Once an mighty Adventurer seeking the last Gate. Now..."
+sprite=11070
+flag=IF_USE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0201"              # type=2, text=OXYGEN1
+;
+
+lab3_skeleton_oxygen2:
+name="Skeleton"
+description="Once an mighty Adventurer seeking the last Gate. Now..."
+sprite=11071
+flag=IF_USE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0202"              # type=2, text=OXYGEN2
+;
+
+lab3_skeleton_talk:
+name="Skeleton"
+description="Once an mighty Adventurer seeking the last Gate. Now..."
+sprite=11072
+flag=IF_USE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0203"              # type=2, text=TALK
+;
+
+lab3_skeleton_entrance:
+name="Skeleton"
+description="Once an mighty Adventurer seeking the last Gate. Now..."
+sprite=11071
+flag=IF_USE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0204"              # type=2, text=ENTRANCE
+;
+
+lab3_skeleton_large:
+name="Skeleton"
+description="Once an mighty Adventurer seeking the last Gate. Now..."
+sprite=11071
+flag=IF_USE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0205"              # type=2, text=LARGE
+;
+
+lab3_skeleton_white:
+name="Skeleton"
+description="Once an mighty Adventurer seeking the last Gate. Now..."
+sprite=11072
+flag=IF_USE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0206"              # type=2, text=WHITE
+;
+
+lab3_skeleton_pass:
+name="Skeleton"
+description="Once an mighty Adventurer seeking the last Gate. Now..."
+sprite=11070
+flag=IF_USE
+driver=192              # IDR_LAB3_SPECIAL
+arg="0214"              # type=2, text=PASSWORD1
+;

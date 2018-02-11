@@ -1,0 +1,54 @@
+dragon_sign_1:
+name="page from a diary"
+description="I heard a noise and went in further to investigate..."
+sprite=50118
+flag=IF_USE
+;
+
+dragon_sign_2:
+name="Warning sign"
+description="Watch your feet, Use your head, don't run, Walk! or you are dead! ;o)"
+sprite=16272
+flag=IF_USE
+;
+
+dragon_sign_3:
+name="testing sign"
+description="This quest is for level 30 touch the teleport to go to the start"
+sprite=15154
+flag=IF_USE
+;
+
+dragon_sign_4:
+name="page from a diary"
+description="I managed to get this teleport to work..."
+sprite=50118
+flag=IF_USE
+;
+
+dragon_sign_5:
+name="page from a diary"
+description="Interesting... found a key on a Dragon... wonder what its for..."
+sprite=50118
+flag=IF_USE
+;
+
+dragon_staff:
+name="Staff"
+description="Breath of Death's staff"
+value=25
+sprite=10249
+ID=07000010             # developer 7, ID 10
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+link_crypt:
+name="Ladder"
+description="A ladder leading... somewhere far far away."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="E6000300020001"   # x=230, y=3, a=2, quiet=1
+;
+

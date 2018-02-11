@@ -1,0 +1,147 @@
+
+vault_door1:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000100000E"    # developer 14, ID 1
+;
+
+vault_key1:
+name="Vault Key 1"
+description="Key 1 to the Imperial Vault."
+value=5
+sprite=50006
+ID=0E000001         # developer 14, ID 1
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+vault_door2:
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000200000E"   # developer 14, ID 2
+;
+vault_key2:
+name="Vault Key 2"
+description="Key 2 to the Imperial Vault."
+sprite=50006
+ID=0E000002        # developer 14, ID 2
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+vault_teleport2:
+name="Staircase"
+description="A stairway leading up to the city."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="8E00AB00030001"   # x=?, y=?, a=0, quiet=1  Imperial Vault to Aston City
+;
+
+vault_teleport3:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="71009500000001"   # x=105, y=18, a=0, quiet=1
+;
+
+vault_teleport4:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="19009100000001"   # x=16, y=14, a=0, quiet=1
+;
+
+vault_sign1:
+name="Sign"
+description="Armory"
+sprite=50263
+flag=IF_USE
+;
+
+vault_sign2:
+name="Sign"
+description="Treasury - Authorized Personnel Only"
+sprite=50283
+flag=IF_USE
+;
+
+vault_sign3:
+name="Sign"
+description="Archives"
+sprite=50263
+flag=IF_USE
+;
+
+vault_light:
+sprite=20026
+mod_index=V_LIGHT
+mod_value=350
+flag=IF_MOVEBLOCK
+;
+
+vault_journal:
+name="Journal of Seyan I"
+description="The title reads: Chronicles of Seyan I."
+sprite=15535
+ID=0E000003             # developer 14, ID 3
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+vault_ritual:
+name="Magic Ritual"
+description="A magical scroll with an imperial seal."
+sprite=11202
+ID=0E000004             # developer 14, ID 4
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+vault_skulls:
+name="Burning Skulls"
+description="A pile of skulls is burning here. It looks... magical. Evil."
+sprite=59528
+flag=IF_USE
+driver=121
+arg="04"
+;
+
+vault_shelf:
+name="Shelf"
+description="A huge shelf, containing many, many books"
+sprite=15450
+flag=IF_USE
+driver=121
+arg="0500"
+;
+
+vault_shelf2:
+name="Shelf"
+description="A huge shelf, containing many, many books"
+sprite=15450
+flag=IF_USE
+driver=121
+arg="0501"
+;
+
+vault_shelf3:
+name="Shelf"
+description="A huge shelf, containing many, many books"
+sprite=15450
+flag=IF_USE
+driver=121
+arg="0502"
+;

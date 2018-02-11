@@ -1,0 +1,329 @@
+empty_orb:
+name="Orb of Nothing"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+;
+
+hitpoint_orb5:
+name="Orb of 5 Hitpoints"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0005"
+;
+
+endurance_orb5:
+name="Orb of 5 Endurance"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0105"
+;
+
+dagger_orb5:
+name="Orb of 5 Dagger"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0C05"
+;
+
+sword_orb5:
+name="Orb of 5 Sword"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0F05"
+;
+
+attack_orb5:
+name="Orb of 5 Attack"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1205"
+;
+
+parry_orb5:
+name="Orb of 5 Parry"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1305"
+;
+
+tactics_orb5:
+name="Orb of 5 Tactics"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1505"
+;
+
+bless_orb5:
+name="Orb of 5 Bless"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1C05"
+;
+
+flash_orb5:
+name="Orb of 5 Flash"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="2005"
+;
+
+shield_orb5:
+name="Orb of 5 Magic Shield"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1F05"
+;
+
+pulse_orb5:
+name="Orb of 5 Pulse"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0B05"
+;
+
+wisdom_orb5:
+name="Orb of 5 Wisdom"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0305"
+;
+
+intuition_orb5:
+name="Orb of 5 Intuition"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0405"
+;
+
+agility_orb5:
+name="Orb of 5 Agility"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0505"
+;
+
+strength_orb5:
+name="Orb of 5 Strength"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="0605"
+;
+
+surround_orb5:
+name="Orb of 5 Surround Hit"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1605"
+;
+
+warcry_orb5:
+name="Orb of 5 Warcry"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1405"
+;
+
+
+speed_orb5:
+name="Orb of 5 Speed"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="1805"
+;
+
+
+immunity_orb5:
+name="Orb of 5 Immunity"
+description="A glowing orb, used to enhance items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=500
+driver=83
+arg="2505"
+;
+
+
+orb_creator10:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=10
+driver=84
+;
+
+orb_creator20:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=20
+driver=84
+;
+
+orb_creator30:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=30
+driver=84
+;
+
+orb_creator40:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=40
+driver=84
+;
+
+orb_creator50:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=50
+driver=84
+;
+
+orb_creator60:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=60
+driver=84
+;
+
+orb_creator70:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=70
+driver=84
+;
+
+orb_creator80:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=80
+driver=84
+;
+
+orb_creator90:
+name="Orb Spawner"
+description="A strange device built by the ancients."
+sprite=51085
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=60
+min_level=90
+driver=84
+;

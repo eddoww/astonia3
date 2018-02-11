@@ -1,0 +1,301 @@
+Harpy_Cape:
+name="Skin"
+description="The blue skin of a harpy."
+sprite=50125
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C9
+;
+
+Rammy_Crown:
+name="Rammy's Crown"
+description="A beautiful shiny crown, which belongs to Rammy."
+sprite=11122
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000B5
+;
+
+Fiona_Ring:
+name="A Ring"
+description="A beautiful silver ring. 'To my Queen Fiona' is engraved on it. "
+sprite=10348
+mod_index=V_SPEEDSKILL
+mod_value=8
+#mod_index=V_BLESS
+#mod_value=8
+mod_index=V_PERCEPT
+mod_value=8
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNRRING
+flag=IF_WNLRING
+ID=010000B7
+;
+
+Ishatrs_Bracelet:
+name="Bracelet of Insignia."
+description="A beautiful golden bracelet. It has been blessed with the insignia of Ishtar."
+sprite=10334
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000B6
+;
+
+Knoger_Sign:
+name="Sign"
+description="Knoger Residence. Leave at once!"
+sprite=50120
+flag=IF_USE
+;
+
+Weed_Plant_Sign:
+name="Sign"
+description="Weed plant. Weed for cows... Now if there would be any cows!"
+sprite=50120
+flag=IF_USE
+;
+
+
+Vampire_Area_Sign:
+name="Sign"
+description="Vampire residence. Expect bitemarks and bloodloss."
+sprite=50121
+flag=IF_USE
+;
+
+Bandit_Sign:
+name="Sign"
+description="Hold on to your pockets - Bandits ahead!"
+sprite=50121
+flag=IF_USE
+;
+
+Ice_Sign:
+name="Sign"
+description="There's more in here than what meets the eye."
+sprite=50121
+flag=IF_USE
+;
+
+Arkhata_Sign:
+name="Sign"
+description="Welcome to Arkhata, Stranger!"
+sprite=50121
+flag=IF_USE
+;
+
+Fighting_School:
+name="Sign"
+description="Academy of the Fighting Arts."
+sprite=50120
+flag=IF_USE
+;
+
+Iron_Potion:
+name="Iron Potion"
+description="A potion of superhuman strength."
+sprite=50253
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C5
+;
+
+#Travelers_cloak:
+#name="Traveler's Cloack"
+#description="A beautiful black cape."
+#sprite=10456
+#mod_index=V_STEALTH
+#mod_value=7
+#mod_index=V_WARCRY
+#mod_value=7
+#mod_index=V_ENDURANCE
+#mod_value=7
+#value=25
+#flag=IF_TAKE
+#flag=IF_QUEST
+#flag=IF_WNCLOAK
+#;
+
+Holy_sign:
+name="Sign"
+description="A spring containing holy water... What could it be used for?"
+sprite=50120
+flag=IF_USE
+;
+
+Forterss_quest_note1:
+name="Note 1"
+description="A note containing classified information about a money transport."
+value=25
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C6
+;
+
+Forterss_quest_note2:
+name="Note 2"
+description="A note containing classified information about a money transport."
+value=25
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C7
+;
+
+Forterss_quest_note3:
+name="Note 3"
+description="A note containing classified information about a money transport."
+value=25
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C8
+;
+
+Captain_sign:
+name="Sign"
+description="Captain's Lounge."
+sprite=50283
+flag=IF_USE
+;
+
+Clerk_sign:
+name="Sign"
+description="Clerk's Office."
+sprite=50263
+flag=IF_USE
+;
+
+Captainsroom_sign:
+name="Sign"
+description="Captain's Bedroom."
+sprite=50283
+flag=IF_USE
+;
+
+Torture_sign:
+name="Sign"
+description="Torture Chamber."
+sprite=50263
+flag=IF_USE
+;
+
+crematorium_sign:
+name="Sign"
+description="Arkhata Crematorium - Closed!"
+sprite=50480
+flag=IF_USE
+;
+
+Holy_Sign:
+name="Sign"
+description="Holy Water - Do Not Drink!"
+sprite=50121
+flag=IF_USE
+;
+
+Rammy_sign:
+name="Sign"
+description="Official guard station."
+sprite=50480
+flag=IF_USE
+;
+
+Judge_sign:
+name="Sign"
+description="House of Law."
+sprite=50480
+flag=IF_USE
+;
+
+
+letter1:
+flag=IF_TAKE
+flag=IF_QUEST
+name="Letter to Captain"
+description="This man/woman is trustworthy. He/she will help securing the trade-route."
+sprite=21097
+ID=010000BB
+;
+
+letter2:
+flag=IF_TAKE
+flag=IF_QUEST
+name="Letter to Ramin"
+description="A detailed arrangement concerning the newly established trade route."
+sprite=21097
+ID=010000BC
+;
+
+letter3:
+flag=IF_TAKE
+flag=IF_QUEST
+name="Letter to Count Bran"
+description="A detailed arrangement concerning the newly established trade route."
+sprite=21097
+ID=010000BD
+;
+
+letter4:
+flag=IF_TAKE
+flag=IF_QUEST
+name="Answer to Captain"
+description="An arrangement with travelling passes has been made."
+sprite=21097
+ID=010000BE
+;
+
+letter5:
+flag=IF_TAKE
+flag=IF_QUEST
+name="Pass to Fortress"
+description="Whilst carrying this, the fortress guard will not harm thee."
+sprite=21097
+ID=010000BF
+;
+
+link_bran:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="4E00FA001D0001"   # x=232, y=157, a=12, quiet=1
+;
+
+
+stopwatch:
+name="Watch"
+description="A watch. Counting time. Backwards. Three Hours. Tick Tock."
+sprite=15513
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_LABITEM
+flag=IF_NODEPOT
+flag=IF_NOJUNK
+driver=146
+arg="01"
+;
+
+ice_eye_sign:
+name="Sign"
+description="Ice and floating eyes beyond this door. Min level 48."
+sprite=50120
+flag=IF_USE
+;
+
+infravision_pot:  
+name="Infravision Pot"
+description="A light where darkess roams."
+value=500   
+sprite=59804
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="06"
+;

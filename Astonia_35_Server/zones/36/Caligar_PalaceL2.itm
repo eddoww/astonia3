@@ -1,0 +1,287 @@
+caligar_pl2_1:
+name="Teleport"
+description="It's a teleport... or is it?"
+flag=IF_USE
+sprite=11127
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+driver=6
+arg="A1D8"      # 161 216
+;
+
+caligar_pl2_2:
+name="Teleport"
+description="It's a teleport... or is it?"
+flag=IF_USE
+sprite=11139
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+driver=6
+arg="A4CF"      # 164 207
+;
+
+caligar_pl2_3:
+name="Teleport"
+description="It's a teleport... or is it?"
+flag=IF_USE
+sprite=13214
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+driver=6
+arg="A7C6"      # 167 198
+;
+
+caligar_pl2_4:
+name="Teleport"
+description="It's a teleport... or is it?"
+flag=IF_USE
+sprite=14136
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+driver=6
+arg="A1BA"      # 161 186
+;
+
+caligar_pl2_5:
+name="Teleport"
+description="It's a teleport... or is it?"
+flag=IF_USE
+sprite=20044
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+driver=6
+arg="A7B4"      # 167 180
+;
+
+caligar_pl2_fake1:
+name="Teleport"
+description="It's a teleport... or is it?"
+sprite=11127
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9C00E200000001"   # x=156, y=226, a=0, quiet=1
+;
+
+caligar_pl2_fake2:
+name="Teleport"
+description="It's a teleport... or is it?"
+sprite=11139
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9C00D500000001"   # x=156, y=213, a=0, quiet=1
+;
+
+caligar_pl2_fake3:
+name="Teleport"
+description="It's a teleport... or is it?"
+sprite=13214
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9C00C800000001"   # x=156, y=200, a=0, quiet=1
+;
+
+caligar_pl2_fake4:
+name="Teleport"
+description="It's a teleport... or is it?"
+sprite=14136
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9C00BB00000001"   # x=156, y=187, a=0, quiet=1
+;
+
+caligar_pl2_fake5:
+name="Teleport"
+description="It's a teleport... or is it?"
+sprite=20044
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="A300E100000001"   # x=163, y=225, a=0, quiet=1
+;
+
+caligar_walldoor1:
+name="Odd Wall"
+description="It looks... odd."
+sprite=50076
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+caligar_walldoor2:
+name="Odd Wall"
+description="It looks... odd."
+sprite=50076
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+caligar_walldoor3:
+name="Odd Wall"
+description="It looks... odd."
+sprite=50076
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+caligar_walldoor4:
+name="Odd Wall"
+description="It looks... odd."
+sprite=50076
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+caligar_walldoor5:
+name="Odd Wall"
+description="It looks... odd."
+sprite=50076
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+caligar_return_tele1:
+name="Teleport"
+description="A teleporter."
+sprite=20284
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="A300E100000001"   # x=163, y=225, a=0, quiet=1
+;
+
+caligar_return_tele2:
+name="Teleport"
+description="A teleporter."
+sprite=20284
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="A100D700000001"   # x=161, y=215, a=0, quiet=1
+;
+
+caligar_return_tele3:
+name="Teleport"
+description="A teleporter."
+sprite=20284
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="A500CF00000001"   # x=165, y=207, a=0, quiet=1
+;
+
+caligar_return_tele4:
+name="Teleport"
+description="A teleporter."
+sprite=20284
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="A700C500000001"   # x=167, y=197, a=0, quiet=1
+;
+
+caligar_return_tele5:
+name="Teleport"
+description="A teleporter."
+sprite=20284
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="A100B900000001"   # x=161, y=185, a=0, quiet=1
+;
+
+caligar_p_tele1:
+name="Teleport"
+description="A teleporter."
+sprite=14138
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9700D400000001"   # x=151, y=212, a=0, quiet=1
+;
+
+caligar_p_tele2:
+name="Teleport"
+description="A teleporter."
+sprite=14139
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9700B800000001"   # x=151, y=199, a=0, quiet=1
+;
+
+caligar_p_tele3:
+name="Teleport"
+description="A teleporter."
+sprite=14140
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9700C700000001"   # x=151, y=186, a=0, quiet=1
+;
+
+caligar_p_tele4:
+name="Teleport"
+description="A teleporter."
+sprite=20283
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9700E100000001"   # x=151, y=225, a=0, quiet=1
+;

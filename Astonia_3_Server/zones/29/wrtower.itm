@@ -1,0 +1,745 @@
+#-----------------------
+#---- Floor 1 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor1_hole_down_lt:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="2700AD00000001"   # x=39, y=173, a=0, quiet=1
+;
+
+floor1_hole_down_lb:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="2E00B400000001"   # x=46, y=180, a=0, quiet=1
+;
+
+floor1_hole_down_tl:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="27009D00000001"   # x=39, y=157, a=0, quiet=1
+;
+
+floor1_hole_down_tr:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="2E009600000001"   # x=46, y=150, a=0, quiet=1
+;
+
+floor1_hole_down_rt:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="3E009600000001"   # x=62, y=150, a=0, quiet=1
+;
+
+floor1_hole_down_rb:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="45009D00000001"   # x=69, y=157, a=0, quiet=1
+;
+
+floor1_hole_down_bl:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="3E00B400000001"   # x=62, y=180, a=0, quiet=1
+;
+
+floor1_hole_down_br:
+name="hole"
+description="A hole leading down into the tower..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="4500AD00000001"   # x=69, y=173, a=0, quiet=1
+;
+
+
+#-----------------------
+#---- Floor 2 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor2_ladder_up_lt:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="27008900000001"   # x=39, y=137, a=0, quiet=1
+;
+
+floor2_ladder_up_lb:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="2E009000000001"   # x=46, y=144, a=0, quiet=1
+;
+
+floor2_ladder_up_tl:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="27007900000001"   # x=39, y=121, a=0, quiet=1
+;
+
+floor2_ladder_up_tr:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="2E007200000001"   # x=46, y=114, a=0, quiet=1
+;
+
+floor2_ladder_up_rt:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="3E007200000001"   # x=62, y=114, a=0, quiet=1
+;
+
+floor2_ladder_up_rb:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="45007900000001"   # x=69, y=121, a=0, quiet=1
+;
+
+floor2_ladder_up_bl:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="3E009000000001"   # x=62, y=144, a=0, quiet=1
+;
+
+floor2_ladder_up_br:
+name="ladder"
+description="A ladder leading up to the top..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="45008900000001"   # x=69, y=137, a=0, quiet=1
+;
+
+floor2_stair_down:
+name="Stair"
+description="A flight of stairs leading to the third floor"
+sprite=15541
+flag=IF_USE
+driver=10
+arg="3600C900000001"   # x=54, y=201, a=0, quiet=1
+;
+
+
+#---- Chests ----
+
+sunken_tower_chest_95:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="5F000000000100"        # chest 95 (5F), no key (00000000), 1 hour respawn time (0100)
+;
+treasure_95:
+name="The Sunken Tower key 1"
+description="The first of four keys for the third floor of the Sunken Tower."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000055
+;
+
+sunken_tower_chest_96:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="60000000000100"        # chest 96 (60), no key (00000000), 1 hour respawn time (0100)
+;
+treasure_96:
+name="The Sunken Tower key 2"
+description="The second of four keys for the third floor of the Sunken Tower."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000056
+;
+
+sunken_tower_chest_97:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="61000000000100"        # chest 97 (61), no key (00000000), 1 hour respawn time (0100)
+;
+treasure_97:
+name="The Sunken Tower key 3"
+description="The third of four keys for the third floor of the Sunken Tower."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000057
+;
+
+sunken_tower_chest_98:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="62000000000100"        # chest 98 (62), no key (00000000), 1 hour respawn time (0100)
+;
+treasure_98:
+name="The Sunken Tower key 4"
+description="The fourth of four keys for the third floor of the Sunken Tower."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000058
+;
+
+
+#-----------------------
+#---- Floor 3 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor3_stair_up:
+name="Stair"
+description="A flight of stairs leading to the second floor."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="3600A500000001"   # x=54, y=165, a=0, quiet=1
+;
+
+floor3_stair_down:
+name="Stair"
+description="A flight of stairs leading to the fourth floor"
+sprite=15541
+flag=IF_USE
+driver=10
+arg="4500FC00000001"   # x=69, y=252, a=0, quiet=1
+;
+
+#---- Doors ----
+
+floor3_door1:
+sprite=20156
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0055000006"
+;
+
+floor3_door2:
+sprite=20154
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0056000006"
+;
+
+floor3_door3:
+sprite=20156
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0057000006"
+;
+
+floor3_door4:
+sprite=20154
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0058000006"
+;
+
+
+
+#-----------------------
+#---- Floor 4 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor4_stair_up:
+name="Stair"
+description="A flight of stairs leading to the third floor."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="4500D800000001"   # x=69, y=216, a=0, quiet=1
+;
+
+floor4_stair_down:
+name="Stair"
+description="A flight of stairs leading to the fifth floor"
+sprite=15541
+flag=IF_USE
+driver=10
+arg="0400ED00000001"   # x=4, y=237, a=0, quiet=1
+;
+
+#---- Columns ----
+
+floor4_column1:
+name="Column"
+description="A column that seems to be light enough to be moved"
+sprite=21203
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=121
+arg="03"
+;
+
+floor4_column2:
+name="Column"
+description="A column that seems to be light enough to be moved"
+sprite=21203
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=121
+arg="03"
+;
+
+
+#-----------------------
+#---- Floor 5 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor5_stair_up:
+name="Stair"
+description="A flight of stairs leading to the fourth floor."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="2800ED00000001"   # x=40, y=237, a=0, quiet=1
+;
+
+floor5_stair_down:
+name="Stair"
+description="A flight of stairs leading to the sixth floor"
+sprite=15541
+flag=IF_USE
+driver=10
+arg="2000C900000001"   # x=32, y=201, a=0, quiet=1
+;
+
+#---- Teleporters ----
+
+floor5_teleport_a_7_9:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1200F600000001"   # x=18, y=246, a=0, quiet=1
+;
+
+floor5_teleport_b_3_6_8:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1200E400000001"   # x=18, y=228, a=0, quiet=1
+;
+
+floor5_teleport_c:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="0500E100000001"   # x=5, y=225, a=0, quiet=1
+;
+
+floor5_teleport_d_2_5:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="0500F900000001"   # x=5, y=249, a=0, quiet=1
+;
+
+floor5_teleport_e:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1200DE00000001"   # x=18, y=222, a=0, quiet=1
+;
+
+floor5_teleport_f_4:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1200E900000001"   # x=18, y=233, a=0, quiet=1
+;
+
+floor5_teleport_g:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1200FC00000001"   # x=18, y=252, a=0, quiet=1
+;
+
+floor5_teleport_h:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1F00F900000001"   # x=31, y=249, a=0, quiet=1
+;
+
+floor5_teleport_i:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1F00E100000001"   # x=31, y=225, a=0, quiet=1
+;
+
+floor5_teleport_j:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="1B00ED00000001"   # x=27, y=237, a=0, quiet=1
+;
+
+floor5_teleport_1_10:
+name="Teleporter"
+description="A strange magical teleportation device"
+sprite=11139
+flag=IF_USE
+driver=10
+arg="0900ED00000001"   # x=9, y=237, a=0, quiet=1
+;
+
+
+
+#-----------------------
+#---- Floor 6 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor6_stair_up:
+name="Stair"
+description="A flight of stairs leading to the fifth floor."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="2000ED00000001"   # x=32, y=237, a=0, quiet=1
+;
+
+floor6_stair_down:
+name="Stair"
+description="A flight of stairs leading to the seventh floor"
+sprite=15541
+flag=IF_USE
+driver=10
+arg="1200A500000001"   # x=18, y=165, a=0, quiet=1
+;
+
+#--- Chests ---
+
+sunken_tower_chest_99:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="63000000000100"        # chest 99 (63), no key (00000000), 1 hour respawn time (0100)
+;
+treasure_99:
+name="The Sunken Tower key 5"
+description="The first key to the 6th floor of the sunken tower."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000059
+;
+
+sunken_tower_chest_100:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="64000000000100"        # chest 100 (64), no key (00000000), 1 hour respawn time (0100)
+;
+treasure_100:
+name="The Sunken Tower key 6"
+description="The second key to the 6th floor of the sunken tower."
+value=18
+sprite=11103
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600005A
+;
+
+#---- Doors ----
+
+floor6_door1:
+sprite=20156
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0059000006"
+;
+
+floor6_door2:
+sprite=20156
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="005A000006"
+;
+
+
+#-----------------------
+#---- Floor 7 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor7_stair_up:
+name="Stair"
+description="A flight of stairs leading to the sixth floor."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="1200C900000001"   # x=18, y=201, a=0, quiet=1
+;
+
+#---- Doors ----
+
+floor7_door_nw_in:
+name="Door"
+description="A door leading to another area..."
+sprite=20156
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="0D00A500000001"   # x=13, y=165, a=0, quiet=1
+;
+
+floor7_door_nw_out:
+name="Door"
+description="A door leading to another area..."
+sprite=20156
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="1000A500000001"   # x=16, y=165, a=0, quiet=1
+;
+
+floor7_door_ne_in:
+name="Door"
+description="A door leading to another area..."
+sprite=20157
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="1200A000000001"   # x=18, y=160, a=0, quiet=1
+;
+
+floor7_door_ne_out:
+name="Door"
+description="A door leading to another area..."
+sprite=20157
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="1200A300000001"   # x=18, y=163, a=0, quiet=1
+;
+
+floor7_door_se_in:
+name="Door"
+description="A door leading to another area..."
+sprite=20156
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="1700A500000001"   # x=23, y=165, a=0, quiet=1
+;
+
+floor7_door_se_out:
+name="Door"
+description="A door leading to another area..."
+sprite=20156
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="1400A500000001"   # x=20, y=165, a=0, quiet=1
+;
+
+floor7_door_sw_in:
+name="Door"
+description="A door leading to another area..."
+sprite=20157
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="1200AA00000001"   # x=18, y=170, a=0, quiet=1
+;
+
+floor7_door_sw_out:
+name="Door"
+description="A door leading to another area..."
+sprite=20157
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="1200A700000001"   # x=18, y=167, a=0, quiet=1
+;
+
+
+#-----------------------
+#---- Floor 8 items ----
+#-----------------------
+
+#---- Teleport trap ----
+
+#teleport_trap:
+#name="steptrap"
+#sprite=0
+#flag=IF_STEPACTION
+#driver=10
+#arg="21008F00000001"   # x=33, y=143, a=0, quiet=1
+#;
+
+teleport_trap:
+#name="Transport"
+#description="Written on it is: Ice Underground, Level 45 and better!"
+#sprite=15541
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="21008F00000001000000000001"   # x=33, y=143, a=0, quiet=1, aflag=0, branflag=0, stop=1
+;
+
+
+#-----------------------
+#---- Floor 9 items ----
+#-----------------------
+
+#---- Stairs ----
+
+floor9_stair_up:
+name="Stair"
+description="A flight of stairs leading to the eighth floor."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="19007200000001"   # x=25, y=114, a=0, quiet=1
+;
+
+#---- Quest Items ----
+
+grimoire_of_animation:
+name="Grimoire of Animation"
+description="A large grimoire, filled with the secret arts of the magic of animation."
+sprite=15528
+flag=IF_USE
+driver=122
+arg="06"
+#arg="19007200000001"   # x=25, y=114, a=0, quiet=1
+;
+

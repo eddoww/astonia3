@@ -1,0 +1,632 @@
+liz_cave_some_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="AB001000000001"   # x=184, y=13, a=0, quiet=1
+;
+
+
+#------------------------
+#---- Cave Entrances ----
+#------------------------
+
+liz_cave_gfleft:
+name="Cave Entrance"
+description="The entrance to a dark and damp cave..."
+sprite=23139
+flag=IF_USE
+driver=10
+arg="90001900000001"   # x=144, y=25, a=0, quiet=1
+;
+
+liz_cave_gfright:
+name="Cave Entrance"
+description="The entrance to a dark and damp cave..."
+sprite=23139
+flag=IF_USE
+driver=10
+arg="90000B00000001"   # x=144, y=11, a=0, quiet=1
+;
+
+liz_cave_ff:
+name="Cave Entrance"
+description="The entrance to a dark and damp cave..."
+sprite=23139
+flag=IF_USE
+driver=10
+arg="90003C00000001"   # x=144, y=60, a=0, quiet=1
+;
+
+liz_cave_sf:
+name="Cave Entrance"
+description="The entrance to a dark and damp cave..."
+sprite=23139
+flag=IF_USE
+driver=10
+arg="90007300000001"   # x=144, y=115, a=0, quiet=1
+;
+
+
+
+#---------------------------
+#---- Cave Ground Floor ----
+#---------------------------
+
+liz_cave_gf_exit_left:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="C3001900000001"   # x=195, y=25, a=0, quiet=1
+;
+
+liz_cave_gf_exit_right:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="C3000B00000001"   # x=195, y=11, a=0, quiet=1
+;
+
+liz_cave_gf_ladder:
+name="ladder"
+description="A ladder leading up into another cave..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="77005000000001"   # x=119, y=80, a=0, quiet=1
+;
+
+#--------------------------
+#---- Cave First Floor ----
+#--------------------------
+
+liz_cave_ff_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="B8000D00000001"   # x=184, y=13, a=0, quiet=1
+;
+
+liz_cave_ff_hole:
+name="hole"
+description="A hole leading down into another cave..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="6C002100000001"   # x=108, y=33, a=0, quiet=1
+;
+
+liz_cave_ff_ladder:
+name="ladder"
+description="A ladder leading up into another cave..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="76006200000001"   # x=118, y=98, a=0, quiet=1
+;
+
+
+#---------------------------
+#---- Cave Second Floor ----
+#---------------------------
+
+liz_cave_sf_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="B8000D00000001"   # x=184, y=13, a=0, quiet=1
+;
+
+liz_cave_sf_hole:
+name="hole"
+description="A hole leading down into another cave..."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="6B003700000001"   # x=107, y=55, a=0, quiet=1
+;
+
+
+#---------------------------
+#---- Cave Second Floor ----
+#---------------------------
+
+liz_uw_entrance:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="60001D00000001"   # x=96, y=29, a=0, quiet=1
+;
+
+liz_uw_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="BA004E00000001"   # x=186, y=78, a=0, quiet=1
+;
+
+liz_uwcave1_entrance:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="60003D00000001"   # x=96, y=61, a=0, quiet=1
+;
+
+liz_uwcave1_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="4C003200000001"   # x=76, y=50, a=0, quiet=1
+;
+
+liz_uwcave2_entrance:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="61006200000001"   # x=97, y=98, a=0, quiet=1
+;
+
+liz_uwcave2_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="2B002E00000001"   # x=43, y=46, a=0, quiet=1
+;
+
+liz_uwcave3_entrance:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="18001500000001"   # x=24, y=21, a=0, quiet=1
+;
+
+liz_uwcave3_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="26001700000001"   # x=38, y=23, a=0, quiet=1
+;
+
+liz_finalcave_entrance:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="09003C00000001"   # x=9, y=60, a=0, quiet=1
+;
+
+liz_finalcave_exit:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="47000500000001"   # x=71, y=5, a=0, quiet=1
+;
+
+
+#---------------------
+#---- Quest Items ----
+#---------------------
+
+lizard_big_tooth:
+name="Lizard Tooth"
+description="A sharp lizard's tooth."
+value=10
+sprite=50002
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000099
+;
+
+lizard_underwater_potion:
+name="Underwater Potion"
+description="A refreshing potion to breath underwater."
+value=10
+sprite=11188
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+driver=128
+;
+
+lizard_brown_berry_plant:
+name="Brown berry plant"
+description="A brown berry seems to be growing on this plant."
+value=10
+sprite=11093
+flag=IF_USE
+driver=129
+arg="01"
+;
+lizard_brown_berry:
+name="Brown berry"
+description="A delicious looking berry with magical properties."
+value=10
+sprite=11094
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100009A
+;
+
+lizard_elite_key1:
+name="Elite Lizard Key 1"
+description="The first of three keys to the elite lizard's cage."
+value=10
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000062		# key 98 (62), developer 6
+;
+lizard_elite_door1:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0062000006"
+;
+lizard_elite_door1se:
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0062000006"
+;
+
+
+lizard_elite_key2:
+name="Elite Lizard Key 2"
+description="The second of three keys to the elite lizard's cage."
+value=10
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000063		# key 99 (63), developer 6
+;
+lizard_elite_door2:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0063000006"
+;
+
+lizard_elite_key3:
+name="Elite Lizard Key 3"
+description="The third of three keys to the elite lizard's cage."
+value=10
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000064		# key 100 (64), developer 6
+;
+lizard_elite_door3:
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0064000006"
+;
+
+lizard_elite_head:
+name="Elite Lizard Head"
+description="The elite lizard sure lost its head over you."
+value=10
+sprite=51068
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100009B
+;
+
+lizard_mold1:
+name="Key Mold 1"
+description="A chest containing a mold for a key."
+value=10
+sprite=16283
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100009C
+arg="01"
+;
+
+lizard_mold2:
+name="Key Mold 2"
+description="A chest containing a mold for a key."
+value=10
+sprite=16283
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100009C
+arg="02"
+;
+
+lizard_mold3:
+name="Key Mold 3"
+description="A chest containing a mold for a key."
+value=10
+sprite=16283
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100009C
+arg="03"
+;
+
+flower_h:
+name="Horentia"
+description="A flower is growing here."
+value=10
+sprite=52215
+flag=IF_USE
+driver=129
+arg="02"
+;
+picked_flower_h:
+name="Horentia"
+description="A flower."
+value=10
+sprite=52216
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=130
+arg="01"
+;
+
+flower_i:
+name="Immani"
+description="A flower is growing here."
+value=10
+sprite=52217
+flag=IF_USE
+driver=129
+arg="03"
+;
+picked_flower_i:
+name="Immani"
+description="A flower."
+value=10
+sprite=52218
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=130
+arg="02"
+;
+
+flower_j:
+name="Jamana"
+description="A flower is growing here."
+value=10
+sprite=52219
+flag=IF_USE
+driver=129
+arg="04"
+;
+picked_flower_j:
+name="Jamana"
+description="A flower."
+value=10
+sprite=52220
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=130
+arg="04"
+;
+
+dwarf_recall90:
+name="Dwarven recall scroll"
+description="A recall scroll for the lost dwarf in level 90 mines."
+value=10
+sprite=21102
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000094
+;
+
+dwarf_recall100:
+name="Dwarven recall scroll"
+description="A recall scroll for the lost dwarf in level 100 mines."
+value=10
+sprite=21102
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000095
+;
+
+dwarf_recall110:
+name="Dwarven recall scroll"
+description="A recall scroll for the lost dwarf in level 110 mines."
+value=10
+sprite=21102
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000096
+;
+
+dwarf_recall120:
+name="Dwarven recall scroll"
+description="A recall scroll for the lost dwarf in level 120 mines."
+value=10
+sprite=21102
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000097
+;
+
+
+#---- shop and gold room doors ---
+mine_door18t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="12010701"          # nr 18, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door18s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="12000300"          # nr 18, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door19t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="13010701"          # nr 19, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door19s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="13000300"          # nr 19, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door20t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="14010701"          # nr 20, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door20s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="14000300"          # nr 20, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door21t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="15010701"          # nr 21, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door21s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="15000300"          # nr 21, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door22t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="16010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door22s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="16000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door23t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="17010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door23s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="17000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door24t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="18010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door24s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="18000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door25t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="19010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door25s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="19000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_gateway_door:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=10
+arg="E70004000C0001"   # x=231, y=4, a=12, quiet=1
+;
+

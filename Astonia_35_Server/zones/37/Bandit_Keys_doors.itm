@@ -1,0 +1,62 @@
+key1_13:
+name="Bandit Key 1"
+description="Seems to unlock something."
+value=5
+sprite=50006
+ID=013000001
+flag=IF_TAKE
+flag=IF_QUEST
+; 
+
+Bandit_Door1:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0001000013"        # developer 1, ID 24
+;
+
+key2_13:
+name="Bandit Key 2"
+description="Seems to unlock something."
+value=5
+sprite=50004
+ID=013000002
+flag=IF_TAKE
+flag=IF_QUEST
+; 
+
+Bandit_Door2:
+sprite=16053
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0002000013"
+;
+
+key3_13:
+name="Bandit Key 3"
+description="Seems to unlock something."
+value=5
+sprite=50005
+ID=013000003
+flag=IF_TAKE
+flag=IF_QUEST
+; 
+
+Bandit_Door3:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0003000013"
+;

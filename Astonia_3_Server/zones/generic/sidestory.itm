@@ -1,0 +1,7 @@
+ruby_weapon:
+name="set me"
+description="set me"
+flag=IF_NOENHANCE
+flag=IF_QUEST
+sprite=0
+;

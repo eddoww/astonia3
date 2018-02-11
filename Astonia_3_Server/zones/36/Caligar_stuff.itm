@@ -1,0 +1,23 @@
+gray_dungeon_door1:
+name="Door"
+description="A door."
+sprite=20429
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+ 
+gray_dungeon_door2:
+name="Door"
+description="A door."
+sprite=20431
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;

@@ -1,0 +1,17 @@
+Knoger_stairs_up2:
+name="Stairs"
+description="Stairs leading up."
+sprite=15540
+flag=IF_USE
+driver=10
+arg="50002000000001"   # x=80, y=32, a=0, quiet=1
+;
+
+Stairs__down:
+name="Stairs"
+description="Stairs leading down."
+sprite=15541
+flag=IF_USE
+driver=10
+arg="56001F00000001"   # x=86, y=31, a=0, quiet=1
+;

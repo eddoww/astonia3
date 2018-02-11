@@ -1,0 +1,8 @@
+village_apple:
+name="Apple"
+description="A beautiful, juicy, appetizing apple."
+value=5
+sprite=50024
+ID=0100000B             # developer 1, ID 7
+flag=IF_TAKE
+;

@@ -1,0 +1,32 @@
+Iron_Pot:
+name="Pot"
+description="A pot made of iron. It feels extremely cold."
+sprite=50075
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C1
+;
+
+Seeker_key:
+name="Door Key"
+description="Seems to unlock something."
+value=5
+sprite=50517
+ID=013000081
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Seeker_door:
+name="Door"
+description="An ice cold door made of steel."
+sprite=21683
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0081000013"
+;
+

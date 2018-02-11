@@ -1,0 +1,116 @@
+training_trap1:
+flag=IF_STEPACTION
+driver=144
+arg="0101"
+;
+
+training_trap2:
+flag=IF_STEPACTION
+driver=144
+arg="0102"
+;
+
+training_trap3:
+flag=IF_STEPACTION
+driver=144
+arg="0103"
+;
+
+caligar_dungeon3_door:
+name="a door"
+description="a door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=144
+arg="03"
+;
+
+caligar_skelly_door:
+name="Strange Door"
+description="A strange door, with engravings showing skeletons."
+sprite=16037
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=144
+arg="0C00"
+;
+
+caligar_zombie_door:
+name="Strange Door"
+description="A strange door, with engravings showing skeletons."
+sprite=16037
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=144
+arg="0C01"
+;
+
+caligar_vamp_door:
+name="Strange Door"
+description="A strange door, with engravings showing skeletons."
+sprite=16037
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=144
+arg="0C02"
+;
+
+
+caligar_library_tele: 
+name="Bookcase" 
+description="No, your eyes are fine. That bookcase IS glowing." 
+sprite=16274
+flag=IF_USE 
+driver=10 
+arg="EA003D00000001"   # x=234, y=61, a=0, quiet=1 
+;
+
+
+flame_throw1_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20703
+flag=IF_MOVEBLOCK
+driver=145
+arg="0103"
+;
+
+flame_throw2_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20712
+flag=IF_MOVEBLOCK
+driver=145
+arg="0101"
+;
+
+flame_throw3_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20721
+flag=IF_MOVEBLOCK
+driver=145
+arg="0107"
+;
+
+flame_throw4_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20730
+flag=IF_MOVEBLOCK
+driver=145
+arg="0105"
+;

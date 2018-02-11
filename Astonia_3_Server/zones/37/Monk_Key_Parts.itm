@@ -1,0 +1,29 @@
+Key_Part1:
+name="A part of the Broken key."
+Description="The key-part for Gregor."
+sprite=51140
+ID=010000B8          	# developer 13, ID 14
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+;
+
+Key_Part2:
+name="A part of the Broken key."
+Description="The key-part for Johnatan."
+sprite=51141
+ID=010000B9          	# developer 13, ID 15
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+;
+
+Key_Part3:
+name="A part of the Broken key."
+Description="The key-part for Johan."
+sprite=51142
+ID=010000BA          	# developer 13, ID 16
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+;

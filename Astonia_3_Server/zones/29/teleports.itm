@@ -1,0 +1,115 @@
+link_fpents3_below:
+name="Door"
+description="Written on it is: Fire Pents, Level 55 to 62."
+sprite=20666    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="05008600070001"   # x=5, y=134, a=7, quiet=1
+;
+
+link_fpents4_below:
+name="Door"
+description="Written on it is: Fire Pents, Level 63 to 70."
+sprite=20666    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="0400C400070001"   # x=4, y=196, a=7, quiet=1
+;
+
+link_ipents1_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 71 to 78."
+sprite=20664    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="04000200090001"   # x=4, y=4, a=9, quiet=1
+;
+
+link_ipents2_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 79 to 86."
+sprite=20664    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="06004200090001"   # x=6, y=66, a=9, quiet=1
+;
+
+link_ipents3_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 87 to 94."
+sprite=20664    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="06008300090001"   # x=4, y=4, a=9, quiet=1
+;
+
+link_ipents4_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 95 to 102."
+sprite=20664    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="0600C200090001"   # x=6, y=194, a=9, quiet=1
+;
+
+link_hpents_below:
+name="Door"
+description="Written on it is: Hell Pents, Level 103 to 118."
+sprite=20666    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="35000300190001"   # x=53, y=3, a=25, quiet=1
+;
+
+link_ice_below:
+name="Transport"
+description="Written on it is: Ice Underground, Level 45 and better!"
+sprite=20666    #50017
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="060007000A0001"   # x=6, y=7, a=10, quiet=1
+;
+
+link_random:
+#name="Transport"
+#description="Written on it is: Ice Underground, Level 45 and better!"
+sprite=15541
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+driver=10
+arg="E500FB000E0001"   # x=229, y=251, a=14, quiet=1
+;
+
+link_mine:
+#name="Transport"
+#description="Written on it is: Ice Underground, Level 45 and better!"
+#sprite=15541
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="E8009D000C0001"   # x=232, y=157, a=12, quiet=1
+;
+
+link_arkhata:
+flag=IF_USE
+flag=IF_STEPACTION
+driver=10
+arg="FA006400250001"   # x=232, y=157, a=12, quiet=1
+;

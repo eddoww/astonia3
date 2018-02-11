@@ -1,0 +1,28 @@
+mad_chest113:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="714C0000130000"        # chest 113, devel 13, ID 76, 1 week respawn time
+;
+treasure_113:
+name="The Darkness Blade"
+description="A dark blade with a strange glow to it. You sense it has a will of its own."
+value=225
+sprite=10375
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C0
+;
+
+Spoon_chest_key:
+name="Chest-key"
+description="A Chest key from a Frawd."
+value=25
+sprite=50006
+ID=1300004C             # developer 13, ID 76
+flag=IF_TAKE
+flag=IF_QUEST
+;

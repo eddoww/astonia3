@@ -1,0 +1,67 @@
+warlock_skull:
+name="Warlock-Skull"
+description="The warlock's skull."
+value=25
+sprite=50020
+ID=01000009             # developer 1, ID 9
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+warlock_key:
+name="Warlock-Key-1"
+description="A key from the evil magician's hideout."
+value=25
+sprite=50004
+ID=0100000A             # developer 1, ID 10
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+warlock_chest1:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="010A000001E010"        # nr 1, devel 1, ID 10, 1 week respawn time
+;
+
+treasure_1:
+name="Ring"
+description="A Ring of Extremely Weak Attack."
+value=25
+sprite=50025
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+mod_index=V_ATTACK
+mod_value=1
+quality=275
+complexity=250
+;
+
+warlock_chest2:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="020A000001E010"        # nr 2, devel 1, ID 10, 1 week respawn time
+;
+
+treasure_2:
+name="Ring"
+description="A Ring of Extremely Weak Lightning."
+value=25
+sprite=50025
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+mod_index=V_FLASH
+mod_value=1
+quality=275
+complexity=250
+;

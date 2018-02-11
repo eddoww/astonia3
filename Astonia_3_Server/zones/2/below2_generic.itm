@@ -1,0 +1,1359 @@
+generic_exit:
+name="Ladder"
+description="A ladder leading up... somewhere far, far away."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="77006D00010001"   # x=119, y=109, a=1, quiet=1
+;
+
+exit_to_loisan:
+name="Ladder"
+description="A ladder leading up... somewhere far, far away."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="C200FA00030001"   # x=194, y=250, a=3, quiet=1
+;
+
+exit_to_level1:
+name="Ladder"
+description="A ladder leading up... somewhere."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="05000400000001"   # x=5, y=4, a=0, quiet=1
+;
+
+exit_to_level2:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="05006700000001"   # x=5, y=103, a=0, quiet=1
+;
+
+exit_to_astonpark:
+name="Ladder"
+description="A ladder leading up... somewhere far, far away."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="C3007800030001"   # x=195, y=120, a=3, quiet=1
+;
+
+exit_to_astonoutside:
+name="Ladder"
+description="A ladder leading up... somewhere far, far away."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="DE00D600030001"   # x=222, y=214, a=3, quiet=1
+;
+
+exit_to_astrogarden:
+name="Ladder"
+description="A ladder leading up... somewhere far, far away."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="D000A800030001"   # x=206, y=168, a=3, quiet=1
+;
+
+exit_to_graveyard:
+name="Ladder"
+description="A ladder leading up... somewhere far, far away."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="5200B400030001"   # x=82, y=180, a=3, quiet=1
+;
+
+shrine1:
+sprite=50045
+mod_index=V_LIGHT
+mod_value=10
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_USE
+driver=14
+arg="00"
+;
+
+shrine2:
+sprite=50046
+mod_index=V_LIGHT
+mod_value=10
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_USE
+driver=14
+arg="00"
+;
+
+shrine3:
+sprite=50039
+mod_index=V_LIGHT
+mod_value=20
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_USE
+driver=14
+arg="01"
+;
+
+shrine4:
+sprite=50040
+mod_index=V_LIGHT
+mod_value=20
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_USE
+driver=14
+arg="01"
+;
+
+shrine5:
+sprite=50044
+mod_index=V_LIGHT
+mod_value=20
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_USE
+driver=14
+arg="02"
+;
+
+shrine6:
+sprite=50043
+mod_index=V_LIGHT
+mod_value=20
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_USE
+driver=14
+arg="02"
+;
+
+fireball1:
+name="Fireball Trap"
+description="A strange magical artifact"
+sprite=50000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=15
+arg="70804000"
+;
+
+fireball2:
+name="Fireball Trap"
+description="A strange magical artifact"
+sprite=50041
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=15
+arg="80704078"
+;
+
+steptrap1:
+name="steptrap"
+sprite=0
+driver=6
+flag=IF_STEPACTION
+arg="1D08"
+;
+
+zombie_skull1:
+name="Skull"
+description="The skull of a zombie"
+value=250
+sprite=50037
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000025             # developer 1, ID 37
+;
+
+zombie_skull2:
+name="Skull"
+description="A skull made of silver."
+value=600
+sprite=50038
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000026             # developer 1, ID 38
+;
+
+zombie_skull3:
+name="Skull"
+description="A skull made of pure gold."
+value=1600
+sprite=50042
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000027             # developer 1, ID 39
+;
+
+wall_door:
+sprite=50116
+#sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000000000000"      # developer 1, ID 15, no auto-close
+;
+
+loisan_book1:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="00"                # page 0
+;
+
+#--
+loisan_chest5:
+name="Body"
+description="Loisan's dead body."
+sprite=50119
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="18000000000000"    # nr 24, no key, instant respawn time
+;
+treasure_24:
+name="Note"
+description="A note - use to read."
+value=5
+sprite=50011
+flag=IF_USE
+flag=IF_QUEST
+flag=IF_TAKE
+driver=16
+arg="01"                # page 1
+ID=1000028
+;
+
+#---
+zombie_chest26:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1A2D000001A800"        # chest 26, devel 1, ID 35, 1 week respawn time
+;
+treasure_26:
+name="Ring of Minor Offense"
+description="A ring of minor offense."
+value=225
+sprite=50025
+mod_index=V_ATTACK
+mod_value=3
+req_index=V_ATTACK
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+;
+
+zombie_chest27:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1B2D000001A800"        # chest 27, devel 1, ID 36, 1 week respawn time
+;
+treasure_27:
+name="Ring of Minor Fire"
+description="A ring of minor fire."
+value=225
+sprite=50026
+mod_index=V_FIREBALL
+mod_value=3
+req_index=V_FIREBALL
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+;
+
+zombie_chest28:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1C2D000001A800"        # chest 28, devel 1, ID 36, 1 week respawn time
+;
+treasure_28:
+name="Ring of Minor Sword Fighting"
+description="A ring of minor sword fighting."
+value=225
+sprite=50026
+mod_index=V_SWORD
+mod_value=3
+req_index=V_SWORD
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+;
+
+zombie_chest29:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1D2D000001A800"        # chest 28, devel 1, ID 36, 1 week respawn time
+;
+treasure_29:
+name="Ring of Minor Lightning"
+description="A ring of minor lightning."
+value=225
+sprite=50026
+mod_index=V_FLASH
+mod_value=3
+req_index=V_FLASH
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+;
+
+zombie_key1:
+name="Zombie-Key-1"
+description="A key from a zombie."
+value=5
+sprite=50006
+ID=0100002D             # developer 1, ID 23
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+superior_book1:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="02"                # page 2
+;
+
+superior_book2:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="03"                # page 3
+;
+
+superior_book3:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="04"                # page 4
+;
+
+superior_book4:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="05"                # page 5
+;
+
+superior_book5:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="06"                # page 6
+;
+
+superior_book6:
+name="Book"
+description="A huge leather-bound book."
+sprite=50118
+flag=IF_USE
+driver=16
+arg="07"                # page 7
+;
+
+zombie_key2:
+name="Zombie-Key-2"
+description="Key 1 to the Storeroom."
+value=25
+sprite=50004
+ID=01000030             # developer 1, ID 48
+flag=IF_TAKE
+flag=IF_QUEST
+;
+zombie_key3:
+name="Zombie-Key-3"
+description="Key 2 to the Storeroom."
+value=25
+sprite=50004
+ID=01000031             # developer 1, ID 49
+flag=IF_TAKE
+flag=IF_QUEST
+;
+zombie_key4:
+name="Zombie-Key-4"
+description="Key 3 to the Storeroom."
+value=25
+sprite=50004
+ID=01000032             # developer 1, ID 50
+flag=IF_TAKE
+flag=IF_QUEST
+;
+zombie_key5:
+name="Zombie-Key-5"
+description="Key 4 to the Storeroom."
+value=25
+sprite=50004
+ID=01000033             # developer 1, ID 51
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+zombie_door2:           # storeroom door 1
+#sprite=20038
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="003000000100"      # developer 1, ID 48
+;
+zombie_door3:           # storeroom door 2
+#sprite=20038
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="003100000100"      # developer 1, ID 49
+;
+zombie_door4:           # storeroom door 3
+#sprite=20038
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="003200000100"      # developer 1, ID 50
+;
+zombie_door5:           # storeroom door 4
+#sprite=20038
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="003300000100"      # developer 1, ID 51
+;
+
+zombie_chest30:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1E30000001A800"        # chest 30, devel 1, ID 48, 1 week respawn time
+;
+treasure_30:
+name="Cape"
+description="A brown cape."
+value=5
+sprite=50124
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FIREBALL
+mod_value=1
+req_index=V_FLASH
+req_value=10
+flag=IF_TAKE
+flag=IF_WNCLOAK
+;
+
+zombie_chest31:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1F31000001A800"        # chest 31, devel 1, ID 49, 1 week respawn time
+;
+treasure_31:
+name="Cape"
+description="A blue cape."
+value=5
+sprite=50125
+mod_index=V_TWOHAND
+mod_value=1
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+req_index=V_ATTACK
+req_value=10
+flag=IF_TAKE
+flag=IF_WNCLOAK
+;
+
+zombie_chest32:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="2032000001D002"        # chest 32, devel 1, ID 50, 1 month respawn time
+;
+treasure_32:
+name="Scroll"
+description="Scroll of Hitpoints"
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=19
+arg="0001"
+;
+
+zombie_chest33:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="2133000001D002"        # chest 33, devel 1, ID 51, 1 month respawn time
+;
+treasure_33:
+name="Scroll"
+description="Scroll of Mana"
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=19
+arg="0201"
+;
+
+creeper_head:
+name="Creeper Head"
+description="The head of a huge creeper."
+value=105
+sprite=50140
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000036             # developer 1, ID 53
+;
+
+creeper_chest34:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="2200000000D002"    # nr 34, no key, 1 month respawn time
+;
+treasure_34:
+name="Belt"
+description="A belt of Fairly Weak Immunity."
+value=1000
+sprite=50126
+flag=IF_TAKE
+flag=IF_WNBELT
+flag=IF_QUEST
+mod_index=V_IMMUNITY
+mod_value=4
+min_level=10
+;
+
+park_shrine1:
+name="Shrine"
+description="A neat looking shrine."
+sprite=50040
+flag=IF_USE
+driver=23
+arg="01"                # numero 1
+;
+
+park_shrine2:
+name="Shrine"
+description="A neat looking shrine."
+sprite=50040
+flag=IF_USE
+driver=23
+arg="02"                # numero 2
+;
+
+park_shrine3:
+name="Shrine"
+description="A neat looking shrine."
+sprite=50040
+flag=IF_USE
+driver=23
+arg="03"                # numero 3
+;
+
+dead_small_spider:
+name="Small Spider"
+description="The dead body of a small spider."
+sprite=50162
+flag=IF_TAKE
+ID=01000037                     # developer 1, ID 55
+;
+
+astro_note:
+name="Astronomer's Notes"
+description="You decide not to read the long winded discussions."
+value=5
+sprite=21097
+flag=IF_TAKE
+flag=IF_QUEST
+ID=1000038
+;
+
+moonie_spear:
+name="Two-Handed Spear"
+description="A heavily used Two-Handed Spear."
+value=60
+sprite=20575
+mod_index=V_WEAPON
+mod_value=31
+req_index=V_TWOHAND
+req_value=20
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_WNTWOHANDED
+flag=IF_TWOHAND
+;
+
+#---
+moony_key1:
+name="Moony-Key-1"
+description="A key from a moony."
+value=5
+sprite=20538
+ID=01000039
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+moony_chest35:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20539
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="2439000001D002"
+;
+treasure_35:
+name="Dagger"
+description="Dagger of the Moon."
+value=2500
+sprite=10193
+mod_index=V_WEAPON
+mod_value=41
+req_index=V_DAGGER
+req_value=30
+mod_index=V_DAGGER
+mod_value=2
+mod_index=V_INT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+;
+
+moony_chest36:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20539
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="2339000001D002"
+;
+treasure_36:
+name="Sword"
+description="Sword of the Moon."
+value=3500
+sprite=10223
+mod_index=V_WEAPON
+mod_value=44
+req_index=V_SWORD
+req_value=30
+mod_index=V_SWORD
+mod_value=2
+mod_index=V_INT
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_SWORD
+;
+
+#--------------- grave ------------
+
+flame_throw1_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20703
+flag=IF_MOVEBLOCK
+driver=24
+arg="0103"
+;
+
+flame_throw2_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20712
+flag=IF_MOVEBLOCK
+driver=24
+arg="0101"
+;
+
+flame_throw3_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20721
+flag=IF_MOVEBLOCK
+driver=24
+arg="0107"
+;
+
+flame_throw4_step:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20730
+flag=IF_MOVEBLOCK
+driver=24
+arg="0105"
+;
+
+flame_throw1_5s:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20703
+flag=IF_MOVEBLOCK
+driver=24
+arg="01030005"
+;
+
+flame_throw2_5s:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20712
+flag=IF_MOVEBLOCK
+driver=24
+arg="01010005"
+;
+
+flame_throw3_5s:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20721
+flag=IF_MOVEBLOCK
+driver=24
+arg="01070005"
+;
+
+flame_throw4_5s:
+name="Gargoyle Head"
+description="A gargoyle's head carved in stone."
+sprite=20730
+flag=IF_MOVEBLOCK
+driver=24
+arg="01050005"
+;
+
+steptrap:
+sprite=0
+flag=IF_STEPACTION
+driver=25
+arg="0000"      # use auto
+;
+
+spiketrap1:
+sprite=20739
+flag=IF_STEPACTION
+driver=26
+arg="0014"
+;
+
+spiketrap2:
+sprite=20741
+flag=IF_STEPACTION
+driver=26
+arg="0014"
+;
+
+spiketrap3:
+sprite=20743
+flag=IF_STEPACTION
+driver=26
+arg="0040"
+;
+
+spawn_normal_vampire:
+sprite=20748
+flag=IF_USE
+name="Grave"
+driver=27
+arg="00"
+;
+
+sun1_chest37:
+name="Grave"
+sprite=20748
+flag=IF_USE
+driver=5
+arg="25000000000000"    # nr 37, no key, 1 hour respawn time
+;
+treasure_37:
+name="Part of Sun Amulet"
+description="One part of a sun amulet"
+value=250
+sprite=20686
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0100003A             # developer 1, ID 0x3A
+driver=29
+;
+
+sun2_chest38:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="26000000000000"    # nr 38, no key, 1 hour respawn time
+;
+treasure_38:
+name="Part of Sun Amulet"
+description="One part of a sun amulet"
+value=250
+sprite=20688
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0100003B             # developer 1, ID 0x3B
+driver=29
+;
+
+sun3_chest39:
+name="Grave"
+sprite=20679
+flag=IF_USE
+driver=5
+arg="27000000000000"    # nr 39, no key, 1 hour respawn time
+;
+treasure_39:
+name="Part of Sun Amulet"
+description="One part of a sun amulet"
+value=250
+sprite=20685
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0100003C             # developer 1, ID 0x3C
+driver=29
+;
+
+pond1:
+sprite=20793
+flag=IF_USE
+name="Pond"
+driver=28
+;
+
+pond2:
+sprite=20794
+flag=IF_USE
+flag=IF_MOVEBLOCK
+name="Pond"
+driver=28
+;
+
+pond3:
+sprite=20795
+flag=IF_USE
+flag=IF_MOVEBLOCK
+name="Pond"
+driver=28
+;
+
+pond4:
+sprite=20796
+flag=IF_USE
+flag=IF_MOVEBLOCK
+name="Pond"
+driver=28
+;
+
+vampire_book1:
+name="Book"
+description="A huge leather-bound book."
+sprite=20792
+flag=IF_USE
+driver=16
+arg="08"                # page 8
+;
+vampire_book2:
+name="Book"
+description="A huge leather-bound book."
+sprite=20790
+flag=IF_USE
+driver=16
+arg="09"                # page 9
+;
+vampire_book3:
+name="Book"
+description="A huge leather-bound book."
+sprite=20790
+flag=IF_USE
+driver=16
+arg="0A"                # page 10
+;
+vampire_book4:
+name="Book"
+description="A huge leather-bound book."
+sprite=20789
+flag=IF_USE
+driver=16
+arg="0B"                # page 11
+;
+
+dagger_chest40:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="28000000000000"    # nr 40, no key, 1 hour respawn time
+;
+treasure_40:
+name="Dagger of the Bear"
+description="Dagger of the Bear"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest41:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="29000000000000"    # nr 41, no key, 1 hour respawn time
+;
+treasure_41:
+name="Dagger of the Beaver"
+description="Dagger of the Beaver"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest42:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="2A000000000000"    # nr 42, no key, 1 hour respawn time
+;
+treasure_42:
+name="Dagger of the Ox"
+description="Dagger of the Ox"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest43:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="2B000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_43:
+name="Dagger of the Weasel"
+description="Dagger of the Weasel"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest44:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="2C000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_44:
+name="Dagger of the Raven"
+description="Dagger of the Raven"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest45:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="2D000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_45:
+name="Dagger of the Dog"
+description="Dagger of the Dog"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x42
+;
+
+dagger_chest46:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="2E000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_46:
+name="Dagger of the Cat"
+description="Dagger of the Cat"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest47:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="2F000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_47:
+name="Dagger of the Owl"
+description="Dagger of the Owl"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest48:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="30000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_48:
+name="Dagger of the Fox"
+description="Dagger of the Fox"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest49:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="31000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_49:
+name="Dagger of the Wolf"
+description="Dagger of the Wolf"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest50:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="32000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_50:
+name="Dagger of the Tiger"
+description="Dagger of the Tiger"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest51:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="33000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_51:
+name="Dagger of the Lion"
+description="Dagger of the Lion"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest52:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="34000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_52:
+name="Dagger of the Hawk"
+description="Dagger of the Hawk"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000041             # developer 1, ID 0x41
+;
+
+dagger_chest53:
+name="Grave"
+sprite=20751
+flag=IF_USE
+driver=5
+arg="35000000000000"    # nr 43, no key, 1 hour respawn time
+;
+treasure_53:
+name="Dagger of the Falcon"
+description="Dagger of the Falcon"
+value=50
+sprite=10170
+mod_index=V_WEAPON
+mod_value=5
+req_index=V_DAGGER
+req_value=1
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+flag=IF_QUEST
+ID=01000042             # developer 1, ID 0x41
+;
+
+
+vampire_book5:
+name="Book"
+description="A huge leather-bound book."
+sprite=20790
+flag=IF_USE
+driver=16
+arg="0C"                # page 12
+;
+
+grave_hint1:
+name="Grave"
+description="Here rests Fredegar"
+sprite=20768
+flag=IF_USE
+driver=0
+;
+grave_hint2:
+name="Grave"
+description="Here rests Adalbert"
+sprite=20768
+flag=IF_USE
+driver=0
+;
+grave_hint3:
+name="Grave"
+description="Here rests Leon"
+sprite=20768
+flag=IF_USE
+driver=0
+;
+grave_hint4:
+name="Grave"
+description="Here rests Caligula"
+sprite=20768
+flag=IF_USE
+driver=0
+;
+grave_hint5:
+name="Grave"
+description="Here rests Onragin"
+sprite=20768
+flag=IF_USE
+driver=0
+;
+grave_hint6:
+name="Grave"
+description="Here rests Napoleon"
+sprite=20768
+flag=IF_USE
+driver=0
+;
+
+carlos_door:
+name="Door"
+description="'Locked by Lieutenant Carlos'"
+#sprite=20038
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="009300000100"      # developer 1, ID 0x93
+;
+
+link_dragron_breath:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="0E0011001A0001" # x=14, y=17, a=26, quiet=1
+;
+

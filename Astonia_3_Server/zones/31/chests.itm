@@ -1,0 +1,170 @@
+lizard_chest_key1:
+name="Lizard Chest Key 1"
+description="A key taken from the lizards for a treasure chest."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600005F		# key 95 (5F), developer 6
+;
+
+lizard_chest_105:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="695F000006A800"        # chest 105 (69), devel 6, ID 5F (5F000006), 1 week respawn time (A800)
+;
+treasure_105:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=25000
+;
+
+
+lizard_chest_key2:
+name="Lizard Chest Key 2"
+description="A key taken from the lizards for a treasure chest."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000060		# key 96 (60), developer 6
+;
+
+lizard_chest_106:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="6A60000006A800"        # chest 106 (6A), devel 6, ID 5F (60000006), 1 week respawn time (A800)
+;
+treasure_106:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=25000
+;
+
+
+lizard_chest_key3:
+name="Lizard Chest Key 3"
+description="A key taken from the lizards for a treasure chest."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000061		# key 97 (61), developer 6
+;
+
+lizard_chest_107:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="6B61000006A800"        # chest 107 (6B), devel 6, ID 5F (61000006), 1 week respawn time (A800)
+;
+treasure_107:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=25000
+;
+
+
+lizard_chest_key4:
+name="Lizard Chest Key 4"
+description="A key taken from the lizards for a treasure chest."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000065		# key 101 (65), developer 6
+;
+lizard_chest_108:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="6C65000006A800"        # chest 108 (6C), devel 6, ID 65 (65000006), 1 week respawn time (A800)
+;
+treasure_108:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=25000
+;
+lizard_temple_door1:
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0065000006"
+;
+
+
+lizard_chest_key5:
+name="Lizard Chest Key 5"
+description="A key taken from the lizards for a treasure chest."
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000066		# key 102 (66), developer 6
+;
+lizard_chest_109:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="6D66000006A800"        # chest 109 (6D), devel 6, ID 66 (66000006), 1 week respawn time (A800)
+;
+treasure_109:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=25000
+;
+lizard_temple_door2:
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0066000006"
+;
+
+
+
+

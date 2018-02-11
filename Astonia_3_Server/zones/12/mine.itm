@@ -1,0 +1,857 @@
+link_to_aston:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="24007E00030001"   # x=36, y=126, a=3, quiet=1
+;
+
+link_to_bran:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+    #00010203040506070809101112
+arg="7000F7001D00010000000001"   # x=112, y=249, a=29, quiet=1
+;
+
+mine_wall:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="030001"            # 3 silver, 0 gold, miner 1
+;
+
+mine_wall2:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="060102"            # 6 silver, 1 gold, miner 2
+;
+
+mine_wall3:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="090203"            # 9 silver, 2 gold, miner 3
+;
+
+mine_wall4:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="0C0304"            # 12 silver, 3 gold, miner 4
+;
+
+mine_wall5:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="0F0405"            # 15 silver, 4 gold, miner 5
+;
+
+mine_wall6:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="120506"            # 18 silver, 5 gold, miner 6
+;
+
+mine_wall7:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="150607"            # 21 silver, 6 gold, miner 7
+;
+
+mine_wall8:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="180708"            # 24 silver, 7 gold, miner 8
+;
+
+mine_wall9:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="030109"            # 3 silver, 1 gold, miner 9
+;
+
+mine_wall10:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="06020A"            # 6 silver, 2 gold, miner 10
+;
+
+mine_wall11:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="09040B"            # 9 silver, 4 gold, miner 11
+;
+
+mine_wall12:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="0C060C"            # 12 silver, 6 gold, miner 12
+;
+
+mine_wall13:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="0F080D"            # 15 silver, 8 gold, miner 13
+;
+
+mine_wall14:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="120A0E"            # 18 silver, 10 gold, miner 14
+;
+
+mine_wall15:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="150C0F"            # 21 silver, 12 gold, miner 15
+;
+
+mine_wall16:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="180E10"            # 24 silver, 14 gold, miner 16
+;
+
+mine_door1t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="01010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door1s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="01000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door2t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="02010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door2s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="02000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door3t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="03010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door3s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="03000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door4t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="04010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door4s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="04000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door5t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="05010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door5s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="05000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door6t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="06010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door6s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="06000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door7t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="07010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door7s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="07000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door8t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="08010701"          # nr 1, istarget 1, direction 7 (up), usable 1
+;
+
+mine_door8s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="08000300"          # nr 1, istarget 0, direction 3 (down), usable 0
+;
+
+mine_door9t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="09010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door9s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="09000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door10t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="0A010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door10s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="0A000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door11t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="0B010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door11s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="0B000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door12t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="0C010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door12s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="0C000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door13t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="0D010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door13s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="0D000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door14t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="0E010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door14s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="0E000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door15t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="0F010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door15s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="0F000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door16t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="10010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door16s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="10000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_door17t:
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=62
+arg="11010301"          # nr 9, istarget 1, direction 3 (down), usable 1
+;
+
+mine_door17s:
+sprite=15000
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=62
+arg="11000700"          # nr 9, istarget 0, direction 7 (up), usable 0
+;
+
+mine_key1:
+name="Mine-Key-1"
+description="Treasure chest key from mine level 1."
+value=25
+sprite=50004
+ID=01000052             # developer 1, 0x52
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_key2:
+name="Mine-Key-2"
+description="Treasure chest key from mine level 2."
+value=25
+sprite=50004
+ID=01000053             # developer 1, 0x52
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_key3:
+name="Mine-Key-3"
+description="Treasure chest key from mine level 3."
+value=25
+sprite=50004
+ID=01000054             # developer 1, 0x54
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_key4:
+name="Mine-Key-4"
+description="Treasure chest key from mine level 4."
+value=25
+sprite=50004
+ID=01000055             # developer 1, 0x52
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_key5:
+name="Mine-Key-5"
+description="Treasure chest key from mine level 5."
+value=25
+sprite=50004
+ID=01000056             # developer 1, 0x52
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_key6:
+name="Mine-Key-6"
+description="Treasure chest key from mine level 6."
+value=25
+sprite=50004
+ID=01000057             # developer 1, 0x52
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_key7:
+name="Mine-Key-7"
+description="Treasure chest key from mine level 7."
+value=25
+sprite=50004
+ID=01000058             # developer 1, 0x52
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_key8:
+name="Mine-Key-8"
+description="Treasure chest key from mine level 8."
+value=25
+sprite=50004
+ID=01000059             # developer 1, 0x52
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mine_chest56:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="38520000013822"        # chest 56, devel 1, ID 14, 1 year respawn time
+;
+treasure_56:
+name="Pile of Gold"
+description="1000 units of Gold"
+sprite=51053
+value=25000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02E8030000"        # 1000
+;
+
+mine_chest57:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="39530000013822"        # chest 56, devel 1, ID 14, 1 week respawn time
+;
+treasure_57:
+name="Pile of Gold"
+description="1500 units of Gold"
+sprite=51053
+value=37500
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02DC050000"        # 1500
+;
+
+mine_chest58:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="3A540000013822"        # chest 56, devel 1, ID 14, 1 week respawn time
+;
+treasure_58:
+name="Pile of Gold"
+description="2250 units of Gold"
+sprite=51053
+value=56250
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02CA080000"        # 2250
+;
+
+mine_chest59:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="3B550000013822"        # chest 56, devel 1, ID 14, 1 week respawn time
+;
+treasure_59:
+name="Pile of Gold"
+description="3000 units of Gold"
+sprite=51053
+value=75000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02B80B0000"        # 3000
+;
+
+mine_chest60:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="3C560000013822"        # chest 56, devel 1, ID 14, 1 week respawn time
+;
+treasure_60:
+name="Pile of Gold"
+description="4000 units of Gold"
+sprite=51053
+value=100000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02A00F0000"        # 4000
+;
+
+mine_chest61:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="3D570000013822"        # chest 56, devel 1, ID 14, 1 week respawn time
+;
+treasure_61:
+name="Pile of Gold"
+description="5500 units of Gold"
+sprite=51053
+value=137500
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="027C150000"        # 5500
+;
+
+mine_chest62:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="3E580000013822"        # chest 56, devel 1, ID 14, 1 week respawn time
+;
+treasure_62:
+name="Pile of Gold"
+description="7000 units of Gold"
+sprite=51053
+value=175000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02581B0000"        # 7000
+;
+
+mine_chest63:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="3F590000013822"        # chest 56, devel 1, ID 14, 1 week respawn time
+;
+treasure_63:
+name="Pile of Gold"
+description="9000 units of Gold"
+sprite=51053
+value=225000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0228230000"        # 9000
+;
+
+mine_keydoor1:
+name="Judgement Door"
+description="The first of four doors to tell if you are worthy to reach Grimroot."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=125
+arg="01"
+;
+
+mine_keydoor2:
+name="Judgement Door"
+description="The second of four doors to tell if you are worthy to reach Grimroot."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=125
+arg="02"
+;
+
+mine_keydoor3:
+name="Door"
+name="Judgement Door"
+description="The third of four doors to tell if you are worthy to reach Grimroot."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=125
+arg="03"
+;
+
+mine_keydoor4:
+name="Door"
+name="Judgement Door"
+description="The fourth of four doors to tell if you are worthy to reach Grimroot."
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=125
+arg="04"
+;
+
+mine_keydoor_out:
+name="Strange Door"
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=10
+arg="E700F200000001"   # x=238, y=243, a=12, quiet=1
+;
+
+mine_gateway_key_part1:
+name="Mine gateway key part"
+description="One of four parts of the mine gateway key."
+value=10
+sprite=52201
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_QUEST
+driver=126
+arg="01"
+;
+
+mine_gateway_key_part2:
+name="Mine gateway key part"
+description="One of four parts of the mine gateway key."
+value=10
+sprite=52202
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_QUEST
+driver=126
+arg="02"
+;
+
+mine_gateway_key_part3:
+name="Mine gateway key part"
+description="One of four parts of the mine gateway key."
+value=10
+sprite=52203
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_QUEST
+driver=126
+arg="04"
+;
+
+mine_gateway_key_part4:
+name="Mine gateway key part"
+description="One of four parts of the mine gateway key."
+value=10
+sprite=52204
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+driver=126
+arg="08"
+;
+
+mine_gateway_door:
+name="Grimroot Door"
+description="The door has a peculiarly shaped lock and a picture of golem is on it."
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=127
+arg="D900FB001F00"        # developer 1, ID 23
+;
+

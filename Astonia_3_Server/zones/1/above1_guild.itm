@@ -1,0 +1,88 @@
+guild_door1:            # thieves guild master
+sprite=20038
+#sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001600000100"      # developer 1, ID 22, auto-close
+;
+
+guild_key1:
+name="Guild-Key-1"
+description="The key to Thieves Guild Master's quarters in Cameron."
+value=25
+sprite=50004
+ID=01000016             # developer 1, ID 22
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+guild_chest15:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0F16000001A800"        # chest 15, devel 1, ID 22, 1 week respawn time
+;
+treasure_15:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=1300
+;
+
+guild_chest16:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1016000001A800"        # chest 16, devel 1, ID 22, 1 week respawn time
+;
+treasure_16:
+name="Dagger of Minor Flash"
+description="A dagger of minor flash."
+value=425
+sprite=10191
+mod_index=V_WEAPON
+mod_value=21
+req_index=V_DAGGER
+req_value=10
+mod_index=V_FLASH
+mod_value=2
+flag=IF_TAKE
+flag=IF_WNRHAND
+flag=IF_DAGGER
+;
+
+guild_chest17:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1116000001A800"        # chest 17, devel 1, ID 22, 1 week respawn time
+;
+treasure_17:
+name="Armor of Minor Defense"
+description="Light chain mail armor made of minor defense."
+value=750
+sprite=10141
+mod_index=V_ARMOR
+mod_value=240
+req_index=V_ARMORSKILL
+req_value=10
+mod_index=V_PARRY
+mod_value=2
+flag=IF_TAKE
+flag=IF_WNBODY
+;

@@ -1,0 +1,59 @@
+enhance_orb:
+name="Orb of Enhancement"
+description="A glowing orb, used to enhance the strength of magical items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=1000
+driver=83
+quality=1
+complexity=1
+;
+
+orb1000:
+name="Orb of Enhancement"
+description="A glowing orb, used to enhance the strength of magical items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=10000
+driver=83
+quality=1000
+complexity=1000
+;
+
+orb10000:
+name="Orb of Enhancement"
+description="A glowing orb, used to enhance the strength of magical items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=100000
+driver=83
+quality=10000
+complexity=10000
+;
+
+orb100000:
+name="Orb of Enhancement"
+description="A glowing orb, used to enhance the strength of magical items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=1000000
+driver=83
+quality=100000
+complexity=100000
+;
+
+orb1000000:
+name="Orb of Enhancement"
+description="A glowing orb, used to enhance the strength of magical items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=10000000
+driver=83
+quality=1000000
+complexity=1000000
+;

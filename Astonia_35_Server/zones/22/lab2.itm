@@ -1,0 +1,369 @@
+# --- elias stuff -----------------------------------------------------------------------
+
+lab2_elias_hat:
+name="Elias Hat"
+description="This is a part of Elias heritage."
+sprite=10431
+flag=IF_TAKE
+flag=IF_WNHEAD
+flag=IF_LABITEM
+flag=IF_QUEST
+ID=02000001             # developer 2, ID 0x01
+;
+
+lab2_elias_cape:
+name="Elias Cape"
+description="This is a part of Elias heritage."
+sprite=10432
+flag=IF_TAKE
+flag=IF_WNCLOAK
+flag=IF_LABITEM
+flag=IF_QUEST
+ID=02000002             # developer 2, ID 0x02
+;
+
+lab2_elias_boots:
+name="Elias Boots"
+description="This is a part of Elias heritage."
+sprite=10433
+flag=IF_TAKE
+flag=IF_WNFEET
+flag=IF_LABITEM
+flag=IF_QUEST
+ID=02000003             # developer 2, ID 0x03
+;
+
+lab2_elias_belt:
+name="Elias Belt"
+description="This is a part of Elias heritage."
+sprite=10434
+flag=IF_TAKE
+flag=IF_WNBELT
+flag=IF_LABITEM
+flag=IF_QUEST
+ID=02000004             # developer 1, ID 0x04
+;
+
+lab2_elias_amulet:
+name="Elias Amulet"
+description="It creates an aura of magic and sacredness."
+sprite=10436
+flag=IF_TAKE
+flag=IF_WNNECK
+flag=IF_LABITEM
+flag=IF_QUEST
+driver=1017             # IDR_NONOMAGIC
+;
+
+# --- other stuff -----------------------------------------------------------------------
+
+lab2_arathas_ring:
+name="Arathas Ring"
+description="A ring made of a strange metal adorned with a cross."
+sprite=11018
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_LABITEM
+flag=IF_QUEST
+ID=02000005             # developer 1, ID 0x05
+driver=1017             # IDR_NONOMAGIC
+;
+
+# --- graves ----------------------------------------------------------------------------
+
+lab2_grave_a:
+name="Grave"
+description="An unnamed grave."
+sprite=11000
+flag=IF_USE
+driver=197
+;
+
+lab2_grave_b:
+name="Grave"
+description="An unnamed grave."
+sprite=11002
+flag=IF_USE
+driver=197
+;
+
+lab2_grave_c:
+name="Grave"
+description="An unnamed grave."
+sprite=11004
+flag=IF_USE
+driver=197
+;
+
+lab2_grave_d:
+name="Grave"
+description="An unnamed grave."
+sprite=11006
+flag=IF_USE
+driver=197
+;
+
+lab2_grave_e:
+name="Grave"
+description="An unnamed grave."
+sprite=20748
+flag=IF_USE
+driver=197
+;
+
+lab2_grave_f:
+name="Grave"
+description="An unnamed grave."
+sprite=20751
+flag=IF_USE
+driver=197
+;
+
+lab2_grave_amulet:
+name="Grave"
+description="An unnamed grave."
+sprite=11016
+flag=IF_USE
+driver=197
+arg="05"
+;
+
+lab2_grave_arathas:
+name="Grave"
+description="The name Arathas is written on it."
+sprite=20751
+flag=IF_USE
+driver=197
+arg="06"
+;
+
+# --- altar -----------------------------------------------------------------------------
+
+lab2_altar1:
+name="Altar"
+description="This altar shows Ishtar during a water ceremonie."
+sprite=11008
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=196
+;
+
+lab2_altar2:
+name="Altar"
+description="This altar shows Ishtar during a water ceremonie."
+sprite=11009
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=196
+;
+
+lab2_altar3:
+name="Altar"
+description="This altar shows Ishtar during a water ceremonie."
+sprite=11010
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=196
+;
+
+# --- well ------------------------------------------------------------------------------
+
+lab2_well1:
+name="Well"
+description="A well filled with water. There are some bowls on it's ground."
+sprite=20793
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=196
+;
+
+lab2_well2:
+name="Well"
+description="A well filled with water. There are some bowls on it's ground."
+sprite=20794
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=196
+;
+
+lab2_well3:
+name="Well"
+description="A well filled with water. There are some bowls on it's ground."
+sprite=20795
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=196
+;
+
+lab2_well4:
+name="Well"
+description="A well filled with water. There are some bowls on it's ground."
+sprite=20796
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=196
+;
+
+# --- bowl ------------------------------------------------------------------------------
+
+lab2_emptybowl:
+name="Bowl"
+description="A bowl. It's empty."
+sprite=11011
+flag=IF_TAKE
+flag=IF_LABITEM
+driver=196
+;
+lab2_waterbowl:
+name="Bowl"
+description="A bowl filled with water."
+sprite=11012
+flag=IF_TAKE
+flag=IF_LABITEM
+driver=196
+;
+lab2_holywaterbowl:
+name="Bowl"
+description="A bowl filled with holy water."
+sprite=11013
+flag=IF_TAKE
+flag=IF_LABITEM
+driver=196
+;
+
+# --- regenerate ------------------------------------------------------------------------
+
+lab2_regenerate_spell:
+name="lab2_regenerate_spell"
+driver=194
+arg="0210"
+;
+
+# --- books -----------------------------------------------------------------------------
+
+lab2_book_henry:
+name="Book"
+description="A huge metal-bound book."
+sprite=15528
+flag=IF_USE
+arg="01"
+driver=197
+;
+
+lab2_book_eldrick:
+name="Book"
+description="A huge metal-bound book."
+sprite=15532
+flag=IF_USE
+driver=197
+arg="02"
+;
+
+lab2_book_john:
+name="Book"
+description="A huge metal-bound book."
+sprite=15530
+flag=IF_USE
+driver=197
+arg="03"
+;
+
+lab2_book_mariah:
+name="Book"
+description="A huge metal-bound book."
+sprite=15536
+flag=IF_USE
+driver=197
+arg="04"
+;
+
+lab2_book_diary:
+name="Book"
+description="A huge metal-bound book."
+sprite=11014
+flag=IF_USE
+driver=16
+arg="64"                # page 100
+;
+
+lab2_book_diary_page:
+name="Book"
+description="A huge metal-bound book."
+sprite=11015
+flag=IF_USE
+driver=16
+arg="65"                # page 101
+;
+
+# --- traps -----------------------------------------------------------------------------
+
+lab2_deamon_trap_warn:
+name="Deamon trap"
+sprite=5
+flag=IF_STEPACTION
+driver=195
+arg="01"
+;
+
+lab2_deamon_trap_kill:
+name="Deamon trap"
+sprite=5
+flag=IF_STEPACTION
+driver=195
+arg="02"
+;
+
+
+# --- doors -----------------------------------------------------------------------------
+
+lab2_adm_door1:
+sprite=16051
+name="Door"
+description="A noble door made of wood."
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0006000002"        # developer 2, ID 6 (0x06)
+;
+
+lab2_adm_door2:
+sprite=16053
+name="Door"
+description="A noble door made of wood."
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0006000002"        # developer 2, ID 6 (0x06)
+;
+
+lab2_adm_door_key:
+name="Key"
+description="The key to the graveyards administrative building."
+value=5
+sprite=11019
+ID=02000006             # developer 2, ID 6 (0x06)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+lab2_crypt_useless_door:
+sprite=20666
+name="Door"
+description="A huge door made of stone."
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0007000002"        # developer 2, ID 7 (0x07) IID_NEVERFOUND
+;
+

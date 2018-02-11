@@ -1,0 +1,172 @@
+#====================================
+#=== Thief Mage 1 Treasure Chests ===
+#====================================
+
+brannington_chest_thief_mage1_77:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="4D2A0000060000"        # chest 77 (4D), devel 6, ID 2A (2A000006), 1 hour respawn time (0100)
+;
+treasure_77:
+name="Brenneth's Potion"
+description="Brenneth's symbol is engraved on this potion flask."
+value=18
+sprite=10429
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000027
+;
+
+
+brannington_chest_thief_mage1_78:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="4E2A0000060000"        # chest 78 (4E), devel 6, ID 2A (2A000006), 1 hour respawn time (0100)
+;
+treasure_78:
+name="The Jewel of Count Brannington"
+description="One of three heirlooms of the Brannington family."
+value=18
+sprite=10344
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600001F
+;
+
+#====================================
+#=== Thief Mage 2 Treasure Chests ===
+#====================================
+
+brannington_chest_thief_mage2_79:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="4F2B000006A800"        # chest 79 (4F), devel 6, ID 2B (2B000006), 1 week respawn time (A800)
+;
+treasure_79:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=10000
+;
+
+brannington_chest_thief_mage2_80:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="502B0000060000"        # chest 80 (50), devel 6, ID 2A (2B000006), 1 hour respawn time (0100)
+;
+treasure_80:
+name="The Jewel of Countess Brannington"
+description="One of three heirlooms of the Brannington family."
+value=18
+sprite=10345
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000020
+;
+
+#====================================
+#=== Thief Mage 3 Treasure Chests ===
+#====================================
+
+brannington_chest_thief_mage3_81:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="512C000006A800"        # chest 81 (51), devel 6, ID 2C (2C000006), 1 week respawn time (A800)
+;
+treasure_81:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=10000
+;
+
+brannington_chest_thief_mage3_82:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="522C0000060000"        # chest 82 (52), devel 6, ID 2C (2C000006), 1 hour respawn time (0100)
+;
+treasure_82:
+name="The Jewel of Rina Brannington"
+description="One of three heirlooms of the Brannington family."
+value=18
+sprite=10346
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000021
+;
+
+
+#====================================
+#=== Necromancer Treasure Chests ===
+#====================================
+
+brannington_chest_necromancer_83:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="532D000006A800"        # chest 83 (53), devel 6, ID 2D (2D000006), 1 week respawn time (A800)
+;
+treasure_83:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=10000
+;
+
+brannington_chest_necromancer_84:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="542D0000060000"        # chest 84 (54), devel 6, ID 2D (2D000006), 1 hour respawn time (0100)
+;
+treasure_84:
+name="Holy Relic"
+description="The Brannington Holy Relic, used to guide spirits to the world beyond."
+value=18
+sprite=10436
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000025
+;
+

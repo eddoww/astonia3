@@ -1,0 +1,79 @@
+mine_wall90:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="1B0811" # 27 silver, 8 gold, miner 17
+;
+
+mine_wall100:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="1E0912" # 30 silver, 9 gold, miner 18
+;
+
+mine_wall110:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="210A13" # 33 silver, 10 gold, miner 19
+;
+
+mine_wall120:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="240B14" # 36 silver, 11 gold, miner 20
+;
+
+mine_wall90g:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="1B1015" # 27 silver, 16 gold, miner 21
+; 
+
+mine_wall100g:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="1E1216" # 30 silver, 18 gold, miner 22
+; 
+
+mine_wall110g:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="211417" # 33 silver, 20 gold, miner 23
+; 
+
+mine_wall120g:
+sprite=15070
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+#flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=60
+arg="241718" # 36 silver, 23 gold, miner 24
+; 

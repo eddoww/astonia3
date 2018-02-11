@@ -1,0 +1,115 @@
+Teleport1:
+sprite=20026
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="05007800000001"   # x=5, y=120, a=0, quiet=1
+;
+
+Teleporter2:
+sprite=21261
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="1C008500000001"   # x=28, y=133, a=0, quiet=1
+;
+
+Teleporter3:
+sprite=21239
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="0C008A00000001"   # x=12, y=138, a=0, quiet=1
+;
+
+Teleporter4:
+sprite=21094
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="22007D00000001"   # x=34, y=125, a=0, quiet=1
+;
+
+Teleporter5:
+sprite=16174
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="1A008900000001"   # x=26, y=137, a=0, quiet=1
+;
+
+Teleporter6:
+sprite=20026
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="9B005B00000001"   # x=155, y=91, a=0, quiet=1
+;
+
+Teleport14:
+sprite=20026
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="03008B00000001"   # x=3, y=139, a=0, quiet=1
+;
+
+Teleporter20:
+sprite=21099
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="05008E00000001"   # x=5, y=142, a=0, quiet=1
+;
+
+Teleporter21:
+sprite=21267
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="05008E00000001"   # x=5, y=142, a=0, quiet=1
+;
+
+Teleporter22:
+sprite=21282
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="05008E00000001"   # x=5, y=142, a=0, quiet=1
+;
+
+Teleport24:
+sprite=20026
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="8B001A00000001"   # x=139, y=26, a=0, quiet=1
+;
+
+Teleport26:
+sprite=21099
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="0B007300000001"   # x=11, y=115, a=0, quiet=1
+;
+
+Teleport25:
+sprite=21040
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="AD00DD00000001"   # x=173, y=221, a=0, quiet=1
+;

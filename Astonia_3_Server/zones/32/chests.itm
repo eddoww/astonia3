@@ -1,0 +1,22 @@
+quest_chest:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20086
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=131
+arg="00000000000000"        # chest 00 (00), devel 0, ID 00 (00000000), respawn time (000)
+ID=0100009E
+;
+
+quest_chest2:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=131
+arg="00000000000000"        # chest 00 (00), devel 0, ID 00 (00000000), respawn time (000)
+ID=0100009E
+;
+

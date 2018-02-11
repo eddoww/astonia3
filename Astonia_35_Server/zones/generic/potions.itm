@@ -1,0 +1,297 @@
+healing_potion1:
+name="Healing Potion"
+description="A small healing potion."
+value=100
+sprite=10292
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="01180000"          # empty_potion1, 24 hp, 0 mana, 0 endurance
+;
+
+healing_potion2:
+name="Healing Potion"
+description="A healing potion."
+value=300
+sprite=10296
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="02280000"          # empty_potion2, 40 hp, 0 mana, 0 endurance
+;
+
+healing_potion3:
+name="Healing Potion"
+description="A big healing potion."
+value=900
+sprite=10304
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="03400000"          # empty_potion3, 64 hp, 0 mana, 0 endurance
+;
+
+empty_potion1:
+name="Empty Potion"
+description="A small flask made of glass."
+value=25
+sprite=10290
+flag=IF_TAKE
+flag=IF_USE
+driver=32
+arg="01"        # size 1
+;
+
+empty_potion2:
+name="Empty Potion"
+description="A flask made of glass."
+value=50
+sprite=10294
+flag=IF_TAKE
+flag=IF_USE
+driver=32
+arg="02"        # size 2
+;
+
+empty_potion3:
+name="Empty Potion"
+description="A big flask made of glass."
+value=75
+sprite=10302
+flag=IF_TAKE
+flag=IF_USE
+driver=32
+arg="03"        # size 3
+;
+
+mana_potion1:
+name="Mana Potion"
+description="A small mana potion."
+value=100
+sprite=10291
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="01001000"          # empty_potion1, 16 hp, 0 mana, 0 endurance
+;
+
+mana_potion2:
+name="Mana Potion"
+description="A mana potion."
+value=300
+sprite=10295
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="02002000"          # empty_potion2, 32 hp, 0 mana, 0 endurance
+;
+
+mana_potion3:
+name="Mana Potion"
+description="A big mana potion."
+value=900
+sprite=10303
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="03004000"          # empty_potion3, 64 hp, 0 mana, 0 endurance
+;
+
+combo_potion1:
+name="Combo Potion"
+description="A small combo potion."
+value=200
+sprite=10293
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="01101010"          # empty_potion1, 16 hp, 16 mana, 16 endurance
+;
+
+combo_potion2:
+name="Combo Potion"
+description="A combo potion."
+value=600
+sprite=10297
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="02202020"          # empty_potion2, 32 hp, 32 mana, 32 endurance
+;
+
+combo_potion3:
+name="Combo Potion"
+description="A big combo potion."
+value=1800
+sprite=10305
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="03404040"          # empty_potion3, 64 hp, 64 mana, 64 endurance
+;
+
+
+cure_poison0:
+name="Cure Poison"
+description="A potion of cure poison, mainly used to cure insect bites."
+value=500
+sprite=10299
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="00"
+;
+
+cure_poison1:
+name="Cure Poison"
+description="A potion of cure poison, mainly used for artificial poisons."
+value=500
+sprite=10300
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="01"
+;
+
+cure_poison2:
+name="Cure Poison"
+description="A potion of cure poison, mainly used for magical poisons."
+value=500
+sprite=10301
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="02"
+;
+
+cure_poison3:
+name="Cure Poison"
+description="A potion of cure poison, mainly used for animal poisons."
+value=500
+sprite=10301
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="03"
+;
+
+cure_poison_all:
+name="Cure All Poison"
+description="A potion of cure all poison, very powerful."
+value=750
+sprite=10301
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="04"
+;
+
+security_potion:
+name="Security Potion"
+description="A light blue potion, bearing the insignia of Ishtar."
+value=500
+sprite=51090
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="05"
+;
+
+infravision_potion:
+name="Infravision Potion"
+description="A light red potion, bearing the insignia of Ishtar."
+value=500
+sprite=51090
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="06"
+;
+
+forgetfulness_potion:
+name="Forgetfulness Potion"
+description="A dark green potion, bearing the insignia of Ishtar."
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="07"
+;
+
+drink1:
+name="drink"
+description="drinkdesc"
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="08"
+;
+
+drink2:
+name="drink"
+description="drinkdesc"
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="09"
+;
+
+drink3:
+name="drink"
+description="drinkdesc"
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0A"
+;
+
+drink4:
+name="drink"
+description="drinkdesc"
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0B"
+;
+
+drink5:
+name="drink"
+description="drinkdesc"
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0C"
+;
+
+drink6:
+name="drink"
+description="drinkdesc"
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0D"
+;
+
+drink7:
+name="drink"
+description="drinkdesc"
+value=500
+sprite=59771
+flag=IF_TAKE
+flag=IF_USE
+driver=88
+arg="0E"
+;

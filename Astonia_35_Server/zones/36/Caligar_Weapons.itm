@@ -1,0 +1,62 @@
+spear5q1: 
+name="Two-Handed Spear" 
+description="A Two-Handed Spear made of iron." 
+value=80 
+sprite=11121 
+mod_index=V_WEAPON 
+mod_value=444 
+mod_index=V_DEFENSE
+mod_value=-9
+flag=IF_TAKE 
+flag=IF_WNRHAND 
+flag=IF_WNTWOHANDED 
+flag=IF_TWOHAND 
+; 
+
+spear6q1: 
+name="Two-Handed Spear" 
+description="A Two-Handed Spear made of iron." 
+value=90 
+sprite=11121 
+mod_index=V_WEAPON 
+mod_value=454 
+mod_index=V_DEFENSE
+mod_value=-11
+flag=IF_TAKE 
+flag=IF_WNRHAND 
+flag=IF_WNTWOHANDED 
+flag=IF_TWOHAND 
+needs_class=1
+;
+
+spear6q2: 
+name="Two-Handed Spear" 
+description="A Two-Handed Spear made of steel." 
+value=100
+sprite=11121 
+mod_index=V_WEAPON 
+mod_value=456
+mod_index=V_DEFENSE
+mod_value=-11
+flag=IF_TAKE 
+flag=IF_WNRHAND 
+flag=IF_WNTWOHANDED 
+flag=IF_TWOHAND
+needs_class=1 
+; 
+
+spear7q2: 
+name="Two-Handed Spear" 
+description="A Two-Handed Spear made of steel."
+value=110 
+sprite=11121 
+mod_index=V_WEAPON 
+mod_value=466 
+mod_index=V_DEFENSE
+mod_value=-13
+flag=IF_TAKE 
+flag=IF_WNRHAND 
+flag=IF_WNTWOHANDED 
+flag=IF_TWOHAND
+needs_class=1 
+;

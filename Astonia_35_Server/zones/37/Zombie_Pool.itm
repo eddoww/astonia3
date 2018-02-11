@@ -1,0 +1,36 @@
+Holy_pool:
+name="Holy Pool"
+description="This pool seems to hold a holy liquid, perhaps a source of knowledge?"
+sprite=51630
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=151
+arg="00"
+;
+
+Grey_Scroll:
+name="Grey Scroll"
+description="A grey scroll."
+sprite=23270
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C2
+;
+
+Red_Scroll:
+name="Red Scroll"
+description="A Red scroll."
+sprite=23269
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C3
+;
+
+Buddah_Statue:
+name="Buddah Statue"
+description="A Little Buddah Statue."
+sprite=23266
+flag=IF_TAKE
+flag=IF_QUEST
+ID=010000C4
+;

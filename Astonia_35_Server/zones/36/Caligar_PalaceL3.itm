@@ -1,0 +1,341 @@
+caligar_palace_BigCannon:
+name="Cannon"
+description="This looks dangeorous."
+sprite=14164
+flag=IF_MOVEBLOCK
+driver=146
+arg="09"
+;
+
+caligar_palace_box:
+name="Metal Box"
+description="Perhaps used for blocking...?"
+sprite=14230
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=146
+arg="04"
+;
+
+caligar_palace_cannonSE:
+name="Cannon"
+description="This looks dangeorous."
+sprite=14385
+flag=IF_MOVEBLOCK
+driver=146
+arg="05"
+;
+
+caligar_palace_cannonSW:
+name="Cannon"
+description="This looks dangeorous."
+sprite=14379
+flag=IF_MOVEBLOCK
+driver=146
+arg="06"
+;
+
+caligar_palace_cannonNW:
+name="Cannon"
+description="This looks dangeorous."
+sprite=14381
+flag=IF_MOVEBLOCK
+driver=146
+arg="07"
+;
+
+caligar_palace_cannonNE:
+name="Cannon"
+description="This looks dangeorous."
+sprite=14383
+flag=IF_MOVEBLOCK
+driver=146
+arg="08"
+;
+
+caligar_palace_TeleTo1:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F1009B00000001000000000001"   # x=241, y=155, a=0, quiet=1
+#    00010203040506070809101112
+;
+
+caligar_palace_TeleFrom1:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F5009A00000001000000000001"   # x=245, y=154, a=0, quiet=1
+;
+
+caligar_palace_TeleTo2:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="ED009B00000001000000000001"   # x=237, y=155, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom2:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F1009B00000001000000000001"   # x=241, y=155, a=0, quiet=1
+;
+
+caligar_palace_TeleTo3:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E7009F00000001000000000001"   # x=231, y=159, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom3:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="ED009B00000001000000000001"   # x=237, y=155, a=0, quiet=1
+;
+caligar_palace_TeleTo4:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E9009900000001000000000001"   # x=233, y=153, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom4:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E7009F00000001000000000001"   # x=231, y=159, a=0, quiet=1
+;
+
+caligar_palace_TeleTo5:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F3009700000001000000000001"   # x=243, y=151, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom5:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E9009900000001000000000001"   # x=233, y=153, a=0, quiet=1
+;
+
+caligar_palace_TeleTo6:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F3009200000001000000000001"   # x=243, y=146, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom6:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F3009700000001000000000001"   # x=243, y=151, a=0, quiet=1
+;
+
+caligar_palace_TeleTo7:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E9009300000001000000000001"   # x=233, y=147, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom7:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F3009200000001000000000001"   # x=243, y=146, a=0, quiet=1
+;
+
+caligar_palace_TeleTo8:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="FA008500000001000000000001"   # x=250, y=133, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom8:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E9009300000001000000000001"   # x=233, y=147, a=0, quiet=1
+;
+
+caligar_palace_TeleTo9:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E7008500000001000000000001"   # x=231, y=133, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom9:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="FA008500000001000000000001"   # x=250, y=133, a=0, quiet=1
+;
+caligar_palace_TeleTo10:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="EF007100000001000000000001"   # x=239, y=113, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom10:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E7008500000001000000000001"   # x=231, y=133, a=0, quiet=1
+;
+
+caligar_palace_TeleTo11:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F1008200000001000000000001"   # x=241, y=130, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom11:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="EF007100000001000000000001"   # x=239, y=113, a=0, quiet=1
+;
+
+caligar_palace_TeleTo12:
+name="Teleport"
+description="A teleport"
+sprite=14194
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="E1006F00000001000000000001"   # x=225, y=111, a=0, quiet=1
+;
+
+caligar_palace_TeleFrom12:
+name="Teleport"
+description="A teleport"
+sprite=14141
+mod_index=V_LIGHT
+mod_value=40
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F1008200000001000000000001"   # x=241, y=130, a=0, quiet=1
+;

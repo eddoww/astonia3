@@ -1,0 +1,68 @@
+Harpy_Blue:
+name="Blue Harpy"
+description="A blue harpy. Its fur glitters in the colors of the ocean."
+sprite=342
+sound=1
+flag=CF_RESPAWN
+flag=CF_ALIVE
+flag=CF_FEMALE
+
+V_HP=60
+V_ENDURANCE=90
+V_MANA=0
+
+V_WIS=60
+V_INT=92
+V_AGI=92
+V_STR=92
+
+# weapon skills
+V_DAGGER=1
+V_HAND=105
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=1
+
+# fighting skills
+V_ATTACK=95
+V_PARRY=80
+V_WARCRY=105
+V_TACTICS=80
+V_SURROUND=1
+V_SPEEDSKILL=95
+
+# misc skills
+V_BARTER=1
+V_PERCEPT=60
+V_STEALTH=4
+
+# spells
+V_BLESS=0
+V_HEAL=0
+V_FREEZE=0
+V_MAGICSHIELD=0
+V_FLASH=0
+V_FIRE=0
+
+V_REGENERATE=30
+V_MEDITATE=0
+V_IMMUNITY=115
+
+item=Harpy_Cape
+
+gold_prob=25
+gold_base=50
+gold_random=300
+
+arg="aggressive=1;helper=0;scavenger=100;startdist=10;chardist=0;stopdist=40;"
+respawn=300
+balanced=1
+spell=weapon_spell_med
+spell=armor_spell_med
+
+
+driver=7
+group=1
+class=443
+respawn=120
+;

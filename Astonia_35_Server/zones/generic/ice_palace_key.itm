@@ -1,0 +1,86 @@
+#------------- key --------------
+
+palace_key_full:
+name="Palace Key"
+description="The key to the ice palace."
+value=25
+sprite=51014
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000050             # developer 1, ID 0x50
+driver=59
+;
+
+palace_key_part1:
+name="Key Part"
+description="A part of a key."
+value=25
+sprite=51015
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=01000051             # developer 1, ID 0x51
+driver=59
+;
+
+palace_key_part2:
+name="Key Part"
+description="A part of a key."
+value=25
+sprite=51016
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=01000051             # developer 1, ID 0x51
+driver=59
+;
+
+palace_key_part3:
+name="Key Part"
+description="A part of a key."
+value=25
+sprite=51017
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=01000051             # developer 1, ID 0x51
+driver=59
+;
+
+palace_key_part4:
+name="Key Part"
+description="A part of a key."
+value=25
+sprite=51018
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=01000051             # developer 1, ID 0x51
+driver=59
+;
+
+palace_key_part5:
+name="Key Part"
+description="A part of a key."
+value=25
+sprite=51019
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=01000051             # developer 1, ID 0x51
+driver=59
+;
+
+palace_key_part6:
+name="Key Part"
+description="A part of a key."
+value=25
+sprite=51020
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+ID=01000051             # developer 1, ID 0x51
+driver=59
+;
+
+

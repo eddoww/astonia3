@@ -1,0 +1,185 @@
+equip1:
+name=Equip1
+description="A Spell of Equipment."
+mod_index=V_HAND
+mod_value=1
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+;
+
+equip2:
+name=Equip2
+description="A Spell of Equipment."
+mod_index=V_WIS
+mod_value=1
+mod_index=V_INT
+mod_value=1
+mod_index=V_AGI
+mod_value=1
+mod_index=V_STR
+mod_value=1
+;
+
+link_aston:
+sprite=15540
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="42007500030001"   # x=66, y=117, a=3, quiet=1
+;
+
+link_bran:
+#name="Door"
+#description="A ladder leading up... somewhere far, far away."
+sprite=15540    #50019
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=10
+arg="9900F1001D00010000000001"   # x=153, y=241, a=29, quiet=1
+;
+
+link_master:
+name="Door"
+description="A steel door."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="FA00FA00000001"   # x=250, y=250, a=0, quiet=1
+;
+
+link_warped:
+sprite=15541
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=10
+arg="F900F900190001"
+;
+
+
+shrine:
+name="Unnamed Shrine"
+description="An ancient altar, fulfilling some purpose only known to the Wizard of Yendor"
+flag=IF_USE
+flag=IF_MOVEBLOCK
+sprite=0
+driver=69
+arg="0000"        # type 0, level 0
+;
+
+trapdoor:
+name="Trapdoor"
+description="A big wooden trapdoor."
+flag=IF_USE
+flag=IF_STEPACTION
+sprite=15272
+driver=70
+;
+
+trapdoor2:
+name="Trapdoor"
+description="A big wooden trapdoor."
+flag=IF_USE
+flag=IF_STEPACTION
+sprite=15275
+driver=70
+;
+
+steelbar:
+name="Steel Bar"
+description="A steel bar."
+flag=IF_TAKE
+sprite=15278
+value=5
+ID=0100005A             # developer 1, ID 0x5A
+;
+
+junk:
+name="Junk"
+description="A pile of old bones and shattered weapons."
+flag=IF_USE
+sprite=15281
+driver=71
+arg="10"                #level
+;
+
+gastrap:
+name="Gas Trap"
+flag=IF_STEPACTION
+sprite=0
+driver=72
+arg="10"                #level
+;
+
+shrinekey:
+name="Jewel of Yendor"
+description="A small glowing jewel, made by the Wizard of Yendor."
+flag=IF_TAKE
+flag=IF_QUEST
+sprite=51056
+value=5
+ID=0100005B             # developer 1, ID 0x5C
+arg="0A"                # level 10
+;
+
+rd100_key:
+name="Random-Key-1"
+description="A key belonging to the Wizard of Yendor"
+value=25
+sprite=50004
+ID=01000070             # developer 1, ID 0x70
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+random_chest_64:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="40700000013822"        # chest 64, devel 1, ID 0x70, 1 month respawn time
+;
+treasure_64:
+name="Orb of Enhancement"
+description="A glowing orb, used to enhance the strength of magical items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=600000
+driver=83
+quality=60000
+complexity=60000
+;
+
+random_chest_65:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="41700000013822"        # chest 65, devel 1, ID 0x70, 1 month respawn time
+;
+treasure_65:
+name="Orb of Enhancement"
+description="A glowing orb, used to enhance the strength of magical items."
+sprite=51086
+flag=IF_TAKE
+flag=IF_USE
+value=600000
+driver=83
+quality=60000
+complexity=60000
+;
+

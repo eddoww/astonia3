@@ -1,0 +1,99 @@
+sewer_crate1a:
+name="Grate"
+description="A grate in the ground."
+sprite=22495
+flag=IF_USE
+arg="0A"                # base random value 10 (RAND*RAND), avg=25S, max=1G
+driver=111
+;
+
+sewer_crate1b:
+name="Grate"
+description="A grate in the ground."
+sprite=22498
+flag=IF_USE
+arg="0A"                # base random value 10 (RAND*RAND), avg=25S, max=1G
+driver=111
+;
+
+sewer_crate2a:
+name="Grate"
+description="A grate in the ground."
+sprite=22495
+flag=IF_USE
+arg="14"                # base random value 20 (RAND*RAND), avg=1G, max=4G
+driver=111
+;
+
+sewer_crate2b:
+name="Grate"
+description="A grate in the ground."
+sprite=22498
+flag=IF_USE
+arg="14"                # base random value 20 (RAND*RAND), avg=1G, max=4G
+driver=111
+;
+
+sewer_crate3a:
+name="Grate"
+description="A grate in the ground."
+sprite=22495
+flag=IF_USE
+arg="1E"                # base random value 30 (RAND*RAND), avg=2.25G, max=9G
+driver=111
+;
+
+sewer_crate3b:
+name="Grate"
+description="A grate in the ground."
+sprite=22498
+flag=IF_USE
+arg="1E"                # base random value 30 (RAND*RAND), avg=2.25G, max=9G
+driver=111
+;
+
+sewer_crate4a:
+name="Grate"
+description="A grate in the ground."
+sprite=22495
+flag=IF_USE
+arg="28"                # base random value 40 (RAND*RAND), avg=4G, max=16G
+driver=111
+;
+
+sewer_crate4b:
+name="Grate"
+description="A grate in the ground."
+sprite=22498
+flag=IF_USE
+arg="28"                # base random value 40 (RAND*RAND), avg=4G, max=16G
+driver=111
+;
+
+link_aston:
+name="Ladder"
+description="A ladder leading... somewhere far far away."
+sprite=22492
+flag=IF_USE
+driver=10
+arg="A300B500030001"   # x=163, y=181, a=3, quiet=1
+;
+
+sewer_ring:
+name="Ring"
+description="A golden ring with green stones. Engraved on it is: 'Rodney'"
+flag=IF_NOENHANCE
+flag=IF_QUEST
+flag=IF_WNLRING
+flag=IF_WNRRING
+sprite=10341
+;
+
+sewer_amulet:
+name="Amulet"
+description="A pearl amulet with green stones. Engraved on it is: 'Rodney'"
+flag=IF_NOENHANCE
+flag=IF_QUEST
+flag=IF_WNNECK
+sprite=10359
+;

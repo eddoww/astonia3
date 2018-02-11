@@ -1,0 +1,141 @@
+caligar_library_sign:
+name="Library Sign"
+description="Caligar local library - Closed!"
+sprite=50480
+flag=IF_USE
+;
+
+caligar_big_barrel:
+name="Barrel"
+description="A large barrel filled with ale."
+sprite=21118
+;
+
+caligar_small_barrel:
+name="Barrel"
+description="A small barrel filled with ale."
+sprite=21115
+;
+
+caligar_barrel:
+name="Barrel"
+description="A barrel filled with ale."
+sprite=21120
+;
+
+caligar_tele_lamp:
+name="Strange Lamp"
+description="Hmm, there's something odd about this lamp..."
+mod_index=V_LIGHT
+mod_value=40
+sprite=20926
+flag=IF_USE
+driver=10
+arg="4C007C00000001"   # x=65, y=114, a=0, quiet=1
+;
+
+################################################
+caligar_teleport_door: #23
+name="Door"
+description="A door."
+sprite=21151
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001700000A" #ID 23, dev 10
+;
+caligar_teleport_key: #23
+name="Mysterious Key"
+description="A strange looking key."
+sprite=50004
+value=25
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0A000017 #ID 23, dev 10
+;
+################################################
+
+caligar_city_beer:
+name="Ale"
+description="Caligar's finest of Ale's! Fit for a King."
+sprite=10429
+flag=IF_USE
+flag=IF_TAKE
+value=50
+;
+
+caligar_palace_ent_door:
+name="Palace Door"
+description="A Door made of wood."
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="009900000A"
+;
+
+caligar_small_tooth:
+name="Tooth"
+description="A small tooth from a small bear."
+value=10
+sprite=50002
+flag=IF_TAKE
+;
+
+gray_dungeon_door2:
+name="Door"
+description="A door."
+sprite=20431
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+caligar_library_door:
+sprite=16051
+name="Library Door"
+description="It's a door."
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+some:
+sprite=13214
+mod_index=V_LIGHT
+mod_value=100
+flag=IF_MOVEBLOCK
+;
+
+some2:
+sprite=13223
+mod_index=V_LIGHT
+mod_value=100
+flag=IF_MOVEBLOCK
+;
+
+some3:
+sprite=13232
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;
+
+some4:
+sprite=23208
+mod_index=V_LIGHT
+mod_value=120
+flag=IF_MOVEBLOCK
+;

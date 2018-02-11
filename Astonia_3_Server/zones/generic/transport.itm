@@ -1,0 +1,290 @@
+transport00:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="00"        # nr 0
+;
+
+transport01:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="01"        # nr 1
+;
+
+transport02:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="02"        # nr 2
+;
+
+transport03:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="03"        # nr 3
+;
+
+transport04:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="04"        # nr 4
+;
+
+transport05:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="05"        # nr 5
+;
+
+transport06:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="06"        # nr 6
+;
+
+transport07:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="07"        # nr 7
+;
+transport08:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="08"        # nr 8
+;
+transport09:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="09"        # nr 9
+;
+transport10:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="0A"        # nr 10
+;
+transport11:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="0B"        # nr 11
+;
+transport12:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="0C"        # nr 12
+;
+transport13:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="0D"        # nr 13
+;
+
+transport14:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="0E"        # nr 14
+;
+
+transport15:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="0F"        # nr 15
+;
+
+transport16:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="10"        # nr 16
+;
+
+transport17:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="11"        # nr 16
+;
+
+transport20:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="14"        # nr 20
+;
+
+transport21:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="15"        # nr 21
+;
+
+transport22:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="16"        # nr 22
+;
+
+transport23:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="17"        # nr 23
+;
+
+transport24:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="18"        # nr 24
+;
+
+transport25:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=64
+driver=18
+arg="19"        # nr 25
+;
+
+clan_transport:
+name="Transport"
+description="A transport."
+sprite=21340    #20283
+flag=IF_USE
+driver=18
+arg="FF"        # nr -1
+;

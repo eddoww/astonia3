@@ -1,0 +1,308 @@
+# --- part 0 ---------------------------------------------------------------------------
+
+lab5_worker:
+name="Worker" description="A stupid looking little gnome."
+sprite=35 sound=1 group=2 driver=7 arg="aggressive=1;helper=1;startdist=28;stopdist=32;" respawn=90
+flag=CF_ALIVE flag=CF_INFRARED flag=CF_RESPAWN
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=18 V_PARRY=18 V_TACTICS=14
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=12 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=381
+;
+
+lab5_worker_mage:
+name="Worker" description="A stupid looking little gnome."
+sprite=35 sound=1 group=2 driver=7 arg="aggressive=1;helper=1;startdist=38;stopdist=42;" respawn=90
+flag=CF_ALIVE flag=CF_INFRARED flag=CF_RESPAWN
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=10 V_MANA=20
+V_HAND=18
+V_REGENERATE=1 V_MEDITATE=1 V_IMMUNITY=12 V_PERCEPT=8
+V_FIRE=15 V_BLESS=15
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=381
+;
+
+lab5_worker_key1:
+name="Worker" description="A stupid looking little gnome."
+sprite=35 sound=1 group=2 driver=7 arg="aggressive=1;helper=1;startdist=38;stopdist=42;" respawn=90
+flag=CF_ALIVE flag=CF_INFRARED flag=CF_RESPAWN
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=18 V_PARRY=18 V_TACTICS=14
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=12 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+item="lab5_key1"
+class=381
+;
+
+lab5_spider:
+name="Spider" description="An ugly, white Spider."
+sprite=21 sound=1 group=2 driver=7 arg="aggressive=1;helper=1;startdist=28;stopdist=32;" respawn=60
+flag=CF_ALIVE flag=CF_INFRARED flag=CF_RESPAWN
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=18 V_PARRY=18 V_TACTICS=14
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=10 V_PERCEPT=10
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=602
+;
+
+# --- part 1 ---------------------------------------------------------------------------
+
+lab5_one_normal:
+name="Asfaloth" description="A demon with cripled wings."
+sprite=32 sound=1 group=2 driver=7 arg="aggressive=1;helper=1;startdist=10;stopdist=16;" respawn=60
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=23 V_PARRY=15 V_TACTICS=15
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=14 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=382
+;
+
+lab5_one_gunned:
+name="Asfaloth" description="A demon with cripled wings."
+sprite=32 sound=1 group=2 driver=189 arg="type=2;" respawn=120 # CDR_LAB5DAEMON
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=23 V_PARRY=15 V_TACTICS=15
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=14 V_PERCEPT=15
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=382
+;
+
+lab5_one_servant:
+name="Asfaloth" description="A demon with cripled wings."
+sprite=406 sound=1 group=2 driver=189 arg="type=0;" # CDR_LAB5DAEMON
+flag=CF_INFRARED
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=23 V_PARRY=15 V_TACTICS=15
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=14 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=382
+;
+
+lab5_one_master:
+name="Fao Thals" description="A mighty Master Demon."
+sprite=406 sound=1 group=2 driver=189 arg="type=1;" # CDR_LAB5DAEMON
+flag=CF_INFRARED
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=23 V_PARRY=23 V_TACTICS=15
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=15 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+item="lab5_head1"
+class=383
+;
+
+# --- part 2 ---------------------------------------------------------------------------
+
+lab5_two_normal:
+name="Beronath" description="A winged demon."
+sprite=27 sound=1 group=2 driver=7 arg="aggressive=1;helper=1;startdist=30;stopdist=40;" respawn=60
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=14 V_INT=20 V_AGI=20 V_STR=20
+V_HP=10 V_ENDURANCE=5
+V_HAND=19
+V_ATTACK=21 V_PARRY=21 V_TACTICS=20
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=13 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=384
+;
+
+lab5_two_shortrange:
+name="Beronath" description="A winged demon."
+sprite=27 sound=1 group=2 driver=7 arg="aggressive=1;helper=1;startdist=10;stopdist=12;" respawn=60
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=14 V_INT=20 V_AGI=20 V_STR=20
+V_HP=10 V_ENDURANCE=5
+V_HAND=19
+V_ATTACK=21 V_PARRY=21 V_TACTICS=20
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=13 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=384
+;
+
+lab5_two_servant:
+name="Beronath" description="A winged demon."
+sprite=27 sound=1 group=2 driver=189 arg="type=0;" # CDR_LAB5DAEMON
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=14 V_INT=20 V_AGI=20 V_STR=20
+V_HP=10 V_ENDURANCE=5
+V_HAND=19
+V_ATTACK=21 V_PARRY=21 V_TACTICS=20
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=13 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=384
+;
+
+lab5_two_master:
+name="Breth Ona" description="A winged Master Demon."
+sprite=407 sound=1 group=2 driver=189 arg="type=1;" # CDR_LAB5DAEMON
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=14 V_INT=20 V_AGI=20 V_STR=20
+V_HP=10 V_ENDURANCE=5
+V_HAND=21
+V_ATTACK=21 V_PARRY=21 V_TACTICS=20
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=15 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+item="lab5_head2"
+class=385
+;
+
+
+# --- part 3 ---------------------------------------------------------------------------
+
+lab5_three_worker:
+name="Worker" description="A stupid looking little gnome."
+sprite=35 sound=1 group=2 driver=7 arg="aggressive=1;helper=0;startdist=20;" respawn=180
+flag=CF_ALIVE flag=CF_INFRARED flag=CF_RESPAWN
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=14
+V_HAND=18
+V_ATTACK=18 V_PARRY=18 V_TACTICS=14
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=12 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=381
+;
+
+lab5_three_worker_mage:
+name="Worker" description="A stupid looking little gnome."
+sprite=35 sound=1 group=2 driver=7 arg="aggressive=1;helper=0;startdist=20;" respawn=180
+flag=CF_ALIVE flag=CF_INFRARED flag=CF_RESPAWN
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=10 V_MANA=10
+V_HAND=18
+V_REGENERATE=1 V_MEDITATE=10 V_IMMUNITY=12 V_PERCEPT=8
+V_FIRE=15 V_BLESS=15
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=381
+;
+
+lab5_three_normal:
+name="Cyradeth" description="A catlike demon."
+sprite=29 sound=1 group=2 driver=7 arg="aggressive=1;helper=0;startdist=20;" respawn=180
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=14 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=7
+V_HAND=19
+V_ATTACK=21 V_PARRY=18 V_WARCRY=5 V_TACTICS=20
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=15 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=386
+;
+
+lab5_three_servant:
+name="Cyradeth" description="A catlike demon."
+sprite=29 sound=1 group=2 driver=189 arg="type=0;" # CDR_LAB5DAEMON
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=14 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=7
+V_HAND=19
+V_ATTACK=21 V_PARRY=18 V_WARCRY=5 V_TACTICS=20
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=15 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=386
+;
+
+lab5_three_servant_mage:
+name="Worker" description="A stupid looking little gnome."
+sprite=35 sound=1 group=2 driver=189 arg="type=0;" # CDR_LAB5DAEMON
+flag=CF_ALIVE flag=CF_INFRARED flag=CF_RESPAWN
+V_WIS=15 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=10 V_MANA=10
+V_HAND=18
+V_REGENERATE=1 V_MEDITATE=10 V_IMMUNITY=12 V_PERCEPT=8
+V_FIRE=15 V_BLESS=15
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+class=386
+;
+
+lab5_three_master:
+name="Ch Dae Tyr" description="A mighty, catlike Master Demon."
+sprite=408 sound=1 group=2 driver=189 arg="type=1;" # CDR_LAB5DAEMON
+flag=CF_RESPAWN flag=CF_INFRARED
+V_WIS=14 V_INT=20 V_AGI=20 V_STR=20
+V_HP=15 V_ENDURANCE=7
+V_HAND=19
+V_ATTACK=21 V_PARRY=21 V_WARCRY=5 V_TACTICS=20
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=15 V_PERCEPT=8
+spell=weapon_spell_med
+spell=armor_spell_med
+balanced=1
+item="lab5_head3"
+class=387
+;
+
+# --- friendly -------------------------------------------------------------------------
+
+lab5_mage:
+name="Mathor" description="A Mage."
+sprite=13 sound=1 group=2 driver=190 # CDR_LAB5MAGE
+flag=CF_ALIVE flag=CF_NOATTACK flag=CF_IMMORTAL
+V_WIS=50 V_INT=50 V_AGI=50 V_STR=50
+V_HP=50 V_ENDURANCE=50 V_MANA=50
+V_HAND=0 V_DAGGER=50 V_STAFF=50 V_SWORD=0 V_TWOHAND=0
+V_BLESS=50 V_HEAL=50 V_FREEZE=50 V_MAGICSHIELD=50 V_FLASH=50 V_FIRE=50
+V_REGENERATE=50 V_MEDITATE=50 V_IMMUNITY=50 V_BARTER=0 V_PERCEPT=50 V_STEALTH=0
+;
+
+lab5_seyan:
+name="Laros" description="A Seyan'Du."
+sprite=153 sound=1 group=2 driver=191 # CDR_LAB5SEYAN
+flag=CF_ALIVE flag=CF_NOATTACK flag=CF_IMMORTAL flag=CF_QUESTITEM
+V_WIS=15 V_INT=15 V_AGI=15 V_STR=15
+V_HP=15 V_ENDURANCE=15 V_MANA=0
+V_HAND=0 V_DAGGER=0 V_STAFF=0 V_SWORD=15 V_TWOHAND=0
+V_ATTACK=15 V_PARRY=15 V_WARCRY=15 V_TACTICS=15 V_SURROUND=0 V_SPEEDSKILL=0
+V_BLESS=0 V_HEAL=0 V_FREEZE=0 V_MAGICSHIELD=0 V_FLASH=0 V_FIRE=0
+V_REGENERATE=1 V_MEDITATE=0 V_IMMUNITY=15 V_BARTER=0 V_PERCEPT=8 V_STEALTH=0
+;
+

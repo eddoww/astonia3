@@ -1,0 +1,85 @@
+key11_13:
+name="Knoger Key 1"
+description="A finished key. Should open something now. A door, perhaps."
+value=5
+sprite=13413
+ID=13000089
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Golem_leader_door:
+sprite=21141
+description="A door"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0089000013"
+;
+
+Golem_key_part1:
+name="Key part"
+description="An orange key part. Might want to find all pieces."
+sprite=13414
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=010000CA
+driver=151
+arg="02"
+;
+
+Golem_key_part2:
+name="Key part"
+description="An orange key part. Might want to find all pieces."
+sprite=13415
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=010000CB
+driver=151
+arg="02"
+;
+
+
+Golem_key_part3:
+name="Key part"
+description="An orange key part. Might want to find all pieces."
+sprite=13416
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=010000CC
+driver=151
+arg="02"
+;
+
+Golem_area_door1:
+sprite=21145
+description="A door"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+Golem_area_door2:
+sprite=21141
+description="A door"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+Golem_useable_cage:
+sprite=20577
+flag=IF_USE
+;

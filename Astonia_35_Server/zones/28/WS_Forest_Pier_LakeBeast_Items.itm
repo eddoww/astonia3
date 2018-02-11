@@ -1,0 +1,33 @@
+WS_Pier_Lake_Light:
+sprite=22063
+mod_index=V_LIGHT
+mod_value=60
+flag=IF_MOVEBLOCK
+;
+
+WS_Lake_Lord_Key:
+name="Magical Lake Stone"
+description="You feel magic in this item, you wonder what it could be used for."
+sprite=15133
+ID=0800000E
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+WS_Lake_Lord_Chest_ID94:
+name="Large Chest"
+description="A magical chest, you need a magical item to open this chest."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="5E0E0000080000"	# chest 56, devel 8, ID FF, 1 day respawn time
+;
+treasure_94:
+name="The Aristocrat's Amulet"
+description="An amulet belonging to an Aristocrat."
+sprite=10436
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0800000F
+;

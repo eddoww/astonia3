@@ -1,0 +1,85 @@
+# --- doors and keys --------------------------------------------------------------------
+
+lab4_useless_crazy_door:
+sprite=20544
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0009000002"        # developer 2, IID_NEVERFOUND (0x09)
+;
+
+lab4_mage_door:
+sprite=11099
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0008000002"        # developer 2, IID_LAB4_MAGEKEY (0x08)
+;
+
+lab4_mage_key:
+name="Key"
+description="The mages key."
+value=5
+sprite=11103
+ID=02000008             # developer 2, IID_LAB4_MAGEKEY (0x08)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+# --- special items ---------------------------------------------------------------------
+
+lab4_szepter:
+name="Szepter"
+description="The mages szepter."
+sprite=11121
+ID=0200000B             # developer 2, IID_LAB4_SZEPTER (0x0B)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+lab4_crown:
+name="Crown"
+description="The Kings crown."
+sprite=11122
+ID=0200000C             # developer 2, IID_LAB4_CROWN (0x0C)
+flag=IF_TAKE
+flag=IF_LABITEM
+flag=IF_QUEST
+;
+
+gnalb_fireplace_key:
+sprite=11113
+mod_index=V_LIGHT
+mod_value=80
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=191              # IDR_LAB4_ITEM
+arg="01"                # type=1
+;
+
+gnalb_fireplace_crazy:
+sprite=20530
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;
+
+gnalb_standlight_on:
+sprite=20521
+mod_index=V_LIGHT
+mod_value=2000
+flag=IF_MOVEBLOCK
+;
+
+gnalb_fireplace_on:
+sprite=20530
+mod_index=V_LIGHT
+mod_value=500
+flag=IF_MOVEBLOCK
+;
+

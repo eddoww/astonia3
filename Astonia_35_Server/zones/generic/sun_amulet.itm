@@ -1,0 +1,48 @@
+sun_amulet12:
+name="Part of Sun Amulet"
+description="One part of a sun amulet"
+value=5
+sprite=20690
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0100003D             # developer 1, ID 0x3D
+driver=29
+;
+
+sun_amulet13:
+name="Part of Sun Amulet"
+description="One part of a sun amulet"
+value=5
+sprite=20687
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0100003E             # developer 1, ID 0x3E
+driver=29
+;
+
+sun_amulet23:
+name="Part of Sun Amulet"
+description="One part of a sun amulet"
+value=5
+sprite=20689
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0100003F             # developer 1, ID 0x3F
+driver=29
+;
+
+sun_amulet123:
+name="Sun Amulet"
+description="The amulet of the sun"
+value=7
+sprite=20691
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNNECK
+ID=01000040             # developer 1, ID 0x40
+;
+
+

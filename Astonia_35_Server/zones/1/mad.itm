@@ -1,0 +1,281 @@
+mad_door1:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0017000001"        # developer 1, ID 23
+;
+mad_key1:
+name="Mad-Key-1"
+description="Key 1 from the Brotherhood in Cameron."
+value=5
+sprite=50006
+ID=01000017             # developer 1, ID 23
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_door2:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0018000001"        # developer 1, ID 24
+;
+mad_key2:
+name="Mad-Key-2"
+description="Key 2 from the Brotherhood in Cameron."
+value=25
+sprite=50006
+ID=01000018             # developer 1, ID 24
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_door3:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0019000001"        # developer 1, ID 25
+;
+mad_key3:
+name="Mad-Key-3"
+description="Key 3 from the Brotherhood in Cameron."
+value=25
+sprite=50006
+ID=01000019             # developer 1, ID 25
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_door4:
+sprite=16053
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001A000001"        # developer 1, ID 26
+;
+mad_key4:
+name="Mad-Key-4"
+description="Key 4 from the Brotherhood in Cameron."
+value=25
+sprite=50006
+ID=0100001A             # developer 1, ID 26
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_door5:
+sprite=16053
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001B000001"        # developer 1, ID 27
+;
+mad_key5:
+name="Mad-Key-5"
+description="Key 5 from the Brotherhood in Cameron."
+value=25
+sprite=50006
+ID=0100001B             # developer 1, ID 27
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_potion:
+name="Potion of Happiness"
+description="A potion of happiness."
+value=50
+sprite=10301
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100001C             # developer 1, ID 28
+;
+
+empty_mad_potion:
+name="Used Potion"
+description="A used potion. It has been spoiled by the liquid it contained."
+value=50
+sprite=10298
+flag=IF_TAKE
+;
+
+mad_note:
+name="Note"
+description="This note contains the recipe for Happiness potions."
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0100001D             # developer 1, ID 29
+;
+
+mad_chest18:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="121B000001E010"        # chest 14, devel 1, ID 27, 1 week respawn time
+;
+treasure_18:
+name="Ring"
+description="A Ring of Extremely Weak Magic Shield."
+value=33000
+sprite=50025
+mod_index=V_MAGICSHIELD
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+quality=275
+complexity=250
+;
+
+mad_chest19:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="131B000001E010"        # chest 14, devel 1, ID 28, 1 week respawn time
+;
+treasure_19:
+name="Ring"
+description="A Ring of Extremely Weak Parry."
+value=33000
+sprite=50026
+mod_index=V_PARRY
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+quality=275
+complexity=250
+;
+
+mad_door6:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001F000001"        # developer 1, ID 31
+;
+mad_key6:
+name="Mad-Key-6"
+description="Key 1 from the Knights in Cameron."
+value=5
+sprite=50006
+ID=0100001F             # developer 1, ID 31
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_door7:
+sprite=16051
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0020000001"        # developer 1, ID 32
+;
+mad_key7:
+name="Mad-Key-7"
+description="Key 2 from the Knights in Cameron."
+value=5
+sprite=50006
+ID=01000020             # developer 1, ID 32
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_door8:
+sprite=16053
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0021000001"        # developer 1, ID 33
+;
+mad_key8:
+name="Mad-Key-8"
+description="Key 3 from the Knights in Cameron."
+value=5
+sprite=50006
+ID=01000021             # developer 1, ID 33
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_note2:
+name="Note"
+description="These potions should increase the strength of your Knights. Signed: Loisan."
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000022             # developer 1, ID 34
+;
+
+mad_door9:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0023000001"        # developer 1, ID 33
+;
+mad_key9:
+name="Mad-Key-9"
+description="The key to Loisan's house in Cameron."
+value=5
+sprite=50006
+ID=01000023             # developer 1, ID 33
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mad_door10:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_DOOR
+driver=2
+#arg="00FFFF0001"        # developer 1, ID 65535
+;
+
+mad_opentrap:
+name="opentrap"
+sprite=0
+driver=6
+flag=IF_STEPACTION
+arg="362B"
+;

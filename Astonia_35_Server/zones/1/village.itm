@@ -1,0 +1,236 @@
+city_door4:     # Sanoa's House
+#sprite=20038
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001200000101"      # developer 1, ID 18, auto-close
+;
+
+city_key4:
+name="City-Key-4"
+description="The key to Sanoa's house."
+value=25
+sprite=50004
+ID=01000012             # developer 1, ID 18
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+city_teleport1:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="D300AD00000001"   # x=211, y=173, a=0, quiet=1
+;
+
+city_teleport2:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="0C001F00000001"   # x=12, y=31, a=0, quiet=1
+;
+
+city_teleport3:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="D300C500000001"   # x=211, y=173, a=0, quiet=1
+;
+
+city_teleport4:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="0D004000000001"   # x=13, y=64, a=0, quiet=1
+;
+
+city_door5:     # gunther's store
+sprite=20038
+#sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001300000101"      # developer 1, ID 19, no auto-close
+;
+
+city_key5:
+name="City-Key-5"
+description="The key to Gunther's store."
+value=25
+sprite=50004
+ID=01000013             # developer 1, ID 19
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+city_door6:     # Heinrich's store
+sprite=20038
+#sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001400000101"      # developer 1, ID 20, no auto-close
+;
+
+city_key6:
+name="City-Key-6"
+description="The key to Heinrich's store."
+value=25
+sprite=50004
+ID=01000014             # developer 1, ID 20
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+city_door7:     # Ingo's store
+#sprite=20038
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001500000101"      # developer 1, ID 21, no auto-close
+;
+
+city_key7:
+name="City-Key-7"
+description="The key to Ingo's store."
+value=25
+sprite=50004
+ID=01000015             # developer 1, ID 21
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+city_teleport5:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="A000D400000001"   # x=160, y=212, a=0, quiet=1
+;
+
+city_teleport6:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="6C005C00000001"   # x=108, y=92, a=0, quiet=1
+;
+
+city_teleport7:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="FC009900000001"   # x=252, y=153, a=0, quiet=1
+;
+
+city_teleport8:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="36005800000001"   # x=54, y=88, a=0, quiet=1
+;
+
+city_door9:     # Serejey's House
+sprite=20038
+#sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="002400000101"      # developer 1, ID 36, no auto-close
+;
+
+city_key9:
+name="City-Key-9"
+description="The key to Serejey's house."
+value=25
+sprite=50004
+ID=01000024             # developer 1, ID 36
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+city_exit:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="05000500020001"   # x=211, y=173, a=2, quiet=1
+;
+
+city_exit2:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="F900F100030001"   # x=211, y=173, a=3, quiet=1
+;
+
+#-------- following belongs to exp dungeon 1/2
+
+exp_teleport1:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="FA005600000001"   # x=211, y=173, a=0, quiet=1
+;
+
+exp_teleport2:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="9000B500000001"   # x=12, y=31, a=0, quiet=1
+;
+
+link_pents1_below:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="04000700040001"   # x=4, y=7, a=4, quiet=1
+;
+
+village_apple:
+name="Apple"
+description="A beautiful, juicy, appetizing apple."
+value=5
+sprite=50024
+ID=0100000B             # developer 1, ID 7
+flag=IF_TAKE
+;

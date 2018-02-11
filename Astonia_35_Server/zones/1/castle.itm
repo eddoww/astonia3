@@ -1,0 +1,83 @@
+opentrap:
+name="opentrap"
+sprite=0
+driver=6
+flag=IF_STEPACTION
+arg="706E"      # x=112, y=110
+;
+
+walldoor:
+sprite=59193
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+#flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+knight_opentorch:
+name="Torch"
+description="A torch that looks almost like all the other torches."
+sprite=20074
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=6
+arg="59D7"
+;
+
+knight_teleport:
+name="Magic Teleport"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="2400DD00000001"   # x=36, y=221, a=0, quiet=1
+;
+
+knight_teleport2:
+name="Magic Teleport"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="70006B00000001"   # x=112, y=107, a=0, quiet=1
+;
+#-------------
+knight_chest9:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0900000000A800"    # nr 9, no key, 1 week respawn time
+;
+treasure_9:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=104
+flag=IF_TAKE
+flag=IF_MONEY
+value=750
+;
+#-------------
+knight_chest10:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0A00000000A800"    # nr 10, no key, 1 week respawn time
+;
+treasure_10:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=104
+flag=IF_TAKE
+flag=IF_MONEY
+value=1500
+;

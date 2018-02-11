@@ -1,0 +1,157 @@
+ad_bracelet1:
+name="Bracelet"
+description="A golden bracelet, beautiful to look at (cannot be enhanced by metal)."
+value=2500
+sprite=10332
+flag=IF_TAKE
+flag=IF_WNARMS
+;
+
+ad_bracelet2:
+name="Bracelet"
+description="A golden bracelet, beautiful to look at (cannot be enhanced by metal)."
+value=2500
+sprite=10333
+flag=IF_TAKE
+flag=IF_WNARMS
+;
+
+ad_ring1:
+name="Ring"
+description="A silver ring, beautiful to look at (cannot be enhanced by metal)."
+value=1500
+sprite=10336
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+;
+
+ad_ring2:
+name="Ring"
+description="A silver ring, beautiful to look at (cannot be enhanced by metal)."
+value=1500
+sprite=10337
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+;
+
+ad_ring3:
+name="Ring"
+description="A silver ring, beautiful to look at (cannot be enhanced by metal)."
+value=1500
+sprite=10338
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+;
+
+ad_ring4:
+name="Ring"
+description="A golden ring, beautiful to look at (cannot be enhanced by metal)."
+value=2500
+sprite=10339
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+;
+
+ad_ring5:
+name="Ring"
+description="A golden ring, beautiful to look at (cannot be enhanced by metal)."
+value=2500
+sprite=10340
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+;
+
+ad_necklace1:
+name="Necklace"
+description="A small pearl necklace, beautiful to look at (cannot be enhanced by metal)."
+value=2500
+sprite=10361
+flag=IF_TAKE
+flag=IF_WNNECK
+;
+
+ad_necklace2:
+name="Necklace"
+description="A big pearl necklace, beautiful to look at (cannot be enhanced by metal)."
+value=3500
+sprite=10360
+flag=IF_TAKE
+flag=IF_WNNECK
+;
+
+ad_cape1:
+name="Cape"
+description="A black cape"
+sprite=10432
+value=2500
+flag=IF_TAKE
+flag=IF_WNCLOAK
+;
+
+ad_cape2:
+name="Cape"
+description="A cape"
+sprite=10456
+value=2500
+flag=IF_TAKE
+flag=IF_WNCLOAK
+;
+
+ad_cape3:
+name="Cape"
+description="A cape"
+sprite=10454
+value=2500
+flag=IF_TAKE
+flag=IF_WNCLOAK
+;
+
+ad_boots1:
+name="Boots"
+description="A pair of boots."
+sprite=10433
+value=2500
+flag=IF_TAKE
+flag=IF_WNFEET
+;
+
+ad_boots2:
+name="Boots"
+description="A pair of boots."
+sprite=10446
+value=2500
+flag=IF_TAKE
+flag=IF_WNFEET
+;
+
+ad_boots3:
+name="Boots"
+description="A pair of boots."
+sprite=10448
+value=2500
+flag=IF_TAKE
+flag=IF_WNFEET
+;
+
+ad_belt1:
+name="Belt"
+description="A dark belt."
+sprite=10450
+value=2500
+flag=IF_TAKE
+flag=IF_WNBELT
+;
+
+ad_belt2:
+name="Belt"
+description="A dark belt."
+sprite=10452
+value=2500
+flag=IF_TAKE
+flag=IF_WNBELT
+;

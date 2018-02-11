@@ -1,0 +1,127 @@
+mine_key9:
+name="Mine-Key-9"
+description="Treasure chest key from mine level 9"
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600005B		# key 91 (5B), developer 6
+;
+
+gold_chest_101:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="655B0000062220"        # chest 101 (65), devel 6, ID 5B (5B000006), 1 year respawn time (2220)
+;
+treasure_101:
+name="Pile of Gold"
+description="10000 units of Gold"
+sprite=51053
+value=250000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0210270000"        # 10000
+;
+
+
+mine_key10:
+name="Mine-Key-10"
+description="Treasure chest key from mine level 10"
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600005C		# key 92 (5C), developer 6
+;
+
+gold_chest_102:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="665C0000062220"        # chest 102 (66), devel 6, ID 5C (5C000006), 1 year respawn time (2220)
+;
+treasure_102:
+name="Pile of Gold"
+description="11000 units of Gold"
+sprite=51053
+value=275000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02F82A0000"        # 11000
+;
+
+
+mine_key11:
+name="Mine-Key-11"
+description="Treasure chest key from mine level 11"
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600005D		# key 93 (5D), developer 6
+;
+
+gold_chest_103:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="675D0000062220"        # chest 103 (67), devel 6, ID 5D (5D000006), 1 year respawn time (2220)
+;
+treasure_103:
+name="Pile of Gold"
+description="12000 units of Gold"
+sprite=51053
+value=300000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02E02E0000"        # 12000
+;
+
+
+
+mine_key12:
+name="Mine-Key-12"
+description="Treasure chest key from mine level 12"
+value=18
+sprite=11019
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600005E		# key 94 (5E), developer 6
+;
+
+gold_chest_104:
+name="Chest"
+description="A wooden chest with golden bands."
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="685E0000062220"        # chest 104 (68), devel 6, ID 5E (5E000006), 1 year respawn time (2220)
+;
+treasure_104:
+name="Pile of Gold"
+description="13000 units of Gold"
+sprite=51053
+value=325000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02C8320000"        # 13000
+;

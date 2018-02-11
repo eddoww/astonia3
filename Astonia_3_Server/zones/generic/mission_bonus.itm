@@ -1,0 +1,563 @@
+# arg:
+# 5 minutes =  9600
+# 10 minutes = 2C01
+# 20 minutes = 5802
+# 30 minutes = 8403
+# 1 hour     = 7008
+# 3 hours    = 1815
+# 10 hours   = 5046
+
+# point value
+# one mission takes 4 minutes and gives 25 points
+# 5 hours of missions = 1875 pts
+# 3 days (a 5 hours) of missions = 5625 pts
+# 1 week of missions = 13125 pts
+# 2 weeks of missions = 26250 pts
+# 1 month of missions = 56250
+
+mis_ring1:
+name="Leonid's Ring of Skirmish"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010800009600
+min_level=17
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_WARCRY
+mod_value=1
+;
+
+mis_ring2:
+name="Leonid's Ring of Battle"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010800008403
+min_level=17
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_WARCRY
+mod_value=1
+;
+
+mis_ring3:
+name="Leonid's Ring of War"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010800001815
+min_level=17
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_WARCRY
+mod_value=1
+;
+
+mis_ring4:
+name="Carisah's Ring of Skirmish"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010800009600
+min_level=17
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FIREBALL
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_PULSE
+mod_value=1
+;
+
+mis_ring5:
+name="Carisah's Ring of Battle"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010800008403
+min_level=17
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FIREBALL
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_PULSE
+mod_value=1
+;
+
+mis_ring6:
+name="Carisah's Ring of War"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010800001815
+min_level=17
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FIREBALL
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_PULSE
+mod_value=1
+;
+
+mis_ring7:
+name="Arcazor's Ring of Skirmish"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010C00009600
+min_level=23
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_WARCRY
+mod_value=1
+;
+
+mis_ring8:
+name="Arcazor's Ring of Battle"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010C00008403
+min_level=23
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_WARCRY
+mod_value=1
+;
+
+mis_ring9:
+name="Arcazor's Ring of War"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010C00001815
+min_level=23
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_WARCRY
+mod_value=1
+;
+
+mis_ring10:
+name="Wicala's Ring of Skirmish"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010C00009600
+min_level=23
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FIREBALL
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_PULSE
+mod_value=1
+;
+
+mis_ring11:
+name="Wicala's Ring of Battle"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010C00008403
+min_level=23
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FIREBALL
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_PULSE
+mod_value=1
+;
+
+mis_ring12:
+name="Wicala's Ring of War"
+description="A silver ring. (Can be activated, decays when active.)"
+value=1500
+sprite=56001
+flag=IF_TAKE
+flag=IF_WNLRING
+flag=IF_WNRRING
+flag=IF_BEYONDBOUNDS
+flag=IF_BONDTAKE
+flag=IF_NOENHANCE
+flag=IF_USE
+driver=132
+#   AABBCCDDDDEEEE
+arg=00010C00001815
+min_level=23
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FIREBALL
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+mod_index=V_PULSE
+mod_value=1
+;
+
+
+mis_pot1:
+name="Leonid's Potion of Defense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=10
+mod_index=V_PARRY
+mod_value=30
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot2:
+name="Arcazor's Potion of Defense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=15
+mod_index=V_PARRY
+mod_value=40
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot3:
+name="Geracas' Potion of Defense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=20
+mod_index=V_PARRY
+mod_value=50
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot4:
+name="Leonid's Potion of Offense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=10
+mod_index=V_ATTACK
+mod_value=30
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot5:
+name="Arcazor's Potion of Offense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=15
+mod_index=V_ATTACK
+mod_value=40
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot6:
+name="Geracas' Potion of Offense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=20
+mod_index=V_ATTACK
+mod_value=50
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot7:
+name="Carisah's Potion of Defense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=10
+mod_index=V_IMMUNITY
+mod_value=30
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot8:
+name="Wicala's Potion of Defense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=15
+mod_index=V_IMMUNITY
+mod_value=40
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot9:
+name="Sulina's Potion of Defense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=20
+mod_index=V_IMMUNITY
+mod_value=50
+arg="05"	# duration in minutes
+driver=133
+;
+
+
+mis_pot10:
+name="Carisah's Potion of Offense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=10
+mod_index=V_FLASH
+mod_value=30
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot11:
+name="Wicala's Potion of Offense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=15
+mod_index=V_FLASH
+mod_value=40
+arg="05"	# duration in minutes
+driver=133
+;
+
+mis_pot12:
+name="Sulina's Potion of Offense"
+description="A flask containing a magical liquid."
+sprite=56006
+value=50
+flag=IF_USE
+flag=IF_TAKE
+flag=IF_BEYONDMAXMOD
+min_level=20
+mod_index=V_FLASH
+mod_value=50
+arg="05"	# duration in minutes
+driver=133
+;
+
+
+mis_combopot:
+name="Combo Potion"
+description="A huge combo potion."
+value=12000
+sprite=11151
+flag=IF_TAKE
+flag=IF_USE
+driver=1
+arg="00646464"          # no empty potion, 100 hp, 100 mana, 100 endurance
+;
+
+
+
+mis_potionbase:
+name="Custom Potion"
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="0309013C"
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+driver=32
+;

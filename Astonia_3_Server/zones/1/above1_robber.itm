@@ -1,0 +1,118 @@
+robber_teleport1:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="1F00ED00000001"   # x=31, y=237, a=0, quiet=1
+;
+
+robber_teleport2:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="F3004E00000001"   # x=163, y=59, a=0, quiet=1
+;
+
+robber_door1:
+sprite=20040
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000E000001"        # developer 1, ID 14
+;
+
+robber_key1:
+name="Robber-Key-1"
+description="Key 1 from the robber place."
+value=25
+sprite=50004
+ID=0100000E             # developer 1, ID 14
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+robber_chest12:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0C0E0000011800"        # chest 12, devel 1, ID 14, 1 day respawn time
+;
+treasure_12:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=104
+flag=IF_TAKE
+flag=IF_MONEY
+value=300
+;
+
+robber_chest13:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0D0E000001A800"        # chest 13, devel 1, ID 14, 1 week respawn time
+;
+treasure_13:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=104
+flag=IF_TAKE
+flag=IF_MONEY
+value=900
+;
+
+robber_chest14:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="0E0E000001A800"        # chest 14, devel 1, ID 14, 1 week respawn time
+;
+treasure_14:
+name="Leggings of Minor Stealth"
+description="Light chain mail leggings of minor stealth."
+value=225
+sprite=10100
+mod_index=V_ARMOR
+mod_value=30
+req_index=V_ARMORSKILL
+req_value=1
+mod_index=V_STEALTH
+mod_value=1
+flag=IF_TAKE
+flag=IF_WNLEGS
+;
+
+robber_openlight:
+flag=IF_USE
+sprite=20026
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+driver=6
+arg="09F8"      # 9,248
+;
+
+robber_note:
+name="Note"
+description="Meet me in market street to discuss your admission to the Thieves Guild. Sanoa."
+value=5
+sprite=50011
+flag=IF_TAKE
+flag=IF_QUEST
+;
+

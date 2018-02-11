@@ -1,0 +1,140 @@
+caligar_dungeon1_sign:
+name="Sign"
+description="Grendom - Prepare to fight."
+sprite=50121
+flag=IF_USE
+;
+
+caligar_dungeon2_sign:
+name="Sign"
+description="Argen - It's what you can't see that ails you the most."
+sprite=50121
+flag=IF_USE
+;
+
+caligar_dungeon3_sign:
+name="Sign"
+description="Rovin - Weight is the key."
+sprite=50121
+flag=IF_USE
+;
+
+caligar_dungeon3_weight1:
+name="Weight"
+description="Perhaps it is used to cause pressure..."
+sprite=21203
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=144
+arg="02"
+;
+
+caligar_dungeon3_weight2:
+name="Weight"
+description="Perhaps it is used to cause pressure..."
+sprite=21203
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=144
+arg="02"
+;
+
+caligar_dungeon1_ladder:
+name="Ladder"
+description="A ladder leading up..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="C1007C00000001"   # x=193, y=124, a=0, quiet=1
+;
+
+caligar_dungeon2_ladder:
+name="Ladder"
+description="A ladder leading up..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="7200E500000001"   # x=114, y=229, a=0, quiet=1
+;
+
+caligar_dungeon3_ladder:
+name="Ladder"
+description="A ladder leading up..."
+sprite=50018
+flag=IF_USE
+driver=10
+arg="5A00BC00000001"   # x=90, y=188, a=0, quiet=1
+;
+
+caligar_hole_dungeon1:
+name="Hole"
+description="A hole. You can hear strange noises from below..."
+sprite=1008
+flag=IF_USE
+driver=10
+arg="DA008400000001"   # x=218, y=132, a=0, quiet=1
+;
+
+caligar_hole_dungeon2:
+name="Hole"
+description="A hole. You can hear strange noises from below..."
+sprite=1008
+flag=IF_USE
+driver=10
+arg="DA00A100000001"   # x=218, y=161, a=0, quiet=1
+;
+
+caligar_hole_dungeon3:
+name="Hole"
+description="A hole. You can hear strange noises from below..."
+sprite=1008
+flag=IF_USE
+driver=10
+arg="DB00C000000001"   # x=219, y=192, a=0, quiet=1
+;
+
+caligar_dungeon1_key: #ID 15
+name="Dungeon Key"
+description="Dungeon key 1 from Caligar."
+sprite=50004
+flag=IF_QUEST
+ID=0A00000F 
+value=25
+flag=IF_TAKE
+flag=IF_QUEST 
+;
+caligar_dungeon1_door: #ID 15
+name="Door"
+description="A door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000F00000A"
+;
+
+caligar_dungeon2_key: #ID 16
+name="Dungeon Key"
+description="Dungeon key 2 from Caligar."
+sprite=50004
+flag=IF_QUEST
+ID=0A000010 
+value=25
+flag=IF_TAKE
+flag=IF_QUEST 
+;
+caligar_dungeon2_door: #ID 16
+name="Door"
+description="A door."
+sprite=20664
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001000000A"
+;

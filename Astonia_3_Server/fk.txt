@@ -1,0 +1,64 @@
+1...422 mostly used
+
+425	Caligar, Grendeom
+426	Caligar, Argen
+427	Caligar, Rovin
+
+428	Caligar, Grendom Animation
+429	Caligar, Argen Animation
+430	Caligar, Rovin Animation
+
+431	Caligar, Amazon
+432	Caligar, Amazon Guard
+433	Caligar, Vanella
+434	Caligar, Amazon Queen
+435	Caligar, Amazon Guardian
+436	Caligar, Cave Dweller
+
+437	Arkhata, Young Guard
+438	Arkhata, Guard
+439	Arkhata, Rock Demon
+440	Arkhata, Wolf
+441	Arkhata, Harpy
+442	Arkhata, Sea Hermit
+443	Arkhata, Blue Harpy
+444	Arkhata, Skelly Lord
+445	Arkhata, Vampire Lord
+446	Arkhata, Bandit Lord
+447	Arkhata, Bandit
+448	Arkhata, Bossy
+449	Arkhata, Baby Bookeater
+450	Arkhata, Skeleton
+451	Arkhata, Skelly Boss
+452	Arkhata, Seeker Zombie
+453	Arkhata, Srhank
+454	Arkhata, Vampire Kid
+455	Arkhata, Vampire Boss
+456	Arkhata, Vampire
+457	Arkhata, Elder Vampire
+458	Arkhata, Seeker
+459	Arkhata, Warlock
+460	Arkhata, Frawd
+461	Arkhata, Chappy
+462	Arkhata, Huge Bookeater
+463	Arkhata, Knoger
+464	Arkhata, (Knoger) Boss
+465	Arkhata, (Gang) Leader
+466	Arkhata, (Gang) Member
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

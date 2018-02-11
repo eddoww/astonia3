@@ -1,0 +1,624 @@
+link_to_cameron:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="07001700010001"   # x=7, y=23, a=1, quiet=1
+;
+
+link_to_mines:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="EE00F3000C0001"   # x=238, y=243, a=12, quiet=1
+;
+
+link_to_swamp:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="F900F9000F0001"   # x=249, y=249, a=15, quiet=1
+;
+
+link_random_dungeon:
+sprite=15541
+flag=IF_USE
+driver=10
+arg="FA00F5000E0001"   # x=250, y=245, a=14, quiet=1
+;
+
+link_job_area:
+sprite=15541
+flag=IF_USE
+driver=10
+arg="E700E500200001"   # x=231, y=229, a=32, quiet=1
+;
+
+link_tunnel:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="FA00FA00210001"   # x=3, y=86, a=2, quiet=1
+;
+
+link_rouven:
+name="Stairs"
+sprite=15541
+flag=IF_USE
+driver=10
+arg="4300EC001A0001"
+;
+
+link_loisan_below:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="03005600020001"   # x=3, y=86, a=2, quiet=1
+;
+
+link_creeper_below:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="1A009400020001"   # x=26, y=148, a=2, quiet=1
+;
+
+link_park_below:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="92000400020001"   # x=146, y=4, a=2, quiet=1
+;
+
+link_moony_below:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="0600C000020001"   # x=6, y=192, a=2, quiet=1
+;
+
+link_crypt_below:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="E500FC00020001"   # x=229, y=252, a=2, quiet=1
+;
+
+link_fish:
+name="Door"
+description="A strangely placed door leading... somewhere far far away."
+sprite=20461
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=10
+arg="F100F400140001"
+;
+
+link_pents1_below:
+name="Door"
+description="Written on it is: Pentagram Quest, Level 7 to 14"
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="04000700040001"   # x=4, y=7, a=4, quiet=1
+;
+link_pents2_below:
+name="Door"
+description="Written on it is: Pentagram Quest, Level 15 to 22"
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="06004500040001"   # x=6, y=69, a=4, quiet=1
+;
+link_pents3_below:
+name="Door"
+description="Written on it is: Pentagram Quest, Level 23 to 30"
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="04008600040001"   # x=4, y=134, a=4, quiet=1
+;
+link_pents4_below:
+name="Door"
+description="Written on it is: Pentagram Quest, Level 31 to 38"
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="0500C300040001"   # x=5, y=195, a=4, quiet=1
+;
+
+link_edemon_below:
+name="Door"
+description="Written on it is: Earth Underground, Level 20 and better."
+sprite=14299    #50017
+flag=IF_USE
+driver=10
+arg="EC00F700060001"   # x=236, y=247, a=6, quiet=1
+;
+
+link_fpents1_below:
+name="Door"
+description="Written on it is: Fire Pents, Level 39 to 46."
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="08000400070001"   # x=8, y=4, a=7, quiet=1
+;
+
+link_fpents2_below:
+name="Door"
+description="Written on it is: Fire Pents, Level 47 to 54."
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="08004400070001"   # x=8, y=68, a=7, quiet=1
+;
+
+link_fpents3_below:
+name="Door"
+description="Written on it is: Fire Pents, Level 55 to 62."
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="05008600070001"   # x=5, y=134, a=7, quiet=1
+;
+
+link_fpents4_below:
+name="Door"
+description="Written on it is: Fire Pents, Level 63 to 70."
+sprite=14177    #50017
+flag=IF_USE
+driver=10
+arg="0400C400070001"   # x=4, y=196, a=7, quiet=1
+;
+
+link_ipents1_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 71 to 78."
+sprite=14175    #50017
+flag=IF_USE
+driver=10
+arg="04000200090001"   # x=4, y=4, a=9, quiet=1
+;
+
+link_ipents2_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 79 to 86."
+sprite=14175    #50017
+flag=IF_USE
+driver=10
+arg="06004200090001"   # x=6, y=66, a=9, quiet=1
+;
+
+link_ipents3_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 87 to 94."
+sprite=14175    #50017
+flag=IF_USE
+driver=10
+arg="06008300090001"   # x=4, y=4, a=9, quiet=1
+;
+
+link_ipents4_below:
+name="Door"
+description="Written on it is: Ice Pents, Level 95 to 102."
+sprite=14175    #50017
+flag=IF_USE
+driver=10
+arg="0600C200090001"   # x=6, y=194, a=9, quiet=1
+;
+
+link_hpents_below:
+name="Door"
+description="Written on it is: Hell Pents, Level 103 to 118."
+sprite=14175    #50017
+flag=IF_USE
+driver=10
+arg="35000300190001"   # x=53, y=3, a=25, quiet=1
+;
+
+
+link_testpents_below:
+name="Door"
+description="Written on it is: Test Area, Level 1 to 102."
+sprite=14177
+flag=IF_USE
+driver=10
+arg="07000700150001"   # x=7, y=7, a=21, quiet=1
+;
+
+link_fire_below:
+name="Transport"
+description="Written on it is: Fire Underground, Level 30 and better!"
+sprite=14299    #50017
+flag=IF_USE
+driver=10
+arg="E400F800080001"   # x=228, y=248, a=8, quiet=1
+;
+
+link_ice_below:
+name="Transport"
+description="Written on it is: Ice Underground, Level 45 and better!"
+sprite=14299    #50017
+flag=IF_USE
+driver=10
+arg="060007000A0001"   # x=6, y=7, a=10, quiet=1
+;
+
+link_sewers_below:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=22496
+flag=IF_USE
+driver=10
+arg="80008000050001"   # x=128, y=128, a=5, quiet=1
+;
+
+link_smugglers:
+name="Hole"
+description="A hole in the ground leading... somewhere far far away."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="7C006D001A0001"   # x=124, y=109, a=26, quiet=1
+;
+
+#--- chests in loisan's house ---
+loisan_chest1:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20090
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1400000000A800"    # nr 20, no key, 1 week respawn time
+;
+treasure_20:
+name="Skull"
+description="The skull of a zombie"
+sprite=50037
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000025             # developer 1, ID 37
+;
+loisan_chest2:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20090
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1500000000A800"    # nr 21, no key, 1 week respawn time
+;
+treasure_21:
+name="Skull"
+description="The skull of a zombie"
+sprite=50037
+flag=IF_TAKE
+flag=IF_QUEST
+ID=01000025             # developer 1, ID 37
+;
+loisan_chest3:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20090
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1600000000A800"    # nr 22, no key, 1 week respawn time
+;
+treasure_22:
+name="Skull"
+description="The skull of a zombie"
+sprite=50037
+flag=IF_TAKE
+ID=01000025             # developer 1, ID 37
+;
+loisan_chest4:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20090
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="1700000000A800"    # nr 23, no key, 1 week respawn time
+;
+treasure_23:
+name="Skull"
+description="The skull of a zombie"
+sprite=50037
+flag=IF_TAKE
+ID=01000025             # developer 1, ID 37
+;
+
+onoff_torch1:
+flag=IF_USE
+sprite=20044
+mod_index=V_LIGHT
+mod_value=100
+driver=17
+arg="0164"
+;
+onoff_torch2:
+flag=IF_USE
+sprite=20054
+mod_index=V_LIGHT
+mod_value=100
+driver=17
+arg="0164"
+;
+onoff_torch3:
+flag=IF_USE
+sprite=20064
+mod_index=V_LIGHT
+mod_value=100
+driver=17
+arg="0164"
+;
+onoff_torch4:
+flag=IF_USE
+sprite=20074
+mod_index=V_LIGHT
+mod_value=100
+driver=17
+arg="0164"
+;
+
+palace_door:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_DOOR
+driver=9
+;
+
+palace_chest1:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20090
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="18000000001800"    # nr 24, no key, 1 day respawn time
+;
+treasure_24:
+name="Skull"
+description="A skull made of pure gold."
+sprite=50042
+flag=IF_TAKE
+ID=01000027             # developer 1, ID 39
+;
+
+palace_hint1:
+name="Sign"
+description="Where there is light, no evil can spawn."
+sprite=50121
+flag=IF_USE
+;
+
+palace_hint2:
+name="Sign"
+description="When all is light, the door will open."
+sprite=50120
+flag=IF_USE
+;
+
+palace_sorry:
+name="Sign"
+description="Sorry, this area is under construction. Please take a Skull instead."
+sprite=50120
+flag=IF_USE
+;
+
+astro_sign:
+name="Sign"
+description="Help wanted! Talk to Gerassimo"
+sprite=50163
+flag=IF_USE
+;
+
+teleport_steel_door:
+name="steel door"
+description="a door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="03"
+;
+teleport_steel_door_b:
+name="steel door"
+description="a door made of steel."
+sprite=17048
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="03"
+;
+
+pent_warning1:
+name="Sign"
+description="Pentagram Quest, Level 7 to 14"
+sprite=50121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+;
+
+pent_warning2:
+name="Sign"
+description="Pentagram Quest, Level 15 to 22"
+sprite=50121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+;
+
+pent_warning3:
+name="Sign"
+description="Pentagram Quest, Level 23 to 30"
+sprite=50121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+;
+
+pent_warning4:
+name="Sign"
+description="Pentagram Quest, Level 31 to 38"
+sprite=50121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+;
+
+ug_ladder1:
+sprite=50332
+flag=IF_USE
+driver=10
+arg="E900BA00000001"   # x=233, y=186, a=0, quiet=1
+;
+
+ug_ladder2:
+sprite=50334
+flag=IF_USE
+driver=10
+arg="E300B700000001"   # x=227, y=183, a=0, quiet=1
+;
+
+toplist:
+name="Top List"
+description="A big sign listing the best fighters. USE to read."
+sprite=15155
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=63
+;
+
+teleport_steel_door_normal:
+name="steel door"
+description="a door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00000000000001"    # quiet=1
+;
+teleport_steel_door_normal2:
+name="steel door"
+description="a door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00000000000001"    # quiet=1
+;
+teleport_steel_door_normal2b:
+name="steel door"
+description="a door made of steel."
+sprite=17050
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00000000000001"    # quiet=1
+;
+
+fire:
+sprite=20530
+name="Fire"
+mod_index=V_LIGHT
+mod_value=20
+;
+
+
+hamburger:
+name="Hamburger"
+description="A meaty, juicy hamburger."
+value=18
+sprite=15220
+flag=IF_TAKE
+flag=IF_USE
+driver=64
+arg="00"          # type 0 food
+;
+
+chili:
+name="Chili"
+description="A steaming bowl of chili."
+value=38
+sprite=15222
+flag=IF_TAKE
+flag=IF_USE
+driver=64
+arg="01"          # type 1 food
+;
+
+link_catacombs:
+name="Door"
+description="A steel door."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="FC00FD000D0001"   # x=252, y=253, a=13, quiet=1
+;
+
+lfreduct:
+name="Shrine of Spell Change"
+description="Using this will reset your Flash and Fireball and return the experience."
+sprite=59404
+flag=IF_USE
+driver=97
+;
+
+
+labentrance:
+name="Door"
+description="Written on it is: The Labyrinth. Take care."
+sprite=17050
+flag=IF_USE
+flag=IF_SIGHTBLOCK
+flag=IF_MOVEBLOCK
+flag=IF_SOUNDBLOCK
+driver=101
+;
+
+carlos_key:
+name="Carlos-Key"
+description="A key from Carlos."
+value=5
+sprite=50006
+ID=01000093             # developer 1, ID 0x93
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+

@@ -1,0 +1,162 @@
+ws_robber_chest_ID85:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21301
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="55000000080000"	# chest 43, devel 8, ID FF, 1 hour respawn time
+;
+treasure_85:
+name="Broklin's Pickaxe"
+description="The favourite Pickaxe of Branningtons Chief Miner."
+sprite=15107
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0800000D
+;
+
+
+ws_robber_chest_ID86:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="560A0000080000"	# chest 48, devel 8, ID FF, 1 month respawn time
+;
+treasure_86:
+name="Boss Lair Key"
+description="Robber Quest Boss Lair Key"
+sprite=50004
+ID=0800000B             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+ws_robber_chest_ID87:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="570A000008A002"	# chest 49, devel 8, ID FF, 1 month respawn time
+;
+treasure_87:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2500
+;
+
+ws_robber_chest_ID88:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="580A000008A002"	# chest 50, devel 8, ID FF, 1 month respawn time
+;
+treasure_88:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2500
+;
+
+ws_robber_chest_ID89:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="590A000008A002"	# chest 51, devel 8, ID FF, 1 month respawn time
+;
+treasure_89:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2500
+;
+
+ws_robber_chest_ID90:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="5A0A000008A002"	# chest 52, devel 8, ID FF, 1 month respawn time
+;
+treasure_90:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2500
+;
+
+ws_robber_chest_ID91:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="5B0A0000081800"	# chest 53, devel 8, ID FF, 1 month respawn time
+;
+treasure_91:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2500
+;
+
+ws_robber_chest_ID92:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="5C0A000008A002"	# chest 54, devel 8, ID FF, 1 month respawn time
+;
+treasure_92:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2500
+;
+
+ws_robber_chest_ID93:
+name="Large Chest"
+description="A solid Chest, it looks unbreakable"
+sprite=15121
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="5D0A000008A002"	# chest 55, devel 8, ID FF, 1 month respawn time
+;
+treasure_93:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2500
+;

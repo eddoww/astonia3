@@ -1,0 +1,576 @@
+link_to_idemon:
+name="steptrap"
+sprite=0
+flag=IF_STEPACTION
+driver=10
+arg="DC0044000A0001"   # x=220, y=68, a=10, quiet=1
+;
+
+demonshrine2a:
+name="Book"
+description="Some sort of book is floating here."
+sprite=59000	#50118
+flag=IF_USE
+driver=35
+min_level=50
+;
+
+demonshrine2b:
+name="Book"
+description="Some sort of book is floating here."
+sprite=59001	#50118
+flag=IF_USE
+driver=35
+min_level=50
+;
+
+ice_door1s:
+name="Door"
+sprite=21681
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+ice_door2s:
+name="Door"
+sprite=21683
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+ice_door1b:
+name="Door"
+sprite=21685
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+islena_door:
+name="Door"
+description="This is the door to Islena's sleeping room."
+sprite=21685
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=138
+;
+
+ice_door2b:
+name="Door"
+sprite=21687
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+
+ice_door1s_key:
+sprite=21681
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="004D000001"        # developer 1, ID 0x4D
+;
+
+ice_door2s_key:
+sprite=21683
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="004D000001"        # developer 1, ID 0x4D
+;
+
+ice_door1b_key:
+sprite=21685
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="004D000001"        # developer 1, ID 0x4D
+;
+
+ice_door2b_key:
+sprite=21687
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="004D000001"        # developer 1, ID 0x4D
+;
+
+
+ice_door1b_bigkey:
+sprite=21685
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0050000001"        # developer 1, ID 0x4D
+;
+
+ice_door2b_bigkey:
+sprite=21687
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0050000001"        # developer 1, ID 0x4D
+;
+
+ice_pent_light:
+sprite=21660
+flag=IF_MOVEBLOCK
+mod_index=V_LIGHT
+mod_value=200
+;
+
+melting_key_spawn:
+sprite=50494
+flag=IF_USE
+driver=53
+arg="00"
+;
+
+palace_bomb_spawn:
+sprite=51000
+flag=IF_USE
+driver=53
+arg="11"
+;
+
+palace_cap_spawn:
+sprite=51003
+flag=IF_USE
+driver=53
+arg="12"
+;
+
+ice_boots3_spawn:
+sprite=50511
+flag=IF_USE
+driver=53
+arg="0C"
+;
+
+ice_cape3_spawn:
+sprite=50506
+flag=IF_USE
+driver=53
+arg="0D"
+;
+
+ice_belt3_spawn:
+sprite=50507
+flag=IF_USE
+driver=53
+arg="0E"
+;
+
+ice_ring3_spawn:
+sprite=50509
+flag=IF_USE
+driver=53
+arg="0F"
+;
+
+ice_amulet3_spawn:
+sprite=50508
+flag=IF_USE
+driver=53
+arg="10"
+;
+
+warmfire:
+sprite=20530
+name="Camp Fire"
+description="A camp fire. A welcome sight in the cold."
+mod_index=V_LIGHT
+mod_value=20
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=54
+arg="01"        # no teleport scroll
+;
+
+ice_cape3:
+name="Ice Cape"
+sprite=50506
+value=12
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNCLOAK
+req_index=V_DEMON
+req_value=58
+mod_index=V_COLD
+mod_value=3
+;
+
+ice_belt3:
+name="Ice Belt"
+value=12
+sprite=50507
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNBELT
+req_index=V_DEMON
+req_value=58
+mod_index=V_COLD
+mod_value=3
+;
+
+ice_ring3:
+name="Ice Ring"
+value=12
+sprite=50509
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNRRING
+flag=IF_WNLRING
+req_index=V_DEMON
+req_value=58
+mod_index=V_COLD
+mod_value=3
+;
+
+ice_amulet3:
+name="Ice Amulet"
+value=12
+sprite=50508
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNNECK
+req_index=V_DEMON
+req_value=58
+mod_index=V_COLD
+mod_value=3
+;
+
+ice_boots3:
+name="Ice Boots"
+value=12
+sprite=50511
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNFEET
+req_index=V_DEMON
+req_value=58
+mod_index=V_COLD
+mod_value=3
+;
+
+melting_key:
+name="Ice Key"
+description="A key made of ice."
+value=25
+sprite=50494
+ID=0100004D             # developer 1, ID 0x4D
+flag=IF_TAKE
+flag=IF_QUEST
+driver=52
+arg="10"
+;
+
+melting_key2:
+name="Ice Key"
+description="A key made of cold ice."
+value=25
+sprite=50494
+ID=0100004D             # developer 1, ID 0x4D
+flag=IF_TAKE
+flag=IF_QUEST
+driver=52
+arg="20"
+;
+
+ice_scroll:
+name="Scroll of Teleport"
+description="An ancient scroll of teleport from the ice underworld."
+value=25
+sprite=50011
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+driver=55
+arg="0505"
+;
+
+light_ring:
+name="Ring of Light"
+description="A silver ring emitting a faint light."
+value=1500
+sprite=50515
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+flag=IF_QUEST
+flag=IF_USE
+mod_index=V_LIGHT
+mod_value=1
+driver=12
+arg="0000C030"
+;
+
+ice_exit_aston:
+name="Door"
+#description="A ladder leading up... somewhere far, far away."
+sprite=14175    #50019
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=10
+arg="E900BA00030001"   # x=233, y=186, a=3, quiet=1
+#arg="A800BB00030001"   # x=168, y=187, a=3, quiet=1
+;
+
+palace_bomb:
+name="Burning Death"
+sprite=51000
+flag=IF_TAKE
+flag=IF_USE
+driver=56
+;
+
+palace_cap:
+name="Stealth Cap"
+sprite=51003
+flag=IF_TAKE
+flag=IF_WNHEAD
+driver=57
+;
+
+hidden_door1:
+sprite=51005
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+hidden_door2:
+sprite=51007
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+hidden_door3:
+sprite=51009
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+teleport_steel_door:
+name="steel door"
+description="a door made of steel."
+sprite=20124
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00000000000001"
+;
+
+teleport_steel_door2:
+name="steel door"
+description="a door made of steel."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+#flag=IF_DOOR
+driver=31
+arg="00000000000001"
+;
+
+palace_gate:
+name="Steel Gate"
+description="A huge gate made of steel."
+sprite=15196
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=76
+;
+
+
+#------------------ freak doors ---------
+freak_door0:
+sprite=51005
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+flag=IF_STEPACTION
+driver=58
+arg="000000000000000000"
+;
+
+freak_door1:
+sprite=51005
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+flag=IF_STEPACTION
+driver=58
+#    00010203040506070809101112131415
+arg="00000000000000000100000000000001"
+;
+
+freak_door1nop:
+sprite=51005
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+flag=IF_STEPACTION
+driver=58
+#    00010203040506070809101112131415
+arg="00000000000000000100000000000100"
+;
+
+freak_door2:
+sprite=51005
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+flag=IF_STEPACTION
+driver=58
+#    00010203040506070809101112131415
+arg="00000000000000000200000000000001"
+;
+
+freak_door2nop:
+sprite=51005
+flag=IF_MOVEBLOCK
+#flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+flag=IF_STEPACTION
+driver=58
+#    00010203040506070809101112131415
+arg="00000000000000000200000000000100"
+;
+
+islena_ring1:
+name="Ring of Islena"
+description="A golden ring, once worn by Islena."
+value=2250
+sprite=50025
+mod_index=V_ATTACK
+mod_value=25
+mod_index=V_PARRY
+mod_value=25
+mod_index=V_IMMUNITY
+mod_value=25
+mod_index=V_TACTICS
+mod_value=25
+req_index=V_DEMON
+req_value=100
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+ID=0100005E             # developer 1, ID 0x5E
+;
+
+islena_ring2:
+name="Ring of Islena"
+description="A golden ring, once worn by Islena."
+value=2250
+sprite=50025
+mod_index=V_BLESS
+mod_value=25
+mod_index=V_MAGICSHIELD
+mod_value=25
+mod_index=V_FLASH
+mod_value=25
+mod_index=V_FREEZE
+mod_value=25
+req_index=V_DEMON
+req_value=100
+flag=IF_TAKE
+flag=IF_WNRRING
+flag=IF_WNLRING
+ID=0100005E             # developer 1, ID 0x5E
+;
+
+construction_sign:
+name="Sign"
+description="The actual palace is still under construction :("
+sprite=50121
+flag=IF_USE
+;
+
+palace_book1:
+name="Book"
+description="A huge metal-bound book."
+sprite=14211
+flag=IF_USE
+driver=16
+arg="1C"                # page 28
+;
+
+palace_book2:
+name="Book"
+description="A huge metal-bound book."
+sprite=14211
+flag=IF_USE
+driver=16
+arg="1D"                # page 29
+;
+
+palace_book3:
+name="Book"
+description="A huge metal-bound book."
+sprite=14211
+flag=IF_USE
+driver=16
+arg="1E"                # page 30
+;

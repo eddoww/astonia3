@@ -1,0 +1,60 @@
+macro_daemon:
+name="Macro Daemon"
+description="Your friendly Macro Daemon"
+sprite=161
+sound=1
+flag=CF_NOATTACK
+flag=CF_IMMORTAL
+flag=CF_MALE
+flag=CF_INFRARED
+flag=CF_DEMON
+
+V_HP=50
+V_ENDURANCE=50
+V_MANA=50
+
+V_WIS=120
+V_INT=120
+V_AGI=120
+V_STR=120
+
+V_HAND=30
+V_DAGGER=30
+V_STAFF=0
+V_SWORD=30
+V_TWOHAND=50
+
+# fighting skills
+V_ATTACK=50
+V_PARRY=50
+V_WARCRY=30
+V_TACTICS=30
+V_SURROUND=30
+V_SPEEDSKILL=30
+
+# misc skills
+V_BARTER=30
+V_PERCEPT=120
+V_STEALTH=30
+
+# spells
+V_HEAL=30
+V_FREEZE=50
+V_FLASH=50
+V_FIRE=50
+
+V_REGENERATE=30
+V_MEDITATE=30
+V_IMMUNITY=50
+
+WN_RHAND=twohanded6q2
+WN_HEAD=helmet6q2
+WN_BODY=armor6q2
+WN_LEGS=leggings6q2
+WN_ARMS=sleeves6q2
+
+spell=percept_spell_40
+
+driver=37
+group=1
+;

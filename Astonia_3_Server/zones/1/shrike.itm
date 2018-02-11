@@ -1,0 +1,128 @@
+shrike_amulet1:
+name="Crystal"
+description="A light blue crystal."
+value=5
+sprite=51618
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+driver=118
+arg="01"
+;
+
+shrike_amulet2:
+name="Silver Chain"
+description="A small silver chain."
+value=5
+sprite=51619
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+driver=118
+arg="02"
+;
+
+shrike_amulet3:
+name="Crescent Charm"
+description="A silver ornament looking like a quarter moon."
+value=5
+sprite=51621
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_USE
+driver=118
+arg="04"
+;
+
+shrike_amulet_tree:
+name="Dead Tree"
+description="A silver chain is hanging from one twig of this three."
+sprite=51631
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=119
+arg="01"
+;
+
+shrike_amulet_rock:
+name="Rock"
+description="A piece of silver seems to be stuck below this rock."
+sprite=51632
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=119
+arg="02"
+;
+
+shrike_amulet_crystal:
+name="Pedestal"
+description="A crystal is floating above a pedestal of stone."
+sprite=51636
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=119
+arg="06"
+;
+
+
+shrike_teleport_door:
+name="Steel Door"
+description="A door made of steel. There's something peculiar about it."
+sprite=20122
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+driver=119
+arg="03"
+;
+
+shrike_teleport_door2:
+sprite=20122
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+driver=10
+arg="C200F600000001"   # x=194, y=246, a=0, quiet=1
+;
+
+shrike_body:
+name="Dead Body"
+description="A dead body."
+sprite=51633
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="43000000000100"    # nr 24, no key, 1 hour respawn time
+;
+treasure_67:
+name="Note"
+description="A note - use to read."
+value=5
+sprite=50011
+flag=IF_USE
+flag=IF_QUEST
+flag=IF_TAKE
+driver=16
+arg="2A"                # page 42
+;
+
+shrike_pool:
+name="Pool of the Moon"
+description="An eerie, glowing pool of water."
+sprite=51630
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=119
+arg="04"
+;
+
+shrike_cube:
+name="Cube"
+description="A stone cube."
+sprite=51634
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=119
+arg="05"
+;

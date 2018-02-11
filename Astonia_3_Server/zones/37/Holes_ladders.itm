@@ -1,0 +1,71 @@
+Shop_Hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="BA002C00000001"   # x=186, y=44, a=0, quiet=1
+;
+
+Skelly_Ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="22000300000001"   # x=34, y=3, a=0, quiet=1
+;
+
+Mine_Quest_Hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="A600EB00000001"   # x=166, y=235, a=0, quiet=1
+;
+
+Jada_House_Ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="1A002900000001"   # x=26, y=41, a=0, quiet=1
+;
+
+Creeper_Hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="D900A800000001"   # x=217, y=168, a=0, quiet=1
+;
+
+Library_Ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="1E004300000001"   # x=30, y=67, a=0, quiet=1
+;
+
+Father_hole:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="7300EA00000001"   # x=115, y=234, a=0, quiet=1
+;
+
+Father_Ladder:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="EB006C00000001"   # x=235, y=108, a=0, quiet=1
+;

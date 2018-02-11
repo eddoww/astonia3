@@ -1,0 +1,278 @@
+warr_bluekey1:
+name="Part of Blue Key"
+description="One part of a blue key."
+value=500
+sprite=51120
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600000A
+driver=29
+;
+
+warr_bluekey2:
+name="Part of Blue Key"
+description="One part of a blue key."
+value=500
+sprite=51121
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600000B
+driver=29
+;
+
+warr_bluekey3:
+name="Part of Blue Key"
+description="One part of a blue key."
+value=500
+sprite=51122
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600000C
+driver=29
+;
+
+warr_bluekey12:
+name="Part of Blue Key"
+description="One part of a blue key."
+value=500
+sprite=51123
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600000D
+driver=29
+;
+
+warr_bluekey13:
+name="Part of Blue Key"
+description="One part of a blue key."
+value=500
+sprite=51124
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600000E
+driver=29
+;
+
+warr_bluekey23:
+name="Part of Blue Key"
+description="One part of a blue key."
+value=500
+sprite=51125
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600000F
+driver=29
+;
+
+warr_bluekey123:
+name="Blue Key"
+description="A blue key."
+value=750
+sprite=51126
+flag=IF_TAKE
+flag=IF_QUEST
+ID=06000010
+;
+
+warr_blue_door:
+sprite=20154
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0010000006"
+;
+
+warr_greenkey1:
+name="Part of Green Key"
+description="One part of a green key."
+value=500
+sprite=51130
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000011
+driver=29
+;
+
+warr_greenkey2:
+name="Part of Green Key"
+description="One part of a green key."
+value=500
+sprite=51131
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000012
+driver=29
+;
+
+warr_greenkey3:
+name="Part of Green Key"
+description="One part of a green key."
+value=500
+sprite=51132
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000013
+driver=29
+;
+
+warr_greenkey12:
+name="Part of Green Key"
+description="One part of a green key."
+value=500
+sprite=51133
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000014
+driver=29
+;
+
+warr_greenkey13:
+name="Part of Green Key"
+description="One part of a green key."
+value=500
+sprite=51134
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000015
+driver=29
+;
+
+warr_greenkey23:
+name="Part of Green Key"
+description="One part of a green key."
+value=500
+sprite=51135
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000016
+driver=29
+;
+
+warr_greenkey123:
+name="Green Key"
+description="A green key."
+value=750
+sprite=51136
+flag=IF_TAKE
+flag=IF_QUEST
+ID=06000017
+;
+
+warr_green_door:
+sprite=20154
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0017000006"
+;
+
+warr_redkey1:
+name="Part of Red Key"
+description="One part of a red key."
+value=500
+sprite=51140
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000018
+driver=29
+;
+
+warr_redkey2:
+name="Part of Red Key"
+description="One part of a red key."
+value=500
+sprite=51141
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=06000019
+driver=29
+;
+
+warr_redkey3:
+name="Part of Red Key"
+description="One part of a red key."
+value=500
+sprite=51142
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600001A
+driver=29
+;
+
+warr_redkey12:
+name="Part of Red Key"
+description="One part of a red key."
+value=500
+sprite=51143
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600001B
+driver=29
+;
+
+warr_redkey13:
+name="Part of Red Key"
+description="One part of a red key."
+value=500
+sprite=51144
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600001C
+driver=29
+;
+
+warr_redkey23:
+name="Part of Red Key"
+description="One part of a red key."
+value=500
+sprite=51145
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+ID=0600001D
+driver=29
+;
+
+warr_redkey123:
+name="Red Key"
+description="A red key."
+value=750
+sprite=51146
+flag=IF_TAKE
+flag=IF_QUEST
+ID=0600001E
+;
+
+warr_red_door:
+sprite=20156
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="001E000006"
+;

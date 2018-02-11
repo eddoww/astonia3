@@ -1,0 +1,659 @@
+lqx_door_a1: 
+name="A Block" 
+description="A Block Door 1" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+lqx_door_a2: 
+name="A Block" 
+description="A Block Door 2" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_a3: 
+name="A Block" 
+description="A Block Door 3" 
+sprite=20591
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_a4: 
+name="A Block" 
+description="A Block Door 4" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_a5: 
+name="A Block " 
+description="A Block Door 5" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_a6: 
+name="A Block"
+description="A Block Door 6"
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_a7: 
+name="A Block" 
+description="A Block Door 7" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_a8: 
+name="A BLock" 
+description="A Block Door 8" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_a9: 
+name="A Block" 
+description="A Block Door 9" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b1: 
+name="B Block" 
+description="B Block Door 1" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b2: 
+name="B Block" 
+description="B Block door 2" 
+sprite=20593  
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b3: 
+name="B Block" 
+description="B Block door 3" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b4: 
+name="B Block" 
+description="B Block door 4." 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b5: 
+name="B Block" 
+description="B Block door 5"
+sprite=20593 
+ 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b6: 
+name="B Block" 
+description="B Block door 6" 
+sprite=20591
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b7: 
+name="B Block" 
+description="B Block door 7"
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b8: 
+name="B Block" 
+description="B Block door 8" 
+sprite=20593
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b9: 
+name="B Block" 
+description="B Block door 9" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b10: 
+name="B Block" 
+description="B Block door 10." 
+sprite=20591 
+ 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b11: 
+name="B Block" 
+description="B Block door 11" 
+sprite=20593 
+ 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b12: 
+name="B Block" 
+description="B Block door 12" 
+sprite=20591
+
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b13: 
+name="B Block" 
+description="B Block door 13." 
+sprite=20591 
+
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_b14: 
+name="B Block" 
+description="B Block door 14" 
+sprite=20591 
+
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c1: 
+name="C Block" 
+description="C Block Door 1" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c2: 
+name="C Block" 
+description="C Block door 2" 
+sprite=20593  
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c3: 
+name="C Block" 
+description="C Block door 3" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c4: 
+name="C Block" 
+description="C Block door 4." 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c5: 
+name="C Block" 
+description="C Block door 5"
+sprite=20593 
+ 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c6: 
+name="C Block" 
+description="C Block door 6" 
+sprite=20591
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c7: 
+name="C Block" 
+description="C Block door 7"
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c8: 
+name="C Block" 
+description="C Block door 8" 
+sprite=20593
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c9: 
+name="C Block" 
+description="C Block door 9" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c10: 
+name="C Block" 
+description="C Block door 10." 
+sprite=20591 
+ 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c11: 
+name="C Block" 
+description="C Block door 11" 
+sprite=20593 
+ 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c12: 
+name="C Block" 
+description="C Block door 12" 
+sprite=20591
+
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c13: 
+name="C Block" 
+description="C Block door 13." 
+sprite=20591 
+
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_c14: 
+name="C Block" 
+description="C Block door 14" 
+sprite=20591 
+
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d1: 
+name="D Block" 
+description="D Block Door 1" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+lqx_door_d2: 
+name="D Block" 
+description="D Block Door 2" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d3: 
+name="D Block" 
+description="D Block Door 3" 
+sprite=20591
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d4: 
+name="D Block" 
+description="D Block Door 4" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d5: 
+name="D Block " 
+description="D Block Door 5" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d6: 
+name="D Block"
+description="D Block Door 6"
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d7: 
+name="D Block" 
+description="D Block Door 7" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d8: 
+name="D Block" 
+description="D block Door 8" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_d9: 
+name="D Block" 
+description="D Block Door 9" 
+sprite=20591 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_cor1: 
+name="Corridor" 
+description="Corridor door 1" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_cor2: 
+name="Corridor" 
+description="Corridor door 2" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_cor3: 
+name="Corridor" 
+description="Corridor door 3" 
+sprite=20593 
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 
+
+lqx_door_sw1: 
+name="Swamp" 
+description="Swamp door" 
+sprite=16200
+flag=IF_MOVEBLOCK 
+flag=IF_SIGHTBLOCK 
+flag=IF_SOUNDBLOCK 
+flag=IF_USE 
+flag=IF_DOOR 
+driver=2 
+arg="0000000000000000000001" 
+; 

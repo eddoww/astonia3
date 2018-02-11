@@ -1,0 +1,157 @@
+
+   ********************************************
+   *     Astonia 3 - The Conflict Server      *
+   *             Version 3.01.00              *
+   ********************************************
+   * Copyright (C) 2001-2008 Intent Software  *
+   * Copyright (C) 1997-2001 Daniel Brockhaus *
+   ********************************************
+
+No mirror given, assuming areaM=1
+No serverID given, assuming serverID=1
+serverID=1, areaID=27, areaM=1, maxchars=2048, maxitem=34816, maxeffect=4096
+
+11.06.08 13:41:16 [027-01]: Login to database as root OK
+11.06.08 13:41:16 [027-01]: Using existing database merc
+11.06.08 13:41:16 [027-01]: sweep_database: removed 0 characters
+11.06.08 13:41:16 [027-01]: Created background thread for database accesses
+11.06.08 13:41:16 [027-01]: Allocated sector 0: 0.25M (4*65536)
+11.06.08 13:41:16 [027-01]: Allocated sector 1: 0.06M (4*16384)
+11.06.08 13:41:16 [027-01]: Allocated sector 2: 0.02M (4*4096)
+11.06.08 13:41:16 [027-01]: Allocated sector 3: 0.00M (4*1024)
+11.06.08 13:41:16 [027-01]: Allocated sector 4: 0.00M (4*256)
+11.06.08 13:41:16 [027-01]: Allocated sector 5: 0.00M (4*64)
+11.06.08 13:41:16 [027-01]: Allocated sector 6: 0.00M (4*16)
+11.06.08 13:41:16 [027-01]: Allocated sector 7: 0.00M (4*4)
+11.06.08 13:41:16 [027-01]: Allocated char sector: 0.00M (4*1024)
+11.06.08 13:41:16 [027-01]: Allocated sound sector: 0.25M (4*65536)
+11.06.08 13:41:16 [027-01]: Allocated shout sector: 0.25M (4*65536)
+11.06.08 13:41:16 [027-01]: Allocated los: 5.12M (2624*2048)
+11.06.08 13:41:16 [027-01]: Allocated map: 1.75M (28*65536)
+11.06.08 13:41:16 [027-01]: Allocated items: 7.57M (228*34816)
+11.06.08 13:41:16 [027-01]: Allocated characters: 0.45M (1092*2048)
+11.06.08 13:41:16 [027-01]: Allocated item templates: 0.44M (308*1500)
+11.06.08 13:41:16 [027-01]: Allocated character templates: 0.31M (1276*256)
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/spells.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/tmp.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/runes.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/mission_bonus.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/metal.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/weapons.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/moonies.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/clan.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/randchest.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/lab.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/recall.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/sidestory.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/stack.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/mr_chairs.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/culture.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/caligar.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/torch.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/depot.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/alchemy.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/scroll.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/orb.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/adornments.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/bonus_items.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/mr_doors.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/mr_lights.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/cloth.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/ice_palace_key.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/sun_amulet.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/warr_keys.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/armor.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/transport.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/potions.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/grave.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/teufelheim.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/ring.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/swamp.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/mr_chestbox.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/27/glowing-plants.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/27/quest0-items.itm".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/macro.chr".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/sidestory.chr".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/test.chr".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/generic/player.chr".
+11.06.08 13:41:16 [027-01]: Processing zone "./zones/27/DeepSewers.map".
+11.06.08 13:41:16 [027-01]: Created 67 character and 1136 item templates
+11.06.08 13:41:16 [027-01]: Created 0 characters and 48 items
+11.06.08 13:41:16 [027-01]: Calculating daylight
+11.06.08 13:41:16 [027-01]: Allocated libs: 0.01M (96*100)
+11.06.08 13:41:16 [027-01]: Allocated fast_chdrvs: 0.00M (4*200)
+11.06.08 13:41:16 [027-01]: Allocated fast_itdrvs: 0.00M (4*200)
+11.06.08 13:41:16 [027-01]: Allocated players: 0.00M (4*256)
+11.06.08 13:41:16 [027-01]: Size of player data: 150956 bytes
+11.06.08 13:41:16 [027-01]: IO Init done: ID=1 (212.202.240.67:5558)
+11.06.08 13:41:16 [027-01]: Allocated nmap: 0.25M (4*65536)
+11.06.08 13:41:16 [027-01]: Allocated nodes: 0.12M (32*4096)
+11.06.08 13:41:16 [027-01]: Allocated effects: 4.34M (1112*4096)
+11.06.08 13:41:16 [027-01]: Allocated containers: 0.46M (468*1024)
+11.06.08 13:41:16 [027-01]: Allocated store: 0.00M (4*64)
+11.06.08 13:41:16 [027-01]: Calculating shout sectors
+11.06.08 13:41:16 [027-01]: 42 shout sectors found
+11.06.08 13:41:16 [027-01]: Calculating talk sectors
+11.06.08 13:41:16 [027-01]: 48 talk sectors found
+11.06.08 13:41:16 [027-01]: Allocated sector2: 0.00M (8*49)
+11.06.08 13:41:16 [027-01]: AreaID=27, AreaM=1, entering game loop...
+11.06.08 13:41:16 [027-01]: ID=0: Server started
+11.06.08 13:44:56 [027-01]: Read MotD
+11.06.08 13:44:56 [027-01]: reset plronh 157
+11.06.08 13:48:08 [027-01]: Left game loop
+11.06.08 13:48:08 [027-01]: respawn check done: OK
+11.06.08 13:48:08 [027-01]: ----- Profile: -----
+11.06.08 13:48:08 [027-01]: IDLE          99.93%
+11.06.08 13:48:08 [027-01]: --------------------
+11.06.08 13:48:08 [027-01]: -------- Memory usage info: --------
+11.06.08 13:48:08 [027-01]: Used characters:     0/ 2048 ( 0.0%)
+11.06.08 13:48:08 [027-01]: Used items     :    48/34816 ( 0.1%)
+11.06.08 13:48:08 [027-01]: Used effects   :     0/ 4096 ( 0.0%)
+11.06.08 13:48:08 [027-01]: Used containers:     0/ 1024 ( 0.0%)
+11.06.08 13:48:08 [027-01]: Used timers    :     0
+11.06.08 13:48:08 [027-01]: Used notifies  :     0
+11.06.08 13:48:08 [027-01]: Used queries   :     1
+11.06.08 13:48:08 [027-01]: Stored Results :     0
+11.06.08 13:48:08 [027-01]: server used    : 21.668M
+11.06.08 13:48:08 [027-01]: malloc/mmap    : 0.000M in 0 blocks
+11.06.08 13:48:08 [027-01]: malloc/sbrk    : 0.281M
+11.06.08 13:48:08 [027-01]: malloc/total   : 0.281M
+11.06.08 13:48:08 [027-01]: malloc/unused  : 0.153M in 4 blocks
+11.06.08 13:48:08 [027-01]: brk has grown  : 0.281M
+11.06.08 13:48:08 [027-01]: ------------------------------------
+11.06.08 13:48:08 [027-01]: IM_BASE   :   39 blks, 23965.42K (size  23.406M/ 48M  48.8%, free:     0.05K,    2 blks)
+11.06.08 13:48:08 [027-01]: IM_TEMP   :    1 blks,    34.00K (size   0.035M/ 12M   0.3%, free:     0.00K,    0 blks)
+11.06.08 13:48:08 [027-01]: IM_QUERY  :    8 blks,     0.24K (size   0.004M/ 12M   0.0%, free:     0.19K,    5 blks)
+11.06.08 13:48:08 [027-01]: IM_TIMER  :    1 blks,   128.00K (size   0.129M/ 12M   1.1%, free:     0.00K,    0 blks)
+11.06.08 13:48:08 [027-01]: total: 49 blocks, total size: 23.56M (23.56M, r=23.57M/23.57M)
+11.06.08 13:48:08 [027-01]: serials: char=0, item=48
+11.06.08 13:48:08 [027-01]: ID=0: Server stopped
+11.06.08 13:48:08 [027-01]: map check
+11.06.08 13:48:08 [027-01]: Waiting for database thread to finish
+11.06.08 13:48:08 [027-01]: DB thread exiting
+11.06.08 13:48:08 [027-01]: Database thread finished with exit code 0
+11.06.08 13:48:08 [027-01]: 141 queries, 0.09s (0.62ms/q), 0 long queries. Average long query: 0.00ms, longest query: 0.00ms.
+11.06.08 13:48:08 [027-01]: save_char_cnt=0, save_area_cnt=4, exit_char_cnt=0, save_storage_cnt=0, save_subscriber_cnt=0, save_char_mirror_cnt=0, load_char_cnt=0
+11.06.08 13:48:08 [027-01]: Clean shutdown
+11.06.08 13:48:08 [027-01]: -------- Memory usage info: --------
+11.06.08 13:48:08 [027-01]: Used characters:     0/ 2048 ( 0.0%)
+11.06.08 13:48:08 [027-01]: Used items     :     0/34816 ( 0.0%)
+11.06.08 13:48:08 [027-01]: Used effects   :     0/ 4096 ( 0.0%)
+11.06.08 13:48:08 [027-01]: Used containers:     0/ 1024 ( 0.0%)
+11.06.08 13:48:08 [027-01]: Used timers    :     0
+11.06.08 13:48:08 [027-01]: Used notifies  :     0
+11.06.08 13:48:08 [027-01]: Used queries   :     0
+11.06.08 13:48:08 [027-01]: Stored Results :     0
+11.06.08 13:48:08 [027-01]: server used    : 21.668M
+11.06.08 13:48:08 [027-01]: malloc/mmap    : 0.000M in 0 blocks
+11.06.08 13:48:08 [027-01]: malloc/sbrk    : 0.230M
+11.06.08 13:48:08 [027-01]: malloc/total   : 0.230M
+11.06.08 13:48:08 [027-01]: malloc/unused  : 0.153M in 6 blocks
+11.06.08 13:48:08 [027-01]: brk has grown  : 0.230M
+11.06.08 13:48:08 [027-01]: ------------------------------------
+11.06.08 13:48:08 [027-01]: IM_BASE   :   36 blks, 23954.48K (size  23.406M/ 48M  48.8%, free:    11.06K,    3 blks)
+11.06.08 13:48:08 [027-01]: IM_TEMP   :    1 blks,    34.00K (size   0.035M/ 12M   0.3%, free:     0.00K,    0 blks)
+11.06.08 13:48:08 [027-01]: IM_QUERY  :    6 blks,     0.12K (size   0.004M/ 12M   0.0%, free:     0.37K,    5 blks)
+11.06.08 13:48:08 [027-01]: IM_TIMER  :    1 blks,   128.00K (size   0.129M/ 12M   1.1%, free:     0.00K,    0 blks)
+11.06.08 13:48:08 [027-01]: total: 44 blocks, total size: 23.55M (23.55M, r=23.57M/23.57M)

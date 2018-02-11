@@ -1,0 +1,155 @@
+# warrior
+equip1:
+name=Equip1
+description="A Spell of Equipment."
+mod_index=V_HAND
+mod_value=1
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+;
+
+# mage
+equip1b:
+name=Equip1
+description="A Spell of Equipment."
+mod_index=V_HAND
+mod_value=1
+mod_index=V_MAGICSHIELD
+mod_value=1
+mod_index=V_FLASH
+mod_value=1
+mod_index=V_FREEZE
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+;
+
+# seyan
+equip1c:
+name=Equip1
+description="A Spell of Equipment."
+mod_index=V_HAND
+mod_value=1
+mod_index=V_ATTACK
+mod_value=1
+mod_index=V_PARRY
+mod_value=1
+mod_index=V_TACTICS
+mod_value=1
+mod_index=V_IMMUNITY
+mod_value=1
+;
+
+# warrior
+equip2:
+name=Equip2
+description="A Spell of Equipment."
+mod_index=V_WIS
+mod_value=1
+mod_index=V_INT
+mod_value=1
+mod_index=V_AGI
+mod_value=1
+mod_index=V_STR
+mod_value=1
+;
+
+# mage
+equip2b:
+name=Equip2
+description="A Spell of Equipment."
+mod_index=V_MANA
+mod_value=1
+mod_index=V_HP
+mod_value=1
+mod_index=V_BLESS
+mod_value=1
+mod_index=V_INT
+mod_value=1
+;
+
+# seyan
+equip2c:
+name=Equip2
+description="A Spell of Equipment."
+mod_index=V_WIS
+mod_value=1
+mod_index=V_INT
+mod_value=1
+mod_index=V_AGI
+mod_value=1
+mod_index=V_STR
+mod_value=1
+mod_index=V_FREEZE
+mod_value=1
+;
+
+maze_key1:
+name="Maze-Key-1"
+description="A small key from one of the catacombs."
+value=25
+sprite=50004
+#ID=01000016             # developer 1, ID 22
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+maze_key2:
+name="Maze-Key-2"
+description="A small key from one of the catacombs."
+value=25
+sprite=50004
+#ID=01000016             # developer 1, ID 22
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+teleport_trap:
+name="Teleport Trap"
+flag=IF_STEPACTION
+driver=65
+arg="F000F0000000"
+;
+
+fake_wall:
+name="Fake Wall"
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+sprite=59172
+driver=66
+;
+
+dungeon_door:
+name="Dungeon Door"
+flag=IF_USE
+sprite=19
+driver=67
+;
+
+link_aston:
+name="Door"
+description="A steel door."
+sprite=20124
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="7B00BC00030001"   # x=123, y=188, a=3, quiet=1
+;
+
+maze_key_spawn:
+name="Key"
+description="A small key from one of the catacombs."
+sprite=50004
+flag=IF_USE
+driver=68
+;

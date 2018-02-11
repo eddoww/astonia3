@@ -1,0 +1,42 @@
+skull_light:
+sprite=13095
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;
+
+dragon_teleport:
+name="Teleport"
+description="Must go somehwere."
+sprite=20283
+flag=IF_USE
+driver=10
+arg="45002A00000001" # x=69, y=42, a=0, quiet=1
+; 
+
+dragon_teleport_2:
+name="Teleport"
+description="Must go somehwere."
+sprite=20283
+flag=IF_USE
+driver=10
+arg="8C003200000001" # x=140, y=50, a=0, quiet=1
+;
+
+dragon_teleport_3:
+name="Teleport"
+description="Must go somehwere."
+sprite=20283
+flag=IF_USE
+driver=10
+arg="96000700000001" # x=150, y=7, a=0, quiet=1
+;
+
+dragon_teleport_start:
+name="Teleport"
+description="Must go somehwere."
+sprite=20283
+flag=IF_USE
+driver=10
+arg="0E001100000001" # x=14, y=17, a=0, quiet=1
+;

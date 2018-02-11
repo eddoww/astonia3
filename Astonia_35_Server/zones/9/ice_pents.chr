@@ -1,0 +1,1829 @@
+penter66:        # lvl 71
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=65
+V_ENDURANCE=10
+V_MANA=65
+
+V_WIS=81
+V_INT=81
+V_AGI=81
+V_STR=81
+
+V_HAND=87
+
+# fighting skills
+V_ATTACK=87
+V_PARRY=87
+V_WARCRY=87
+V_TACTICS=77
+V_SPEEDSKILL=77
+
+# misc skills
+V_PERCEPT=77
+
+# spells
+V_FREEZE=87
+V_FLASH=87
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=87
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=19
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=139
+;
+
+penter67:        # lvl 72
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=67
+V_ENDURANCE=10
+V_MANA=67
+
+V_WIS=83
+V_INT=83
+V_AGI=83
+V_STR=83
+
+V_HAND=89
+
+# fighting skills
+V_ATTACK=89
+V_PARRY=89
+V_WARCRY=88
+V_TACTICS=79
+V_SPEEDSKILL=79
+
+# misc skills
+V_PERCEPT=78
+
+# spells
+V_FREEZE=88
+V_FLASH=88
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=89
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=19
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=140
+;
+
+penter68:        # lvl 73
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=69
+V_ENDURANCE=10
+V_MANA=68
+
+V_WIS=83
+V_INT=83
+V_AGI=83
+V_STR=83
+
+V_HAND=90
+
+# fighting skills
+V_ATTACK=90
+V_PARRY=90
+V_WARCRY=90
+V_TACTICS=80
+V_SPEEDSKILL=80
+
+# misc skills
+V_PERCEPT=80
+
+# spells
+V_FREEZE=90
+V_FLASH=90
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=90
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=19
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=141
+;
+
+penter69:        # lvl 74
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=70
+V_ENDURANCE=10
+V_MANA=70
+
+V_WIS=85
+V_INT=85
+V_AGI=85
+V_STR=85
+
+V_HAND=91
+
+# fighting skills
+V_ATTACK=91
+V_PARRY=91
+V_WARCRY=91
+V_TACTICS=81
+V_SPEEDSKILL=81
+
+# misc skills
+V_PERCEPT=81
+
+# spells
+V_FREEZE=91
+V_FLASH=91
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=91
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=142
+;
+
+penter70:        # lvl 75
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=71
+V_ENDURANCE=10
+V_MANA=72
+
+V_WIS=86
+V_INT=86
+V_AGI=86
+V_STR=86
+
+V_HAND=92
+
+# fighting skills
+V_ATTACK=92
+V_PARRY=92
+V_WARCRY=92
+V_TACTICS=82
+V_SPEEDSKILL=82
+
+# misc skills
+V_PERCEPT=82
+
+# spells
+V_FREEZE=92
+V_FLASH=92
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=92
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=143
+;
+
+penter71:        # lvl 76
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=73
+V_ENDURANCE=10
+V_MANA=73
+
+V_WIS=88
+V_INT=88
+V_AGI=88
+V_STR=88
+
+V_HAND=93
+
+# fighting skills
+V_ATTACK=93
+V_PARRY=93
+V_WARCRY=93
+V_TACTICS=83
+V_SPEEDSKILL=83
+
+# misc skills
+V_PERCEPT=83
+
+# spells
+V_FREEZE=93
+V_FLASH=93
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=93
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=144
+;
+
+penter72:        # lvl 77
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=79
+V_ENDURANCE=10
+V_MANA=79
+
+V_WIS=85
+V_INT=85
+V_AGI=85
+V_STR=85
+
+V_HAND=95
+
+# fighting skills
+V_ATTACK=95
+V_PARRY=95
+V_WARCRY=94
+V_TACTICS=84
+V_SPEEDSKILL=84
+
+# misc skills
+V_PERCEPT=84
+
+# spells
+V_FREEZE=94
+V_FLASH=94
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=94
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=145
+;
+
+penter73:        # lvl 78
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=80
+V_ENDURANCE=10
+V_MANA=80
+
+V_WIS=86
+V_INT=86
+V_AGI=86
+V_STR=86
+
+V_HAND=96
+
+# fighting skills
+V_ATTACK=96
+V_PARRY=96
+V_WARCRY=96
+V_TACTICS=86
+V_SPEEDSKILL=86
+
+# misc skills
+V_PERCEPT=86
+
+# spells
+V_FREEZE=96
+V_FLASH=96
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=96
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=146
+;
+
+penter74:        # lvl 79
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=81
+V_ENDURANCE=10
+V_MANA=81
+
+V_WIS=87
+V_INT=87
+V_AGI=87
+V_STR=87
+
+V_HAND=97
+
+# fighting skills
+V_ATTACK=97
+V_PARRY=97
+V_WARCRY=97
+V_TACTICS=87
+V_SPEEDSKILL=87
+
+# misc skills
+V_PERCEPT=87
+
+# spells
+V_FREEZE=97
+V_FLASH=97
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=97
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=147
+;
+
+penter75:        # lvl 80
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=82
+V_ENDURANCE=10
+V_MANA=82
+
+V_WIS=89
+V_INT=89
+V_AGI=89
+V_STR=89
+
+V_HAND=98
+
+# fighting skills
+V_ATTACK=98
+V_PARRY=98
+V_WARCRY=98
+V_TACTICS=88
+V_SPEEDSKILL=88
+
+# misc skills
+V_PERCEPT=88
+
+# spells
+V_FREEZE=98
+V_FLASH=98
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=98
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=148
+;
+
+penter76:        # lvl 81
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=85
+V_ENDURANCE=10
+V_MANA=84
+
+V_WIS=89
+V_INT=89
+V_AGI=89
+V_STR=89
+
+V_HAND=99
+
+# fighting skills
+V_ATTACK=100
+V_PARRY=100
+V_WARCRY=100
+V_TACTICS=90
+V_SPEEDSKILL=90
+
+# misc skills
+V_PERCEPT=100
+
+# spells
+V_FREEZE=100
+V_FLASH=100
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=100
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=149
+;
+
+penter77:        # lvl 82
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=85
+V_ENDURANCE=10
+V_MANA=85
+
+V_WIS=91
+V_INT=91
+V_AGI=91
+V_STR=91
+
+V_HAND=100
+
+# fighting skills
+V_ATTACK=100
+V_PARRY=100
+V_WARCRY=100
+V_TACTICS=90
+V_SPEEDSKILL=90
+
+# misc skills
+V_PERCEPT=90
+
+# spells
+V_FREEZE=100
+V_FLASH=100
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=100
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=150
+;
+
+penter78:        # lvl 83
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=86
+V_ENDURANCE=10
+V_MANA=86
+
+V_WIS=92
+V_INT=92
+V_AGI=92
+V_STR=92
+
+V_HAND=102
+
+# fighting skills
+V_ATTACK=102
+V_PARRY=102
+V_WARCRY=102
+V_TACTICS=92
+V_SPEEDSKILL=92
+
+# misc skills
+V_PERCEPT=92
+
+# spells
+V_FREEZE=102
+V_FLASH=102
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=102
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=151
+;
+
+penter79:        # lvl 84
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=87
+V_ENDURANCE=10
+V_MANA=87
+
+V_WIS=93
+V_INT=93
+V_AGI=93
+V_STR=93
+
+V_HAND=103
+
+# fighting skills
+V_ATTACK=103
+V_PARRY=103
+V_WARCRY=103
+V_TACTICS=93
+V_SPEEDSKILL=93
+
+# misc skills
+V_PERCEPT=93
+
+# spells
+V_FREEZE=103
+V_FLASH=103
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=103
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=152
+;
+
+penter80:        # lvl 85
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=90
+V_ENDURANCE=10
+V_MANA=90
+
+V_WIS=95
+V_INT=95
+V_AGI=95
+V_STR=95
+
+V_HAND=105
+
+# fighting skills
+V_ATTACK=105
+V_PARRY=105
+V_WARCRY=105
+V_TACTICS=95
+V_SPEEDSKILL=85
+
+# misc skills
+V_PERCEPT=85
+
+# spells
+V_FREEZE=105
+V_FLASH=105
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=105
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=153
+;
+
+penter81:        # lvl 86
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=91
+V_ENDURANCE=10
+V_MANA=91
+
+V_WIS=96
+V_INT=96
+V_AGI=96
+V_STR=96
+
+V_HAND=106
+
+# fighting skills
+V_ATTACK=106
+V_PARRY=106
+V_WARCRY=106
+V_TACTICS=96
+V_SPEEDSKILL=96
+
+# misc skills
+V_PERCEPT=96
+
+# spells
+V_FREEZE=106
+V_FLASH=106
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=106
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=154
+;
+
+penter82:        # lvl 87
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=92
+V_ENDURANCE=10
+V_MANA=92
+
+V_WIS=97
+V_INT=97
+V_AGI=97
+V_STR=97
+
+V_HAND=107
+
+# fighting skills
+V_ATTACK=107
+V_PARRY=107
+V_WARCRY=107
+V_TACTICS=97
+V_SPEEDSKILL=97
+
+# misc skills
+V_PERCEPT=97
+
+# spells
+V_FREEZE=107
+V_FLASH=107
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=107
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=155
+;
+
+penter83:        # lvl 88
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=93
+V_ENDURANCE=10
+V_MANA=93
+
+V_WIS=98
+V_INT=98
+V_AGI=98
+V_STR=98
+
+V_HAND=108
+
+# fighting skills
+V_ATTACK=108
+V_PARRY=108
+V_WARCRY=108
+V_TACTICS=98
+V_SPEEDSKILL=98
+
+# misc skills
+V_PERCEPT=98
+
+# spells
+V_FREEZE=108
+V_FLASH=108
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=108
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=156
+;
+
+penter84:        # lvl 89
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=94
+V_ENDURANCE=10
+V_MANA=94
+
+V_WIS=99
+V_INT=99
+V_AGI=99
+V_STR=99
+
+V_HAND=109
+
+# fighting skills
+V_ATTACK=109
+V_PARRY=109
+V_WARCRY=109
+V_TACTICS=99
+V_SPEEDSKILL=99
+
+# misc skills
+V_PERCEPT=99
+
+# spells
+V_FREEZE=109
+V_FLASH=109
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=109
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=157
+;
+
+penter85:        # lvl 90
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=95
+V_ENDURANCE=10
+V_MANA=95
+
+V_WIS=100
+V_INT=100
+V_AGI=100
+V_STR=100
+
+V_HAND=110
+
+# fighting skills
+V_ATTACK=110
+V_PARRY=110
+V_WARCRY=110
+V_TACTICS=100
+V_SPEEDSKILL=100
+
+# misc skills
+V_PERCEPT=100
+
+# spells
+V_FREEZE=110
+V_FLASH=110
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=110
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=158
+;
+
+
+penter86:        # lvl 91
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=96
+V_ENDURANCE=10
+V_MANA=96
+
+V_WIS=101
+V_INT=101
+V_AGI=101
+V_STR=101
+
+V_HAND=111
+
+# fighting skills
+V_ATTACK=111
+V_PARRY=111
+V_WARCRY=111
+V_TACTICS=101
+V_SPEEDSKILL=101
+
+# misc skills
+V_PERCEPT=101
+
+# spells
+V_FREEZE=111
+V_FLASH=111
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=111
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=159
+;
+
+
+penter87:        # lvl 92
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=97
+V_ENDURANCE=10
+V_MANA=97
+
+V_WIS=103
+V_INT=103
+V_AGI=103
+V_STR=103
+
+V_HAND=112
+
+# fighting skills
+V_ATTACK=112
+V_PARRY=112
+V_WARCRY=112
+V_TACTICS=102
+V_SPEEDSKILL=102
+
+# misc skills
+V_PERCEPT=102
+
+# spells
+V_FREEZE=112
+V_FLASH=112
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=112
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=160
+;
+
+penter88:        # lvl 93
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=99
+V_ENDURANCE=10
+V_MANA=99
+
+V_WIS=104
+V_INT=104
+V_AGI=104
+V_STR=104
+
+V_HAND=114
+
+# fighting skills
+V_ATTACK=114
+V_PARRY=114
+V_WARCRY=114
+V_TACTICS=104
+V_SPEEDSKILL=104
+
+# misc skills
+V_PERCEPT=104
+
+# spells
+V_FREEZE=114
+V_FLASH=114
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=114
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=161
+;
+
+penter89:        # lvl 94
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=100
+V_ENDURANCE=10
+V_MANA=100
+
+V_WIS=105
+V_INT=105
+V_AGI=105
+V_STR=105
+
+V_HAND=115
+
+# fighting skills
+V_ATTACK=115
+V_PARRY=115
+V_WARCRY=115
+V_TACTICS=105
+V_SPEEDSKILL=105
+
+# misc skills
+V_PERCEPT=105
+
+# spells
+V_FREEZE=115
+V_FLASH=115
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=115
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=162
+;
+
+penter90:        # lvl 95
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=101
+V_ENDURANCE=10
+V_MANA=101
+
+V_WIS=106
+V_INT=106
+V_AGI=106
+V_STR=106
+
+V_HAND=116
+
+# fighting skills
+V_ATTACK=116
+V_PARRY=116
+V_WARCRY=116
+V_TACTICS=106
+V_SPEEDSKILL=106
+
+# misc skills
+V_PERCEPT=106
+
+# spells
+V_FREEZE=116
+V_FLASH=116
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=116
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=163
+;
+
+penter91:        # lvl 96
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=102
+V_ENDURANCE=10
+V_MANA=102
+
+V_WIS=107
+V_INT=107
+V_AGI=107
+V_STR=107
+
+V_HAND=117
+
+# fighting skills
+V_ATTACK=117
+V_PARRY=117
+V_WARCRY=117
+V_TACTICS=107
+V_SPEEDSKILL=107
+
+# misc skills
+V_PERCEPT=107
+
+# spells
+V_FREEZE=117
+V_FLASH=117
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=117
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=164
+;
+
+penter92:        # lvl 97
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=103
+V_ENDURANCE=10
+V_MANA=103
+
+V_WIS=108
+V_INT=108
+V_AGI=108
+V_STR=108
+
+V_HAND=118
+V_DAGGER=0
+V_STAFF=0
+V_SWORD=0
+V_TWOHAND=0
+
+# fighting skills
+V_ATTACK=118
+V_PARRY=118
+V_WARCRY=118
+V_TACTICS=108
+V_SPEEDSKILL=108
+
+# misc skills
+V_PERCEPT=108
+
+# spells
+V_FREEZE=118
+V_FLASH=118
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=118
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=165
+;
+
+penter93:        # lvl 98
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=104
+V_ENDURANCE=10
+V_MANA=104
+
+V_WIS=110
+V_INT=110
+V_AGI=110
+V_STR=110
+
+V_HAND=119
+
+# fighting skills
+V_ATTACK=119
+V_PARRY=119
+V_WARCRY=119
+V_TACTICS=109
+V_SPEEDSKILL=109
+
+# misc skills
+V_PERCEPT=109
+
+# spells
+V_FREEZE=119
+V_FLASH=119
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=119
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=166
+;
+
+penter94:        # lvl 99
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=106
+V_ENDURANCE=10
+V_MANA=106
+
+V_WIS=111
+V_INT=111
+V_AGI=111
+V_STR=111
+
+V_HAND=121
+
+# fighting skills
+V_ATTACK=121
+V_PARRY=121
+V_WARCRY=121
+V_TACTICS=111
+V_SPEEDSKILL=111
+
+# misc skills
+V_PERCEPT=111
+
+# spells
+V_FREEZE=121
+V_FLASH=121
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=121
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=167
+;
+
+penter95:        # lvl 100
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=107
+V_ENDURANCE=10
+V_MANA=107
+
+V_WIS=112
+V_INT=112
+V_AGI=112
+V_STR=112
+
+V_HAND=122
+
+# fighting skills
+V_ATTACK=122
+V_PARRY=122
+V_WARCRY=122
+V_TACTICS=112
+V_SPEEDSKILL=112
+
+# misc skills
+V_PERCEPT=112
+
+# spells
+V_FREEZE=122
+V_FLASH=122
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=122
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=168
+;
+
+penter96:        # lvl 101
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=108
+V_ENDURANCE=10
+V_MANA=108
+
+V_WIS=113
+V_INT=113
+V_AGI=113
+V_STR=113
+
+V_HAND=123
+
+# fighting skills
+V_ATTACK=123
+V_PARRY=123
+V_WARCRY=123
+V_TACTICS=113
+V_SPEEDSKILL=113
+
+# misc skills
+V_PERCEPT=113
+
+# spells
+V_FREEZE=123
+V_FLASH=123
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=123
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=169
+;
+
+penter97:        # lvl 102
+name="Ice Demon"
+description="Eeek! A Demon!"
+sprite=39
+sound=1
+flag=CF_INFRARED
+flag=CF_DEMON
+flag=CF_RESPAWN
+
+V_HP=109
+V_ENDURANCE=10
+V_MANA=109
+
+V_WIS=114
+V_INT=115
+V_AGI=115
+V_STR=115
+
+V_HAND=125
+
+# fighting skills
+V_ATTACK=125
+V_PARRY=125
+V_WARCRY=125
+V_TACTICS=115
+V_SPEEDSKILL=115
+
+# misc skills
+V_PERCEPT=115
+
+# spells
+V_FREEZE=125
+V_FLASH=125
+V_HEAL=40
+
+V_REGENERATE=40
+V_MEDITATE=40
+V_IMMUNITY=125
+
+balanced=1
+respawn=600
+
+special_prob=33
+special_strength=20
+
+spell=weapon_spell_med
+spell=armor_spell_med
+
+rprob=1100
+ritem=alc_stone3
+
+driver=64
+arg="aggressive=1;helper=0;scavenger=10;startdist=20;chardist=0;stopdist=40;healer=1;"
+group=3
+class=170
+;

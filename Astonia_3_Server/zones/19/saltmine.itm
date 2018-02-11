@@ -1,0 +1,83 @@
+saltmine_ladder:
+name="Ladder"
+description="A wooden ladder leading down to the salt."
+flag=IF_USE
+sprite=50332
+driver=188      # IDR_SALTMINE_ITEM
+arg="01"        # type=1;
+;
+
+saltmine_saltbag:
+name="Saltbag"
+description="A bag filled with Salt."
+flag=IF_USE
+flag=IF_MOVEBLOCK
+sprite=16174
+driver=188      # IDR_SALTMINE_ITEM
+arg="02"        # type=2;
+;
+
+saltmine_door:
+name="Door"
+description="A door leading somewhere thou canst not go."
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+sprite=23163
+driver=188      # IDR_SALTMINE_ITEM
+arg="03"        # type=3;
+;
+
+monk_door1a:
+name="Door"
+description="A door."
+sprite=23140
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=187
+;
+
+monk_door1b:
+name="Door"
+description="A door."
+sprite=23142
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=187
+;
+
+monk_door2a:
+name="Door"
+description="A door."
+sprite=23144
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=187
+;
+
+monk_door2b:
+name="Door"
+description="A door."
+sprite=23146
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=187
+;
+
+golem_immuntiy_spell:
+mod_index=V_IMMUNITY
+mod_value=30
+;
+

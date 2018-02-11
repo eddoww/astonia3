@@ -1,0 +1,68 @@
+moonie_standlight_off:
+sprite=20520
+flag=IF_MOVEBLOCK
+;
+
+moonie_standlight_on:
+sprite=20521
+mod_index=V_LIGHT
+mod_value=1000
+flag=IF_MOVEBLOCK
+;
+
+moonie_fireplace_off:
+sprite=20529
+flag=IF_MOVEBLOCK
+;
+
+moonie_fireplace_on:
+sprite=20530
+mod_index=V_LIGHT
+mod_value=200
+flag=IF_MOVEBLOCK
+;
+
+moonie_door_ds:
+name="a door"
+description="a door."
+sprite=20516
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+moonie_door_ls:
+name="a door"
+description="a door."
+sprite=20518
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+moonie_prison_door_ls:
+name="a door"
+description="a door."
+sprite=20544
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+
+moonie_prison_door_ds:
+name="a door"
+description="a door."
+sprite=20549
+flag=IF_MOVEBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+;
+

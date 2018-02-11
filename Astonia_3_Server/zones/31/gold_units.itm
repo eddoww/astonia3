@@ -1,0 +1,46 @@
+gold_10000:
+name="Pile of Gold"
+description="10000 units of Gold"
+sprite=51053
+value=250000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="0210270000"        # 10000
+;
+
+gold_11000:
+name="Pile of Gold"
+description="11000 units of Gold"
+sprite=51053
+value=275000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02F82A0000"        # 11000
+;
+
+gold_12000:
+name="Pile of Gold"
+description="12000 units of Gold"
+sprite=51053
+value=300000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02E02E0000"        # 12000
+;
+
+gold_13000:
+name="Pile of Gold"
+description="13000 units of Gold"
+sprite=51053
+value=325000
+flag=IF_TAKE
+flag=IF_USE
+driver=61
+arg="02C8320000"        # 13000
+;
+
+
+

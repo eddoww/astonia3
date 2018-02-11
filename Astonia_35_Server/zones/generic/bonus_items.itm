@@ -1,0 +1,41 @@
+lollipop:
+name="Lollipop"
+description="A sweet lollipop."
+value=500
+sprite=10437
+flag=IF_TAKE
+flag=IF_USE
+driver=64
+arg="02"                # type=02 (Lolli);
+;
+
+xmaspop:
+name="Lollipop"
+description="A sweet lollipop in a christmas design."
+value=500
+sprite=10437
+flag=IF_TAKE
+flag=IF_USE
+flag=IF_QUEST
+driver=64
+arg="03"                # type=03 (XmasLolli);
+;
+
+xmastree:
+name="Tree"
+description="A beautifully decorated christmas tree."
+sprite=11204
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=142
+;
+
+xmasmaker:
+name="Chest"
+description="The Christmas Lollipop Staffer Chest."
+sprite=11192
+flag=IF_MOVEBLOCK
+flag=IF_USE
+driver=143
+;
+

@@ -1,0 +1,228 @@
+smuggler_teleport1:
+name="Barrel"
+description="There is something odd about the barrel..."
+sprite=21115
+flag=IF_USE
+driver=10
+arg="7D003D00000001"   # x=125, y=61, a=0, quiet=1
+;
+
+smuggler_teleport2:
+name="Barrel"
+description="There is something odd about the barrel..."
+sprite=21115
+flag=IF_USE
+driver=10
+arg="04006200000001"   # x=4, y=98, a=0, quiet=1
+;
+
+smuggler_teleport3:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="8A00FA00030001"   # x=138, y=250, a=3, quiet=1
+;
+
+smuggler_key1:
+name="Smuggler-Key-1"
+description="Key 1 from the smugglers."
+value=25
+sprite=50004
+ID=06000001             # developer 6, ID 01
+flag=IF_TAKE
+flag=IF_QUEST
+;
+guild_chest68:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="4401000006A800"        # chest 68 (44), devel 6, ID 01 (01000006), 1 week respawn time (A800)
+;
+treasure_68:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2000
+;
+
+smuggler_key2:
+name="Smuggler-Key-2"
+description="Key 2 from the smugglers."
+value=25
+sprite=50004
+ID=06000002             # developer 6, ID 02
+flag=IF_TAKE
+flag=IF_QUEST
+;
+guild_chest69:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="4502000006A800"        # chest 69 (45), devel 6, ID 02 (02000006), 1 week respawn time (A800)
+;
+treasure_69:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2000
+;
+
+smuggler_key3:
+name="Smuggler-Key-3"
+description="Key 3 from the smugglers."
+value=25
+sprite=50004
+ID=06000003             # developer 6, ID 03
+flag=IF_TAKE
+flag=IF_QUEST
+;
+guild_chest70:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="4603000006A800"        # chest 70 (46), devel 6, ID 03 (03000006), 1 week respawn time (A800)
+;
+treasure_70:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2000
+;
+
+smuggler_key4:
+name="Smuggler-Key-4"
+description="Key 4 from the smugglers."
+value=25
+sprite=50004
+ID=06000004             # developer 6, ID 04
+flag=IF_TAKE
+flag=IF_QUEST
+;
+guild_chest71:
+name="Chest"
+description="A wooden chest with iron bands."
+sprite=20088
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="4704000006A800"        # chest 71 (47), devel 6, ID 04 (04000006), 1 week respawn time (A800)
+;
+treasure_71:
+name="Pile of Coins"
+description="A small pile of coins."
+sprite=105
+flag=IF_TAKE
+flag=IF_MONEY
+value=2000
+;
+
+guild_chest72:
+name="Contraband Book"
+description="A book containing information about important contraband."
+sprite=15538
+flag=IF_USE
+flag=IF_MOVEBLOCK
+driver=5
+arg="48000000000000"        # chest 72 (48), no key (00000000), 1 hour respawn time (0100)
+;
+treasure_72:
+name="Contraband Book"
+description="A book containing information about important contraband."
+sprite=15538
+flag=IF_TAKE
+flag=IF_QUEST
+ID=06000005
+;
+
+
+smuggle_cont1:
+name="Rainbow Pearls"
+description="The most beautiful pearls ever seen. It's one of the important contrabands."
+sprite=10360
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNNECK
+ID=06000006
+;
+
+smuggle_cont2:
+name="Crimson Ring"
+description="A ring as crimson as blood. It's one of the important contrabands."
+sprite=10343
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNRRING
+flag=IF_WNLRING
+ID=06000007
+;
+
+smuggle_cont3:
+name="Leopard Cloak"
+description="A masterpiece of weaving. It's one of the important contrabands."
+sprite=10455
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNCLOAK
+ID=06000008
+;
+
+smuggle_cont4:
+name="Emerald Necklace"
+description="Some of the largest emeralds ever seen. It's one of the important contrabands."
+sprite=10364
+flag=IF_TAKE
+flag=IF_QUEST
+flag=IF_WNNECK
+ID=06000009
+;
+
+Contraband_small:
+name="Small Contraband"
+description="Small amounts of contraband. The Commander will reward well for this."
+sprite=16167
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Contraband_medium:
+name="Medium Contraband"
+description="Medium amounts of contraband. The Commander will reward modestly for this."
+sprite=16168
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+Contraband_large:
+name="Large Contraband"
+description="Large amounts of contraband. The Commander will reward very well for this."
+sprite=16169
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+
+# Signs
+
+book_sign:
+name="Accounting Book"
+description="A book full of numbers. You feel yourself dozing off..."
+sprite=15528
+flag=IF_USE
+;

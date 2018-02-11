@@ -1,0 +1,28 @@
+WS_Bear_Head:
+name="Bear Head"
+description="A Head, clearly belonging to an Ex-Bear"
+sprite=11171
+flag=IF_TAKE
+flag=IF_QUEST
+ID=08000010
+;
+
+WS_Hunter_Belt:
+name="Belt of the Hunter"
+description="A strong yet magical belt."
+sprite=10452
+value=500
+mod_index=V_STEALTH
+mod_value=6
+mod_index=V_PERCEPT
+mod_value=6
+mod_index=V_SPEEDSKILL
+mod_value=6
+flag=IF_TAKE
+flag=IF_WNBELT
+flag=IF_QUEST
+flag=IF_NOENHANCE
+complexity=63000
+quality=63000
+min_level=29
+;

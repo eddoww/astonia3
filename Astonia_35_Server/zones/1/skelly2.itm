@@ -1,0 +1,45 @@
+mage_skull:
+name="Skull"
+description="A magical skull from the mage castle."
+value=25
+sprite=50016
+ID=01000008             # developer 1, ID 8
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mage_teleport:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="B800E200000001"   # x=184, y=226, a=0, quiet=1
+;
+
+mage_teleport3:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="8A008800000001"   # x=138, y=136, a=0, quiet=1
+;
+
+mage_teleport5:
+name="Hole"
+description="A hole in the ground leading... somewhere."
+sprite=50017
+flag=IF_USE
+driver=10
+arg="6500D300000001"   # x=101, y=211, a=0, quiet=1
+;
+
+mage_teleport6:
+name="Ladder"
+description="A ladder leading up."
+sprite=50019
+flag=IF_USE
+driver=10
+arg="8E008A00000001"   # x=142, y=138, a=0, quiet=1
+;

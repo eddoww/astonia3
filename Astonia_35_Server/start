@@ -1,0 +1,65 @@
+#!/bin/sh
+
+echo STARTING ASTONIA 3.5
+./server35 -a 1 -d
+sleep 1
+./server35 -a 2 -d
+sleep 1
+./server35 -a 3 -d
+sleep 1
+./server35 -a 4 -d
+sleep 1
+./server35 -a 5 -d
+sleep 1
+#./server35 -a 6 -d
+#sleep 1
+./server35 -a 7 -d
+sleep 1
+./server35 -a 8 -d
+sleep 1
+./server35 -a 9 -d
+sleep 1
+./server35 -a 10 -d
+sleep 1
+./server35 -a 11 -d
+sleep 1
+./server35 -a 12 -d
+sleep 1
+./server35 -a 13 -d
+sleep 1
+./server35 -a 14 -d
+sleep 1
+./server35 -a 15 -d
+sleep 1
+#./server35 -a 16 -d
+#sleep 1
+./server35 -a 17 -d
+sleep 1
+#./server35 -a 18 -d
+#sleep 1
+#./server35 -a 19 -d
+#sleep 1
+./server35 -a 22 -d
+sleep 1
+./server35 -a 23 -d
+sleep 1
+#./server35 -a 24 -d
+#sleep 1
+./server35 -a 25 -d
+sleep 1
+./server35 -a 26 -d
+sleep 1
+#./server35 -a 28 -d
+#sleep 1
+./server35 -a 29 -d
+sleep 1
+./server35 -a 30 -d
+sleep 1
+./server35 -a 33 -d
+sleep 1
+./server35 -a 36 -d
+sleep 1
+./server35 -a 37 -d
+sleep 1
+echo DONE
+

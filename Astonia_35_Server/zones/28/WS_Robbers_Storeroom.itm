@@ -1,0 +1,421 @@
+ws_robber_chest_rand_1:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21320
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_2:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21320
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_3:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21320
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_4:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21320
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_5:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21321
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_6:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21321
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_7:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21321
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_8:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21321
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_9:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21322
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_10:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21322
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_11:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21322
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_12:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21322
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_13:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21323
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_14:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21323
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_15:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21323
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_16:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21323
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+
+ws_robber_chest_rand_17:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21324
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_18:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21324
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_19:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21324
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_20:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21324
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_21:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21325
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_22:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21325
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_23:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21325
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_24:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21325
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_25:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21325
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_26:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21326
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_27:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21326
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_28:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21326
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_29:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21326
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_30:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21327
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_31:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21327
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_32:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21327
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_33:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21327
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_34:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21321
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_35:
+name="Shelves"
+description="Rickety shelves containing all manner of items."
+sprite=21325
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+
+ws_robber_chest_rand_36:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21298
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_37:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21299
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_38:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21300
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_39:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21298
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_40:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21299
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_41:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21300
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;
+
+ws_robber_chest_rand_42:
+name="Workbench"
+description="A solid workbench, no doubt used to sort out the swag bags."
+sprite=21301
+flag=IF_USE
+flag=IF_MOVEBLOCK
+arg="2005"              # base random value 20 (RAND*RAND), avg=16G, max=64G
+driver=34
+;

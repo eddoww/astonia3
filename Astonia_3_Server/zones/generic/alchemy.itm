@@ -1,0 +1,1099 @@
+alc_flower1:
+name="Adygalah"
+description="A flower."
+value=45
+sprite=50193
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="01"                # ingredient type 1
+;
+
+alc_flower2:
+name="Bhalkisa"
+description="A flower."
+value=45
+sprite=50195
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="02"                # ingredient type 2
+;
+
+alc_flower3:
+name="Chrysado"
+description="A flower."
+value=45
+sprite=50197
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="03"                # ingredient type 3
+;
+
+alc_flower4:
+name="Domari"
+description="A flower."
+value=45
+sprite=50222
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="04"                # ingredient type 4
+;
+
+alc_flower5:
+name="Elithah"
+description="A flower."
+value=45
+sprite=50224
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="05"                # ingredient type 5
+;
+
+alc_flower6:
+name="Firuba"
+description="A flower."
+value=45
+sprite=50226
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="06"                # ingredient type 6
+;
+
+alc_flower7:
+name="Ghethiye"
+description="A flower."
+value=45
+sprite=50228
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="07"                # ingredient type 7
+;
+
+alc_mushroom1:
+name="Akond"
+description="A mushroom."
+value=150
+sprite=50242
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="08"                # ingredient type 8
+;
+
+alc_mushroom2:
+name="Barun"
+description="A mushroom."
+value=400
+sprite=50199
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="09"                # ingredient type 9
+;
+
+alc_mushroom3:
+name="Chylmoth"
+description="A mushroom."
+value=750
+sprite=50201
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="0A"                # ingredient type 10
+;
+
+alc_mushroom4:
+name="Dizul"
+description="A mushroom."
+value=1200
+sprite=50203
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="0B"                # ingredient type 11
+;
+
+alc_mushroom5:
+name="Edyak"
+description="A mushroom."
+value=2000
+sprite=50230
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="0C"                # ingredient type 12
+;
+
+alc_mushroom6:
+name="Forud"
+description="A mushroom."
+value=2700
+sprite=50232
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="0D"                # ingredient type 13
+;
+
+alc_mushroom7:
+name="Ghestroz"
+description="A mushroom."
+value=3500
+sprite=50236
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="0E"                # ingredient type 14
+;
+
+alc_mushroom8:
+name="Hangot"
+description="A mushroom."
+value=4800
+sprite=50238
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="0F"                # ingredient type 15
+;
+
+alc_mushroom9:
+name="Ivnan"
+description="A mushroom."
+value=6750
+sprite=50240
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="10"                # ingredient type 16
+;
+
+alc_berry1:
+name="Azmey"
+description="A berry."
+value=45
+sprite=50218
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="11"                # ingredient type 17
+;
+
+alc_berry2:
+name="Beelough"
+description="A berry."
+value=45
+sprite=50219
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="12"                # ingredient type 18
+;
+
+alc_berry3:
+name="Ciuba"
+description="A berry."
+value=45
+sprite=50220
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="13"                # ingredient type 19
+;
+
+alc_berry4:
+name="Dyelshi"
+description="A berry."
+value=45
+sprite=50234
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="14"                # ingredient type 20
+;
+
+alc_stone1:
+sprite=50337
+name="Earth Stone"
+description="An earth-like looking stone, said to have some alchemistical value"
+value=7500
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="17"                # ingredient type 23
+;
+
+alc_stone2:
+sprite=50335
+name="Fiery Stone"
+description="A burning red stone, said to have great alchemistical value"
+value=15000
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="15"                # ingredient type 21
+;
+
+alc_stone3:
+sprite=50336
+name="Icy Stone"
+description="A icy blue stone, said to have vast alchemistical value"
+value=25000
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="16"                # ingredient type 22
+;
+
+alc_stone4:
+sprite=59772
+name="Hell Stone"
+description="A hellish stone, said to have enormous alchemistical value"
+value=35000
+flag=IF_TAKE
+ID=01000043             # developer 1, ID 0x43
+arg="18"                # ingredient type 24
+;
+
+crt_flower1:
+name="Adygalah"
+description="A flower is growing here."
+sprite=50192
+flag=IF_USE
+arg="01"                # ingredient type 1
+driver=33
+;
+
+crt_flower2:
+name="Bhalkisa"
+description="A flower is growing here."
+sprite=50194
+flag=IF_USE
+arg="02"                # ingredient type 1
+driver=33
+;
+
+crt_flower3:
+name="Chrysado"
+description="A flower is growing here."
+sprite=50196
+flag=IF_USE
+arg="03"                # ingredient type 1
+driver=33
+;
+
+crt_flower4:
+name="Domari"
+description="A flower is growing here."
+sprite=50221
+flag=IF_USE
+arg="04"                # ingredient type 1
+driver=33
+;
+
+crt_flower5:
+name="Elithah"
+description="A flower is growing here."
+sprite=50223
+flag=IF_USE
+arg="05"                # ingredient type 1
+driver=33
+;
+
+crt_flower6:
+name="Firuba"
+description="A flower is growing here."
+sprite=50225
+flag=IF_USE
+arg="06"                # ingredient type 1
+driver=33
+;
+
+crt_flower7:
+name="Ghethiye"
+description="A flower is growing here."
+sprite=50227
+flag=IF_USE
+arg="07"                # ingredient type 1
+driver=33
+;
+
+crt_mushroom1:
+name="Akond"
+description="A mushroom is growing here."
+sprite=50241
+flag=IF_USE
+arg="08"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom2:
+name="Barun"
+description="A mushroom is growing here."
+sprite=50198
+flag=IF_USE
+arg="09"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom3:
+name="Chylmoth"
+description="A mushroom is growing here."
+sprite=50200
+flag=IF_USE
+arg="0A"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom4:
+name="Dizul"
+description="A mushroom is growing here."
+sprite=50202
+flag=IF_USE
+arg="0B"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom5:
+name="Edyak"
+description="A mushroom is growing here."
+sprite=50229
+flag=IF_USE
+arg="0C"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom6:
+name="Forud"
+description="A mushroom is growing here."
+sprite=50231
+flag=IF_USE
+arg="0D"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom7:
+name="Ghestroz"
+description="A mushroom is growing here."
+sprite=50235
+flag=IF_USE
+arg="0E"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom8:
+name="Hangot"
+description="A mushroom is growing here."
+sprite=50237
+flag=IF_USE
+arg="0F"                # ingredient type 8
+driver=33
+;
+
+crt_mushroom9:
+name="Ivnan"
+description="A mushroom is growing here."
+sprite=50239
+flag=IF_USE
+arg="10"                # ingredient type 8
+driver=33
+;
+
+crt_berry1:
+name="Azmey"
+description="Some berries are growing on this bush."
+sprite=51093    #50215
+flag=IF_USE
+arg="11"                # ingredient type 17
+driver=33
+;
+
+crt_berry2:
+name="Beelough"
+description="Some berries are growing on this bush."
+sprite=51094    #50216
+flag=IF_USE
+arg="12"                # ingredient type 17
+driver=33
+;
+
+crt_berry3:
+name="Ciuba"
+description="Some berries are growing on this bush."
+sprite=51092    #50217
+flag=IF_USE
+arg="13"                # ingredient type 17
+driver=33
+;
+
+crt_berry4:
+name="Dyelshi"
+description="Some berries are growing on this bush."
+sprite=51095    #50233
+flag=IF_USE
+arg="14"                # ingredient type 20
+driver=33
+;
+
+warrior_super_potion:
+name="Ambrosia"
+min_level=20
+max_level=50
+needs_class=1
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_ATTACK
+mod_value=18
+mod_index=V_PARRY
+mod_value=18
+mod_index=V_IMMUNITY
+mod_value=18
+driver=32
+;
+
+mage_super_potion:
+name="Ambrosia"
+min_level=18
+max_level=50
+needs_class=2
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_FLASH
+mod_value=18
+mod_index=V_MAGICSHIELD
+mod_value=18
+mod_index=V_IMMUNITY
+mod_value=18
+driver=32
+;
+
+nice_potion:
+name="Ambrosia"
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_ATTACK
+mod_value=12
+mod_index=V_PARRY
+mod_value=12
+mod_index=V_IMMUNITY
+mod_value=12
+driver=32
+;
+
+super_potion:
+name="Ambrosia"
+sprite=10002
+needs_class=8
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_ATTACK
+mod_value=20
+mod_index=V_PARRY
+mod_value=20
+mod_index=V_IMMUNITY
+mod_value=20
+driver=32
+;
+
+nice_potionm:
+name="Ambrosia"
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_FLASH
+mod_value=12
+mod_index=V_MAGICSHIELD
+mod_value=12
+mod_index=V_IMMUNITY
+mod_value=12
+driver=32
+;
+
+super_potionm:
+name="Ambrosia"
+sprite=10002
+needs_class=8
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_FLASH
+mod_value=20
+mod_index=V_MAGICSHIELD
+mod_value=20
+mod_index=V_IMMUNITY
+mod_value=20
+driver=32
+;
+
+sword4_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=4
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand4_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=4
+arg="0205010A000000000000"
+driver=32
+;
+
+flash4_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=4
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity4_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=4
+arg="0205010A000000000000"
+driver=32
+;
+
+
+sword8_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=8
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand8_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=8
+arg="0205010A000000000000"
+driver=32
+;
+
+flash8_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=8
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity8_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=8
+arg="0205010A000000000000"
+driver=32
+;
+
+sword12_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=12
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand12_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=12
+arg="0205010A000000000000"
+driver=32
+;
+
+flash12_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=12
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity12_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=12
+arg="0205010A000000000000"
+driver=32
+;
+
+sword16_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=16
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand16_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=16
+arg="0205010A000000000000"
+driver=32
+;
+
+flash16_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=16
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity16_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=16
+arg="0205010A000000000000"
+driver=32
+;
+
+sword20_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=20
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand20_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=20
+arg="0205010A000000000000"
+driver=32
+;
+
+flash20_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=20
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity20_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=20
+arg="0205010A000000000000"
+driver=32
+;
+
+sword24_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=24
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand24_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=24
+arg="0205010A000000000000"
+driver=32
+;
+
+flash24_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=24
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity24_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=24
+arg="0205010A000000000000"
+driver=32
+;
+
+sword28_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=28
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand28_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=28
+arg="0205010A000000000000"
+driver=32
+;
+
+flash28_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=28
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity28_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=28
+arg="0205010A000000000000"
+driver=32
+;
+
+sword32_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=32
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand32_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=32
+arg="0205010A000000000000"
+driver=32
+;
+
+flash32_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=32
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity32_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=32
+arg="0205010A000000000000"
+driver=32
+;
+
+sword36_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=36
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand36_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=36
+arg="0205010A000000000000"
+driver=32
+;
+
+flash36_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=36
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity36_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=36
+arg="0205010A000000000000"
+driver=32
+;
+
+sword40_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_SWORD
+mod_value=40
+arg="0205010A000000000000"
+driver=32
+;
+
+twohand40_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_TWOHAND
+mod_value=40
+arg="0205010A000000000000"
+driver=32
+;
+
+flash40_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_FLASH
+mod_value=40
+arg="0205010A000000000000"
+driver=32
+;
+
+immunity40_potion:
+name="Magical Potion"
+description="A flask containing a magical liquid."
+sprite=50214
+value=50
+flag=IF_USE
+flag=IF_TAKE
+mod_index=V_IMMUNITY
+mod_value=40
+arg="0205010A000000000000"
+driver=32
+;
+
+
+api22_potion:
+name="Ambrosia API22"
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_ATTACK
+mod_value=22
+mod_index=V_PARRY
+mod_value=22
+mod_index=V_IMMUNITY
+mod_value=22
+driver=32
+;
+
+lmi22_potion:
+name="Ambrosia LMI22"
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_FLASH
+mod_value=22
+mod_index=V_MAGICSHIELD
+mod_value=22
+mod_index=V_IMMUNITY
+mod_value=22
+driver=32
+;
+
+api25_potion:
+name="Ambrosia API22"
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_ATTACK
+mod_value=25
+mod_index=V_PARRY
+mod_value=25
+mod_index=V_IMMUNITY
+mod_value=25
+driver=32
+;
+
+lmi25_potion:
+name="Ambrosia LMI22"
+sprite=10002
+flag=IF_USE
+flag=IF_TAKE
+arg="03090108"
+mod_index=V_FLASH
+mod_value=25
+mod_index=V_MAGICSHIELD
+mod_value=25
+mod_index=V_IMMUNITY
+mod_value=25
+driver=32
+;

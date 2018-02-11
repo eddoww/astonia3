@@ -1,0 +1,196 @@
+mr_wood_door_ds1:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0003000008"
+;
+WS_Robber_Quest_Key_1:
+name="Robber Quest Key 1"
+description="Robber Quest Key 1"
+sprite=50004
+ID=08000003             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mr_wood_door_ds2:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0004000008"
+;
+WS_Robber_Quest_Key_2:
+name="Robber Quest Key 2"
+description="Robber Quest Key 2"
+sprite=50004
+ID=08000004             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mr_wood_door_ds3:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0005000008"
+;
+WS_Robber_Quest_Key_3:
+name="Robber Quest Key 3"
+description="Robber Quest Key 3"
+sprite=50004
+ID=08000005             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mr_wood_door_ds4:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0006000008"
+;
+WS_Robber_Quest_Key_4:
+name="Robber Quest Key 4"
+description="Robber Quest Key 4"
+sprite=50004
+ID=08000006             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mr_wood_door_ds5:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0007000008"
+;
+WS_Robber_Quest_Key_5:
+name="Robber Quest Key 5"
+description="Robber Quest Key 5"
+sprite=50004
+ID=08000007             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mr_wood_door_ds6:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0008000008"
+;
+WS_Robber_Quest_Key_6:
+name="Robber Quest Key 6"
+description="Robber Quest Key 6"
+sprite=50004
+ID=08000008             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mr_wood_door_ds7:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0009000008"
+;
+WS_Robber_Quest_Key_7:
+name="Robber Quest Key 7"
+description="Robber Quest Key 7"
+sprite=50004
+ID=08000009             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+mr_wood_door_ds8:
+sprite=20038
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000A000008"
+;
+WS_Robber_Quest_Key_8:
+name="Robber Quest Key 8"
+description="Robber Quest Key 8"
+sprite=50004
+ID=0800000A             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+
+
+
+WS_Robber_Boss_Lair_Door:
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000B000008"
+;
+WS_Robber_Boss_Lair_Key:
+name="Boss Lair Key"
+description="Robber Quest Boss Lair Key"
+sprite=50004
+ID=0800000B             
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+
+WS_Robber_Boss_Master_Door:
+sprite=20666
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="000C000008"
+;
+WS_Robber_Boss_Master_Key:
+name="Boss Master Key"
+description="Robber Quest Boss Master Key"
+sprite=11019
+ID=0800000C            
+flag=IF_TAKE
+flag=IF_QUEST
+;
+
+
+

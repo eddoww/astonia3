@@ -1,0 +1,61 @@
+return_to_aston:
+name="Door"
+description="A steel door."
+sprite=17048
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="B700C700030001"   # x=183, y=199, a=3, quiet=1
+;
+
+return_to_aston2:
+name="Door"
+description="A steel door."
+sprite=17050
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=10
+arg="B700C700030001"   # x=183, y=199, a=3, quiet=1
+;
+
+labexit:
+sprite=1060
+flag=IF_USE
+driver=102
+;
+
+labdoor1:
+name="Door"
+description="A steel door."
+sprite=17048
+flag=IF_DOOR
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=2
+;
+
+labdoor2:
+name="Door"
+description="A steel door."
+sprite=17050
+flag=IF_DOOR
+flag=IF_USE
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+driver=2
+;
+
+lablight:
+sprite=11139
+mod_index=V_LIGHT
+mod_value=250
+flag=IF_MOVEBLOCK
+;
+

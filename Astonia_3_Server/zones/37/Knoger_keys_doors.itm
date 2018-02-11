@@ -1,0 +1,65 @@
+key8_13:
+name="Knoger Key 1"
+description="Seems to unlock something."
+value=5
+sprite=51074
+ID=013000008
+flag=IF_TAKE
+flag=IF_QUEST
+; 
+
+key9_13:
+name="Knoger Key 2"
+description="Seems to unlock something."
+value=5
+sprite=51076
+ID=013000009
+flag=IF_TAKE
+flag=IF_QUEST
+; 
+
+key10_13:
+name="Knoger Key 3"
+description="Seems to unlock something."
+value=5
+sprite=51075
+ID=013000010
+flag=IF_TAKE
+flag=IF_QUEST
+; 
+
+Knoger_Door1_first:
+sprite=16035
+description="A door"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0008000013"
+;
+
+Knoger_Door1_before_Lord:
+sprite=16037
+description="A door"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0009000013"
+;
+
+Knoger_Door1__Lord:
+sprite=16035
+description="A door"
+flag=IF_MOVEBLOCK
+flag=IF_SIGHTBLOCK
+flag=IF_SOUNDBLOCK
+flag=IF_USE
+flag=IF_DOOR
+driver=2
+arg="0010000013"
+;
