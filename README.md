@@ -5,6 +5,14 @@ Full mmorpg game source code, written by Daniel Brockhaus for Intent Software.
 
 Astonia (tm) is a massively multiplayer online role playing game (in short, MMORPG). Each player assumes the role of a battle-hardened warrior or a powerful mage. He or she enters the world of Astonia and begins to train for battle. The experience gained as characters solve quests, discover new places, and kill evil monsters, can be applied to raise any of a large number of attributes, skills and spells. Characters gain rank and power, qualifying them for better and more powerful equipment for the new and greater challenges that lie ahead...
 
+
+### Requirements
+
+* Server environment. Centos 7 recommended.
+* Somewhat knowledge on how to connect and work with a linux shell
+* A lot of patience
+* Probably a bunch of coffee while setting this up.
+
 ### Installing
 
 * [Server install V3](Astonia_3_Server/readme.md)
@@ -44,7 +52,9 @@ b) pay Intent Software 10% of the revenues, once per month, 30 days after the en
 
 ## Third party Tools
 
-PHP based website for account creation (https://github.com/eddoww/Astonia-Basic-Website)
+Basic PHP based website for account creation (https://github.com/eddoww/Astonia-Basic-Website)
+Open source launcher programmed in C# for easier account management (https://github.com/eddoww/Astonia-Launcher-WPF)
+
 ## Acknowledgments
 
 * Roman Haas, for always supporting and being there.
