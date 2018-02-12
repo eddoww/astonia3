@@ -169,4 +169,4 @@ then START!
 sudo -u astonia sh start
 ```
 
-Now we should go ahead and make a client. A tutorial for that is located [here](Astonia_3_Client/readme.md)
+Now we should go ahead and make a client. A tutorial for that is located [here](../Astonia_3_Client/readme.md)
