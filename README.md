@@ -4,7 +4,7 @@ Full mmorpg game source code, written by Daniel Brockhaus for Intent Software.
 ## What is Astonia?
 
 Astonia (tm) is a massively multiplayer online role playing game (in short, MMORPG). Each player assumes the role of a battle-hardened warrior or a powerful mage. He or she enters the world of Astonia and begins to train for battle. The experience gained as characters solve quests, discover new places, and kill evil monsters, can be applied to raise any of a large number of attributes, skills and spells. Characters gain rank and power, qualifying them for better and more powerful equipment for the new and greater challenges that lie ahead...
-
+![](https://i.imgur.com/AG22Ohb.png)
 
 ### Requirements
 
