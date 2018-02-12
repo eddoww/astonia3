@@ -53,7 +53,7 @@ After changing these lines, save the file and close notepad++.
 
 #### Step 3. Compiling the client
 
-Before we begin this step, make sure you have installed the Borland C++ 5.5 command line tools available from brockhaus.org and github ((http://www.brockhaus.org/freecommandLinetools.exe)here or here(https://github.com/eddoww/astonia3/raw/master/Extra/Borland%20Command%20Line%20Tools/freecommandLinetools%20(1).exe))
+Before we begin this step, make sure you have installed the Borland C++ 5.5 command line tools available from [brockhaus.org](http://www.brockhaus.org/freecommandLinetools.exe) or [github](https://github.com/eddoww/astonia3/raw/master/Extra/Borland%20Command%20Line%20Tools/freecommandLinetools%20(1).exe)
 
 Open a command prompt (hold the windows key, press R, a window popups on the bottom of screen like this:
 
