@@ -93,6 +93,6 @@ It should then contain all these files:
 
 Depending on which version of the client you compiled (develop or non-develop), we should be able to open the new moac.exe directly. If you decided on the public release version, you will need to upload ALL THESE files to a folder on the server side. See server FAQ for more information on this.
 
-Now that we have ourselves a running client, we can open it, and login with the default username/password (Ishtar - Rene757) and we should be able to login and play.
+Now that we have ourselves a running client, we can open it, and login with the default username/password (Ishtar - rene754) and we should be able to login and play.
 
 Have fun!
