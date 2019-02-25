@@ -36,6 +36,11 @@ Next up we install some libraries required by Astonia to build using the command
 ```Shell 
 yum -y install glibc.i686 glibc-devel.i686 libstdc++.i686 libstdc++-devel.i686 zlib.i686 zlib-devel.i686 mysql-devel.i686 mysql-libs.i686 mysql libpng mariadb-devel.i686 mariadb-devel psmisc
 ``` 
+IGNORE THIS IF NOT ON UBUNTU (Which you should NOT BE while following this guide)
+For Ubuntu:
+```shell
+sudo apt-get install gcc-multilib libmariadbclient-dev:i386
+```
 Next we need Mysql(mariadb) for the "database" which stores all information about accounts and characters.
 ```Shell 
 yum -y install mariadb-server;
