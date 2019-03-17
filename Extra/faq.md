@@ -31,3 +31,35 @@ eg:
 ./create_character 2 newfemalemage FM
 
 ./create_character 2 newfemalewarrior FW
+
+
+*Disabling the firewall:
+
+You can disable it the firewall by executing the following commands as root:
+NOTE: I highly recommend adding the ports the the firewall instead (see bellow). Only use this to "Test"!
+`systemctl stop firewalld`
+
+And
+
+`systemctl disable firewalld`
+
+Then finally check the status by using:
+
+`systemctl status firewalld`
+
+*Adding the astonia ports to your firewall:
+You can add the ports used by the astonia server by executing the following commands as root:
+
+`firewall-cmd --get-default-zone`
+
+To figure out which zone is in use.
+
+To add ports:
+
+`firewall-cmd --zone=public --permanent --add-port=5556-5600/tcp`
+
+Replace public with the zone that is currently in use, and replace the ports with the correct ports for astonia. (Default 5556-5600)
+
+Now we have to reload the firewall to apply the changes
+
+`firewall-cmd --reload`
