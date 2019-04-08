@@ -38,9 +38,21 @@ yum -y install glibc.i686 glibc-devel.i686 libstdc++.i686 libstdc++-devel.i686 z
 ``` 
 IGNORE THIS IF NOT ON UBUNTU (Which you should NOT BE while following this guide)
 For Ubuntu:
+Enable i386 architecture
+```shell
+sudo dpkg --add-architecture i386
+```
+For Ubuntu:
+Followed by a
+```shell
+sudo apt -get update
+```
+For Ubuntu:
+then install the requirements:
 ```shell
 sudo apt-get install gcc-multilib libmariadbclient-dev:i386
 ```
+
 Next we need Mysql(mariadb) for the "database" which stores all information about accounts and characters.
 ```Shell 
 yum -y install mariadb-server;
