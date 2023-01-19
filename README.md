@@ -31,21 +31,13 @@ Astonia (tm) is a massively multiplayer online role playing game (in short, MMOR
 
 ## License
 
-### Hobby License
-You may use the software as you see fit, within the bounds of the law etc., provided you:
+The software is provided "as is" without warranty of any kind.
 
-a) give proper credit (eg. "is based on the Astonia 3 engine by Intent Software" somewhere in your game / on your website).
+You are free to use it as you see fit, as long as you give proper credit. That is, add: "is based on the Astonia 3 engine by Daniel Brockhaus" and a link to brockhaus.org to your game or your website.
 
-b) generate no more than US$12,000 revenue per year
+If you make money with it, I ask that you donate 10% of the revenue to a charity of your choice.
 
-### Commercial License
-This license only applies once you are earning more than US$12,000 per year. Once this is the case, please contact me me at daniel (at) brockhaus (dot) org.
-
-You may use the software as you see fit, within the bounds of the law etc., provided you:
-
-a) give proper credit (eg. "is based on the Astonia 3 engine by Intent Software" somewhere in your game / on your website).
-
-b) pay Intent Software 10% of the revenues, once per month, 30 days after the end of the month.
+If you make more than US$100.000 (one-hundred-thousand US dollars) a year with Astonia, then please contact me at daniel at brockhaus dot org to discuss a commercial license.
 
 ## Third party Tools
 
