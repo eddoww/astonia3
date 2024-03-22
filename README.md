@@ -26,7 +26,7 @@ Astonia (tm) is a massively multiplayer online role playing game (in short, MMOR
 * Aranock Online (http://www.aranockonline.com/) - V2
 ## Authors
 
-* **Daniel Brockhaus** - *Full source* - [brockhaus.org](https://brockhous.org)
+* **Daniel Brockhaus** - *Full source* - [brockhaus.org](https://brockhaus.org)
 * **Edwin de Jong** - *Patches, support, and Tutorial* - [edwindejong.net](https://edwindejong.net) - [eddoww](https://github.com/eddoww)
 
 ## License
